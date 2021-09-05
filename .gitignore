@@ -7,9 +7,11 @@ asm/
 voxelmap/
 voxelMap/
 fonts/
+crash-reports/
 ds_private_storage.json
 usercache.json
 usernamecache.json
+.ReAuth.cfg
 *.log
 *.png
 
