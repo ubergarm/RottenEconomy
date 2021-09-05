@@ -3,3 +3,10 @@ natives/
 saves/
 mods/
 resourcepacks/
+asm/
+voxelmap/
+fonts/
+ds_private_storage.json
+*.log
+*.png
+

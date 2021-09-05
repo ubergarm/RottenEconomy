@@ -1,0 +1,14 @@
+{
+  "version": "2.2.4",
+  "initPopup": false,
+  "exportMode": false,
+  "generatedBy": "\u003cdefault\u003e",
+  "activeConfigs": [
+    "forge.cfg",
+    "forgeChunkLoading.cfg",
+    "splash.properties"
+  ],
+  "hashes": {},
+  "mainProfile": "Default",
+  "initially_created": "04.09.2021 23:02:37"
+}
