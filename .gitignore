@@ -5,8 +5,11 @@ mods/
 resourcepacks/
 asm/
 voxelmap/
+voxelMap/
 fonts/
 ds_private_storage.json
+usercache.json
+usernamecache.json
 *.log
 *.png
 
