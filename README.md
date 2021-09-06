@@ -19,7 +19,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] BetterBurning-1.12.2-0.9.2.jar
 - [ ] BetterCrates-1.2.0.jar
 - [ ] BetterPingDisplay-1.12.2-1.0.jar
-- [ ] Bloodmoon-MC1.12.2-1.5.3.jar
+- [x] Bloodmoon-MC1.12.2-1.5.3.jar
 - [ ] Bookshelf-1.12.2-2.3.590.jar
 - [ ] BrandonsCore-1.12.2-2.4.20.162-universal.jar
 - [ ] BuildingGadgets-2.8.4.jar
@@ -114,7 +114,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] RedstoneFlux-1.12-2.1.1.1-universal.jar
 - [ ] RenderPlayerAPI-1.12.2-1.0.jar
 - [ ] RocketBoots0.2.6-1.12.jar
-- [ ] ScalingHealth-1.12.2-1.3.42+147.jar
+- [x] ScalingHealth-1.12.2-1.3.42+147.jar
 - [ ] Scannable-MC1.12.2-1.6.3.26.jar
 - [ ] Scavenge V1.12-1.8.3.2.jar
 - [ ] Scavenge-Baubles V1.12-1.0.jar
@@ -177,7 +177,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] energyconverters_1.12.2-1.3.7.30.jar
 - [ ] energymeters-1.12.2-1.0.2.jar
 - [ ] fencejumper-1.12-1.0.5.jar
-- [ ] firstaid-1.6.17.jar
+- [x] firstaid-1.6.17.jar
 - [ ] foamfix-0.10.14-1.12.2.jar
 - [ ] forgemod_VoxelMap-1.9.28_for_1.12.2.jar
 - [ ] generators-0.9.20.12-mc1.12.2.jar
