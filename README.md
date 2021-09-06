@@ -85,7 +85,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] MekanismGenerators-1.12.2-9.8.3.390.jar
 - [ ] MekanismTools-1.12.2-9.8.3.390.jar
 - [ ] MmmMmmMmmMmm-1.12-1.14.jar
-- [ ] MoBends_1.12.2-1.0.0-beta-20.06.20.jar
+- [x] MoBends_1.12.2-1.0.0-beta-20.06.20.jar
 - [ ] MobDismemberment-1.12.2-7.0.0.jar
 - [ ] MouseTweaks-2.10.1-mc1.12.2.jar
 - [ ] NC-ReactorBuilder-1.12.2-1.0.2.jar
@@ -109,7 +109,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] Psi-r1.1-78.2.jar
 - [ ] QMD-1.0.2-1.12.2.jar
 - [ ] RealisticItemDrops-1.2.14.jar
-- [ ] RebornCore-1.12.2-3.19.5-universal.jar
+- [x] RebornCore-1.12.2-3.19.5-universal.jar
 - [ ] RebornStorage-1.12.2-3.3.4.1.jar
 - [ ] RedstoneFlux-1.12-2.1.1.1-universal.jar
 - [ ] RenderPlayerAPI-1.12.2-1.0.jar
@@ -144,15 +144,15 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] TickCentral-3.2.jar
 - [ ] Toast Control-1.12.2-1.8.1.jar
 - [ ] ToolBelt-1.12.2-1.9.13.jar
-- [ ] Treasure2-mc1.12.2-f14.23.5.2854-v1.16.1.jar
+- [-] Treasure2-mc1.12.2-f14.23.5.2854-v1.16.1.jar
 - [ ] UniDict-1.12.2-3.0.8.jar
 - [ ] UsefulStuffs-1.12.2-2.5.7.jar
 - [ ] WanionLib-1.12.2-2.5.jar
 - [ ] Whoosh-1.12.2-0.1.12.1-universal.jar
 - [ ] WrapUp-1.12-1.1.3.jar
 - [ ] XL-Food-Mod-1.12.2-1.9.2.jar
-- [ ] Xtones-1.2.2.jar
-- [ ] [1.12.2] SecurityCraft v1.8.23.2.jar
+- [x] Xtones-1.2.2.jar
+- [x] [1.12.2] SecurityCraft v1.8.23.2.jar
 - [ ] _MixinBootstrap-1.1.0.jar
 - [ ] alchemistry-1.12.2-42.jar
 - [ ] alib-1.0.12.jar
@@ -182,12 +182,12 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] forgemod_VoxelMap-1.9.28_for_1.12.2.jar
 - [ ] generators-0.9.20.12-mc1.12.2.jar
 - [ ] huskspawn_1.12.2-1.3.jar
-- [ ] iChunUtil-1.12.2-7.2.2.jar
+- [x] iChunUtil-1.12.2-7.2.2.jar
 - [ ] iblis-headshots-1.2.6.jar
 - [ ] incontrol-1.12-3.9.18.jar
 - [ ] industrialcraft-2-2.8.221-ex112.jar
 - [ ] instantunify-1.12.2-1.1.2.disabled
-- [ ] inventorypets-1.12-2.0.15.jar
+- [x] inventorypets-1.12-2.0.15.jar
 - [ ] ironchest-1.12.2-7.0.72.847.jar
 - [ ] jei_1.12.2-4.16.1.302.jar
 - [ ] jeivillagers-1.12-1.0.2.jar
@@ -233,7 +233,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] rockhounding_chemistry-1.12.2-3.61.jar
 - [ ] rockhounding_core-1.12.2-3.27.jar
 - [ ] rpsideas-2.4.4.jar
-- [ ] secretroomsmod-1.12.2-5.6.4.jar
+- [x] secretroomsmod-1.12.2-5.6.4.jar
 - [ ] simplylight-1.12.2-0.8.7.jar
 - [ ] sonarcore-1.12.2-5.0.19-20.jar
 - [ ] supermartijn642configlib-1.0.9-mc1.12.jar
@@ -251,9 +251,9 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] utilitybaseores-1.12.2-1.2.0.1.jar
 - [ ] vehicle-mod-0.44.1-1.12.2.jar
 - [ ] villager-market-1.12.2-1.0.2.jar
-- [ ] walljump-1.12.2-1.3.2.jar
+- [x] walljump-1.12.2-1.3.2.jar
 - [ ] weather2-1.12.1-2.6.12.jar
-- [ ] wizardry-0.11.1.jar
+- [-] wizardry-0.11.1.jar
 - [ ] worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar
 - [ ] wormhole-1.1.9-mc1.12.jar
 - [ ] xnet-1.12-1.8.2.jar
