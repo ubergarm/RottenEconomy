@@ -240,7 +240,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] supermartijn642corelib-1.0.12-mc1.12.jar
 - [ ] supersoundmuffler-revived_1.12.2_1.0.2.10.jar
 - [ ] tesseract-1.0.23-mc1.12.jar
-- [ ] theoneprobe-1.12-1.4.28.jar
+- [x] theoneprobe-1.12-1.4.28.jar
 - [ ] thermallogistics-0.3-43.jar
 - [ ] thiccentities-1.4.jar
 - [ ] topaddons-1.12.2-1.13.0.jar
