@@ -108,7 +108,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] ProjectIntelligence-1.12.2-1.0.9.28-universal.jar
 - [ ] Psi-r1.1-78.2.jar
 - [ ] QMD-1.0.2-1.12.2.jar
-- [ ] RealisticItemDrops-1.2.14.jar
+- [x] RealisticItemDrops-1.2.14.jar
 - [x] RebornCore-1.12.2-3.19.5-universal.jar
 - [ ] RebornStorage-1.12.2-3.3.4.1.jar
 - [ ] RedstoneFlux-1.12-2.1.1.1-universal.jar
@@ -224,7 +224,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] psipherals-1.1.0.jar
 - [ ] quirkyperks-1.3.2.jar
 - [ ] rad-1.12-1.1.0.jar
-- [ ] raiders-1.12.2-3.0.9.jar
+- [x] raiders-1.12.2-3.0.9.jar
 - [ ] reauth-3.6.0.jar
 - [ ] refinedstorage-1.6.16.jar
 - [ ] refinedstorageaddons-0.4.5.jar
