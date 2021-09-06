@@ -209,7 +209,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] mobsunscreen-1.12.2-2.1.3.jar
 - [ ] modnametooltip_1.12.2-1.10.1.jar
 - [ ] moreoverlays-1.15.1-mc1.12.2.jar
-- [ ] mw_2.0-0.4.6.2_mc1.12.2.jar
+- [x] mw_2.0-0.4.6.2_mc1.12.2.jar
 - [ ] noRecipeBook_v1.2.2formc1.12.2.jar
 - [ ] nonetherPortals_v1.0.0formc1.12.2.jar
 - [ ] obfuscate-0.4.2-1.12.2.jar
@@ -257,5 +257,5 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar
 - [ ] wormhole-1.1.9-mc1.12.jar
 - [ ] xnet-1.12-1.8.2.jar
-- [ ] zombie_players-1.12.1-1.2.7.jar
-- [ ] zombieawareness-1.12.1-1.11.16.jar
+- [x] zombie_players-1.12.1-1.2.7.jar
+- [x] zombieawareness-1.12.1-1.11.16.jar
