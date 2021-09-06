@@ -64,7 +64,7 @@ Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 - [ ] Guidebook-1.12.2-2.9.5.jar
 - [ ] GunpowderLib-1.12.2-1.1.jar
 - [ ] HammerLib-1.12.2-2.0.6.28.jar
-- [ ] HardcoreDarkness-MC1.12.2-2.0.jar
+- [x] HardcoreDarkness-MC1.12.2-2.0.jar
 - [ ] ICBM-classic-1.12.2-4.0.1b75.jar
 - [ ] ImprovableSkills-1.12.2-12.4.67.jar
 - [ ] Inspirations-1.12.2-0.2.9.jar
