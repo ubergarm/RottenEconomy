@@ -40,5 +40,120 @@
             "betteranimalsplus:tarantula",
             "betteranimalsplus:zotzpyre"
         ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:zombie",
+            "amount": 30,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:zombie",
+                "weight": 10,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "cyberware:cyberzombie",
+            "amount": 10,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "cyberware:cyberzombie",
+                "weight": 10,
+                "groupcountmin": 2,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "raiders:raider",
+            "amount": 10,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "raiders:raider",
+                "weight": 10,
+                "groupcountmin": 2,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:hazmat_zombie",
+            "amount": 10,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:hazmat_zombie",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "nuclearcraft:feral_ghoul",
+            "amount": 5,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "nuclearcraft:feral_ghoul",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "matteroverdrive:rogue_android",
+            "amount": 4,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "matteroverdrive:rogue_android",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "matteroverdrive:ranged_rogue_android",
+            "amount": 4,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "matteroverdrive:ranged_rogue_android",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
+
+
+
 ]

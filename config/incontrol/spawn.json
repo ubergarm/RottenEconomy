@@ -136,6 +136,53 @@
         "result": "deny"
     },
 
+
+    {
+        "mob": "minecraft:creeper",
+        "mincount": {
+            "mob": "minecraft:creeper",
+            "amount": 2,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "cyberware:cyberzombie",
+        "inbuilding": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:raider",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:hazmat_zombie",
+        "inbuilding": false,
+        "result": "deny"
+    },
+    {
+        "mob": "nuclearcraft:feral_ghoul",
+        "instreet": false,
+        "result": "deny"
+    },
+    {
+        "mob": "matteroverdrive:rogue_android",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "matteroverdrive:ranged_rogue_android",
+        "incity": false,
+        "result": "deny"
+    },
+
+
+
+
+
+
+
     {
         "dimension": 0,
         "mob": "mw:bandit1",
