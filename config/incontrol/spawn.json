@@ -1,13 +1,141 @@
 [
-    {
-        "mob": "betteranimalsplus:zotzpyre",
+     {
+        "dimension": 0,
+        "hostile": true,
         "mincount": {
-            "mob": "betteranimalsplus:zotzpyre",
-            "amount": 2,
+            "amount": 100,
+            "hostile": true,
             "perchunk": true
         },
         "result": "deny"
     },
+    {
+        "dimension": 0,
+        "passive": true,
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:sheep",
+        "mincount": {
+            "mob": "minecraft:sheep",
+            "amount": 6,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:pig",
+        "mincount": {
+            "mob": "minecraft:pig",
+            "amount": 6,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:chicken",
+        "mincount": {
+            "mob": "minecraft:chicken",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:cow",
+        "mincount": {
+            "mob": "minecraft:cow",
+            "amount": 6,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:horse",
+        "mincount": {
+            "mob": "minecraft:horse",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:squid",
+        "mincount": {
+            "mob": "minecraft:squid",
+            "amount": 8,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:llama",
+        "mincount": {
+            "mob": "minecraft:llama",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:rabbit",
+        "mincount": {
+            "mob": "minecraft:rabbit",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:ocelot",
+        "mincount": {
+            "mob": "minecraft:ocelot",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "betteranimalsplus:goat",
+        "mincount": {
+            "mob": "betteranimalsplus:goat",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "betteranimalsplus:tarantula",
+        "mincount": {
+            "mob": "betteranimalsplus:tarantula",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "betteranimalsplus:zotzpyre",
+        "mincount": {
+            "mob": "betteranimalsplus:zotzpyre",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+
     {
         "dimension": 0,
         "mob": "mw:bandit1",
@@ -72,6 +200,9 @@
         "dimension": 0,
         "mob": "mw:deathclaw",
         "customname": "Deathclaw",
+        "result": "default"
+    },
+    {
         "result": "default"
     }
 ]
