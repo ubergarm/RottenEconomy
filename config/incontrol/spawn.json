@@ -11,15 +11,6 @@
     },
     {
         "dimension": 0,
-        "mob": "minecraft:sheep",
-        "mincount": {
-            "amount": 8,
-            "mob": "minecraft:sheep"
-        },
-        "result": "deny"
-    },
-    {
-        "dimension": 0,
         "mob": "mw:bandit1",
         "customname": "Lone Gunman",
         "result": "default"
