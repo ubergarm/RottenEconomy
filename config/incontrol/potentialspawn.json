@@ -17,8 +17,6 @@
             "minecraft:zombie",
             "minecraft:zombie_horse",
             "minecraft:zombie_villager",
-            "minecraft:slime",
-            "minecraft:bat",
             "coroutil:bat_smart",
             "raiders:raider",
             "raiders:brute",
@@ -35,23 +33,36 @@
             "thermalfoundation:blizz",
             "thermalfoundation:blitz",
             "thermalfoundation:basalz",
-            "mahoutsukai:fae",
-            "nuclearcraft:feral_ghoul",
-            "betteranimalsplus:tarantula",
-            "betteranimalsplus:zotzpyre"
+            "nuclearcraft:feral_ghoul"
         ]
     },
     {
-        "dimension": 0,
-        "maxcount": {
-            "mob": "minecraft:zombie",
-            "amount": 30,
-            "perchunk": true
-        },
+        "dimenstion": 0,
         "mobs": [
             {
                 "mob": "minecraft:zombie",
-                "weight": 10,
+                "weight": 30,
+                "groupcountmin": 3,
+                "groupcountmax": 6
+            }
+        ]
+    },
+    {
+        "dimenstion": 0,
+        "mobs": [
+            {
+                "mob": "cyberware:cyberzombie",
+                "weight": 20,
+                "groupcountmin": 2,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "mob": "raiders:raider",
+                "weight": 20,
                 "groupcountmin": 2,
                 "groupcountmax": 4
             }
@@ -60,32 +71,80 @@
     {
         "dimension": 0,
         "maxcount": {
-            "mob": "cyberware:cyberzombie",
-            "amount": 10,
+            "mob": "raiders:brute",
+            "amount": 8,
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "cyberware:cyberzombie",
+                "mob": "raiders:brute",
                 "weight": 10,
-                "groupcountmin": 2,
-                "groupcountmax": 3
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },
     {
         "dimension": 0,
         "maxcount": {
-            "mob": "raiders:raider",
-            "amount": 10,
+            "mob": "raiders:witch",
+            "amount": 1,
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "raiders:raider",
+                "mob": "raiders:witch",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "raiders:tweaker",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "raiders:tweaker",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "raiders:ranger",
+            "amount": 5,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "raiders:ranger",
                 "weight": 10,
-                "groupcountmin": 2,
-                "groupcountmax": 3
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:bandit1",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:bandit1",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },
@@ -102,6 +161,86 @@
                 "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:zombieblistered",
+            "amount": 5,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:zombieblistered",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:zombieripper",
+            "amount": 5,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:zombieripper",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:tornzombie",
+            "amount": 5,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:tornzombie",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:necromorph",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:necromorph",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "mw:licker",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "mw:licker",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },

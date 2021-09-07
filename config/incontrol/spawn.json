@@ -1,9 +1,9 @@
 [
-     {
+    {
         "dimension": 0,
         "hostile": true,
         "mincount": {
-            "amount": 100,
+            "amount": 120,
             "hostile": true,
             "perchunk": true
         },
@@ -107,6 +107,16 @@
     },
     {
         "dimension": 0,
+        "mob": "minecraft:bat",
+        "mincount": {
+            "mob": "minecraft:bat",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
         "mob": "betteranimalsplus:goat",
         "mincount": {
             "mob": "betteranimalsplus:goat",
@@ -137,6 +147,7 @@
     },
 
 
+
     {
         "mob": "minecraft:creeper",
         "mincount": {
@@ -152,13 +163,63 @@
         "result": "deny"
     },
     {
-        "mob": "raiders:raider",
+        "mob": "raiders:brute",
         "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:witch",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:tweaker",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:pyromaniac",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:ranger",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:bandit1",
+        "inbuilding": false,
         "result": "deny"
     },
     {
         "mob": "mw:hazmat_zombie",
         "inbuilding": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieblistered",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieripper",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:tornzombie",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:licker",
+        "instreet": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:necromorph",
+        "incity": false,
         "result": "deny"
     },
     {
@@ -179,10 +240,6 @@
 
 
 
-
-
-
-
     {
         "dimension": 0,
         "mob": "mw:bandit1",
@@ -197,20 +254,20 @@
     },
     {
         "dimension": 0,
-        "mob": "mw:zombieBlistered",
-        "customname": "Blistered",
+        "mob": "mw:zombieblistered",
+        "customname": "Blistered Zed",
         "result": "default"
     },
     {
         "dimension": 0,
-        "mob": "mw:zombieRipper",
-        "customname": "Ripper",
+        "mob": "mw:zombieripper",
+        "customname": "Ripper Zed",
         "result": "default"
     },
     {
         "dimension": 0,
         "mob": "mw:tornzombie",
-        "customname": "Torn",
+        "customname": "Torn Zed",
         "result": "default"
     },
     {
@@ -222,13 +279,13 @@
     {
         "dimension": 0,
         "mob": "mw:licker",
-        "customname": "Licker",
+        "customname": "Licker Zed",
         "result": "default"
     },
     {
         "dimension": 0,
         "mob": "mw:molded",
-        "customname": "Molded",
+        "customname": "Molded Zed",
         "result": "default"
     },
     {
@@ -240,7 +297,7 @@
     {
         "dimension": 0,
         "mob": "mw:defiled zombie",
-        "customname": "Defiled",
+        "customname": "Defiled Zed",
         "result": "default"
     },
     {
