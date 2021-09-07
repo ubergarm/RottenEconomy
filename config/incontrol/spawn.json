@@ -1,1 +1,78 @@
-[]
+[
+    {
+        "dimension": 0,
+        "hostile": true,
+        "mincount": {
+            "amount": 32,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:bandit1",
+        "customname": "Lone Gunman",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:zombie",
+        "customname": "Zed",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:zombieBlistered",
+        "customname": "Blistered",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:zombieRipper",
+        "customname": "Ripper",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:tornzombie",
+        "customname": "Torn",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:necromorph",
+        "customname": "Necromorph",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:licker",
+        "customname": "Licker",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:molded",
+        "customname": "Molded",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:hazmat_zombie",
+        "customname": "Hazmat Zed",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:defiled zombie",
+        "customname": "Defiled",
+        "result": "default"
+    },
+    {
+        "dimension": 0,
+        "mob": "mw:deathclaw",
+        "customname": "Deathclaw",
+        "result": "default"
+    }
+]

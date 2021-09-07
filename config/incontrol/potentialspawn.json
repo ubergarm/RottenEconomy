@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "remove": [
+            "minecraft:cave_spider",
+            "minecraft:silverfish",
+            "minecraft:creeper",
+            "minecraft:enderman",
+            "minecraft:husk",
+            "minecraft:zombie_pigman",
+            "minecraft:skeleton",
+            "minecraft:skeleton_horse",
+            "minecraft:spider",
+            "minecraft:stray",
+            "minecraft:vex",
+            "minecraft:witch",
+            "minecraft:wither_skeleton",
+            "minecraft:zombie",
+            "minecraft:zombie_horse",
+            "minecraft:zombie_villager",
+            "cyberware:cyberzombie",
+            "lcrdrfs:laser_creeper",
+            "lcrdrfs:robo_dino",
+            "lcrdrfs:jet_pack_spider",
+            "matteroverdrive:rogue_android",
+            "matteroverdrive:ranged_rogue_android"
+        ]
+    }
+]
