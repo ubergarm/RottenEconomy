@@ -1,11 +1,10 @@
 [
     {
-        "dimension": 0,
-        "hostile": true,
+        "mob": "betteranimalsplus:zotzpyre",
         "mincount": {
-            "amount": 32,
-            "hostile": true,
-            "perplayer": true
+            "mob": "betteranimalsplus:zotzpyre",
+            "amount": 2,
+            "perchunk": true
         },
         "result": "deny"
     },
