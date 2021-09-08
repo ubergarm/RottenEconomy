@@ -25,6 +25,7 @@
             "raiders:pyromaniac",
             "raiders:ranger",
             "cyberware:cyberzombie",
+            "rewired:cyberskeleton",
             "lcrdrfs:laser_creeper",
             "lcrdrfs:robo_dino",
             "lcrdrfs:jet_pack_spider",
@@ -55,6 +56,17 @@
                 "weight": 20,
                 "groupcountmin": 2,
                 "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimenstion": 0,
+        "mobs": [
+            {
+                "mob": "cyberware:cyberskeleton",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 2
             }
         ]
     },
