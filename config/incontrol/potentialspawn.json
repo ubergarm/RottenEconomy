@@ -264,7 +264,7 @@
         "dimension": 0,
         "maxcount": {
             "mob": "matteroverdrive:rogue_android",
-            "amount": 4,
+            "amount": 2,
             "perchunk": true
         },
         "mobs": [
@@ -280,7 +280,7 @@
         "dimension": 0,
         "maxcount": {
             "mob": "matteroverdrive:ranged_rogue_android",
-            "amount": 4,
+            "amount": 2,
             "perchunk": true
         },
         "mobs": [
@@ -291,8 +291,69 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:enderman",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:enderman",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "thermalfoundation:blizz",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "thermalfoundation:blizz",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "thermalfoundation:blitz",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "thermalfoundation:blitz",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "thermalfoundation:basalz",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "thermalfoundation:basalz",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
-
-
-
 ]

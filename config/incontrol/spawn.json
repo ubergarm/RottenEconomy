@@ -237,6 +237,26 @@
         "incity": false,
         "result": "deny"
     },
+    {
+        "mob": "minecraft:enderman",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "thermalfoundation:blizz",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "thermalfoundation:blitz",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "thermalfoundation:basalz",
+        "incity": true,
+        "result": "deny"
+    },
 
 
 
