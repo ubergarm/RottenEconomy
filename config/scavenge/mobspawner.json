@@ -1,0 +1,59 @@
+{
+  "block_pools": [
+    {
+      "name": "MobSpawner",
+      "type": {
+        "type": "block",
+        "name": "minecraft:mob_spawner"
+      },
+      "clicktype": "rightclick",
+      "blockRightClick": true,
+      "properties": [
+        {
+          "type": "consume_block"
+        },
+        {
+          "type": "spawn_particles",
+          "name": "explode",
+          "amount": 100,
+          "xOffset": 0.2,
+          "yOffset": 0.2,
+          "zOffset": 0.2,
+          "disableJEI": true
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:ui.toast.challenge_complete",
+          "category": "master",
+          "pitch": 1.0,
+          "disableJEI": true
+        },
+        {
+          "type": "use_command",
+          "name": "summon",
+          "arguments": "minecraft:xp_orb ~ ~ ~ {Value: 27}",
+          "disableJEI": true
+        },
+        {
+          "type": "swing_hand",
+          "disableJEI": true
+        },
+        {
+          "type": "add_difficulty",
+          "amount": -1.0
+        }
+      ],
+      "drops": [
+        {
+          "name": "scalinghealth:heartcontainer"
+        }
+      ],
+      "messages": [
+        {
+          "id": "consume_block",
+          "message": "You've made the world a little bit safer, for now... §b(Difficulty -1.0)§r"
+        }
+      ]
+    }
+  ]
+}

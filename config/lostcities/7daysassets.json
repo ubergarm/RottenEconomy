@@ -1,0 +1,67 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 10,
+        "value": "minecraft:zombie"
+      },
+      {
+        "factor": 10,
+        "value": "minecraft:husk"
+      },
+      {
+        "factor": 10,
+        "value": "cyberware:cyberzombie"
+      },
+      {
+        "factor": 10,
+        "value": "rewired:cyberskeleton"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+      {
+        "factor": 10,
+        "value": "minecraft:zombie"
+      },
+      {
+        "factor": 10,
+        "value": "minecraft:husk"
+      },
+      {
+        "factor": 10,
+        "value": "cyberware:cyberzombie"
+      },
+      {
+        "factor": 15,
+        "value": "rewired:cyberskeleton"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 20,
+        "value": "zbb:chests/ammochest",
+        "range": "2,100"
+      },
+      {
+        "factor": 15,
+        "value": "zbb:chests/lifechest",
+        "range": "2,100"
+      },
+      {
+        "factor": 20,
+        "value": "zbb:chests/orechest",
+        "range": "-100,1"
+      }
+    ]
+  }
+]
