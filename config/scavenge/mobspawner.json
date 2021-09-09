@@ -6,8 +6,7 @@
         "type": "block",
         "name": "minecraft:mob_spawner"
       },
-      "clicktype": "rightclick",
-      "blockRightClick": true,
+      "clicktype": "leftclick",
       "properties": [
         {
           "type": "consume_block"
