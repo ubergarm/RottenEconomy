@@ -17,6 +17,10 @@ import mods.jei.JEI.hide;
 // Fixup some display names
 <mw:the_dechard>.displayName = "Deckard Revolver";
 <mw:ump_45>.displayName = "UMP";
+<mw:bullet473x33mm>.displayName = "4.73x33mm Bullet";
+<mw:bullet40sw>.displayName = ".40 S&W";
+<mw:bullet545x39>.displayName = "5.45x39mm Bullet";
+<mw:bullet46x30mm>.displayName = "4.6x30mm Bullet";
 
 // Missing textures in JEI
 hide(<mw:propanetank>);

@@ -1,0 +1,198 @@
+key.attack:-100:NONE
+key.use:-99:NONE
+key.forward:17:NONE
+key.left:30:NONE
+key.back:31:NONE
+key.right:32:NONE
+key.jump:57:NONE
+key.sneak:42:NONE
+key.sprint:29:NONE
+key.drop:16:NONE
+key.inventory:18:NONE
+key.chat:20:NONE
+key.playerlist:15:NONE
+key.pickItem:-98:NONE
+key.command:53:NONE
+key.screenshot:60:NONE
+key.togglePerspective:63:NONE
+key.smoothCamera:0:NONE
+key.fullscreen:87:NONE
+key.spectatorOutlines:0:NONE
+key.swapHands:0:NONE
+key.saveToolbarActivator:0:NONE
+key.loadToolbarActivator:45:NONE
+key.advancements:38:NONE
+key.hotbar.1:2:NONE
+key.hotbar.2:3:NONE
+key.hotbar.3:4:NONE
+key.hotbar.4:5:NONE
+key.hotbar.5:6:NONE
+key.hotbar.6:7:NONE
+key.hotbar.7:8:NONE
+key.hotbar.8:9:NONE
+key.hotbar.9:10:NONE
+of.key.zoom:46:NONE
+ALT Key:56:NONE
+Boost Key:29:NONE
+Mode Switch Key:0:NONE
+Side Inventory Key:0:NONE
+Hub Expand Key:45:NONE
+key.hoverboard.up.ignore:0:NONE
+key.hoverboard.down.ignore:0:NONE
+key.hoverboard.rocket:0:NONE
+key.hoverboard.boost:0:NONE
+key.hoverboard.inventory:23:NONE
+keybind.baublesinventory:0:NONE
+cos.key.opencosarmorinventory:0:NONE
+key.reload:19:NONE
+key.unload:22:NONE
+key.inspect:25:NONE
+key.attachment:0:NONE
+key.scope:200:NONE
+key.recoil_fitter:208:NONE
+key.silencer:203:NONE
+key.texture_change:0:NONE
+key.laser:0:NONE
+key.nightVision:49:NONE
+key.add:23:NONE
+key.subtract:24:NONE
+key.fire_mode:48:NONE
+key.proning:44:NONE
+key.attach_laser:54:NONE
+key.sight:52:NONE
+key.custom_inventory:45:NONE
+key.exchangers.open_gui:51:NONE
+key.exchangers.range_switch:0:NONE
+key.exchangers.mode_switch:0:NONE
+key.exchangers.force_drop_items_mode_toggle:0:NONE
+key.exchangers.directional_placement_mode_toggle:0:NONE
+key.exchangers.fuzzy_placement_mode_toggle:0:NONE
+key.exchangers.void_items_mode_toggle:0:NONE
+keybinds.show_wounds:35:NONE
+keybind.hammercorerenderstack:77:NONE
+key.vehicle.horn:0:NONE
+key.vehicle.cycle_seats:0:NONE
+Jet Pack Lift:0:NONE
+Jet Pack Hover:0:NONE
+Creepssile Launch:34:NONE
+key.moreoverlays.lightoverlay.desc:65:NONE
+key.moreoverlays.chunkbounds.desc:67:NONE
+key.ping:47:NONE
+ping.key.alert:75:NONE
+ping.key.mine:76:NONE
+ping.key.look:77:NONE
+ping.key.goto:72:NONE
+psimisc.keybind:0:NONE
+rpsideas.kb.offhandcast:0:NONE
+rpsideas.kb.switchslot01:0:NONE
+rpsideas.kb.switchslot02:0:NONE
+rpsideas.kb.switchslot03:0:NONE
+rpsideas.kb.switchslot04:0:NONE
+rpsideas.kb.switchslot05:0:NONE
+rpsideas.kb.switchslot06:0:NONE
+rpsideas.kb.switchslot07:0:NONE
+rpsideas.kb.switchslot08:0:NONE
+rpsideas.kb.switchslot09:0:NONE
+rpsideas.kb.switchslot10:0:NONE
+rpsideas.kb.switchslot11:0:NONE
+rpsideas.kb.switchslot12:0:NONE
+Difficulty Meter - Show:41:NONE
+Difficulty Meter - Show Always:49:SHIFT
+key.toastcontrol.clear:36:NONE
+key.usefulstuffs.useful.desc:45:NONE
+walljump.key.walljump:42:NONE
+key.pearl_swapping.desc:0:NONE
+key.xtones.scroll:0:NONE
+smoothfont.key.guiOpen:199:NONE
+key.securitycraft.cameraZoomIn:13:NONE
+key.securitycraft.cameraZoomOut:12:NONE
+key.securitycraft.cameraEmitRedstone:0:NONE
+key.securitycraft.cameraActivateNightVision:49:NONE
+key.unhook:45:NONE
+key.cofh.multimode:0:NONE
+key.jei.toggleOverlay:24:CONTROL
+key.jei.focusSearch:33:CONTROL
+key.jei.toggleCheatMode:0:NONE
+key.jei.toggleEditMode:0:NONE
+key.jei.showRecipe:53:SHIFT
+key.jei.showUses:22:NONE
+key.jei.recipeBack:14:NONE
+key.jei.previousPage:201:NONE
+key.jei.nextPage:209:NONE
+key.jei.bookmark:30:NONE
+key.jei.toggleBookmarkOverlay:0:NONE
+bbw.key.mode:0:NONE
+bbw.key.fluidmode:33:ALT
+key.settings_menu:34:NONE
+key.range:0:NONE
+key.undo:22:NONE
+key.anchor:0:NONE
+key.fuzzy:0:NONE
+key.connected_area:0:NONE
+key.rotate_mirror:0:NONE
+key.material_list:0:NONE
+Options Gui:23:NONE
+key.refinedstorage.focusSearchBar:15:NONE
+key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
+key.refinedstorage.openWirelessGrid:0:NONE
+key.refinedstorage.openWirelessFluidGrid:0:NONE
+key.refinedstorage.openPortableGrid:0:NONE
+key.refinedstorage.openWirelessCraftingMonitor:0:NONE
+cqc.keybinds.breachdoor:-97:NONE
+cyberware.keybinds.menu:26:NONE
+key.clipboardPaste:210:NONE
+mekanism.key.mode:0:NONE
+mekanism.key.armorMode:34:NONE
+mekanism.key.feetMode:0:NONE
+mekanism.key.voice:22:NONE
+key.categories.naming:0:NONE
+invtweaks.key.sort:0:NONE
+jecalculation.key.gui_craft:0:NONE
+jecalculation.key.gui_math:0:NONE
+key.drawMahoujin:-96:NONE
+key.changeMysticCode:21:NONE
+Mo' Bends Menu:34:NONE
+Refresh Animations:68:NONE
+pi.key.open_pi:23:NONE
+pi.key.et_gui:23:NONE
+pi.key.et_world:23:CONTROL
+key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
+key.mcreator.speed_blast:0:NONE
+Camera left:203:NONE
+Camera right:205:NONE
+Camera closer:200:NONE
+Camera farther:208:NONE
+Camera up:201:NONE
+Camera down:209:NONE
+Swap shoulder:24:NONE
+Toggle perspective:0:NONE
+keybind.simplyjetpacks.gui:0:NONE
+keybind.simplyjetpacks.engine:34:NONE
+keybind.simplyjetpacks.charger:25:NONE
+keybind.simplyjetpacks.hover:0:NONE
+keybind.simplyjetpacks.emergency_hover:0:NONE
+key.toggleLiquids:0:NONE
+key.toggleVisible:0:NONE
+keys.techreborn.config:25:NONE
+key.toolbelt.open:0:NONE
+key.toolbelt.cycle.left:0:NONE
+key.toolbelt.cycle.right:0:NONE
+key.toolbelt.slot:0:NONE
+Open Matter Scanner GUI:0:NONE
+Android Ability key:45:NONE
+Android Switch Ability key:27:NONE
+key.minimap.voxelmapmenu:50:NONE
+key.minimap.waypointmenu:0:NONE
+key.minimap.zoom:13:NONE
+key.minimap.togglefullscreen:45:NONE
+key.minimap.waypointhotkey:0:NONE
+key.minimap.togglemobs:0:NONE
+key.minimap.toggleingamewaypoints:0:NONE
+Toggle Jetpack:45:NONE
+Open Rocket GUI:0:NONE
+Toggle RCS:0:NONE
+Rotate Vehicle Right:32:NONE
+Rotate Vehicle Left:30:NONE
+Move Vehicle Up:44:NONE
+Move Vehicle Down:45:NONE
+Profile GUI:210:NONE
