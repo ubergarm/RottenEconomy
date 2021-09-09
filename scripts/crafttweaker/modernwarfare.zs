@@ -18,26 +18,28 @@ import mods.jei.JEI.hide;
 <mw:the_dechard>.displayName = "Deckard Revolver";
 <mw:ump_45>.displayName = "UMP";
 
-// Set this to false if you want to see these items in JEI
-var hideItems = true as bool;
-if(hideItems) {
-  // Missing textures in JEI
-  hide(<mw:propanetank>);
-  hide(<mw:towablefloodlight>);
-  hide(<mw:hescobastion>);
-  hide(<mw:sandbag>);
-  hide(<mw:crossgravestone>);
-  hide(<mw:crossgravestone2>);
-  hide(<mw:crossgravestone3>);
-  hide(<mw:gravestoneskull>);
-  hide(<mw:gravestone>);
-  hide(<mw:scarecrow>);
-  hide(<mw:spookyghost>);
-  hide(<mw:spookyghost2>);
-  hide(<mw:spookyghost3>);
-  hide(<mw:swat_truck>);
-  hide(<mw:serverrackleftalt3>);
-  hide(<mw:doom_helmet>);
-  hide(<mw:doom_chest>);
-  hide(<mw:doom_boots>);
-}
+// Missing textures in JEI
+hide(<mw:propanetank>);
+hide(<mw:towablefloodlight>);
+hide(<mw:hescobastion>);
+hide(<mw:sandbag>);
+hide(<mw:sandbagwall>);
+hide(<mw:crossgravestone>);
+hide(<mw:crossgravestone2>);
+hide(<mw:crossgravestone3>);
+hide(<mw:gravestoneskull>);
+hide(<mw:gravestone>);
+hide(<mw:scarecrow>);
+hide(<mw:spookyghost>);
+hide(<mw:spookyghost2>);
+hide(<mw:spookyghost3>);
+hide(<mw:swat_truck>);
+hide(<mw:serverrackleftalt3>);
+hide(<mw:doom_helmet>);
+hide(<mw:doom_chest>);
+hide(<mw:doom_boots>);
+hide(<mw:crimsonblood>);
+hide(<mw:chrome>);
+hide(<mw:godwillsit>);
+hide(<mw:murasaki>);
+hide(<mw:evangelion>);
