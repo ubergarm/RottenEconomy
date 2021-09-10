@@ -208,6 +208,7 @@
   "craftingstation": "@VERSION@",
   "reactorbuilder": "1.0.2",
   "snad": "1.12.1-1.7.09.16a",
+  "defaultworldgenerator-port": "1.12-2.3",
   "longfallboots": "1.2.1a",
   "thirstybottles": "2.0.1",
   "chunkpregenerator": "2.5.0",
