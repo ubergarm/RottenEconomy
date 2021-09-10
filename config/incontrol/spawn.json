@@ -1,12 +1,16 @@
 [
     {
-        "dimension": 0,
         "hostile": true,
         "mincount": {
             "amount": 120,
             "hostile": true,
             "perchunk": true
         },
+        "result": "deny"
+    },
+    {
+        "structure": "minecrat:village",
+        "hostile": true,
         "result": "deny"
     },
     {
@@ -203,8 +207,18 @@
         "result": "deny"
     },
     {
+        "mob": "mw:hazmat_zombie",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
         "mob": "mw:zombieblistered",
         "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieblistered",
+        "minlight": 8,
         "result": "deny"
     },
     {
@@ -213,8 +227,18 @@
         "result": "deny"
     },
     {
+        "mob": "mw:zombieripper",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
         "mob": "mw:tornzombie",
         "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:tornzombie",
+        "minlight": 8,
         "result": "deny"
     },
     {
@@ -223,8 +247,18 @@
         "result": "deny"
     },
     {
+        "mob": "mw:licker",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
         "mob": "mw:necromorph",
         "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:necromorph",
+        "minlight": 8,
         "result": "deny"
     },
     {
