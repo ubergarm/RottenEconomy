@@ -1,8 +1,13 @@
 [
     {
+        "spawner": true,
+        "hostile": true,
+        "result": "allow"
+    },
+    {
         "hostile": true,
         "mincount": {
-            "amount": 120,
+            "amount": 150,
             "hostile": true,
             "perchunk": true
         },
