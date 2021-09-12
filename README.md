@@ -2,6 +2,9 @@
 ===
 Dual-Wielding. Zombies. Cyborgs. Androids. Guns. Headshots. Rockets. Nukes.
 
+## Overview
+Build a zombie proof base outside of town, search dangerous urban areas for loot, improve your defenses, craft high tech machines and space ships then escape the planet!
+
 ## Controls
 Most of these can be reconfigured in the controls menu or in client `.cfg` files.
 
@@ -58,13 +61,9 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 ## ompd add friends so they don't get shredded on your fences
 /omshareowner add username
 
-## disable epic fight's default 100% weight penalty in fight mode
-/gamerule weightPenalty 0
-
 ## change epic fight's default loss of skill on death
 /gamerule keepSkills true
 ```
 
 ## References
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands)
-* [emptyduck](https://emptyduck.com)

@@ -2,13 +2,18 @@
   "version": "2.2.4",
   "initPopup": false,
   "exportMode": false,
-  "generatedBy": "\u003cdefault\u003e",
+  "generatedBy": "1a42d328-b9cb-4ade-b2a3-6f5bab8742a8",
   "activeConfigs": [
     "forge.cfg",
     "forgeChunkLoading.cfg",
     "splash.properties"
   ],
-  "hashes": {},
+  "hashes": {
+    "Default/forgeChunkLoading.cfg": "7300E919B8B683B4D194986AA348AE0D",
+    "Default/keys.txt": "27A3115582DBDDCFA79A53FB3722589B",
+    "Default/forge.cfg": "4A388E59288A36F0C1CA34BCC7C825FA",
+    "Default/splash.properties": "30EB1CCE9B56D1EC2627F634E34E3A42"
+  },
   "mainProfile": "Default",
   "initially_created": "04.09.2021 23:02:37"
 }
