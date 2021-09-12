@@ -2,6 +2,18 @@
 ===
 Zombies. Guns. Headshots. Cyborgs. Androids. Rocket Ships. Nukes.
 
+## Commands
+```
+## ompd add friends so they don't get shredded on your fences
+/omshareowner add username
+
+## disable epic fight's default 100% weight penalty in fight mode
+/gamerule weightPenalty 0
+
+## change epic fight's default loss of skill on death
+/gamerule keepSkills true
+```
+
 ## Mod List
 - [ ] AdChimneys-1.12.2-3.5.15.0-build.0560.jar
 - [ ] AdHooks-1.12.2-3.3.0.0-build.0528.jar
