@@ -64,6 +64,7 @@
   "customstartinggear": "1.2.0",
   "particleculling": "1.0",
   "codechickenlib": "3.2.3.358",
+  "cleanview": "1.12.2-v1c",
   "scalinghealth": "1.3.37",
   "whoosh": "0.1.10",
   "techreborn_compat": "1.0.0",
