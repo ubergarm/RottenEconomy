@@ -10,6 +10,9 @@ TODO
 - [ ] Create server pack and upload to curseforge
 
 ## Future
+- [ ] Add screenshots into curseforge project images section
+- [ ] Create a 5 minute tutorial introduction video on youtube
 - [ ] Balance all the things
 - [ ] Unify the mess of ores/gears/ingots/recipes
 - [ ] Possibly add custom music pack with chip tunes
+- [ ] Add contributor names into raiders list

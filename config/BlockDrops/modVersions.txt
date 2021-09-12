@@ -136,6 +136,7 @@
   "iblis_headshots": "1.2.6",
   "pickletweaks": "2.1.3",
   "pocketnether": "2.6",
+  "appleskin": "1.0.14",
   "pizzacraft": "2.0.19",
   "ocxnetdriver": "1.0.3",
   "xlfoodmod": "1.12.2-1.9.2",
