@@ -107,7 +107,7 @@ key.usefulstuffs.useful.desc:45:NONE
 walljump.key.walljump:42:NONE
 key.xtones.scroll:0:NONE
 smoothfont.key.guiOpen:199:NONE
-key.securitycraft.cameraZoomIn:13:NONE
+key.securitycraft.cameraZoomIn:0:NONE
 key.securitycraft.cameraZoomOut:12:NONE
 key.securitycraft.cameraEmitRedstone:0:NONE
 key.securitycraft.cameraActivateNightVision:49:NONE
@@ -192,7 +192,7 @@ Android Ability key:45:NONE
 Android Switch Ability key:27:NONE
 key.minimap.voxelmapmenu:50:NONE
 key.minimap.waypointmenu:0:NONE
-key.minimap.zoom:13:SHIFT
+key.minimap.zoom:13:NONE
 key.minimap.togglefullscreen:45:NONE
 key.minimap.waypointhotkey:0:NONE
 key.minimap.togglemobs:0:NONE

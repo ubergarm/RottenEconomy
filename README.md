@@ -59,7 +59,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `C` zoom in
 
 #### Voxel Map
-* `+` cycle zoom level
+* `=` cycle zoom level
 
 #### Misc
 * `F2` screenshot
