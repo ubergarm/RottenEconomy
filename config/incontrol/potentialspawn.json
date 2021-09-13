@@ -43,8 +43,8 @@
             {
                 "mob": "minecraft:zombie",
                 "weight": 30,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "groupcountmin": 3,
+                "groupcountmax": 5
             }
         ]
     },
@@ -54,8 +54,8 @@
             {
                 "mob": "minecraft:husk",
                 "weight": 20,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "groupcountmin": 1,
+                "groupcountmax": 3
             }
         ]
     },
@@ -65,7 +65,7 @@
             {
                 "mob": "cyberware:cyberzombie",
                 "weight": 30,
-                "groupcountmin": 2,
+                "groupcountmin": 3,
                 "groupcountmax": 4
             }
         ]

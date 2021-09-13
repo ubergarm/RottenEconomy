@@ -80,7 +80,7 @@
         "mob": "minecraft:squid",
         "mincount": {
             "mob": "minecraft:squid",
-            "amount": 8,
+            "amount": 4,
             "perchunk": true
         },
         "result": "deny"
@@ -288,7 +288,7 @@
         "maxlight": 8,
         "maxcount": {
             "mob": "minecraft:husk",
-            "amount": 32,
+            "amount": 16,
             "perchunk": true
         },
         "result": "allow"

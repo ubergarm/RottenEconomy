@@ -45,13 +45,42 @@
     "enabled": true,
     "_comment": " "
   },
-
   "AsianHalfSquat": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
   "IterationFunk": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "QuixQuery": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "Valen_MischiefOfMice": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "Vic": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "LatvianModder": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "Vazkii": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "Ellpeck": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
