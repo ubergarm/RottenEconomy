@@ -5,27 +5,32 @@
     "customSkin": "Give resourcelocation of custom skin. Use raiders build in resource loading, by adding an image into assets/skins/filename.png Than set custom skin to raiders:skins/filename. You may also use any other resourceloader.",
     "_comment": " Comment section is for you leave a comment if you disabled something to know why. or just any comment you want."
   },
-  "Gen_Deathrow": {
+  "ubergarm": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
-  "EvilSeph": {
+  "AsianHalfSquat": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
-  "darkphan": {
+  "IterationFunk": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
-  "ganymedes01": {
+  "GregoryZamuza": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
-  "jeb_": {
+  "Malkthius": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
+  "katgoespewpew": {
     "weight": 10,
     "enabled": true,
     "_comment": " "

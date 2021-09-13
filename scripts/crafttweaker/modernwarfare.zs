@@ -9,10 +9,10 @@ import mods.jei.JEI.hide;
 <ore:oreLead>.add(<mw:leadore>);
 <ore:oreGraphite>.add(<mw:graphiteore>);
 <ore:oreTin>.add(<mw:tinore>);
-
-// yes this one belongs in two ore dicts for compat i guess
-<ore:oreSulfer>.add(<mw:sulfurore>);
-<ore:Pyrite>.add(<mw:sulfurore>);
+// put sulfur into two ore dicts for compat
+<ore:oreSulfur>.add(<mw:sulfurore>);
+<ore:orePyrite>.add(<mw:sulfurore>);
+<ore:dustPyrite>.add(<mw:sulfurdust>);
 
 // Fixup some display names
 <mw:the_dechard>.displayName = "Deckard Revolver";

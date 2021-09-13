@@ -2,6 +2,7 @@
     {
         "spawner": true,
         "hostile": true,
+        "isnotcolliding": true,
         "result": "allow"
     },
     {
@@ -280,6 +281,16 @@
         "mob": "matteroverdrive:ranged_rogue_android",
         "incity": false,
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "isnotcolliding": true,
+        "maxcount": {
+            "mob": "minecraft:husk",
+            "amount": 32,
+            "perchunk": true
+        },
+        "result": "allow"
     },
     {
         "mob": "minecraft:enderman",

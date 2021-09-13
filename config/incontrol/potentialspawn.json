@@ -52,10 +52,21 @@
         "dimenstion": 0,
         "mobs": [
             {
+                "mob": "minecraft:husk",
+                "weight": 20,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimenstion": 0,
+        "mobs": [
+            {
                 "mob": "cyberware:cyberzombie",
                 "weight": 20,
                 "groupcountmin": 2,
-                "groupcountmax": 3
+                "groupcountmax": 4
             }
         ]
     },
@@ -66,7 +77,7 @@
                 "mob": "cyberware:cyberskeleton",
                 "weight": 20,
                 "groupcountmin": 1,
-                "groupcountmax": 2
+                "groupcountmax": 3
             }
         ]
     },

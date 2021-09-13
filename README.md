@@ -99,11 +99,11 @@ Misc commands:
 * `/gamerule keepSkills true` only have to read epic fight's skill book once
 
 It is highly recommended to pregenerate chunks for both stability
-and performance!  Example commands to start/stop generating 100 chunk
+and performance!  Example commands to start/stop generating 64 chunk
 radius around your x/z location in the Overworld dimension (you need to
 have OPs).
 
-* `/pregen gen startradius square ~ ~ 100 0 TerrainOnly`
+* `/pregen gen startradius square ~ ~ 64 0 TerrainOnly`
 * `/pregen stop`
 * `/pregen clear`
 
