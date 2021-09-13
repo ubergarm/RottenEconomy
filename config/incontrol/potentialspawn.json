@@ -43,8 +43,8 @@
             {
                 "mob": "minecraft:zombie",
                 "weight": 30,
-                "groupcountmin": 3,
-                "groupcountmax": 6
+                "groupcountmin": 2,
+                "groupcountmax": 4
             }
         ]
     },
@@ -64,7 +64,7 @@
         "mobs": [
             {
                 "mob": "cyberware:cyberzombie",
-                "weight": 20,
+                "weight": 30,
                 "groupcountmin": 2,
                 "groupcountmax": 4
             }

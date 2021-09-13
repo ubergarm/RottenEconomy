@@ -169,12 +169,12 @@
     },
     {
         "mob": "cyberware:cyberzombie",
-        "inbuilding": false,
+        "incity": false,
         "result": "deny"
     },
     {
         "mob": "rewired:cyberskeleton",
-        "inbuilding": false,
+        "incity": false,
         "result": "deny"
     },
     {

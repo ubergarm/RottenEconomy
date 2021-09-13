@@ -325,14 +325,14 @@ cat recipes.log  | grep -oP "<\K\w*:\w*chestplate\w*" | sort | uniq | while read
     echo ""
 done
 
-## jetpacks
-cat recipes.log  | grep -oP "<\K\w*:\w*jetpack\w*" | grep -v part | sort | uniq | while read -r item ; do
+## jetpacks and backpacks and batpacks lol
+cat recipes.log  | grep -oP "<\K\w*:\w*pack\w*" | grep -v -e part -e ice | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
     echo "            S:registry_name=$item"
     echo "            D:stun_armor=1.0"
-    echo "            D:weight=15.0"
+    echo "            D:weight=20.0"
     echo "        }"
     echo ""
 done
