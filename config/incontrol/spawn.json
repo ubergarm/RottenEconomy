@@ -285,6 +285,7 @@
     {
         "mob": "minecraft:husk",
         "isnotcolliding": true,
+        "maxlight": 8,
         "maxcount": {
             "mob": "minecraft:husk",
             "amount": 32,
@@ -294,6 +295,26 @@
     },
     {
         "mob": "minecraft:enderman",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:vex",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:witch",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
         "incity": true,
         "result": "deny"
     },

@@ -319,12 +319,76 @@
         "dimension": 0,
         "maxcount": {
             "mob": "minecraft:enderman",
-            "amount": 2,
+            "amount": 4,
             "perchunk": true
         },
         "mobs": [
             {
                 "mob": "minecraft:enderman",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:spider",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:spider",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:stray",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:stray",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:vex",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:vex",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "minecraft:witch",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:witch",
                 "weight": 5,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -335,13 +399,13 @@
         "dimension": 0,
         "maxcount": {
             "mob": "thermalfoundation:blizz",
-            "amount": 2,
+            "amount": 5,
             "perchunk": true
         },
         "mobs": [
             {
                 "mob": "thermalfoundation:blizz",
-                "weight": 5,
+                "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             }
@@ -351,13 +415,13 @@
         "dimension": 0,
         "maxcount": {
             "mob": "thermalfoundation:blitz",
-            "amount": 2,
+            "amount": 5,
             "perchunk": true
         },
         "mobs": [
             {
                 "mob": "thermalfoundation:blitz",
-                "weight": 5,
+                "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             }
@@ -367,13 +431,13 @@
         "dimension": 0,
         "maxcount": {
             "mob": "thermalfoundation:basalz",
-            "amount": 2,
+            "amount": 5,
             "perchunk": true
         },
         "mobs": [
             {
                 "mob": "thermalfoundation:basalz",
-                "weight": 5,
+                "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             }

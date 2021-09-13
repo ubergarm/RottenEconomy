@@ -308,7 +308,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*shield\w*" | grep -v -e decoration -e pet
     echo " {"
     echo "            S:registry_name=$item"
     echo "            D:stun_armor=5.0"
-    echo "            D:weight=2.0"
+    echo "            D:weight=5.0"
     echo "        }"
     echo ""
 done
@@ -320,7 +320,19 @@ cat recipes.log  | grep -oP "<\K\w*:\w*chestplate\w*" | sort | uniq | while read
     echo " {"
     echo "            S:registry_name=$item"
     echo "            D:stun_armor=2.0"
-    echo "            D:weight=3.0"
+    echo "            D:weight=7.0"
+    echo "        }"
+    echo ""
+done
+
+## jetpacks
+cat recipes.log  | grep -oP "<\K\w*:\w*jetpack\w*" | grep -v part | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=1.0"
+    echo "            D:weight=15.0"
     echo "        }"
     echo ""
 done
@@ -331,8 +343,8 @@ cat recipes.log  | grep -oP "<\K\w*:\w*helmet\w*" | grep -v module | sort | uniq
     echo -n "$item" | tr : .
     echo " {"
     echo "            S:registry_name=$item"
-    echo "            D:stun_armor=0.5"
-    echo "            D:weight=1.0"
+    echo "            D:stun_armor=1.5"
+    echo "            D:weight=2.0"
     echo "        }"
     echo ""
 done
@@ -344,7 +356,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*leggings\w*" | sort | uniq | while read -
     echo " {"
     echo "            S:registry_name=$item"
     echo "            D:stun_armor=1.0"
-    echo "            D:weight=2.0"
+    echo "            D:weight=4.0"
     echo "        }"
     echo ""
 done
@@ -356,14 +368,13 @@ cat recipes.log  | grep -oP "<\K\w*:\w*boots\w*" | sort | uniq | while read -r i
     echo " {"
     echo "            S:registry_name=$item"
     echo "            D:stun_armor=0.5"
-    echo "            D:weight=1.0"
+    echo "            D:weight=2.0"
     echo "        }"
     echo ""
 done
 
 ## End Armor
 echo "    }"
+
 ## End Config
 echo "}"
-
-
