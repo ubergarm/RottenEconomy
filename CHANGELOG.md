@@ -1,2 +1,2 @@
-## v0.70
+## v0.71
 * Initial Public Alpha Release

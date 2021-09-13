@@ -8,8 +8,8 @@ TODO
 - [x] Increase Alchemistry base machine recipe difficulty
 - [x] Configure Simply Jetpacks HUD default location
 - [x] Run JER scan and save JSON `/jer_profile 10000 all`
-- [ ] Update default keybindings and configs
-- [ ] Export client alpha pack and upload to curseforge
+- [x] Update default keybindings and configs
+- [x] Export client alpha pack and upload to curseforge
 - [ ] Create server pack and upload to curseforge
 
 ## Future

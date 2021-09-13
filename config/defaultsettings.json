@@ -10,9 +10,11 @@
   ],
   "hashes": {
     "Default/forgeChunkLoading.cfg": "7300E919B8B683B4D194986AA348AE0D",
-    "Default/keys.txt": "27A3115582DBDDCFA79A53FB3722589B",
+    "Default/keys.txt": "BEAF0D8E1958A5F2F166183755D4C1EB",
+    "Default/options.txt": "5A85BA92C64F3025395863AFA0F9D533",
     "Default/forge.cfg": "4A388E59288A36F0C1CA34BCC7C825FA",
-    "Default/splash.properties": "30EB1CCE9B56D1EC2627F634E34E3A42"
+    "Default/optionsof.txt": "870E288D6ECD4F32209D1A057AB77F03",
+    "Default/splash.properties": "7E6216543E42F0CCEC0707551EFDFF22"
   },
   "mainProfile": "Default",
   "initially_created": "04.09.2021 23:02:37"
