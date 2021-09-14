@@ -79,7 +79,7 @@ available on your server, and edit the `server.properties`. Linux example:
 * `unzip 7DaysToFly-Server-v0.70-Minecraft-v1.12.2.zip`
 * `cd 7DaysToFly`
 * `cp server.properties.example server.properties`
-* `echo "eula=true"` > `eula.txt`
+* `echo "eula=true" > eula.txt`
 * `./start.sh`
 
 Windows will be very similar, but you might need a `start.bat` script instead.

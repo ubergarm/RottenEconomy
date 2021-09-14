@@ -14,4 +14,14 @@ usernamecache.json
 .ReAuth.cfg
 *.log
 *.png
-
+*.jar
+config.json
+1.12.2.json
+eula.txt
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json
+server.properties
+world/
+7DaysToFly-*.zip
