@@ -46,8 +46,11 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 #### Wall Jump
 * `Left Shift` hold to cling to wall and release to wall jump
 
+#### Shoulder Surfing
+* `v` toggle 1st person and enhanced 3rd person view with adaptive crosshairs
+
 #### Ping
-* `v` open ping menu to notify friends of points of interest
+* `Middle Mouse Click` open ping menu to notify friends of points of interest
 
 #### Grave Keeper
 * `Right Click` retrieve your grave (don't try to break it)

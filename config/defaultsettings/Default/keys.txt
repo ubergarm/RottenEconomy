@@ -74,10 +74,10 @@ key.vehicle.horn:0:NONE
 key.vehicle.cycle_seats:0:NONE
 Jet Pack Lift:0:NONE
 Jet Pack Hover:0:NONE
-Creepssile Launch:34:NONE
+Creepssile Launch:0:NONE
 key.moreoverlays.lightoverlay.desc:65:NONE
 key.moreoverlays.chunkbounds.desc:67:NONE
-key.ping:47:NONE
+key.ping:-98:NONE
 ping.key.alert:75:NONE
 ping.key.mine:76:NONE
 ping.key.look:77:NONE
@@ -126,7 +126,7 @@ key.jei.bookmark:30:NONE
 key.jei.toggleBookmarkOverlay:0:NONE
 bbw.key.mode:0:NONE
 bbw.key.fluidmode:33:ALT
-key.settings_menu:34:NONE
+key.settings_menu:0:NONE
 key.range:0:NONE
 key.undo:22:NONE
 key.anchor:0:NONE
@@ -160,7 +160,7 @@ jecalculation.key.gui_craft:0:NONE
 jecalculation.key.gui_math:0:NONE
 key.drawMahoujin:-96:NONE
 key.changeMysticCode:21:NONE
-Mo' Bends Menu:34:NONE
+Mo' Bends Menu:0:NONE
 Refresh Animations:68:NONE
 pi.key.open_pi:23:NONE
 pi.key.et_gui:23:NONE
@@ -174,7 +174,7 @@ Camera farther:208:NONE
 Camera up:201:NONE
 Camera down:209:NONE
 Swap shoulder:24:NONE
-Toggle perspective:0:NONE
+Toggle perspective:47:NONE
 keybind.simplyjetpacks.gui:0:NONE
 keybind.simplyjetpacks.engine:34:NONE
 keybind.simplyjetpacks.charger:25:NONE

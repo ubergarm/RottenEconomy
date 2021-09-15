@@ -242,7 +242,7 @@
   "inspirations": "1.12.2-0.2.9",
   "enchdesc": "1.1.20",
   "tickcentral": "3.2",
-  "toolbelt": "1.9.13",
+  "toolbelt": "1.9.14",
   "silentlib": "3.0.13",
   "torohud": "1.12.2-5",
   "baubles": "1.5.2",
