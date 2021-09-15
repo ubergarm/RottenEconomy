@@ -39,7 +39,7 @@ healingPool.addItemEntry(<firstaid:bandage>, 5, 1, [Functions.setCount(1, 2)], [
 healingPool.addItemEntry(<scalinghealth:healingitem>, 10, 1, [Functions.setCount(2, 4)], []);
 healingPool.addItemEntry(<scalinghealth:healingitem:1>, 5, 1, [Functions.setCount(1, 2)], []);
 healingPool.addItemEntry(<firstaid:morphine>, 5, 1, [Functions.setCount(0, 1)], []);
-healingPool.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:healing"}), 5, 1, [Functions.setCount(2, 4)], []);
+healingPool.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 5, 1, [Functions.setCount(1, 2)], []);
 
 heartsPool.addItemEntry(<scalinghealth:crystalshard>, 10, 1, [Functions.setCount(2, 8)], []);
 heartsPool.addItemEntry(<scalinghealth:heartdust>, 10, 1, [Functions.setCount(2, 8)], []);

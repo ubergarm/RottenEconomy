@@ -1,32 +1,25 @@
 [
     {
         "spawner": true,
-        "hostile": true,
         "isnotcolliding": true,
-        "result": "allow"
+        "result": "default"
     },
     {
-        "hostile": true,
-        "mincount": {
-            "amount": 150,
-            "hostile": true,
-            "perchunk": true
-        },
-        "result": "deny"
-    },
-    {
-        "structure": "minecrat:village",
+        "structure": "minecraft:village",
         "hostile": true,
         "result": "deny"
     },
     {
-        "dimension": 0,
         "passive": true,
         "incity": true,
         "result": "deny"
     },
     {
-        "dimension": 0,
+        "hostile": true,
+        "block": ["ore:treeLeaves", "minecraft:brown_mushroom_block", "minecraft:red_mushroom_block"],
+        "result": "deny"
+    },
+    {
         "mob": "minecraft:sheep",
         "mincount": {
             "mob": "minecraft:sheep",
@@ -36,7 +29,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:pig",
         "mincount": {
             "mob": "minecraft:pig",
@@ -46,7 +38,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:chicken",
         "mincount": {
             "mob": "minecraft:chicken",
@@ -56,7 +47,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:cow",
         "mincount": {
             "mob": "minecraft:cow",
@@ -66,7 +56,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:horse",
         "mincount": {
             "mob": "minecraft:horse",
@@ -76,7 +65,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:squid",
         "mincount": {
             "mob": "minecraft:squid",
@@ -86,7 +74,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:llama",
         "mincount": {
             "mob": "minecraft:llama",
@@ -96,7 +83,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:rabbit",
         "mincount": {
             "mob": "minecraft:rabbit",
@@ -106,7 +92,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "minecraft:ocelot",
         "mincount": {
             "mob": "minecraft:ocelot",
@@ -116,7 +101,24 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
+        "mob": "minecraft:silverfish",
+        "mincount": {
+            "mob": "minecraft:silverfish",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:cave_spider",
+        "mincount": {
+            "mob": "minecraft:cave_spider",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
         "mob": "minecraft:bat",
         "mincount": {
             "mob": "minecraft:bat",
@@ -126,7 +128,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "betteranimalsplus:goat",
         "mincount": {
             "mob": "betteranimalsplus:goat",
@@ -136,7 +137,6 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
         "mob": "betteranimalsplus:tarantula",
         "mincount": {
             "mob": "betteranimalsplus:tarantula",
@@ -146,7 +146,15 @@
         "result": "deny"
     },
     {
-        "dimension": 0,
+        "mob": "betteranimalsplus:coyote",
+        "mincount": {
+            "mob": "betteranimalsplus:coyote",
+            "amount": 8,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
         "mob": "betteranimalsplus:zotzpyre",
         "mincount": {
             "mob": "betteranimalsplus:zotzpyre",
@@ -178,9 +186,56 @@
         "result": "deny"
     },
     {
+        "mob": "raiders:raider",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "raiders:raider",
+        "random": 0.05,
+        "helditem": [
+            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:warhammer_stone",
+            "10=spartanweaponry:halberd_bronze",
+            "10=spartanweaponry:pike_copper",
+            "10=spartanweaponry:katana_copper",
+            "10=spartanweaponry:dagger_bronze",
+            "10=spartanweaponry:greatsword_bronze"
+        ],
+        "armorhelmet": ["10=mekanismtools.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
+        "armorchest": ["10=mekanismtools:bronzechestplate", "5=mekanismtools:steelchestplate"],
+        "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
+        "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.1,
+        "speedmultiply": 0.9,
+        "result": "default"
+    },
+    {
         "mob": "raiders:brute",
         "incity": false,
         "result": "deny"
+    },
+    {
+        "mob": "raiders:brute",
+        "random": 0.05,
+        "helditem": [
+            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:warhammer_stone",
+            "10=spartanweaponry:halberd_bronze",
+            "10=spartanweaponry:pike_copper",
+            "10=spartanweaponry:katana_copper",
+            "10=spartanweaponry:dagger_bronze",
+            "10=spartanweaponry:greatsword_bronze"
+        ],
+        "armorhelmet": ["10=mekanismtools.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
+        "armorchest": ["10=mekanismtools:bronzechestplate", "5=mekanismtools:steelchestplate"],
+        "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
+        "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.1,
+        "speedmultiply": 0.9,
+        "result": "default"
     },
     {
         "mob": "raiders:witch",
@@ -208,6 +263,101 @@
         "result": "deny"
     },
     {
+        "mob": "mw:bandit1",
+        "customname": "Lone Gunman",
+        "result": "default"
+    },
+    {
+        "mob": "mw:zombie",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombie",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombie",
+        "customname": "Zed",
+        "result": "default"
+    },
+    {
+        "mob": "mw:zombieblistered",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieblistered",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieblistered",
+        "customname": "Blistered Zed",
+        "result": "default"
+    },
+    {
+        "mob": "mw:zombieripper",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieripper",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:zombieripper",
+        "customname": "Ripper Zed",
+        "result": "default"
+    },
+    {
+        "mob": "mw:tornzombie",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:tornzombie",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:tornzombie",
+        "customname": "Torn Zed",
+        "result": "default"
+    },
+    {
+        "mob": "mw:necromorph",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:necromorph",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:necromorph",
+        "customname": "Necromorph",
+        "result": "default"
+    },
+    {
+        "mob": "mw:licker",
+        "instreet": false,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:licker",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "mw:licker",
+        "customname": "Licker Zed",
+        "result": "default"
+    },
+    {
         "mob": "mw:hazmat_zombie",
         "inbuilding": false,
         "result": "deny"
@@ -218,59 +368,38 @@
         "result": "deny"
     },
     {
-        "mob": "mw:zombieblistered",
-        "incity": false,
-        "result": "deny"
+        "mob": "mw:hazmat_zombie",
+        "customname": "Hazmat Zed",
+        "result": "default"
     },
     {
-        "mob": "mw:zombieblistered",
-        "minlight": 8,
-        "result": "deny"
+        "mob": "mw:defiled zombie",
+        "customname": "Defiled Zed",
+        "result": "default"
     },
     {
-        "mob": "mw:zombieripper",
-        "incity": false,
-        "result": "deny"
+        "mob": "mw:deathclaw",
+        "customname": "Deathclaw",
+        "result": "default"
     },
     {
-        "mob": "mw:zombieripper",
-        "minlight": 8,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:tornzombie",
-        "incity": false,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:tornzombie",
-        "minlight": 8,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:licker",
-        "instreet": false,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:licker",
-        "minlight": 8,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:necromorph",
-        "incity": false,
-        "result": "deny"
-    },
-    {
-        "mob": "mw:necromorph",
-        "minlight": 8,
-        "result": "deny"
+        "mob": "mw:molded",
+        "customname": "Molded Zed",
+        "result": "default"
     },
     {
         "mob": "nuclearcraft:feral_ghoul",
         "instreet": false,
         "result": "deny"
+    },
+    {
+        "mob": "nuclearcraft:feral_ghoul",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "nuclearcraft:feral_ghoul",
+        "result": "allow"
     },
     {
         "mob": "matteroverdrive:rogue_android",
@@ -284,14 +413,48 @@
     },
     {
         "mob": "minecraft:husk",
-        "isnotcolliding": true,
-        "maxlight": 8,
-        "maxcount": {
-            "mob": "minecraft:husk",
-            "amount": 16,
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "random": 0.05,
+        "helditem": [
+            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:warhammer_stone",
+            "10=spartanweaponry:halberd_bronze",
+            "10=spartanweaponry:pike_copper",
+            "10=spartanweaponry:katana_copper",
+            "10=spartanweaponry:dagger_bronze",
+            "10=spartanweaponry:greatsword_bronze"
+        ],
+        "armorhelmet": ["10=techreborn.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
+        "armorchest": ["10=ic2:bronze_chestplate", "5=mekanismtools:steelchestplate"],
+        "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
+        "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.1,
+        "speedmultiply": 0.9,
+        "customname": "Warrior Husk",
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:husk",
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "mincount": {
+            "mob": "minecraft:skeleton",
+            "amount": 2,
             "perchunk": true
         },
-        "result": "allow"
+        "result": "deny"
     },
     {
         "mob": "minecraft:enderman",
@@ -299,13 +462,12 @@
         "result": "deny"
     },
     {
-        "mob": "minecraft:vex",
-        "incity": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:stray",
-        "incity": true,
+        "mob": "minecraft:enderman",
+        "mincount": {
+            "mob": "minecraft:enderman",
+            "amount": 8,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -314,8 +476,45 @@
         "result": "deny"
     },
     {
+        "mob": "minecraft:witch",
+        "mincount": {
+            "mob": "minecraft:witch",
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "minlight": 8,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:vex",
+        "incity": true,
+        "result": "deny"
+    },
+    {
         "mob": "minecraft:spider",
         "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "mincount": {
+            "mob": "minecraft:spider",
+            "amount": 4,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -332,75 +531,6 @@
         "mob": "thermalfoundation:basalz",
         "incity": true,
         "result": "deny"
-    },
-
-
-
-    {
-        "dimension": 0,
-        "mob": "mw:bandit1",
-        "customname": "Lone Gunman",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:zombie",
-        "customname": "Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:zombieblistered",
-        "customname": "Blistered Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:zombieripper",
-        "customname": "Ripper Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:tornzombie",
-        "customname": "Torn Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:necromorph",
-        "customname": "Necromorph",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:licker",
-        "customname": "Licker Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:molded",
-        "customname": "Molded Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:hazmat_zombie",
-        "customname": "Hazmat Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:defiled zombie",
-        "customname": "Defiled Zed",
-        "result": "default"
-    },
-    {
-        "dimension": 0,
-        "mob": "mw:deathclaw",
-        "customname": "Deathclaw",
-        "result": "default"
     },
     {
         "result": "default"

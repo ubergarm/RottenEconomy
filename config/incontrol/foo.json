@@ -1,0 +1,454 @@
+diff --git a/config/incontrol/potentialspawn.json b/config/incontrol/potentialspawn.json
+index 4a35984..d97edf0 100644
+--- a/config/incontrol/potentialspawn.json
++++ b/config/incontrol/potentialspawn.json
+@@ -1,279 +1,32 @@
+ [
+     {
+         "remove": [
+-            "minecraft:cave_spider",
+-            "minecraft:silverfish",
+-            "minecraft:creeper",
+-            "minecraft:enderman",
+-            "minecraft:husk",
+-            "minecraft:zombie_pigman",
+-            "minecraft:skeleton",
+-            "minecraft:skeleton_horse",
+-            "minecraft:spider",
+-            "minecraft:stray",
+-            "minecraft:vex",
+-            "minecraft:witch",
+-            "minecraft:wither_skeleton",
+-            "minecraft:zombie",
+-            "minecraft:zombie_horse",
+-            "minecraft:zombie_villager",
+-            "coroutil:bat_smart",
+-            "raiders:raider",
+-            "raiders:brute",
+-            "raiders:witch",
+-            "raiders:tweaker",
+-            "raiders:pyromaniac",
+-            "raiders:ranger",
+-            "cyberware:cyberzombie",
+-            "rewired:cyberskeleton",
+             "lcrdrfs:laser_creeper",
+             "lcrdrfs:robo_dino",
+-            "lcrdrfs:jet_pack_spider",
+-            "matteroverdrive:rogue_android",
+-            "matteroverdrive:ranged_rogue_android",
+-            "thermalfoundation:blizz",
+-            "thermalfoundation:blitz",
+-            "thermalfoundation:basalz",
+-            "nuclearcraft:feral_ghoul"
++            "lcrdrfs:jet_pack_spider"
+         ]
+     },
+     {
+-        "dimenstion": 0,
+-        "mobs": [
+-            {
+-                "mob": "minecraft:zombie",
+-                "weight": 30,
+-                "groupcountmin": 3,
+-                "groupcountmax": 5
+-            }
+-        ]
+-    },
+-    {
+-        "dimenstion": 0,
+         "mobs": [
+             {
+                 "mob": "minecraft:husk",
+                 "weight": 20,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "dimenstion": 0,
+-        "mobs": [
+-            {
+-                "mob": "cyberware:cyberzombie",
+-                "weight": 30,
+-                "groupcountmin": 3,
+-                "groupcountmax": 4
+-            }
+-        ]
+-    },
+-    {
+-        "dimenstion": 0,
+-        "mobs": [
+-            {
+-                "mob": "cyberware:cyberskeleton",
+-                "weight": 20,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "mobs": [
+-            {
+-                "mob": "raiders:raider",
+-                "weight": 20,
+                 "groupcountmin": 2,
+                 "groupcountmax": 4
+             }
+         ]
+     },
+     {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "raiders:brute",
+-            "amount": 8,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "raiders:brute",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "raiders:witch",
+-            "amount": 1,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "raiders:witch",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "raiders:tweaker",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "raiders:tweaker",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "raiders:ranger",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "raiders:ranger",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:bandit1",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:bandit1",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:hazmat_zombie",
+-            "amount": 10,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:hazmat_zombie",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:zombieblistered",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:zombieblistered",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:zombieripper",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:zombieripper",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:tornzombie",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:tornzombie",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 3
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:necromorph",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "mw:necromorph",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "mw:licker",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+         "mobs": [
+             {
+-                "mob": "mw:licker",
++                "mob": "minecraft:stray",
+                 "weight": 5,
+                 "groupcountmin": 1,
+-                "groupcountmax": 1
++                "groupcountmax": 2
+             }
+         ]
+     },
+     {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "nuclearcraft:feral_ghoul",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+         "mobs": [
+             {
+                 "mob": "nuclearcraft:feral_ghoul",
+@@ -282,165 +35,6 @@
+                 "groupcountmax": 2
+             }
+         ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "matteroverdrive:rogue_android",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "matteroverdrive:rogue_android",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "matteroverdrive:ranged_rogue_android",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "matteroverdrive:ranged_rogue_android",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "minecraft:enderman",
+-            "amount": 4,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "minecraft:enderman",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "minecraft:spider",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "minecraft:spider",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "minecraft:stray",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "minecraft:stray",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "minecraft:vex",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "minecraft:vex",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "minecraft:witch",
+-            "amount": 2,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "minecraft:witch",
+-                "weight": 5,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "thermalfoundation:blizz",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "thermalfoundation:blizz",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "thermalfoundation:blitz",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "thermalfoundation:blitz",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+-    },
+-    {
+-        "dimension": 0,
+-        "maxcount": {
+-            "mob": "thermalfoundation:basalz",
+-            "amount": 5,
+-            "perchunk": true
+-        },
+-        "mobs": [
+-            {
+-                "mob": "thermalfoundation:basalz",
+-                "weight": 10,
+-                "groupcountmin": 1,
+-                "groupcountmax": 1
+-            }
+-        ]
+     }
+ ]
++

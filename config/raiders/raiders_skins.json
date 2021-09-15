@@ -45,6 +45,11 @@
     "enabled": true,
     "_comment": " "
   },
+  "GWSheridan": {
+    "weight": 10,
+    "enabled": true,
+    "_comment": " "
+  },
   "AsianHalfSquat": {
     "weight": 10,
     "enabled": true,
@@ -160,12 +165,12 @@
     "enabled": true,
     "_comment": " "
   },
-  "Nanyue": {
+  "Milarepa": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
   },
-  "MazuDaoyi": {
+  "Mazu": {
     "weight": 10,
     "enabled": true,
     "_comment": " "
@@ -180,7 +185,7 @@
     "enabled": true,
     "_comment": " "
   },
-  "Huineng": {
+  "CrookedCucumber": {
     "weight": 10,
     "enabled": true,
     "_comment": " "

@@ -1,33 +1,33 @@
 {
   "Raider": {
-    "isEnabled": false,
-    "spawnWeight": 80
+    "isEnabled": true,
+    "spawnWeight": 40
   },
   "Brute": {
-    "isEnabled": false,
-    "spawnWeight": 40,
+    "isEnabled": true,
+    "spawnWeight": 20,
     "startDiff": 0
   },
   "Pyromaniac": {
-    "isEnabled": false,
+    "isEnabled": true,
     "spawnWeight": 8,
     "startDiff": 0
   },
   "Tweaker": {
-    "isEnabled": false,
-    "spawnWeight": 10,
+    "isEnabled": true,
+    "spawnWeight": 2,
     "startDiff": 0,
     "spawnOnlyAtNight": false
   },
   "Witch": {
-    "isEnabled": false,
-    "spawnWeight": 4,
+    "isEnabled": true,
+    "spawnWeight": 2,
     "startDiff": 0,
     "hasFogEffect": true
   },
   "Archer": {
-    "isEnabled": false,
-    "spawnWeight": 30,
+    "isEnabled": true,
+    "spawnWeight": 10,
     "startDiff": 1,
     "attackSpeedInTicks": 20
   }
