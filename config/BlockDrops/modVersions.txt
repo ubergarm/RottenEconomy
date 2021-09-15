@@ -197,7 +197,7 @@
   "controllable": "0.11.2",
   "badwithernocookiereloaded": "1.12.2-3.4.18",
   "malisisadvert": "1.12.2-6.1.0",
-  "epicsiegemod": "13.167",
+  "epicsiegemod": "13.169",
   "betteradvancements": "0.1.0.77",
   "compactdrawers": "1.12.2-1.0.5.125",
   "extendedrenderer": "v1.0",

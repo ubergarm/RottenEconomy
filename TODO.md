@@ -13,9 +13,11 @@ TODO
 - [ ] Create server pack and upload to curseforge
 
 ## Future
+- [x] Update Epic Siege Mod to latest alpha (figure out config)
+- [x] Create a 5 minute tutorial introduction video on youtube
 - [ ] Add screenshots into curseforge project images section
-- [ ] Create a 5 minute tutorial introduction video on youtube
 - [ ] Balance all the things and clean up spawns better
+- [ ] Redo default controls for easier battle stance / 3rd person control
 - [ ] Better Unify the mess of ores/gears/ingots/recipes
 - [ ] Possibly add custom music pack with chip tunes
 - [ ] Add more Vic's Modern Warfare recipes and loot

@@ -24,7 +24,8 @@ val zombieDiggingResistant = [
         <malisisdoors:factory_door:*>,
         <malisisdoors:sliding_trapdoor:*>,
         <malisisdoors:garage_door:*>,
-        <malisisdoors:hitechdoor:*>
+        <malisisdoors:hitechdoor:*>,
+        <malisisdoors:forcefielditem>
 ] as IItemStack[];
 
 for item in zombieDiggingResistant {

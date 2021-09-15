@@ -2,19 +2,22 @@
 ===
 Dual-wielding. Zombies. Cyborgs. Androids. Guns. Head-shots. Rockets. Nukes.
 
+Open video link below in new tab to watch the quick look!
+[![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
+
 Build a zombie proof base outside of town, search dangerous urban areas
 for loot, equip yourself with powerful weapons and armor, skill up,
 improve your defenses, become a cyborg, android or clone; finally
-craft high tech machines and a rocket ship to escape the planet!
+craft high tech machines and rocket ships to escape the planet!
 
 *WARNING*: server-wide difficulty increases and expect challenges after every 7th day!
 
 ## Client Installation
 
-* This pack *REQUIRES* [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer in `mods/` folder to work (due to Vic's Modern Warfare).
+* This pack **REQUIRES you MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder to work (due to Vic's Modern Warfare). Alternatively you might be able to set `B:allowEmissiveItems=false` in forge.cfg if you really do not want OptiFine. It **WILL CRASH** if you don't do one of these.
 * 6GB RAM minimum for client and server
-* Suggested to turn off fog, clouds and auto-jump.
-* Set Dynamic Lighting to FANCY or at least FAST.
+* Defaults turn off fog, clouds and auto-jump.
+* Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
 
 ## Default Client Controls
@@ -44,7 +47,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `Left Shift` hold to cling to wall and release to wall jump
 
 #### Ping
-* `V` open ping menu to notify friends of points of interest
+* `v` open ping menu to notify friends of points of interest
 
 #### Grave Keeper
 * `Right Click` retrieve your grave (don't try to break it)
@@ -56,10 +59,11 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `L` open progress log
 
 #### OptiFine
-* `C` zoom in
+* `c` zoom in
 
 #### Voxel Map
 * `=` cycle zoom level
+* `m` open big map
 
 #### Misc
 * `F2` screenshot
@@ -120,10 +124,10 @@ using the `Donate` button above in the `About Project` box.
 Complete list of mods with authors and links available in Files under Related Projects.
 
 ## Resource Packs
-I highly recommend these three unobtrusive resource packs installed in this order:
+I highly recommend these three unobtrusive resource packs which come pre-installed in this order:
 
-* [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-16/files/2986604)
 * [Nuka Cola Potions](https://www.curseforge.com/minecraft/texture-packs/nuka-cola/files/2560603)
+* [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-16/files/2986604)
 * [Faithful 32x Modded Edition](http://f32.me/) - or something similar with some mod coverage
 
 ## Known Bugs
