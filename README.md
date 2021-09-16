@@ -50,7 +50,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `v` toggle 1st person and enhanced 3rd person view with adaptive crosshairs
 
 #### Ping
-* `Middle Mouse Click` open ping menu to notify friends of points of interest
+* `Middle Click` open ping menu to notify friends of points of interest
 
 #### Grave Keeper
 * `Right Click` retrieve your grave (don't try to break it)
