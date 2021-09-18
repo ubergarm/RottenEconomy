@@ -51,7 +51,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*throwing\w*" | sort | uniq | while read -
 done
 
 ## axes
-cat recipes.log  | grep -oP "<\K\w*:axe\w*" | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*axe\w*" | grep -v -e battle -e throwing -e pick -e paxel | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -65,7 +65,7 @@ cat recipes.log  | grep -oP "<\K\w*:axe\w*" | sort | uniq | while read -r item ;
 done
 
 ## pick axes (omit spaxel)
-cat recipes.log  | grep -oP "<\K\w*:\w*pick\w*" | grep -v spaxel | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*pick\w*" | grep -v spaxel | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -79,7 +79,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*pick\w*" | grep -v spaxel | sort | uniq |
 done
 
 ## hoes
-cat recipes.log  | grep -oP "<\K\w*:\w*hoe\w*" | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*hoe\w*" | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -93,7 +93,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*hoe\w*" | sort | uniq | while read -r ite
 done
 
 ## shovels
-cat recipes.log  | grep -oP "<\K\w*:\w*shovel\w*" | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*shovel\w*" | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -105,6 +105,22 @@ cat recipes.log  | grep -oP "<\K\w*:\w*shovel\w*" | sort | uniq | while read -r 
     echo "        }"
     echo ""
 done
+
+## excavators
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*excavator\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=SHOVEL"
+    echo "            D:armor_negation=0.0"
+    echo "            D:impact=0.0"
+    echo "            I:max_strikes=0"
+    echo "        }"
+    echo ""
+done
+
+
 
 ## paxels and spaxels
 cat recipes.log  | grep -oP "<\K\w*:\w*paxel\w*" | sort | uniq | while read -r item ; do
@@ -120,8 +136,8 @@ cat recipes.log  | grep -oP "<\K\w*:\w*paxel\w*" | sort | uniq | while read -r i
     echo ""
 done
 
-## daggers and javelins and boomerangs
-cat recipes.log  | grep -o -e "\w*:\w*dagger\w*" -e "\w*:\w*javelin\w*" -e "\w*:\w*boomerang\w*" | sort | uniq | while read -r item ; do
+## daggers and javelins and boomerangs and sickles
+cat recipes.log  | grep -o -e "\w*:\w*dagger\w*" -e "\w*:\w*javelin\w*" -e "\w*:\w*boomerang\w*" -e "\w*:\w*\.*sickle\w*" | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -158,7 +174,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*greatsword\w*" | grep -v epicfight | sort
 done
 
 ## swords
-cat recipes.log  | grep -oP "<\K\w*:\w*sword\w*" | grep -v -e great -e epicfight | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*sword\w*" | grep -v -e great -e epicfight | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -209,7 +225,7 @@ cat recipes.log  | grep -o -e "\w*:\w*spear\w*" -e "\w*:lance\w*" -e "\w*:pike\w
 done
 
 ## maces and spartan weaponry hammers and clubs
-cat recipes.log  | grep -o -e "\w*:\w*mace\w*" -e "spartanweaponry:hammer\w*" -e "spartanweaponry:\w*club\w*" | grep -v epicfight | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -o -e "\w*:\w*mace\w*" -e "thermalfoundation:tool\.hammer\w*" -e "spartanweaponry:hammer\w*" -e "spartanweaponry:\w*club\w*" | grep -v epicfight | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -223,7 +239,7 @@ cat recipes.log  | grep -o -e "\w*:\w*mace\w*" -e "spartanweaponry:hammer\w*" -e
     echo "            }"
     echo ""
     echo "            twohand {"
-    echo "                D:armor_negation=20.0"
+    echo "                D:armor_negation=25.0"
     echo "                D:impact=4.0"
     echo "                I:max_strikes=1"
     echo "            }"
@@ -238,7 +254,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*warhammer\w*" | sort | uniq | while read 
     echo " {"
     echo "            S:registry_name=$item"
     echo "            S:weapon_type=GREATSWORD"
-    echo "            D:armor_negation=25.0"
+    echo "            D:armor_negation=50.0"
     echo "            D:impact=10.0"
     echo "            I:max_strikes=1"
     echo "        }"
@@ -301,8 +317,8 @@ echo ""
 echo "    custom_armor {"
 echo ""
 
-## shields
-cat recipes.log  | grep -oP "<\K\w*:\w*shield\w*" | grep -v -e decoration -e pet -e fission -e rad -e battery | sort | uniq | while read -r item ; do
+## shields might not actually count as armor with Epic Fight?
+cat recipes.log  | grep -oP "<\K\w*:[\w\.]*shield\w*" | grep -v -e decoration -e pet -e fission -e rad -e battery | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
