@@ -78,9 +78,6 @@ orePool.addItemEntry(<minecraft:diamond_ore>, 4, 1, [Functions.setCount(4, 8)], 
 orePool.addItemEntry(<minecraft:redstone_ore>, 8, 1, [Functions.setCount(4, 8)], []);
 orePool.addItemEntry(<minecraft:emerald_ore>, 2, 1, [Functions.setCount(4, 8)], []);
 orePool.addItemEntry(<minecraft:quartz_ore>, 8, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<mw:copperore>, 16, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<mw:sulfurore>, 16, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<mw:graphiteore>, 16, 1, [Functions.setCount(4,8)], []);
 orePool.addItemEntry(<matteroverdrive:dilithium_ore>, 8, 1, [Functions.setCount(4,8)], []);
 orePool.addItemEntry(<matteroverdrive:tritanium_ore>, 8, 1, [Functions.setCount(4,8)], []);
 orePool.addItemEntry(<thermalfoundation:ore>, 16, 1, [Functions.setCount(4,8)], []);
@@ -88,7 +85,6 @@ orePool.addItemEntry(<thermalfoundation:ore:1>, 16, 1, [Functions.setCount(4,8)]
 orePool.addItemEntry(<thermalfoundation:ore:3>, 16, 1, [Functions.setCount(4,8)], []);
 
 // add more stuff into ammo chest
-ammoPool.addItemEntry(<mw:bullet556x45>, 15, 1, [Functions.setCount(16, 64)], []);
 ammoPool.addItemEntry(<icbmclassic:grenade>, 5, 1, [Functions.setCount(1, 2)], []);
 ammoPool.addItemEntry(<minecraft:tnt>, 10, 1, [Functions.setCount(4, 8)], []);
 ammoPool.addItemEntry(<minecraft:gunpowder>, 15, 1, [Functions.setCount(8, 32)], []);
