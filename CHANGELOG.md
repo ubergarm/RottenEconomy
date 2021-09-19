@@ -13,6 +13,9 @@
 * Buff raiders more up to 10 Raids (Their special buffs cap out after 80 days)
 * Difficulty scales +1 per connected player at sunset each day plus full moon bonus
 * Fixed difficulty reduction on spawners, death, and now for killing any hostile mob
+* Deduplicate ore spawn focusing on Thermal Foundations (tech guns only for drills)
+* Thanks to ATM3 for the placeholder Advanced Rocketry planetDefs.xml
+* OreDict netherbrick recipe in vanilla furnace
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)
