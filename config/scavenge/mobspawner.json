@@ -40,7 +40,14 @@
         {
           "type": "add_difficulty",
           "amount": -1.0
+        },
+        {
+          "type": "use_command",
+          "name": "scalinghealth",
+          "arguments": "world_difficulty sub 1 @p",
+          "disableJEI": true
         }
+
       ],
       "drops": [
         {
@@ -50,7 +57,7 @@
       "messages": [
         {
           "id": "consume_block",
-          "message": "You've made the world a little bit safer, for now... §b(Difficulty -1.0)§r"
+          "message": "Such comforts don't last long... §b(Difficulty -1.0)§r"
         }
       ]
     }

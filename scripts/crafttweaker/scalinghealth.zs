@@ -4,6 +4,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerRightClickItemEvent;
+import crafttweaker.event.PlayerDeathDropsEvent;
 import crafttweaker.command.ICommandManager;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.command.ICommand;
@@ -31,4 +32,10 @@ events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightCl
   }
 
   return;
+});
+
+// When a player dies reduce global difficulty
+events.onPlayerDeathDrops(function(event as crafttweaker.event.PlayerDeathDropsEvent) {
+  server.commandManager.executeCommand(server, "say Too hard for you, " + event.player.name +"? §b(Difficulty -1.0)§r");
+  server.commandManager.executeCommand(server, "scalinghealth world_difficulty sub 1 " + event.player.name);
 });

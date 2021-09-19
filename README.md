@@ -107,7 +107,7 @@ Make a team and join you and your friends:
 Misc commands:
 
 * `/omshareowner add username` add friends so they don't shred themselves on your OMPD fences
-* `/gamerule keepSkills true` only have to read epic fight's skill book once
+* `/gamerule keepSkills true` only have to read epic fight's skill book once (auto runs this command on world creation)
 
 It is highly recommended to pregenerate chunks for both stability
 and performance!  Example commands to start/stop generating 64 chunk

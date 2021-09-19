@@ -9,6 +9,10 @@
   Thanks to SkeletonAdventurer aka UserWasNotFound for config script!
 * No Mobs Spawning on `ore:logWood`
 * ore dict techguns rubber bar to `ore:materialRubber` as well
+* Properly show moon phases in overworld (Shattered Earth) dimension
+* Buff raiders more up to 10 Raids (Their special buffs cap out after 80 days)
+* Difficulty scales +1 per connected player at sunset each day plus full moon bonus
+* Fixed difficulty reduction on spawners, death, and now for killing any hostile mob
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)
