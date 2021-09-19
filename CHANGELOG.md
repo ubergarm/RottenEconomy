@@ -4,6 +4,11 @@
 * Remove Vic's Modern Warfare
 * Remove SplashAnimations (didn't need it)
 * Remove Feeder Helmet (Tech Guns adds one in its tab)
+* Add Extended Days for ~20 minutes daylight and ~10 minutes darkness
+  (does not effect tick rate at all so normal furnace usage etc)
+  Thanks to SkeletonAdventurer aka UserWasNotFound for config script!
+* No Mobs Spawning on `ore:logWood`
+* ore dict techguns rubber bar to `ore:materialRubber` as well
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)

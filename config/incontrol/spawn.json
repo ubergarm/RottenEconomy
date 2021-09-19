@@ -16,7 +16,7 @@
     },
     {
         "hostile": true,
-        "block": ["ore:treeLeaves", "minecraft:brown_mushroom_block", "minecraft:red_mushroom_block"],
+        "block": ["ore:treeLeaves", "ore:logWood", "minecraft:brown_mushroom_block", "minecraft:red_mushroom_block"],
         "result": "deny"
     },
     {
