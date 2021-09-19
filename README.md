@@ -14,8 +14,8 @@ craft high tech machines and rocket ships to escape the planet!
 
 ## Client Installation
 
-* This pack **REQUIRES you MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder to work (due to Vic's Modern Warfare). Alternatively you might be able to set `B:allowEmissiveItems=false` in forge.cfg if you really do not want OptiFine. It **WILL CRASH** if you don't do one of these.
 * 6GB RAM minimum for client and server
+* Optionally **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
@@ -26,14 +26,11 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 #### First Aid
 * `h` - check body part health (first time shows fake tutorial data)
 
-#### Vic's Modern Warfare
+#### Tech Guns
+(be sure to check out the new tab with bullets icon in inventory)
 * `r` reload gun or clip in hand
 * `b` switch between semi/burst/auto fire
 * `n` toggle night vision goggles
-* `z` toggle prone / standing
-
-#### Close Quarters Combat (CQC)
-* `Mouse Button 4` thumb button to kick breach open doors for when holding guns
 
 #### Epic Fight
 * `(backtick/grave)` toggle mining mode / battle stance
@@ -57,6 +54,13 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 
 #### Player Revive
 * `Right Click` hold 5 seconds to revive downed friend
+
+#### Improved Backpacks
+* `b` Open Backpack
+
+#### Tool Belt
+* `k` Open Belt Slot Inventory
+* `Mouse Button 4` Swap Tool
 
 #### Advancements
 * `L` open progress log
@@ -139,7 +143,6 @@ Report bugs on the github issue tracker not in the comments when possible please
 * spartan shield bash does not work with Epic Fight battle stance
 * RF power does not drain from weapons with Epic Fight battle stance
 * some armor models and other minor visual glitches with Epic Fight battle stance
-* visual glitches when proning with Vic's Modern Warfare
 
 ## References
 * [7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack

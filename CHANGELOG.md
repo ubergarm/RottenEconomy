@@ -1,3 +1,10 @@
+## v0.73
+* Add Tech Guns
+* Add Trash Cans
+* Remove Vic's Modern Warfare
+* Remove SplashAnimations (didn't need it)
+* Remove Feeder Helmet (Tech Guns adds one in its tab)
+
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)
 * Noted Malisis Force Field is zombie digging proof (even when "off")

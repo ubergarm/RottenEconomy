@@ -44,23 +44,6 @@ key.hoverboard.boost:0:NONE
 key.hoverboard.inventory:23:NONE
 keybind.baublesinventory:0:NONE
 cos.key.opencosarmorinventory:0:NONE
-key.reload:19:NONE
-key.unload:22:NONE
-key.inspect:25:NONE
-key.attachment:0:NONE
-key.scope:200:NONE
-key.recoil_fitter:208:NONE
-key.silencer:203:NONE
-key.texture_change:0:NONE
-key.laser:0:NONE
-key.nightVision:49:NONE
-key.add:23:NONE
-key.subtract:24:NONE
-key.fire_mode:48:NONE
-key.proning:44:NONE
-key.attach_laser:54:NONE
-key.sight:52:NONE
-key.custom_inventory:45:NONE
 key.exchangers.open_gui:51:NONE
 key.exchangers.range_switch:0:NONE
 key.exchangers.mode_switch:0:NONE
@@ -98,7 +81,7 @@ rpsideas.kb.switchslot11:0:NONE
 rpsideas.kb.switchslot12:0:NONE
 Difficulty Meter - Show:0:NONE
 Difficulty Meter - Show Always:49:SHIFT
-key.toastcontrol.clear:36:NONE
+key.toastcontrol.clear:0:NONE
 treechop.key.toggle_chopping:0:NONE
 treechop.key.toggle_felling:0:NONE
 treechop.key.cycle_sneak_behavior:0:NONE
@@ -142,7 +125,6 @@ key.refinedstorage.openWirelessGrid:0:NONE
 key.refinedstorage.openWirelessFluidGrid:0:NONE
 key.refinedstorage.openPortableGrid:0:NONE
 key.refinedstorage.openWirelessCraftingMonitor:0:NONE
-cqc.keybinds.breachdoor:-97:NONE
 cyberware.keybinds.menu:26:NONE
 key.clipboardPaste:210:NONE
 key.elenaidodge2.dodge:56:NONE
@@ -153,15 +135,20 @@ mekanism.key.mode:0:NONE
 mekanism.key.armorMode:34:NONE
 mekanism.key.feetMode:0:NONE
 mekanism.key.voice:22:NONE
-Open Backpack:37:NONE
+Open Backpack:48:NONE
 key.categories.naming:0:NONE
 invtweaks.key.sort:0:NONE
 jecalculation.key.gui_craft:0:NONE
 jecalculation.key.gui_math:0:NONE
 key.drawMahoujin:-96:NONE
 key.changeMysticCode:21:NONE
+techguns.key.toggleNightvision:49:NONE
+techguns.key.toggleSafemode:0:NONE
+techguns.key.toggleStepassist:0:NONE
+techguns.key.forceReload:19:NONE
+techguns.key.toggleJetpack:36:NONE
 Mo' Bends Menu:0:NONE
-Refresh Animations:68:NONE
+Refresh Animations:0:NONE
 pi.key.open_pi:23:NONE
 pi.key.et_gui:23:NONE
 pi.key.et_world:23:CONTROL
@@ -183,10 +170,10 @@ keybind.simplyjetpacks.emergency_hover:0:NONE
 key.toggleLiquids:0:NONE
 key.toggleVisible:0:NONE
 keys.techreborn.config:25:NONE
-key.toolbelt.open:0:NONE
+key.toolbelt.open:-97:NONE
 key.toolbelt.cycle.left:0:NONE
 key.toolbelt.cycle.right:0:NONE
-key.toolbelt.slot:0:NONE
+key.toolbelt.slot:37:NONE
 Open Matter Scanner GUI:0:NONE
 Android Ability key:45:NONE
 Android Switch Ability key:27:NONE
@@ -202,6 +189,6 @@ Open Rocket GUI:0:NONE
 Toggle RCS:0:NONE
 Rotate Vehicle Right:32:NONE
 Rotate Vehicle Left:30:NONE
-Move Vehicle Up:0:NONE
+Move Vehicle Up:44:NONE
 Move Vehicle Down:45:NONE
 Profile GUI:210:NONE

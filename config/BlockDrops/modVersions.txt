@@ -101,7 +101,6 @@
   "crafttweaker": "4.1.20",
   "rpsideas": "2.4.4",
   "forge": "14.23.5.2855",
-  "feederhelmet": "1.4.3",
   "testdummy": "1.12",
   "dsurround": "3.6.2.1",
   "ironchest": "1.12.2-7.0.67.844",

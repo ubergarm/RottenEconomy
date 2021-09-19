@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["32xFaithfulModded-1.12.2.zip","Tissou\u0027s Zombie Pack 1.12.2.zip","NukaColaPotions-1.12.2.zip"]
+resourcePacks:["ModdedFaithful 1.12.2-rv1.zip","Tissou\u0027s Zombie Pack 1.12.2 v2.0.zip","Nuka Cola.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,17 +53,17 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:0.20
-soundCategory_record:0.80
-soundCategory_weather:0.80
-soundCategory_block:0.80
-soundCategory_hostile:0.80
-soundCategory_neutral:0.80
+soundCategory_music:0.2
+soundCategory_record:0.8
+soundCategory_weather:0.8
+soundCategory_block:0.8
+soundCategory_hostile:0.8
+soundCategory_neutral:0.8
 soundCategory_player:1.0
-soundCategory_ambient:0.80
+soundCategory_ambient:0.8
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.80
-soundCategory_ds_biome:0.80
+soundCategory_ds_footsteps:0.8
+soundCategory_ds_biome:0.8
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
