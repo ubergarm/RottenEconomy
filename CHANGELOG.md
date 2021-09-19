@@ -16,6 +16,9 @@
 * Deduplicate ore spawn focusing on Thermal Foundations (tech guns only for drills)
 * Thanks to ATM3 for the placeholder Advanced Rocketry planetDefs.xml
 * OreDict netherbrick recipe in vanilla furnace
+* Set TechGuns mobs to sane looking spawn weights
+* Throw leather or wheat seeds into a pool of Rockhounding Toxic Waste for mutation fun!
+* Remove OptiFine hard requirement, still nice if you use Pixel Reality - Atmosphere Resource Pack
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)

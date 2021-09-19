@@ -15,7 +15,7 @@ craft high tech machines and rocket ships to escape the planet!
 ## Client Installation
 
 * 6GB RAM minimum for client and server
-* Optionally **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder.
+* **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
@@ -135,14 +135,16 @@ I highly recommend these three unobtrusive resource packs which come pre-install
 
 * [Nuka Cola Potions](https://www.curseforge.com/minecraft/texture-packs/nuka-cola/files/2560603)
 * [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-16/files/2986604)
+* [Pixel Reality - Atmosphere](https://www.curseforge.com/minecraft/texture-packs/pixel-reality-atmosphere/files/2456861) - nice moon; best with OptiFine
 * [Faithful 32x Modded Edition](http://f32.me/) - or something similar with some mod coverage
 
 ## Known Bugs
 Report bugs on the github issue tracker not in the comments when possible please.
 
-* spartan shield bash does not work with Epic Fight battle stance
+* If you get a crash first time, check RAM is >= 6144MB, you have OptiFine, and try again usually fixes it!
+* Spartan Shield bash does not work with Epic Fight battle stance
 * RF power does not drain from weapons with Epic Fight battle stance
-* some armor models and other minor visual glitches with Epic Fight battle stance
+* Some armor models and other minor visual glitches with Epic Fight battle stance
 
 ## References
 * [7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack
