@@ -39,6 +39,7 @@
   "eleccore": "1.9.453",
   "improvableskills": "12.4.67",
   "ic2": "2.8.221-ex112",
+  "extendeddays": "0.2.9",
   "mekores": "2.0.13",
   "topaddons": "1.12.2-1.13.0",
   "advgenerators": "0.9.20.12",
