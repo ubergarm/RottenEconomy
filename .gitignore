@@ -8,12 +8,13 @@ voxelmap/
 voxelMap/
 fonts/
 crash-reports/
+screenshots/
 ds_private_storage.json
 usercache.json
 usernamecache.json
 .ReAuth.cfg
 *.log
-*.png
+/*.png
 *.jar
 config.json
 1.12.2.json

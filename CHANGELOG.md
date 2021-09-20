@@ -1,4 +1,5 @@
 ## v0.73
+* Introducing "Rotten Economy" with integrated tiered resource generation zombie carnage!
 * Add Tech Guns
 * Add Trash Cans
 * Remove Vic's Modern Warfare
@@ -19,6 +20,7 @@
 * Set TechGuns mobs to sane looking spawn weights
 * Throw leather or wheat seeds into a pool of Rockhounding Toxic Waste for mutation fun!
 * Remove OptiFine hard requirement, still nice if you use Pixel Reality - Atmosphere Resource Pack
+* Add JEI Integrations mod for burntime tooltips, debug info w/ F3+h, etc.
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)

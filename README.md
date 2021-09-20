@@ -1,16 +1,23 @@
-7 Days To Fly
+Rotten Economy: 7 Days To Fly
 ===
-Dual-wielding. Zombies. Cyborgs. Androids. Guns. Head-shots. Rockets. Nukes.
+The wealthy elite escaped to Mars leaving you behind on a Zombie plagued
+Earth! Can you find your way through this rotten economy to get ahead
+and show those egomaniacs that we're all in this together!?!
 
 Open video link below in new tab to watch the quick look!
 [![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
 
-Build a zombie proof base outside of town, search dangerous urban areas
-for loot, equip yourself with powerful weapons and armor, skill up,
-improve your defenses, become a cyborg, android or clone; finally
-craft high tech machines and rocket ships to escape the planet!
+Build a zombie proof base outside of town, search destroyed urban areas
+for loot, equip yourself, skill up, improve your defenses, become a
+cyborg, android or clone; finally craft high tech machines and rocket
+ships to fly to Mars and lay siege to their Martian compound and teach
+those John Galts that we're all in this `Rotten Economy` together!
 
-*WARNING*: server-wide difficulty increases and expect challenges after every 7th day!
+But *be warned*, server-wide difficulty increases nightly and expect
+challenges every 7th day (each full moon)!
+
+## Features
+Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Guns. Head-shots. Rockets. Nukes.
 
 ## Client Installation
 
