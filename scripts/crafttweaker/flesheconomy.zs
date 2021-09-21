@@ -20,6 +20,42 @@ mods.alchemistry.Dissolver.addRecipe(<minecraft:rotten_flesh:0>, true, 2,
     ]
 );
 
+// Irradiated Rotten Flesh
+<qmd:flesh>.displayName = "Irradiated Rotten Flesh";
+mods.alchemistry.Dissolver.addRecipe(<qmd:flesh:0>, true, 3,
+    [
+        [ 50.0, <minecraft:gravel>],        // gravel
+        [ 10.0, <pickletweaks:coal_piece>], // coal
+        [ 20.0, <techreborn:smalldust:61>], // redstone
+        [ 20.0, <techreborn:smalldust:27>], // iron
+        [ 15.0, <techreborn:smalldust:14>], // copper
+        [ 15.0, <techreborn:smalldust:29>], // lead
+        [ 15.0, <techreborn:smalldust:53>], // tin
+        [ 10.0, <techreborn:smalldust:34>], // nickel
+        [  5.0, <techreborn:smalldust:24>], // gold
+        [ 10.0, <minecraft:string>]         // string
+    ]
+);
+
+// Crispy Rotten Flesh
+<xlfoodmod:flesh>.displayName = "Crispy Rotten Flesh";
+mods.alchemistry.Dissolver.addRecipe(<xlfoodmod:flesh:0>, true, 1,
+    [
+        [ 50.0, <minecraft:gravel>],        // gravel
+        [ 10.0, <pickletweaks:coal_piece>], // coal
+        [ 20.0, <techreborn:smalldust:61>], // redstone
+        [ 20.0, <techreborn:smalldust:27>], // iron
+        [ 15.0, <techreborn:smalldust:14>], // copper
+        [ 15.0, <techreborn:smalldust:29>], // lead
+        [ 15.0, <techreborn:smalldust:53>], // tin
+        [ 10.0, <techreborn:smalldust:34>], // nickel
+        [  5.0, <techreborn:smalldust:24>], // gold
+        [ 10.0, <minecraft:string>]         // string
+    ]
+);
+
+
+
 // Gritty Flesh
 mods.alchemistry.Dissolver.addRecipe(<contenttweaker:gritty_flesh:0>, true, 1,
     [
@@ -118,12 +154,12 @@ mods.techguns.ChemLab.addRecipe(
 // byproduct: the secondary output and its quantity (optional)
 mods.rockhounding_chemistry.LabOven.add(
     "Ender Sap",
-    <contenttweaker:gritty_flesh>,
+    <thermalfoundation:material:770>, // pulverized obsidian
     <contenttweaker:enderium_catalyst>,
     <liquid:organic_slurry>*50,
     <liquid:toxic_waste>*250,
     <liquid:ender_sap>*250,
-    null
+    <liquid:toxic_sludge>*5
 );
 
 // Rockhounding Precipitation Chamber
@@ -137,10 +173,12 @@ mods.rockhounding_chemistry.LabOven.add(
 // precipitate: the solid output
 mods.rockhounding_chemistry.Precipitator.add(
     "Jumpy Flesh",
-    <thermalfoundation:material:770>, // pulverized obsidian
+    <contenttweaker:gritty_flesh>,
     null,
     <liquid:ender_sap>*250,
     <liquid:toxic_waste>*200,
     <contenttweaker:jumpy_flesh>*1
 );
 
+
+// Recycle Crap Drops back into the Rotten Economy

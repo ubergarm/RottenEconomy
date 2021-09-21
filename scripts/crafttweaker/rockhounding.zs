@@ -4,8 +4,12 @@
 // TOXIC MUTATION
 //input stack: the item to mutate
 //output stack: the mutated item
-mods.rockhounding_chemistry.ToxicMutation.add(<minecraft:leather>, <minecraft:rotten_flesh>);
 mods.rockhounding_chemistry.ToxicMutation.add("seedWheat", <minecraft:wheat>);
+mods.rockhounding_chemistry.ToxicMutation.add("listAllmeatraw", <minecraft:rotten_flesh>);
+mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:0>, <rewired:necrolimb:1>);  // left to right arm
+mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:1>, <rewired:necrolimb:2>);  // right arm to left leg
+mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:2>, <rewired:necrolimb:3>);  // left leg to right leg
+mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:3>, <rewired:necrolimb:4>);  // right leg to left arm
 
 // TRANSPOSER
 //Note: to just allow the Gas Pipeline recognize gases from other mods, input and output below must be set same
@@ -18,6 +22,7 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:compressed_air>*1000, <liquid
 //Note 1: input will be extended to their oredicts. Plans to improve this.
 //input array: the list of ingredients with their quantity
 //output stack: the resulting mixture and its quantity
+// testing recipes with magma cream recipe
 mods.rockhounding_chemistry.LabBlender.add(
     [
         <minecraft:redstone>*9,

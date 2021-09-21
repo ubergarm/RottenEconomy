@@ -21,6 +21,7 @@
 * Throw leather or wheat seeds into a pool of Rockhounding Toxic Waste for mutation fun!
 * Remove OptiFine hard requirement, still nice if you use Pixel Reality - Atmosphere Resource Pack
 * Add JEI Integrations mod for burntime tooltips, debug info w/ F3+h, etc.
+* Add Just Enough Things in Fluids for Deep Mob Learning tossing stuff into fluid
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)

@@ -44,11 +44,12 @@ healingPool.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"
 heartsPool.addItemEntry(<scalinghealth:crystalshard>, 10, 1, [Functions.setCount(2, 8)], []);
 heartsPool.addItemEntry(<scalinghealth:heartdust>, 10, 1, [Functions.setCount(2, 8)], []);
 heartsPool.addItemEntry(<scalinghealth:heartcontainer>, 5, 1, [Functions.setCount(1, 2)], []);
-heartsPool.addItemEntry(<scalinghealth:difficultychanger>, 5, 1, [Functions.setCount(1, 2)], []);
+heartsPool.addItemEntry(<scalinghealth:difficultychanger>, 5, 1, [Functions.setCount(0, 1)], []);
 
 // food loot pool
 foodPool.addItemEntry(<rewired:meat_raw>, 5, 1, [Functions.setCount(2, 6)], []);
 foodPool.addItemEntry(<minecraft:bread>, 5, 1, [Functions.setCount(4, 8)], []);
+foodPool.addItemEntry(<qmd:flesh>, 20, 1, [Functions.setCount(8, 16)], []);
 foodPool.addItemEntry(<xlfoodmod:beef_jerky>, 10, 1, [Functions.setCount(2, 8)], []);
 foodPool.addItemEntry(<xlfoodmod:burrito>, 5, 1, [Functions.setCount(2, 4)], []);
 foodPool.addItemEntry(<pizzacraft:olive_sapling>, 5, 1, [Functions.setCount(1, 2)], []);
@@ -70,22 +71,27 @@ skillsPool.addItemEntry(<improvableskills:parchment_fragment>, 10, 1, [Functions
 skillsPool.addItemEntry(<epicfight:skill_book>.withTag({skill: "roll"}), 10, 1, [Functions.setCount(1,1)], []);
 
 // ore loot pool
-orePool.addItemEntry(<minecraft:gold_ore>, 8, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:iron_ore>, 16, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:coal_ore>, 24, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:lapis_ore>, 8, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:diamond_ore>, 4, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:redstone_ore>, 8, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:emerald_ore>, 2, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<minecraft:quartz_ore>, 8, 1, [Functions.setCount(4, 8)], []);
-orePool.addItemEntry(<matteroverdrive:dilithium_ore>, 8, 1, [Functions.setCount(4,8)], []);
-orePool.addItemEntry(<matteroverdrive:tritanium_ore>, 8, 1, [Functions.setCount(4,8)], []);
-orePool.addItemEntry(<thermalfoundation:ore>, 16, 1, [Functions.setCount(4,8)], []);
-orePool.addItemEntry(<thermalfoundation:ore:1>, 16, 1, [Functions.setCount(4,8)], []);
-orePool.addItemEntry(<thermalfoundation:ore:3>, 16, 1, [Functions.setCount(4,8)], []);
+orePool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(8, 16)], []);
+orePool.addItemEntry(<qmd:flesh>, 10, 1, [Functions.setCount(4, 8)], []);
+orePool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(4, 8)], []);
+orePool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+orePool.addItemEntry(<techreborn:smalldust:61>, 20, 1, [Functions.setCount(16,32)], []); // redstone
+orePool.addItemEntry(<techreborn:smalldust:27>, 20, 1, [Functions.setCount(16,32)], []); // iron
+orePool.addItemEntry(<techreborn:smalldust:14>, 10, 1, [Functions.setCount(16,32)], []); // copper
+orePool.addItemEntry(<techreborn:smalldust:29>, 10, 1, [Functions.setCount(16,32)], []); // lead
+orePool.addItemEntry(<techreborn:smalldust:53>, 10, 1, [Functions.setCount(16,32)], []); // tin
+orePool.addItemEntry(<mekanism:dust:2>, 10,  1, [Functions.setCount(2,4)], []); // osmium big dust
+orePool.addItemEntry(<techreborn:smalldust:34>, 8,  1, [Functions.setCount(8,16)], []); // nickel
+orePool.addItemEntry(<techreborn:smalldust:24>, 5,  1, [Functions.setCount(8,16)], []); // gold
+orePool.addItemEntry(<minecraft:string>, 10, 1, [Functions.setCount(4,8)], []);         // string
 
 // add more stuff into ammo chest
-ammoPool.addItemEntry(<icbmclassic:grenade>, 5, 1, [Functions.setCount(1, 2)], []);
+
+ammoPool.addItemEntry(<techguns:itemshared>, 10, 1, [Functions.setCount(16,32)], []); // stone bullets
+ammoPool.addItemEntry(<techguns:itemshared:1>, 10, 1, [Functions.setCount(16,32)], []); // pistol rounds
+ammoPool.addItemEntry(<techguns:itemshared:2>, 10, 1, [Functions.setCount(16,32)], []); // shotgun shells
+ammoPool.addItemEntry(<techguns:itemshared:3>, 10, 1, [Functions.setCount(16,32)], []); // rifle rounds
+ammoPool.addItemEntry(<techguns:stielgranate>, 5, 1, [Functions.setCount(4, 8)], []);
 ammoPool.addItemEntry(<minecraft:tnt>, 10, 1, [Functions.setCount(4, 8)], []);
-ammoPool.addItemEntry(<minecraft:gunpowder>, 15, 1, [Functions.setCount(8, 32)], []);
+ammoPool.addItemEntry(<minecraft:gunpowder>, 25, 1, [Functions.setCount(16, 32)], []);
 ammoPool.addItemEntry(<hoverboardmod:aerogel>, 5, 1, [Functions.setCount(1, 2)], []);

@@ -1,8 +1,8 @@
 Rotten Economy: 7 Days To Fly
 ===
 The wealthy elite escaped to Mars leaving you behind on a Zombie plagued
-Earth! Can you find your way through this rotten economy to get ahead
-and show those egomaniacs that we're all in this together!?!
+Earth! Can you find your way through this rotten economy to survive and
+show those egomaniacs that we're all in this together!?!
 
 Open video link below in new tab to watch the quick look!
 [![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
@@ -94,8 +94,8 @@ Make sure to download the server zip file matching the same version as the clien
 Read the EULA, configure the startup script for the amount of RAM
 available on your server, and edit the `server.properties`. Linux example:
 
-* `unzip 7DaysToFly-Server-v0.70-Minecraft-v1.12.2.zip`
-* `cd 7DaysToFly`
+* `unzip RottenEconomy-Server-vX.XX-Minecraft-v1.12.2.zip`
+* `cd RottenEconomy`
 * `cp server.properties.example server.properties`
 * `echo "eula=true" > eula.txt`
 * `./start.sh`
@@ -154,7 +154,7 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Some armor models and other minor visual glitches with Epic Fight battle stance
 
 ## References
-* [7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack
+* [Rotten Economy: 7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack
 * [7 Days to Die](https://store.steampowered.com/app/251570/7_Days_to_Die/) - inspirational co-op survival crafting game
 
