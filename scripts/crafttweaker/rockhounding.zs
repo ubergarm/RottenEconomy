@@ -9,7 +9,25 @@ mods.rockhounding_chemistry.ToxicMutation.add("listAllmeatraw", <minecraft:rotte
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:0>, <rewired:necrolimb:1>);  // left to right arm
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:1>, <rewired:necrolimb:2>);  // right arm to left leg
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:2>, <rewired:necrolimb:3>);  // left leg to right leg
-mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:3>, <rewired:necrolimb:4>);  // right leg to left arm
+mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:3>, <rewired:necrolimb:0>);  // right leg to left arm
+
+// color mutations
+mods.rockhounding_chemistry.ToxicMutation.add("dyeWhite", <pickletweaks:dye_powder:1>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeOrange", <pickletweaks:dye_powder:2>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeMagenta", <pickletweaks:dye_powder:3>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeLightBlue", <pickletweaks:dye_powder:4>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeYellow", <pickletweaks:dye_powder:5>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeLime", <pickletweaks:dye_powder:6>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyePink", <pickletweaks:dye_powder:7>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeGray", <pickletweaks:dye_powder:8>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeLightGray", <pickletweaks:dye_powder:9>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeCyan", <pickletweaks:dye_powder:10>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyePurple", <pickletweaks:dye_powder:11>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeBlue", <pickletweaks:dye_powder:12>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeBrown", <pickletweaks:dye_powder:13>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeGreen", <pickletweaks:dye_powder:14>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeRed", <pickletweaks:dye_powder:15>);
+mods.rockhounding_chemistry.ToxicMutation.add("dyeBlack", <pickletweaks:dye_powder:0>);
 
 // TRANSPOSER
 //Note: to just allow the Gas Pipeline recognize gases from other mods, input and output below must be set same

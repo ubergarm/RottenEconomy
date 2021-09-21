@@ -29,3 +29,34 @@ mods.techguns.Grinder.addRecipe(
         0.0625
     ]
 );
+
+
+## grind all that cyberware junk after it has been decomposed at the engineering table
+mods.techguns.Grinder.addRecipe(
+    <cyberware:component:*>,
+    [
+        <techreborn:smalldust:61>*4, // redstone
+        <techreborn:smalldust:27>*8, // iron
+        <techreborn:smalldust:14>*4, // copper
+        <techreborn:smalldust:29>*4, // lead
+        <techreborn:smalldust:53>*4, // tin
+        <techreborn:smalldust:34>*2, // nickel
+        <techreborn:smalldust:24>,   // gold
+        <mekanism:dust:2>,           // big osmium dust
+        <mekores:mekanismore:86>     // titanium shard
+
+    ],
+    [
+        0.75,
+        0.75,
+        0.50,
+        0.50,
+        0.50,
+        0.50,
+        0.25,
+        0.25,
+        0.001
+    ]
+);
+
+

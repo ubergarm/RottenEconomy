@@ -1,1 +1,57 @@
-[]
+[
+    {
+        "mob": "cyberware:cyberzombie",
+        "player": true,
+        "item": ["minecraft:rotten_flesh","techreborn:smalldust:27"],
+        "itemcount": "2-3/2-4/3-5"
+    },
+    {
+
+        "mob": "rewired:cyberskeleton",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:skeletonsoldier",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombiefarmer",
+        "player": true,
+        "item": ["contenttweaker:gritty_flesh", "techreborn:smalldust:27"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombiefarmer",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombieminer",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27", "mekanism:dust:2"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombiepigmansoldier",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombiepoliceman",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techguns:itemshared:1"],
+        "itemcount": "1-2/1-3/2-4"
+    },
+    {
+        "mob": "techguns:zombiesoldier",
+        "player": true,
+        "item": ["minecraft:rotten_flesh", "techguns:itemshared:3"],
+        "itemcount": "1-2/1-3/2-4"
+    }
+]
