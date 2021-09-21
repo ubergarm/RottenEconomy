@@ -50,6 +50,29 @@ cat recipes.log  | grep -oP "<\K\w*:\w*throwing\w*" | sort | uniq | while read -
     echo ""
 done
 
+## Fist-like weapons like boxing gloves and brass knuckles and stuff
+cat recipes.log  | grep -oP "<\K\w*:\w*caestus\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=FIST"
+    echo ""
+    echo "            onehand {"
+    echo "                D:armor_negation=5.0"
+    echo "                D:impact=1.0"
+    echo "                I:max_strikes=0"
+    echo "            }"
+    echo ""
+    echo "            twohand {"
+    echo "                D:armor_negation=10.0"
+    echo "                D:impact=2.0"
+    echo "                I:max_strikes=0"
+    echo "            }"
+    echo "        }"
+    echo ""
+done
+
 ## axes
 cat recipes.log  | grep -oP "<\K\w*:[\w\.]*axe\w*" | grep -v -e battle -e throwing -e pick -e paxel | sort | uniq | while read -r item ; do
     echo -n "        "
@@ -136,8 +159,8 @@ cat recipes.log  | grep -oP "<\K\w*:\w*paxel\w*" | sort | uniq | while read -r i
     echo ""
 done
 
-## daggers and javelins and boomerangs and sickles
-cat recipes.log  | grep -o -e "\w*:\w*dagger\w*" -e "\w*:\w*javelin\w*" -e "\w*:\w*boomerang\w*" -e "\w*:\w*\.*sickle\w*" | sort | uniq | while read -r item ; do
+## non-throwing knives and daggers and javelins and boomerangs and sickles
+cat recipes.log  | grep -o -e "\w*:\w*knife\w*" -e "\w*:\w*dagger\w*" -e "\w*:\w*javelin\w*" -e "\w*:\w*boomerang\w*" -e "\w*:\w*\.*sickle\w*" | grep -v -e pizza -e throwing | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
@@ -364,6 +387,20 @@ cat recipes.log  | grep -oP "<\K\w*:\w*helmet\w*" | grep -v module | sort | uniq
     echo "        }"
     echo ""
 done
+
+## goggles
+cat recipes.log  | grep -oP "<\K\w*:\w*goggle\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=1.5"
+    echo "            D:weight=2.0"
+    echo "        }"
+    echo ""
+done
+
+
 
 ## leggings
 cat recipes.log  | grep -oP "<\K\w*:\w*leggings\w*" | sort | uniq | while read -r item ; do

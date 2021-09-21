@@ -18,7 +18,7 @@ recipes.removeByRecipeName("alchemistry:chemical_combiner");
 recipes.addShaped("alchemistry/chemical_combiner", <alchemistry:chemical_combiner>,
   [
     [ironCasing, <rockhounding_chemistry:misc_items:9>, ironCasing],
-    [ironCasing, <rockhounding_chemistry:va_catalyst>, ironCasing],
+    [ironCasing, <ore:plateVanadium>, ironCasing],
     [ironCasing, machineScaffold, ironCasing]
   ]
 );

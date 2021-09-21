@@ -30,7 +30,7 @@
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>18031</rotationalPeriod>
             <atmosphereDensity>72</atmosphereDensity>
-            <biomeIds>minecraft:mushroom_island,minecraft:deep_ocean</biomeIds>
+            <biomeIds>advancedrocketry:crystalchasms,advancedrocketry:alien_forest,advancedrocketry:volcanicbarren,minecraft:mushroom_island,minecraft:deep_ocean</biomeIds>
             <planet name="Phobos" DIMID="1051">
                 <isKnown>false</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
@@ -227,7 +227,7 @@
             <orbitalPhi>2</orbitalPhi>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>157</atmosphereDensity>
-            <biomeIds>,minecraft:stone_beach,minecraft:ocean,minecraft:mutated_swampland,advancedrocketry:crystalchasms,advancedrocketry:space</biomeIds>
+            <biomeIds>minecraft:stone_beach,minecraft:ocean,minecraft:mutated_swampland,advancedrocketry:crystalchasms,advancedrocketry:space</biomeIds>
         </planet>
         <planet name="Cybertron: 0" DIMID="39">
             <isKnown>false</isKnown>

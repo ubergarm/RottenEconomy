@@ -1,5 +1,5 @@
 ## v0.73
-* Introducing "Rotten Economy" with integrated tiered resource generation zombie carnage!
+* Introducing "Rotten Economy" with integrated multi-tier resource generation!
 * Add Tech Guns
 * Add Trash Cans
 * Remove Vic's Modern Warfare

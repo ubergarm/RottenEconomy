@@ -26,3 +26,13 @@ mods.rockhounding_chemistry.LabBlender.add(
     ],
     <minecraft:magma_cream>*9
 );
+
+// PROFILING BENCH
+// input stack: the specific item to be shaped
+// output stack: the reshaped item
+// pattern: the casting pattern (0:generic, 1:coil, 2:rod, 3:foil, 4:arm, 5:casing, 6:gear, 7:ingot, 8:gauze, 9:coin, 10:plate )
+mods.rockhounding_chemistry.ProfilingBench.add(
+    "ingotEnderium",
+    <contenttweaker:enderium_catalyst>,
+    8
+);
