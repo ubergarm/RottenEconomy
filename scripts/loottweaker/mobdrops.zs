@@ -36,6 +36,11 @@ zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
 
 # minecraft:husk
 val huskTable = LootTweaker.getTable("minecraft:entities/husk");
+val huskMainPool = huskTable.getPool("main");
+huskMainPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
+    [Functions.setCount(1,2), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Conditions.killedByPlayer()]
+);
 val huskPool = huskTable.addPool("RottenEconomy", 2, 4, 1, 2);
 huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
     [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
@@ -61,7 +66,7 @@ endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
     [Conditions.killedByPlayer()]
 );
 endermanPool.addItemEntry(<inventorypets:nugget_ender>, 5, 1,
-    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(3,6), Functions.lootingEnchantBonus(1, 3, 5)],
     [Conditions.killedByPlayer()]);
 endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
     [Functions.setCount(1,2)], [Conditions.killedByNonPlayer()]

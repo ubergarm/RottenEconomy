@@ -42,9 +42,8 @@ mods.techguns.Grinder.addRecipe(
         <techreborn:smalldust:53>*4, // tin
         <techreborn:smalldust:34>*2, // nickel
         <techreborn:smalldust:24>,   // gold
-        <mekanism:dust:2>,           // big osmium dust
-        <mekores:mekanismore:86>     // titanium shard
-
+        <mekanism:dust:2>,           // osmium dust full size
+        <techreborn:smalldust:54>    // titanium dust small
     ],
     [
         0.75,
@@ -55,8 +54,6 @@ mods.techguns.Grinder.addRecipe(
         0.50,
         0.25,
         0.25,
-        0.001
+        0.10
     ]
 );
-
-

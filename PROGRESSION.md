@@ -1,6 +1,22 @@
-7 Days to Fly Modpack Progression
+Rotten Economy: 7 Days to Fly
 ===
-This design document is a work in progress.
+This progression design document is a work in progress.
+
+## Example Resource Progression
+One possible resource progression might look like this, but really how you
+expand, power, organize, supply, and defend your base is up to you! There
+are more than one mod option for most aspects of the game. Have Fun!
+
+0. Use akashic tome to bring out book of skills and bank all XP until you decide how to level up.
+1. Build a small zombie digging proof base to survive through the night.
+2. Hunt zombies and loot buildings until you have enough iron and basic materials. (mine/quarry if you want)
+3. Build Cyberware Engineering Table and Tech Guns Crusher to dismantle and recycle unused drops.
+4. Build Alchemistry Chemical Dissolver to process all your rotten, gritty, and jumpy flesh. (custom recipes)
+5. Expand your base and defenses.
+6. Build Rock Hounding Lab Blender to upgrade rotten flesh using tier 1 recipe.
+7. Build Tech Guns Chem Lab to begin Tier 2 rotten flesh upgrade path.
+8. Build Rock Hounding Lab Oven and Precipitation Chamber to finish the Tier 2 recipe chain.
+9. Use Mekanism machines to scale up resource output.
 
 ## Tier 1 - Starting Off
 #### Goal: Setup a zombie proof base and survive
@@ -52,6 +68,8 @@ This design document is a work in progress.
 #### Mods
 * Matter Overdrive
 * ICBM
+
+
 
 ## PackDev References
 * [Inspirations Cauldron](https://docs.blamejared.com/1.12/en/Mods/Modtweaker/Inspirations/Handlers/Cauldron/)

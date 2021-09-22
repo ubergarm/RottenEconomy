@@ -25,5 +25,5 @@ jumpyFlesh.register();
 
 var enderiumCatalyst = VanillaFactory.createItem("enderium_catalyst");
 enderiumCatalyst.maxStackSize = 1;
-enderiumCatalyst.maxDamage = 1000;
+enderiumCatalyst.maxDamage = 500;
 enderiumCatalyst.register();
