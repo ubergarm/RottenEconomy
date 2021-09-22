@@ -3,6 +3,37 @@
 
 import crafttweaker.item.IItemStack;
 
+## Convert the pillaring nerd pole block to/from rotten flesh
+recipes.addShaped("rotteneconomy.chisel.netherrack.10", <chisel:netherrack:10>,
+  [
+    [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, null],
+    [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, null],
+    [null, null, null]
+  ]
+);
+
+// recipes.addShapeless("rotteneconomy.rotten_flesh", <minecraft:rotten_flesh> * 4,
+//   [ <chisel:netherrack:10> ]
+// );
+// use grinder on that netherrack instead lmao
+mods.techguns.Grinder.addRecipe(
+    <chisel:netherrack:10>,        // input item
+    [
+        <minecraft:rotten_flesh>*4,  // array of output items
+        <minecraft:gunpowder>
+    ],
+    [
+        0.75,                   // chance of output
+        0.10
+    ]
+);
+
+## probably make my own custom block for this w/ different sounds but good nuff for now
+## make it a bit slippery and a little softer than regular netherrack
+<chisel:netherrack:10>.asBlock().definition.defaultSlipperiness = 0.9;
+<chisel:netherrack:10>.asBlock().definition.hardness = 2.0;
+<chisel:netherrack:10>.asBlock().definition.setHarvestLevel("shovel", 0); // shovel, stone level
+
 ## Label items marked in epicsiegemod.cfg digging blacklist
 val zombieDiggingResistant = [
         <minecraft:concrete:*>,

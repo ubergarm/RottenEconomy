@@ -114,7 +114,6 @@
   "mousetweaks": "2.10.1",
   "psi": "r1.1-78",
   "thermaldynamics": "2.5.6",
-  "rocketboots": "0.2.6",
   "entity_culling": "4.1.5",
   "shouldersurfing": "2.2",
   "despawningspawners": "1.1",
