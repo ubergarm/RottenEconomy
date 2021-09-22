@@ -18,6 +18,10 @@
       {
         "factor": 5,
         "value": "rewired:cyberskeleton"
+      },
+      {
+        "factor": 5,
+        "value": "techguns:zombiesoldier"
       }
     ]
   },
@@ -40,6 +44,18 @@
       {
         "factor": 15,
         "value": "rewired:cyberskeleton"
+      },
+      {
+        "factor": 5,
+        "value": "techguns:zombiesoldier"
+      },
+      {
+        "factor": 5,
+        "value": "techguns:zombiepigmansoldier"
+      },
+      {
+        "factor": 5,
+        "value": "techguns:skeletonsoldier"
       }
     ]
   },

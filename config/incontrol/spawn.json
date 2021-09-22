@@ -186,6 +186,36 @@
         "result": "deny"
     },
     {
+        "mob": "techguns:skeletonsoldier",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "techguns:zombiesoldier",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "techguns:zombiepigmansoldier",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "techguns:zombiepoliceman",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "techguns:zombiefarmer",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "techguns:zombieminer",
+        "incity": true,
+        "result": "deny"
+    },
+    {
         "mob": "raiders:raider",
         "incity": false,
         "result": "deny"
@@ -269,6 +299,7 @@
     },
     {
         "mob": "nuclearcraft:feral_ghoul",
+        "customname": "Toxic Ghoul",
         "result": "allow"
     },
     {

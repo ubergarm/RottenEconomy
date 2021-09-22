@@ -22,6 +22,8 @@
 * Remove OptiFine hard requirement, still nice if you use Pixel Reality - Atmosphere Resource Pack
 * Add JEI Integrations mod for burntime tooltips, debug info w/ F3+h, etc.
 * Add Just Enough Things in Fluids for Deep Mob Learning tossing stuff into fluid
+* Disable caves and dungeons so more mobs spawn on surface
+* Disable strongholds and add dimensional end cake. cake or death? why not both?! xD
 
 ## v0.72
 * Update Epic Siege Mod to latest alpha with JSON configs (it spams logs though)
