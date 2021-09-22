@@ -46,12 +46,13 @@
       "ic2:glass",
       "ic2:reinforced_door",
       "mekanism:reinforcedplasticblock",
-      "malisisdoors:verticalhatch",
-      "malisisdoors:laboratory_door",
-      "malisisdoors:factory_door",
+      "malisisdoors:big_door_iron_3x3",
+      "malisisdoors:big_door_rusty_3x3",
+      "malisisdoors:rustyhatch",
       "malisisdoors:sliding_trapdoor",
       "malisisdoors:garage_door",
-      "malisisdoors:hitechdoor"
+      "malisisdoors:hitechdoor",
+      "malisisdoors:forcefielditem"
     ],
     "Invert Blacklist": false,
     "Requires Tools": false,
@@ -83,12 +84,12 @@
       "minecraft:fence",
       "minecraft:planks"
     ],
-    "Demolition": 0.01,
+    "Demolition": 0.02,
     "Spider Webbing": 15.0,
     "Ender-Tele-Target": true,
     "Infectious": false,
     "Wither Skeletons": 0.1,
-    "Jockey": 0.01,
+    "Jockey": 0.02,
     "Powered": 0.1,
     "Walking Fuse": true,
     "Napalm": true,
@@ -135,12 +136,13 @@
         "ic2:glass",
         "ic2:reinforced_door",
         "mekanism:reinforcedplasticblock",
-        "malisisdoors:verticalhatch",
-        "malisisdoors:laboratory_door",
-        "malisisdoors:factory_door",
+        "malisisdoors:big_door_iron_3x3",
+        "malisisdoors:big_door_rusty_3x3",
+        "malisisdoors:rustyhatch",
         "malisisdoors:sliding_trapdoor",
         "malisisdoors:garage_door",
-        "malisisdoors:hitechdoor"
+        "malisisdoors:hitechdoor",
+        "malisisdoors:forcefielditem"
       ]
     },
     "minecraft:husk": {
@@ -166,12 +168,13 @@
         "ic2:glass",
         "ic2:reinforced_door",
         "mekanism:reinforcedplasticblock",
-        "malisisdoors:verticalhatch",
-        "malisisdoors:laboratory_door",
-        "malisisdoors:factory_door",
+        "malisisdoors:big_door_iron_3x3",
+        "malisisdoors:big_door_rusty_3x3",
+        "malisisdoors:rustyhatch",
         "malisisdoors:sliding_trapdoor",
         "malisisdoors:garage_door",
-        "malisisdoors:hitechdoor"
+        "malisisdoors:hitechdoor",
+        "malisisdoors:forcefielditem"
       ]
     }
   }

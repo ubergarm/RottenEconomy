@@ -18,7 +18,6 @@
     "0:9": "firstaid:morphine",
     "0:22": "minecraft:log,4",
     "0:10": "scalinghealth:healingitem,1,1",
-    "0:12": "malisisdoors:verticalhatch",
     "0:19": "firstaid:bandage,2"
   }
 }
