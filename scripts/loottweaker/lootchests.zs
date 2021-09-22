@@ -21,15 +21,6 @@ val foodPool = lifeTable.addPool("zbb:foodPool", 4, 6, 1, 2);
 
 val orePool = oreTable.addPool("zbb:orePool", 4, 6, 2, 4);
 
-# TODO
-# add in pools from other mods loot tables
-#val pnsdPool = LootTweaker.getTable("pneumaticcraft:inject/simple_dungeon_loot").getPool("main");
-#val ieslPool = LootTweaker.getTable("immersiveengineering:chests/stronghold_library").getPool("immersiveengineering_loot_inject");
-#val ievbPool = LootTweaker.getTable("immersiveengineering:chests/village_blacksmith").getPool("immersiveengineering_loot_inject");
-#val ieehPool0 = LootTweaker.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0");
-#val ieehPool1 = LootTweaker.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_1");
-#val ieehPool2 = LootTweaker.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_2");
-
 # pool.addItemEntry(<IItemStack  * qty>, <weight>);
 # pool.addItemEntry(<IItemStack>, weight, dunno, [Functions.setCount(<min>, <max>, [<optional Conditions>]);
 
@@ -101,6 +92,8 @@ ammoPool.addItemEntry(<techguns:stielgranate>, 5, 1, [Functions.setCount(4, 8)],
 ammoPool.addItemEntry(<minecraft:tnt>, 10, 1, [Functions.setCount(4, 8)], []);
 ammoPool.addItemEntry(<minecraft:gunpowder>, 25, 1, [Functions.setCount(16, 32)], []);
 ammoPool.addItemEntry(<hoverboardmod:aerogel>, 5, 1, [Functions.setCount(1, 2)], []);
+ammoPool.addItemEntry(<vehicle:jerry_can>.withTag({fuel: 4000.0 as float}), 5, 1, [Functions.setCount(1,1)], []);
+
 
 ammoPool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(24, 32)], []);
 ammoPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(12, 24)], []);
