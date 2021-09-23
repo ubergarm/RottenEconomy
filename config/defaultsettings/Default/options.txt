@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["ModdedFaithful 1.12.2-rv1.zip","Tissou\u0027s Zombie Pack 1.12.2 v2.0.zip","Nuka Cola.zip"]
+resourcePacks:["ModdedFaithful 1.12.2-rv1.zip","PRJE Atmosphere 1.12.zip","Tissou\u0027s Zombie Pack 1.12.2 v2.0.zip","Nuka Cola.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,7 +53,7 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:0.2
+soundCategory_music:0.0
 soundCategory_record:0.8
 soundCategory_weather:0.8
 soundCategory_block:0.8

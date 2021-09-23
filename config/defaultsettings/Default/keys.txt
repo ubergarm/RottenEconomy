@@ -153,7 +153,6 @@ pi.key.open_pi:23:NONE
 pi.key.et_gui:23:NONE
 pi.key.et_world:23:CONTROL
 key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
-key.mcreator.speed_blast:0:NONE
 Camera left:203:NONE
 Camera right:205:NONE
 Camera closer:200:NONE
