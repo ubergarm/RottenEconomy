@@ -1,8 +1,15 @@
 Rotten Economy: 7 Days To Fly
 ===
-The wealthy elite escaped to Mars leaving you behind on a Zombie plagued
-Earth! Can you find your way through this rotten economy to survive and
-show those egomaniacs that we're all in this together!?!
+The cataclysmic combination of self-inflicted environmental devestation
+and a global zombie pandemic prompted complete economic collapse! In
+a world where stonks went to zero and the earth's slowing orbit led
+to longer days than nights, can you survive and find your way in this
+Rotten Economy?!
+
+The wealthy elite escaped to their Martian utopian bunker leaving the
+rest of us behind on this shattered earth. Work together with your few
+remaining friends to launch into orbit and *remind* those egomaniacs
+that we're all in this together!!!
 
 Open video link below in new tab to watch the quick look!
 [![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
@@ -10,18 +17,17 @@ Open video link below in new tab to watch the quick look!
 Build a zombie proof base outside of town, search destroyed urban areas
 for loot, equip yourself, skill up, improve your defenses, become a
 cyborg, android or clone; finally craft high tech machines and rocket
-ships to fly to Mars and lay siege to their Martian compound and teach
-those John Galts that we're all in this `Rotten Economy` together!
+ships to fly across the solar system and lay siege on Mars!
 
 But *be warned*, server-wide difficulty increases nightly and expect
-challenges every 7th day (each full moon)!
+challenges after every 7th day (each full moon)!
 
 ## Features
 Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Guns. Head-shots. Rockets. Nukes.
 
 ## Client Installation
 
-* 6GB RAM minimum for client and server
+* 6144MB RAM recommended for client and server
 * **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
@@ -150,8 +156,8 @@ Report bugs on the github issue tracker not in the comments when possible please
 
 * If you get a crash first time, check RAM is >= 6144MB, you have OptiFine, and try again usually fixes it!
 * Spartan Shield bash does not work with Epic Fight battle stance
-* RF power does not drain from weapons with Epic Fight battle stance
 * Some armor models and other minor visual glitches with Epic Fight battle stance
+* Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 
 ## References
 * [Rotten Economy: 7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack

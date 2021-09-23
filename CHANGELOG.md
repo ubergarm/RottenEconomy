@@ -1,4 +1,7 @@
-## v0.73
+## v0.81
+* Properly renamed more things to "Rotten Economy"
+
+## v0.80
 * Introducing "Rotten Economy" with integrated multi-tier resource generation!
 * Add Tech Guns
 * Add Trash Cans

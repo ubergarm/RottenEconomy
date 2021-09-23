@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
   "initPopup": false,
-  "exportMode": true,
+  "exportMode": false,
   "generatedBy": "1e25837c-6529-4999-b78a-54b9b75b382e",
   "activeConfigs": [
     "forge.cfg",
