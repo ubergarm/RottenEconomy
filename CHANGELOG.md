@@ -4,6 +4,7 @@
 * Add recipe for name tag with warning about despawning passive mobs
 * Add air supply and raiders circuit boards to loot chests and remove recipes
 * Remove air supply health crates as it is not configurable and had default junk
+* Remove many modded items from capsule but it may likely crash servers anyway
 
 ## v0.80
 * Introducing "Rotten Economy" with integrated multi-tier resource generation!
