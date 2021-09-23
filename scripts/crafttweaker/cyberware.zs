@@ -3,3 +3,5 @@
 
 <cyberware:hand_upgrades:2>.clearTooltip();
 <cyberware:hand_upgrades:2>.addTooltip(format.gray("Hands mine like iron paxel"));
+
+<ore:string>.add(<cyberware:body_part:6>);

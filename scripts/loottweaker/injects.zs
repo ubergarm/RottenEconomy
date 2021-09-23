@@ -18,3 +18,5 @@ val gasPool = LootTweaker.getTable("techguns:chests/gasstation").getPool("resour
 ## inject additional custom pool
 gasPool.addItemEntry(<vehicle:jerry_can>.withTag({fuel: 4000.0 as float}), 20, 1, [Functions.setCount(1,1)], []);
 gasPool.addItemEntry(<vehicle:industrial_jerry_can>.withTag({fuel: 12000.0 as float}), 15, 1, [Functions.setCount(1,1)], []);
+gasPool.addItemEntry(<air_support:circuit_board>, 10, 1, [Functions.setCount(1,1)], []);
+gasPool.addItemEntry(<raiders:sat_transmitter_part>, 1, 1, [Functions.setCount(0,1)], []);

@@ -64,7 +64,7 @@ mods.techguns.Grinder.addRecipe(
         <techreborn:smalldust:53>, // tin
         <techreborn:smalldust:34>, // nickel
         <techreborn:smalldust:24>, // gold
-        <minecraft:string>         // string
+        <cyberware:body_part:6>    // string
     ],
     [
         4.0*coalChance,
@@ -177,7 +177,7 @@ mods.alchemistry.Dissolver.addRecipe(<minecraft:rotten_flesh:0>, false, 1,
         [ 100.0*tinChance,      <mekanism:dirtydust:4> ],    // tin dirty dust full
         [ 100.0*nickelChance,   <mekores:mekanismore:13> ],  // nickel dirty dust full
         [ 100.0*goldChance,     <mekanism:dirtydust:1> ],    // gold dirty dust full
-        [ 100.0*woolChance,   <minecraft:wool> ]           // wool
+        [ 100.0*woolChance,     <cyberware:body_part:6> *4 ] // wool
     ]
 );
 

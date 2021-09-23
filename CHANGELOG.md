@@ -1,5 +1,9 @@
 ## v0.81
 * Properly renamed more things to "Rotten Economy"
+* oreDict Human Muscles to string
+* Add recipe for name tag with warning about despawning passive mobs
+* Add air supply and raiders circuit boards to loot chests and remove recipes
+* Remove air supply health crates as it is not configurable and had default junk
 
 ## v0.80
 * Introducing "Rotten Economy" with integrated multi-tier resource generation!

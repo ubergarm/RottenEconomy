@@ -32,7 +32,6 @@ healingPool.addItemEntry(<scalinghealth:healingitem:1>, 5, 1, [Functions.setCoun
 healingPool.addItemEntry(<firstaid:morphine>, 5, 1, [Functions.setCount(0, 1)], []);
 healingPool.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 5, 1, [Functions.setCount(1, 2)], []);
 
-
 heartsPool.addItemEntry(<scalinghealth:crystalshard>, 10, 1, [Functions.setCount(2, 8)], []);
 heartsPool.addItemEntry(<scalinghealth:heartdust>, 10, 1, [Functions.setCount(2, 8)], []);
 heartsPool.addItemEntry(<scalinghealth:heartcontainer>, 5, 1, [Functions.setCount(1, 2)], []);
@@ -41,16 +40,17 @@ heartsPool.addItemEntry(<scalinghealth:difficultychanger>, 5, 1, [Functions.setC
 // food loot pool (plus more flesh)
 foodPool.addItemEntry(<rewired:meat_raw>, 5, 1, [Functions.setCount(2, 6)], []);
 foodPool.addItemEntry(<minecraft:bread>, 5, 1, [Functions.setCount(4, 8)], []);
-foodPool.addItemEntry(<qmd:flesh>, 20, 1, [Functions.setCount(8, 16)], []);
 foodPool.addItemEntry(<xlfoodmod:beef_jerky>, 10, 1, [Functions.setCount(2, 8)], []);
 foodPool.addItemEntry(<xlfoodmod:burrito>, 5, 1, [Functions.setCount(2, 4)], []);
 foodPool.addItemEntry(<pizzacraft:olive_sapling>, 5, 1, [Functions.setCount(1, 2)], []);
 foodPool.addItemEntry(<pizzacraft:slice_1>, 5, 1, [Functions.setCount(2, 4)], []);
 
-foodPool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(24, 32)], []);
-foodPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(12, 24)], []);
-foodPool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(8, 16)], []);
-foodPool.addItemEntry(<qmd:flesh>, 10, 1, [Functions.setCount(12, 24)], []);
+foodPool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(8, 16)], []);
+foodPool.addItemEntry(<contenttweaker:gritty_flesh>, 5, 1, [Functions.setCount(6, 12)], []);
+foodPool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+foodPool.addItemEntry(<qmd:flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+
+foodPool.addItemEntry(<air_support:circuit_board>, 5, 1, [Functions.setCount(1,1)], []);
 
 
 // skills loot pool
@@ -69,10 +69,11 @@ skillsPool.addItemEntry(<improvableskills:parchment_fragment>, 10, 1, [Functions
 skillsPool.addItemEntry(<epicfight:skill_book>.withTag({skill: "roll"}), 10, 1, [Functions.setCount(1,1)], []);
 
 // ore loot pool
-orePool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(24, 32)], []);
-orePool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(12, 24)], []);
-orePool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(8, 16)], []);
-orePool.addItemEntry(<qmd:flesh>, 10, 1, [Functions.setCount(12, 24)], []);
+orePool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(8, 16)], []);
+orePool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(6, 12)], []);
+orePool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+orePool.addItemEntry(<qmd:flesh>, 10, 1, [Functions.setCount(4, 8)], []);
+
 orePool.addItemEntry(<techreborn:smalldust:61>, 20, 1, [Functions.setCount(8,16)], []); // redstone
 orePool.addItemEntry(<techreborn:smalldust:27>, 20, 1, [Functions.setCount(12,24)], []); // iron
 orePool.addItemEntry(<techreborn:smalldust:14>, 10, 1, [Functions.setCount(8,16)], []); // copper
@@ -84,6 +85,11 @@ orePool.addItemEntry(<techreborn:smalldust:24>, 5,  1, [Functions.setCount(4,8)]
 orePool.addItemEntry(<minecraft:string>, 10, 1, [Functions.setCount(4,8)], []);         // string
 
 // add more stuff into ammo chest (including flesh)
+ammoPool.addItemEntry(<minecraft:rotten_flesh>, 10, 1, [Functions.setCount(8, 16)], []);
+ammoPool.addItemEntry(<contenttweaker:gritty_flesh>, 8, 1, [Functions.setCount(6, 12)], []);
+ammoPool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+ammoPool.addItemEntry(<qmd:flesh>, 5, 1, [Functions.setCount(4, 8)], []);
+
 ammoPool.addItemEntry(<techguns:itemshared>, 10, 1, [Functions.setCount(16,32)], []); // stone bullets
 ammoPool.addItemEntry(<techguns:itemshared:1>, 10, 1, [Functions.setCount(16,32)], []); // pistol rounds
 ammoPool.addItemEntry(<techguns:itemshared:2>, 10, 1, [Functions.setCount(16,32)], []); // shotgun shells
@@ -94,10 +100,5 @@ ammoPool.addItemEntry(<minecraft:gunpowder>, 25, 1, [Functions.setCount(16, 32)]
 ammoPool.addItemEntry(<hoverboardmod:aerogel>, 5, 1, [Functions.setCount(1, 2)], []);
 ammoPool.addItemEntry(<vehicle:jerry_can>.withTag({fuel: 4000.0 as float}), 5, 1, [Functions.setCount(1,1)], []);
 
-
-ammoPool.addItemEntry(<minecraft:rotten_flesh>, 20, 1, [Functions.setCount(24, 32)], []);
-ammoPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1, [Functions.setCount(12, 24)], []);
-ammoPool.addItemEntry(<contenttweaker:jumpy_flesh>, 5, 1, [Functions.setCount(8, 16)], []);
-ammoPool.addItemEntry(<qmd:flesh>, 10, 1, [Functions.setCount(12, 24)], []);
-
-
+ammoPool.addItemEntry(<air_support:circuit_board>, 5, 1, [Functions.setCount(1,1)], []);
+ammoPool.addItemEntry(<raiders:sat_transmitter_part>, 1, 1, [Functions.setCount(0,1)], []);
