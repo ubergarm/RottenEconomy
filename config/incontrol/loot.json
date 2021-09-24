@@ -2,48 +2,48 @@
     {
         "mob": "cyberware:cyberzombie",
         "player": true,
-        "item": ["minecraft:rotten_flesh", "techreborn:smalldust:27"],
-        "itemcount": "2-3/2-4/3-5"
+        "item": ["minecraft:rotten_flesh", "mekanism:nugget@1"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "cyberware:cyberzombie",
         "player": false,
         "item": ["minecraft:rotten_flesh"],
-        "itemcount": "1/1-2/1-3"
+        "itemcount": "0-1/0-2/0-3"
     },
     {
         "mob": "rewired:cyberskeleton",
-        "item": ["techguns:itemshared", "techguns:itemshared:1", "techguns:itemshared:2"],
-        "itemcount": "1-2/2-3/4-6"
+        "item": ["mekanism:nugget@1"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "nuclearcraft:feral_ghoul",
-        "item": ["qmd:flesh", "techreborn:smalldust:68"],
-        "itemcount": "1-2/1-3/2-4"
+        "item": ["qmd:flesh", "techreborn:smalldust@68"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "techguns:skeletonsoldier",
-        "item": ["techguns:itemshared", "techguns:itemshared:1", "techguns:itemshared:2"],
-        "itemcount": "1-2/2-3/4-6"
+        "item": ["techguns:itemshared", "techguns:itemshared@1", "techguns:itemshared@2"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "techguns:zombiefarmer",
-        "item": ["contenttweaker:gritty_flesh", "techreborn:smalldust:27"],
-        "itemcount": "1-2/1-3/2-4"
+        "item": ["contenttweaker:gritty_flesh", "mekanism:nugget@1"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "techguns:zombiepigmansoldier",
-        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared:1", "techguns:itemshared:2"],
-        "itemcount": "1-2/2-3/4-6"
+        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared@1", "techguns:itemshared@2"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "techguns:zombiepoliceman",
-        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared:1", "techguns:itemshared:2"],
-        "itemcount": "1-2/2-3/4-6"
+        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared@1", "techguns:itemshared@2"],
+        "itemcount": "0-2/0-3/0-4"
     },
     {
         "mob": "techguns:zombiesoldier",
-        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared:1", "techguns:itemshared:2"],
-        "itemcount": "1-2/2-3/4-6"
+        "item": ["minecraft:rotten_flesh", "techguns:itemshared", "techguns:itemshared@1", "techguns:itemshared@2"],
+        "itemcount": "0-2/0-3/0-4"
     }
 ]

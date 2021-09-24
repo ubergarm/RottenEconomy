@@ -19,57 +19,54 @@ var smallIronDust = <techreborn:smalldust:27>;
 ## get existing loot table for a mob with existing table
 val zombieTable = LootTweaker.getTable("minecraft:entities/zombie");
 ## inject additional custom pool
-val zombiePool = zombieTable.addPool("RottenEconomy", 2, 4, 1, 2);
-
+val zombiePool = zombieTable.addPool("RottenEconomy", 0, 1, 0, 1);
 ## add drops for when killed by player
 zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
-    [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
 zombiePool.addItemEntry(smallIronDust, 5, 1,
-    [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,2), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]);
 ## add drops for when killed by non player
 zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
-    [Functions.setCount(1,2)], [Conditions.killedByNonPlayer()]
+    [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
 
 # minecraft:husk
 val huskTable = LootTweaker.getTable("minecraft:entities/husk");
 val huskMainPool = huskTable.getPool("main");
-huskMainPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
-    [Functions.setCount(1,2), Functions.lootingEnchantBonus(1, 3, 5)],
+huskMainPool.addItemEntry(<contenttweaker:gritty_flesh>, 5, 1,
+    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
-val huskPool = huskTable.addPool("RottenEconomy", 2, 4, 1, 2);
+val huskPool = huskTable.addPool("RottenEconomy", 0, 1, 0, 1);
 huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
-    [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
 huskPool.addItemEntry(smallIronDust, 5, 1,
-    [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,2), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]);
 huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
-    [Functions.setCount(1,2)], [Conditions.killedByNonPlayer()]
+    [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
 
 # minecraft:enderman
 val endermanTable = LootTweaker.getTable("minecraft:entities/enderman");
 val endermanMainPool = endermanTable.getPool("main");
 endermanMainPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
-    [Functions.setCount(1,2), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
-val endermanPool = endermanTable.addPool("RottenEconomy", 2, 4, 1, 2);
+val endermanPool = endermanTable.addPool("RottenEconomy", 0, 1, 0, 1);
 endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
-    [Functions.setCount(2,4), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
 endermanPool.addItemEntry(<inventorypets:nugget_ender>, 5, 1,
-    [Functions.setCount(3,6), Functions.lootingEnchantBonus(1, 3, 5)],
+    [Functions.setCount(0,4), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]);
 endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
-    [Functions.setCount(1,2)], [Conditions.killedByNonPlayer()]
+    [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
-
-
