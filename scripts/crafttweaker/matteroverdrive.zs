@@ -7,6 +7,7 @@ import mods.jei.JEI.hide;
 // these items were missing textures in JEI
 hide(<matteroverdrive:matter>);
 hide(<matteroverdrive:matter:1>);
+hide(<matteroverdrive:matter:2>);
 hide(<matteroverdrive:weapon_module_holo_sights>);
 hide(<matteroverdrive:quantum_fold_manipulator>);
 hide(<matteroverdrive:android_spawner>);

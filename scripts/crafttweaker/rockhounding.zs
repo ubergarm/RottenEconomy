@@ -6,6 +6,10 @@
 //output stack: the mutated item
 mods.rockhounding_chemistry.ToxicMutation.add("seedWheat", <minecraft:wheat>);
 mods.rockhounding_chemistry.ToxicMutation.add("listAllmeatraw", <minecraft:rotten_flesh>);
+mods.rockhounding_chemistry.ToxicMutation.removeByInput(<minecraft:potato>);
+mods.rockhounding_chemistry.ToxicMutation.add(<minecraft:poisonous_potato>, <minecraft:chorus_flower>);
+
+// limb swapping
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:0>, <rewired:necrolimb:1>);  // left to right arm
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:1>, <rewired:necrolimb:2>);  // right arm to left leg
 mods.rockhounding_chemistry.ToxicMutation.add(<rewired:necrolimb:2>, <rewired:necrolimb:3>);  // left leg to right leg
