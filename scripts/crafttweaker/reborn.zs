@@ -16,3 +16,9 @@ recipes.addShaped("techreborn.machine_frame_1", <techreborn:machine_frame:1>,
         [null, <techreborn:plates:2>, null]
     ]
 );
+
+## random note to help users
+<techreborn:irondrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
+<techreborn:diamonddrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
+<techreborn:advanceddrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
+
