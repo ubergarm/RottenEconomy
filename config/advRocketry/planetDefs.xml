@@ -18,7 +18,7 @@
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>128000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
-                <biomeIds>advancedrocketry:moondark,advancedrocketry:moon</biomeIds>
+                <biomeIds>advancedrocketry:moondark,advancedrocketry:moon,advancedrocketry:volcanicbarren</biomeIds>
             </planet>
         </planet>
         <planet name="Mars" DIMID="16">
@@ -40,7 +40,7 @@
                 <orbitalPhi>-2</orbitalPhi>
                 <rotationalPeriod>11997</rotationalPeriod>
                 <atmosphereDensity>155</atmosphereDensity>
-                <biomeIds>advancedrocketry:alien forest</biomeIds>
+                <biomeIds>advancedrocketry:alient_forest</biomeIds>
             </planet>
             <planet name="Deimos" DIMID="1052">
                 <isKnown>false</isKnown>
@@ -51,7 +51,7 @@
                 <orbitalPhi>-2</orbitalPhi>
                 <rotationalPeriod>11997</rotationalPeriod>
                 <atmosphereDensity>155</atmosphereDensity>
-                <biomeIds>advancedrocketry:alien forest</biomeIds>
+                <biomeIds>advancedrocketry:alient_forest</biomeIds>
             </planet>
         </planet>
         <planet name="Saturn" DIMID="19">
@@ -63,7 +63,7 @@
             <orbitalPhi>-2</orbitalPhi>
             <rotationalPeriod>11997</rotationalPeriod>
             <atmosphereDensity>155</atmosphereDensity>
-            <biomeIds>advancedrocketry:alien forest</biomeIds>
+            <biomeIds>advancedrocketry:alient_forest</biomeIds>
         </planet>
         <planet name="Mercery" DIMID="4">
             <isKnown>false</isKnown>
@@ -89,7 +89,7 @@
             <orbitalPhi>-4</orbitalPhi>
             <rotationalPeriod>25499</rotationalPeriod>
             <atmosphereDensity>110</atmosphereDensity>
-            <biomeIds>advancedrocketry:alien forest</biomeIds>
+            <biomeIds>advancedrocketry:alient_forest</biomeIds>
         </planet>
         <planet name="Jupiter" DIMID="21">
             <isKnown>false</isKnown>
@@ -159,7 +159,7 @@
             <orbitalPhi>2</orbitalPhi>
             <rotationalPeriod>25499</rotationalPeriod>
             <atmosphereDensity>195</atmosphereDensity>
-            <biomeIds>advancedrocketry:alien forest</biomeIds>
+            <biomeIds>advancedrocketry:alient_forest</biomeIds>
         </planet>
         <planet name="Gallifrey" DIMID="47">
             <isKnown>true</isKnown>
@@ -342,7 +342,7 @@
             <orbitalPhi>2</orbitalPhi>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>141</atmosphereDensity>
-            <biomeIds>advancedrocketry:alien forest</biomeIds>
+            <biomeIds>advancedrocketry:alient_forest</biomeIds>
         </planet>
         <planet name="Jotunheim" DIMID="41">
             <isKnown>false</isKnown>
@@ -353,7 +353,7 @@
             <orbitalPhi>-2</orbitalPhi>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>125</atmosphereDensity>
-            <biomeIds>advancedrocketry:alien forest</biomeIds>
+            <biomeIds>advancedrocketry:alient_forest</biomeIds>
         </planet>
         <planet name="Vanaheim" DIMID="59">
             <isKnown>false</isKnown>

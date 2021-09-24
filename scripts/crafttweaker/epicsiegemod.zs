@@ -23,7 +23,7 @@ mods.techguns.Grinder.addRecipe(
         <minecraft:gunpowder>
     ],
     [
-        0.75,                   // chance of output
+        0.50,                   // chance of output
         0.10
     ]
 );

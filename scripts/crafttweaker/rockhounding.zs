@@ -63,3 +63,22 @@ mods.rockhounding_chemistry.ProfilingBench.add(
     <contenttweaker:enderium_catalyst>,
     8
 );
+
+// LAB OVEN REACTOR
+// display name: alternative name for the recipe selector. Can be null if not necessary
+// solute stack: the main ingredient (required)
+// catalyst: the damageable ingredient (optional)
+// solvent fluid: the main solvent and its quantity
+// reagent fluid: the secondary solvent and its quantity (optional)
+// solution fluid: the output fluid and its quantity
+// byproduct: the secondary output and its quantity (optional)
+mods.rockhounding_chemistry.LabOven.add(
+    "Enriched Lava",
+    "dustNetherrack",
+    null,
+    <liquid:organic_slurry>*100,
+    <liquid:lava>*500,
+    <liquid:enrichedlava>*500,
+    <liquid:toxic_waste>*50
+);
+

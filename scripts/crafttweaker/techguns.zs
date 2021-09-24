@@ -40,8 +40,8 @@ mods.techguns.ChemLab.addRecipe(
     1,                          // quantity of first input
     <minecraft:blaze_powder>,   // second input slot (required even if 0) - filtered sand
     1,                          // quantity of second input (or 0 for null input)
-    <liquid:lava>*1000,         // input liquid and qty
-    true,                       // allow swap
+    <liquid:enrichedlava>*1000, // input liquid and qty
+    false,                      // allow swap
     <techguns:itemshared:64>*1, // output slot and qty
     <liquid:toxic_waste>*100,   // output liquid and qty
     32                          // required RF/tick cost

@@ -5,6 +5,8 @@
 * Add air supply and raiders circuit boards to loot chests and remove recipes
 * Remove air supply health crates as it is not configurable and had default junk
 * Remove many modded items from capsule but it may likely crash servers anyway
+* Update recipes for mid and later tier weapons/armor through hardened steel and carbon fiber
+* Now enrich your own lava at home! Also it may appear on the moon for free!
 
 ## v0.80
 * Introducing "Rotten Economy" with integrated multi-tier resource generation!
