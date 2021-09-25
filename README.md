@@ -1,4 +1,4 @@
-Rotten Economy: 7 Days To Fly
+Rotten Economy
 ===
 The cataclysmic combination of self-inflicted environmental devestation
 and a global zombie pandemic prompted complete economic collapse! In
@@ -20,7 +20,7 @@ cyborg, android or clone; finally craft high tech machines and rocket
 ships to fly across the solar system and lay siege on Mars!
 
 But *be warned*, server-wide difficulty increases nightly and expect
-challenges after every 7th day (each full moon)!
+challenges during each full moon!
 
 ## Features
 Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Guns. Head-shots. Rockets. Nukes.
@@ -28,7 +28,7 @@ Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Gu
 ## Client Installation
 
 * 6144MB RAM recommended for client and server
-* **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/7 Days To Fly/mods/` folder.
+* **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/Rotten Economy/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
@@ -160,7 +160,7 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 
 ## References
-* [Rotten Economy: 7 Days to Fly](https://www.curseforge.com/minecraft/modpacks/seven-days-to-fly) - this zombie tech modpack
+* [Rotten Economy](https://www.curseforge.com/minecraft/modpacks/rotten-economy) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack
 * [7 Days to Die](https://store.steampowered.com/app/251570/7_Days_to_Die/) - inspirational co-op survival crafting game
 

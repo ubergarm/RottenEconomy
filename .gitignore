@@ -24,5 +24,6 @@ banned-players.json
 whitelist.json
 ops.json
 server.properties
+servers.dat
 world/
 RottenEconomy-*.zip
