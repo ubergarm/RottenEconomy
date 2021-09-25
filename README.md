@@ -15,9 +15,10 @@ Open video link below in new tab to watch the quick look!
 [![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
 
 Build a zombie proof base outside of town, search destroyed urban areas
-for loot, equip yourself, skill up, improve your defenses, become a
-cyborg, android or clone; finally craft high tech machines and rocket
-ships to fly across the solar system and lay siege on Mars!
+for loot, equip yourself, skill up, improve your defenses, **grind
+multiple tiers of rotten flesh for resources**, become a cyborg, android
+or clone; finally craft high tech machines and rocket ships to fly across
+the solar system and lay siege on Mars!
 
 But *be warned*, server-wide difficulty increases nightly and expect
 challenges during each full moon!
