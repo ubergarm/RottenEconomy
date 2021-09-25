@@ -17,6 +17,9 @@ recipes.addShaped("techreborn.machine_frame_1", <techreborn:machine_frame:1>,
     ]
 );
 
+## add galena to lead ore dict for more compatibility
+<ore:oreLead>.add(<techreborn:ore:0>);
+
 ## random note to help users
 <techreborn:irondrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
 <techreborn:diamonddrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");

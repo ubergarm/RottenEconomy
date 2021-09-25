@@ -12,10 +12,7 @@ recipes.addShaped("rotteneconomy.chisel.netherrack.10", <chisel:netherrack:10>,
   ]
 );
 
-// recipes.addShapeless("rotteneconomy.rotten_flesh", <minecraft:rotten_flesh> * 4,
-//   [ <chisel:netherrack:10> ]
-// );
-// use grinder on that netherrack instead lmao
+## use grinder on that "raw meat" netherrack
 mods.techguns.Grinder.addRecipe(
     <chisel:netherrack:10>,        // input item
     [
@@ -23,8 +20,8 @@ mods.techguns.Grinder.addRecipe(
         <minecraft:gunpowder>
     ],
     [
-        0.50,                   // chance of output
-        0.10
+        0.75,                   // chance of output
+        0.25
     ]
 );
 

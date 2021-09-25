@@ -1,3 +1,12 @@
+## v0.82
+* Rework Rotten Economy drops and rates for easier inventory management and increased fun
+* Add Tech Reborn Galena ore to <ore:oreLead> for additional mod compatibility
+* Hide Deep Resonance End/Nether ores which are not present in world gen
+* Add Deep Resonance crystals / ores into Rotten Economy drop tables
+* Add mobs into deep mob data model learning and also add more drop generation types
+* Add Mahou Tsukai book to Akashic Tome and rebalance spell mana costs and fix HUD location
+* Add Mahou Tsukai Caliburn into Epic Fight (not 100% it works as dropped items float...)
+
 ## v0.81
 * Properly renamed more things to "Rotten Economy"
 * oreDict Human Muscles to string

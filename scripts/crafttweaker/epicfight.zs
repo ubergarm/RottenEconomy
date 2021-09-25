@@ -11,9 +11,9 @@ hide(<epicfight:katana_sheath>);
 recipes.removeByRecipeName("epicfight:greatsword");
 recipes.addShaped("epicfight.greatsword", <epicfight:greatsword>,
     [
-        [null, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>],
-        [<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>],
-        [<spartanweaponry:material>, <ore:ingotObsidianSteel>, null]
+        [null, <ore:ingotSteel>, <ore:ingotSteel>],
+        [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+        [<spartanweaponry:material>, <ore:ingotSteel>, null]
     ]
 );
-<epicfight:greatsword>.displayName = "Hardened Obsidian Steel Greatsword";
+<epicfight:greatsword>.displayName = "Heavy Steel Greatsword";
