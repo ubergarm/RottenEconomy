@@ -8,6 +8,7 @@
 * Add Mahou Tsukai Caliburn into Epic Fight (not 100% it works as dropped items float...)
 * Increase blights chance and give scaling difficulty mobs higher damage buff and cap
 * Spawn some raiders with epic fight stun resist so maybe zombies won't p0wn them so much
+* Reduce blood moon spawn cap scaling from 4x to 2x as ESM also increases cap. Poor tick update!
 
 ## v0.81
 * Properly renamed more things to "Rotten Economy"
