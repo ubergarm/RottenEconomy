@@ -232,13 +232,20 @@
             "10=spartanweaponry:dagger_bronze",
             "10=spartanweaponry:greatsword_bronze"
         ],
-        "armorhelmet": ["10=mekanismtools.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
-        "armorchest": ["10=mekanismtools:bronzechestplate", "5=mekanismtools:steelchestplate"],
-        "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
-        "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
+        "armorhelmet": ["10=thermalfoundation:armor.helmet_tin", "5=mekanismtools:steelhelmet"],
+        "armorchest": ["10=thermalfoundation:armor.plate_tin", "5=mekanismtools:steelchestplate"],
+        "armorlegs": ["10=thermalfoundation:armor.legs_tin", "5=mekanismtools:steelleggings"],
+        "armorboots": ["10=thermalfoundation:armor.boots_tin", "5=mekanismtools:steelboots"],
         "healthmultiply": 1.5,
         "damagemultiply": 1.1,
         "speedmultiply": 0.9,
+        "potion": "epicfight:stun_immunity,6000,1",
+        "result": "default"
+    },
+    {
+        "mob": "raiders:raider",
+        "random": 0.75,
+        "potion": "epicfight:stun_immunity,6000,1",
         "result": "default"
     },
     {
@@ -258,13 +265,20 @@
             "10=spartanweaponry:dagger_bronze",
             "10=spartanweaponry:greatsword_bronze"
         ],
-        "armorhelmet": ["10=mekanismtools.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
-        "armorchest": ["10=mekanismtools:bronzechestplate", "5=mekanismtools:steelchestplate"],
-        "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
-        "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
-        "healthmultiply": 1.5,
-        "damagemultiply": 1.1,
+        "armorhelmet": ["10=thermalfoundation:armor.helmet_tin", "5=mekanismtools:steelhelmet"],
+        "armorchest": ["10=thermalfoundation:armor.plate_tin", "5=mekanismtools:steelchestplate"],
+        "armorlegs": ["10=thermalfoundation:armor.legs_tin", "5=mekanismtools:steelleggings"],
+        "armorboots": ["10=thermalfoundation:armor.boots_tin", "5=mekanismtools:steelboots"],
+        "healthmultiply": 1.0,
+        "damagemultiply": 1.0,
         "speedmultiply": 0.9,
+        "potion": ["epicfight:stun_immunity,6000,1","raiders:bruteserum,1200"],
+        "result": "default"
+    },
+    {
+        "mob": "raiders:brute",
+        "random": 0.75,
+        "potion": "epicfight:stun_immunity,6000,1",
         "result": "default"
     },
     {
@@ -281,6 +295,12 @@
         "mob": "raiders:pyromaniac",
         "incity": false,
         "result": "deny"
+    },
+    {
+        "mob": "raiders:pyromaniac",
+        "random": 0.75,
+        "potion": "epicfight:stun_immunity,6000,1",
+        "result": "default"
     },
     {
         "mob": "raiders:ranger",
