@@ -9,7 +9,7 @@
       "blockNiceName": "Galena",
       "meta": 0,
       "veinSize": 8,
-      "veinsPerChunk": 16,
+      "veinsPerChunk": 8,
       "minYHeight": 10,
       "maxYHeight": 60,
       "shouldSpawn": true

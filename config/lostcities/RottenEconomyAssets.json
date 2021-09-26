@@ -65,17 +65,17 @@
     "values": [
       {
         "factor": 15,
-        "value": "zbb:chests/ammochest",
+        "value": "rotteneconomy:chests/ammochest",
         "range": "-10,10"
       },
       {
-        "factor": 10,
-        "value": "zbb:chests/lifechest",
+        "factor": 12,
+        "value": "rotteneconomy:chests/lifechest",
         "range": "-10,10"
       },
       {
-        "factor": 10,
-        "value": "zbb:chests/orechest",
+        "factor": 12,
+        "value": "rotteneconomy:chests/orechest",
         "range": "-10,10"
       },
       {
@@ -93,23 +93,24 @@
         "value": "minecraft:chests/nether_bridge"
       },
       {
-        "factor": 2,
+        "factor": 5,
         "value": "minecraft:chests/stronghold_corridor"
       },
       {
-        "factor": 2,
-        "value": "minecraft:chests/abandoned_mineshaft"
+        "factor": 5,
+        "value": "minecraft:chests/abandoned_mineshaft",
+        "inpart": "rail_dungeon1"
       },
       {
-        "factor": 2,
+        "factor": 1,
         "value": "minecraft:chests/village_blacksmith"
       },
       {
-        "factor": 2,
+        "factor": 1,
         "value": "minecraft:chests/desert_pyramid"
       },
       {
-        "factor": 2,
+        "factor": 1,
         "value": "minecraft:chests/jungle_temple"
       },
       {
@@ -118,7 +119,8 @@
       },
       {
         "factor": 2,
-        "value": "minecraft:chests/simple_dungeon"
+        "value": "minecraft:chests/simple_dungeon",
+        "inpart": "rail_dungeon2"
       }
     ]
   }

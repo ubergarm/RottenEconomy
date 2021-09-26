@@ -42,8 +42,9 @@ events.onPlayerDeathDrops(function(event as crafttweaker.event.PlayerDeathDropsE
 
     if(world.isRemote()) { return; }
 
-    server.commandManager.executeCommand(server, "say Let me make it easier! Just for " + name +"! §b(Difficulty -1.0)§r");
+    server.commandManager.executeCommand(server, "say Let's make it easier because " + name +" died! §b(Difficulty -1.0)§r");
     server.commandManager.executeCommand(server, "scalinghealth world_difficulty sub 1 " + name);
+    server.commandManager.executeCommand(server, "weather2 storm killall");
 
     return;
 });

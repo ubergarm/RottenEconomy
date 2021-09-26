@@ -1,15 +1,17 @@
 ## v0.82
 * Rework Rotten Economy drops and rates for easier inventory management and increased fun
+* Alchemistry is gated by Rockhounding Chemistry and no longer abused for Rotten Economy scratch-offs
 * Add Tech Reborn Galena ore to <ore:oreLead> for additional mod compatibility
 * Hide Deep Resonance End/Nether ores which are not present in world gen
 * Add Deep Resonance crystals / ores into Rotten Economy drop tables
-* Add mobs into deep mob data model learning and also add more drop generation types
+* Add Deep Resonance crystals into Lost Cities world gen (break/place crystal to get actual stats)
+* Add mobs into Deep Mob Learning data model and also add more drop generation types
 * Add Mahou Tsukai book to Akashic Tome and rebalance spell mana costs and fix HUD location
 * Add Mahou Tsukai Caliburn into Epic Fight (not 100% it works as dropped items float...)
 * Increase blights chance and give scaling difficulty mobs higher damage buff and cap
 * Spawn some raiders with epic fight stun resist so maybe zombies won't p0wn them so much
 * Reduce blood moon spawn cap scaling from 4x to 2x as ESM also increases cap. Poor tick update!
-* Customize Lost Cities world gen to include modded blocks in structures
+* Customize Lost Cities world gen to include modded blocks and useful surprises in structures
 
 ## v0.81
 * Properly renamed more things to "Rotten Economy"

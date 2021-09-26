@@ -91,28 +91,69 @@ mods.techguns.Grinder.addRecipe(
 );
 
 ## grind all that cyberware junk after it has been decomposed at the engineering table
-mods.techguns.Grinder.addRecipe(
-    <cyberware:component:*>,
+mods.techguns.Grinder.addRecipe(<cyberware:component:*>,
     [
-        <techreborn:smalldust:61>*4, // redstone
-        <techreborn:smalldust:27>*8, // iron
-        <techreborn:smalldust:14>*4, // copper
-        <techreborn:smalldust:29>*4, // lead
-        <techreborn:smalldust:53>*4, // tin
-        <techreborn:smalldust:34>*2, // nickel
-        <techreborn:smalldust:24>,   // gold
-        <mekanism:dust:2>,           // osmium dust full size
-        <techreborn:smalldust:54>    // titanium dust small
+        <minecraft:quartz>,               // (nether) quartz
+        <minecraft:redstone>,             // redstone
+        <minecraft:iron_ingot>,           // iron
+        <thermalfoundation:material:128>, // copper
+        <thermalfoundation:material:131>, // lead
+        <thermalfoundation:material:129>, // tin
+        <minecraft:gold_ingot>,           // gold
+        <mekanism:ingot:1>,               // osmium
+        <techreborn:nuggets:14>           // titanium nugget
     ],
     [
         0.75,
         0.75,
-        0.50,
-        0.50,
+        0.75,
         0.50,
         0.50,
         0.25,
         0.25,
-        0.10
+        0.25,
+        0.25
+    ]
+);
+
+## grind all that your extra engineering tables too
+mods.techguns.Grinder.addRecipe(<cyberware:engineering_table>,
+    [
+        <minecraft:redstone>,    // redstone
+        <minecraft:iron_ingot>*5 // iron
+    ],
+    [
+        0.50,
+        1.00
+    ]
+);
+
+## grind up extra cyberware robo surgeons from loot boxes
+mods.techguns.Grinder.addRecipe(<cyberware:surgery>,
+    [
+        <minecraft:redstone>*5,           // redstone
+        <minecraft:iron_ingot>*5,         // iron
+        <minecraft:gold_ingot>*3,         // diamond
+    ],
+    [
+        1.00,
+        1.00,
+        1.00
+    ]
+);
+
+## a grinder can grind a grinder now too
+mods.techguns.Grinder.addRecipe(<techguns:simplemachine2:8>,
+    [
+        <minecraft:redstone>*3,           // redstone
+        <minecraft:iron_ingot>*10,        // iron
+        <thermalfoundation:material:128>, // copper
+        <minecraft:flint>*4               // flint
+    ],
+    [
+        1.00,
+        1.00,
+        0.50,
+        1.00
     ]
 );
