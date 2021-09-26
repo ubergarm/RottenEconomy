@@ -184,7 +184,7 @@
           },
           {
             "random": 2000,
-            "block": "chisel:concrete_lightgray1@8"
+            "block": "icbmclassic:concrete"
           }
         ],
         "damaged": "minecraft:iron_bars"
@@ -240,11 +240,11 @@
         "blocks": [
           {
             "random": 10,
-            "block": "chisel:concrete_gray@2"
+            "block": "ompd:hardened@1"
           },
           {
             "random": 2000,
-            "block": "chisel:concrete_gray1@8"
+            "block": "ompd:hardened"
           }
         ],
         "damaged": "minecraft:iron_bars"

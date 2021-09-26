@@ -136,27 +136,39 @@
         "char": "p",
         "blocks": [
           {
-            "random": 30,
+            "random": 10,
             "block": "minecraft:red_flower"
           },
           {
-            "random": 30,
+            "random": 10,
             "block": "minecraft:yellow_flower"
           },
           {
+            "random": 30,
+            "block": "xlfoodmod:pepper_plant"
+          },
+          {
+            "random": 30,
+            "block": "xlfoodmod:vanilla_flower"
+          },
+          {
             "random": 15,
+            "block": "pizzacraft:olive_sapling"
+          },
+          {
+            "random": 10,
             "block": "minecraft:sapling"
           },
           {
-            "random": 15,
+            "random": 10,
             "block": "minecraft:sapling@1"
           },
           {
-            "random": 15,
+            "random": 10,
             "block": "minecraft:sapling@2"
           },
           {
-            "random": 1000,
+            "random": 100,
             "block": "minecraft:sapling@4"
           }
         ]
@@ -165,12 +177,20 @@
         "char": "K",
         "blocks": [
           {
-            "random": 64,
+            "random": 30,
             "block": "minecraft:red_flower"
           },
           {
-            "random": 1000,
+            "random": 30,
             "block": "minecraft:yellow_flower"
+          },
+          {
+            "random": 30,
+            "block": "xlfoodmod:pepper_plant"
+          },
+          {
+            "random": 30,
+            "block": "xlfoodmod:vanilla_flower"
           }
         ]
       },
@@ -199,31 +219,163 @@
         "char": "F",
         "blocks": [
           {
-            "random": 25,
-            "block": "minecraft:furnace"
+            "random": 10,
+            "block": "deepresonance:resonating_crystal"
           },
           {
-            "random": 20,
-            "block": "minecraft:crafting_table"
+            "random": 10,
+            "block": "techguns:simplemachine2@8"
           },
           {
-            "random": 7,
-            "block": "minecraft:brewing_stand"
+            "random": 1,
+            "block": "cyberware:surgery"
           },
           {
-            "random": 6,
-            "block": "minecraft:anvil"
+            "random": 4,
+            "block": "cyberware:engineering_table"
+          },
+          {
+            "random": 8,
+            "block": "mekanism:basicblock@8"
+          },
+          {
+            "random": 8,
+            "block": "thermalexpansion:frame"
+          },
+          {
+            "random": 2,
+            "block": "solarflux:solar_panel_1"
+          },
+          {
+            "random": 2,
+            "block": "thermalexpansion:tank"
+          },
+          {
+            "random": 1,
+            "block": "thermalexpansion:cell"
           },
           {
             "random": 5,
-            "block": "minecraft:cauldron"
+            "block": "rockhounding_chemistry:misc_blocks_a"
+          },
+          {
+            "random": 1,
+            "block": "rockhounding_chemistry:machines_a@2"
+          },
+          {
+            "random": 8,
+            "block": "deepresonance:machine_frame"
+          },
+          {
+            "random": 8,
+            "block": "refinedstorage:machine_casing"
+          },
+          {
+            "random": 5,
+            "block": "libvulpes:structuremachine"
+          },
+          {
+            "random": 5,
+            "block": "techreborn:machine_casing"
+          },
+          {
+            "random": 5,
+            "block": "ic2:resource@12"
+          },
+          {
+            "random": 2,
+            "block": "weather2:weather_forecast"
+          },
+          {
+            "random": 2,
+            "block": "weather2:wind_vane"
+          },
+          {
+            "random": 3,
+            "block": "culinaryconstruct:sandwhich_station"
+          },
+          {
+            "random": 2,
+            "block": "improvedbackpacks:backpack"
+          },
+          {
+            "random": 4,
+            "block": "alchemistry:evaporator"
+          },
+          {
+            "random": 1,
+            "block": "vehicle:workstation"
+          },
+          {
+            "random": 1,
+            "block": "vehicle:fuel_drum"
+          },
+          {
+            "random": 1,
+            "block": "vehicle:jack"
+          },
+          {
+            "random": 2,
+            "block": "techguns:military_crate"
+          },
+          {
+            "random": 2,
+            "block": "techguns:military_crate@5"
+          },
+          {
+            "random": 2,
+            "block": "techguns:military_crate@6"
+          },
+          {
+            "random": 2,
+            "block": "techguns:military_crate@7"
+          },
+          {
+            "random": 2,
+            "block": "techguns:military_crate@8"
+          },
+          {
+            "random": 4,
+            "block": "craftingstation:crafting_station"
+          },
+          {
+            "random": 2,
+            "block": "supersoundmuffler:sound_muffler"
+          },
+          {
+            "random": 3,
+            "block": "xtones:zkull@11"
+          },
+          {
+            "random": 4,
+            "block": "minecraft:iron_block"
+          },
+          {
+            "random": 4,
+            "block": "minecraft:coal_block"
+          },
+          {
+            "random": 4,
+            "block": "minecraft:noteblock"
           },
           {
             "random": 2,
             "block": "minecraft:enchanting_table"
           },
           {
-            "random": 1000,
+            "random": 5,
+            "block": "minecraft:anvil"
+          },
+          {
+            "random": 1,
+            "block": "minecraft:ender_chest"
+          },
+          {
+            "random": 1,
+            "block": "minecraft:slime"
+          },
+          {
+            "random": 800,
             "block": "minecraft:web"
           }
         ]
@@ -247,7 +399,7 @@
       },
       {
         "char": "l",
-        "block": "minecraft:ladder@2"
+        "block": "techguns:ladder0@10"
       },
       {
         "char": "-",

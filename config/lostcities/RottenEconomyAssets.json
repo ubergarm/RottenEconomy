@@ -64,12 +64,12 @@
     "name": "chestloot",
     "values": [
       {
-        "factor": 10,
+        "factor": 15,
         "value": "zbb:chests/ammochest",
         "range": "-10,10"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "zbb:chests/lifechest",
         "range": "-10,10"
       },
@@ -77,6 +77,48 @@
         "factor": 10,
         "value": "zbb:chests/orechest",
         "range": "-10,10"
+      },
+      {
+        "factor": 10,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 10,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon2"
+      },
+      {
+        "factor": 5,
+        "value": "minecraft:chests/nether_bridge"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/stronghold_corridor"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/abandoned_mineshaft"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/village_blacksmith"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/desert_pyramid"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/jungle_temple"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/woodland_mansion"
+      },
+      {
+        "factor": 2,
+        "value": "minecraft:chests/simple_dungeon"
       }
     ]
   }

@@ -276,7 +276,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "minecraft:glass"
+        "block": "icbmclassic:reinforcedglass"
       },
       {
         "char": "`",
@@ -284,7 +284,7 @@
       },
       {
         "char": "a",
-        "block": "minecraft:glass"
+        "block": "icbmclassic:reinforcedglass"
       }
     ]
   },
@@ -312,7 +312,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "minecraft:stained_glass"
+        "block": "thermalfoundation:glass@4"
       },
       {
         "char": "`",
@@ -320,7 +320,7 @@
       },
       {
         "char": "a",
-        "block": "minecraft:stained_glass"
+        "block": "thermalfoundation:glass@4"
       }
     ]
   },
@@ -348,7 +348,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "minecraft:stained_glass@7"
+        "block": "thermalfoundation:glass@5"
       },
       {
         "char": "`",
@@ -356,7 +356,7 @@
       },
       {
         "char": "a",
-        "block": "minecraft:stained_glass@7"
+        "block": "thermalfoundation:glass@5"
       }
     ]
   },
@@ -384,7 +384,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "minecraft:stained_glass@11"
+        "block": "thermalfoundation:glass@1"
       },
       {
         "char": "`",
@@ -392,7 +392,7 @@
       },
       {
         "char": "a",
-        "block": "minecraft:stained_glass@11"
+        "block": "thermalfoundation:glass@1"
       }
     ]
   },
