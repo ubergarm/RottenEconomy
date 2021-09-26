@@ -6,6 +6,7 @@
 * Add mobs into deep mob data model learning and also add more drop generation types
 * Add Mahou Tsukai book to Akashic Tome and rebalance spell mana costs and fix HUD location
 * Add Mahou Tsukai Caliburn into Epic Fight (not 100% it works as dropped items float...)
+* Increase blights chance and give scaling difficulty mobs higher damage buff and cap
 
 ## v0.81
 * Properly renamed more things to "Rotten Economy"
