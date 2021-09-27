@@ -1,6 +1,6 @@
 RottenEconomy-Client.zip:
 	@echo Zipping up configs, resources, scripts, and client files...
-	zip -r RottenEconomy-Client.zip config scripts resources README.md CHANGELOG.md LICENSE -x "./RottenEconomy/config/forge.cfg" -x "./RottenEconomy/config/forgeChunkLoading.cfg" -x ".git*" -x "*.log" -x "*.dat_old" -x "./RottenEconomy/config/defaultsettings.json"
+	zip -r RottenEconomy-Client.zip config scripts resources README.md CHANGELOG.md LICENSE -x "./config/forge.cfg" -x "./config/forgeChunkLoading.cfg" -x ".git*" -x "*.log" -x "*.dat_old" -x "./config/defaultsettings.json"
 	@echo ...DONE!
 
 config: RottenEconomy-Client.zip

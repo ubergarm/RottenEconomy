@@ -1,6 +1,6 @@
 Rotten Economy
 ===
-The cataclysmic combination of self-inflicted environmental devestation
+The cataclysmic combination of self-inflicted environmental devastation
 and a global zombie pandemic prompted complete economic collapse! In
 a world where stonks went to zero and the earth's slowing orbit led
 to longer days than nights, can you survive and find your way in this
@@ -145,7 +145,7 @@ using the `Donate` button above in the `About Project` box.
 Complete list of mods with authors and links available in Files under Related Projects.
 
 ## Resource Packs
-I highly recommend these three unobtrusive resource packs which come pre-installed in this order:
+I highly recommend these unobtrusive resource packs which come pre-installed in this order:
 
 * [Nuka Cola Potions](https://www.curseforge.com/minecraft/texture-packs/nuka-cola/files/2560603)
 * [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-16/files/2986604)
