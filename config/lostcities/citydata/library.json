@@ -235,12 +235,16 @@
             "block": "cyberware:engineering_table"
           },
           {
+            "random": 2,
+            "block": "cyberware:beacon"
+          },
+          {
             "random": 8,
             "block": "mekanism:basicblock@8"
           },
           {
-            "random": 8,
-            "block": "thermalexpansion:frame"
+            "random": 5,
+            "block": "thermalexpansion:machine"
           },
           {
             "random": 2,
@@ -283,6 +287,10 @@
             "block": "ic2:resource@12"
           },
           {
+            "random": 3,
+            "block": "nuclearcraft:manufactory"
+          },
+          {
             "random": 2,
             "block": "weather2:weather_forecast"
           },
@@ -292,11 +300,7 @@
           },
           {
             "random": 3,
-            "block": "culinaryconstruct:sandwhich_station"
-          },
-          {
-            "random": 2,
-            "block": "improvedbackpacks:backpack"
+            "block": "culinaryconstruct:sandwich_station"
           },
           {
             "random": 4,
@@ -344,7 +348,11 @@
           },
           {
             "random": 3,
-            "block": "xtones:zkull@11"
+            "block": "xtones:zkul@11"
+          },
+          {
+            "random": 4,
+            "block": "minecraft:hopper"
           },
           {
             "random": 4,
@@ -365,14 +373,6 @@
           {
             "random": 5,
             "block": "minecraft:anvil"
-          },
-          {
-            "random": 1,
-            "block": "minecraft:ender_chest"
-          },
-          {
-            "random": 1,
-            "block": "minecraft:slime"
           },
           {
             "random": 800,

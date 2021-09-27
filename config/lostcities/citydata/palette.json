@@ -312,7 +312,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "thermalfoundation:glass@4"
+        "block": "sonarcore:clearstableglass"
       },
       {
         "char": "`",
@@ -320,7 +320,7 @@
       },
       {
         "char": "a",
-        "block": "thermalfoundation:glass@4"
+        "block": "sonarcore:clearstableglass"
       }
     ]
   },
@@ -348,7 +348,7 @@
     "palette": [
       {
         "char": "+",
-        "block": "thermalfoundation:glass@5"
+        "block": "rewired:ecglass"
       },
       {
         "char": "`",
@@ -356,7 +356,7 @@
       },
       {
         "char": "a",
-        "block": "thermalfoundation:glass@5"
+        "block": "rewired:ecglass"
       }
     ]
   },

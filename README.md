@@ -160,6 +160,20 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Some armor models and other minor visual glitches with Epic Fight battle stance
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 
+## TODO
+This pack is still under development despite being a 'release'. Consider it early access!
+
+- [x] Configure and balance Epic Fight so most all weapons and armor are usable in battle stance mod.
+- [x] Rotten Economy resource gathering mechanic in place with multipe paths for upgrading loot tiers
+- [x] Customized Lost Cities world generation with actually valuable loot and zombie proof buildings
+- [x] Integrate a bunch of zombies with latest Epic Siege Mod, Zombie Awareness, Blood Moon, Raiders and more mods.
+- [x] `/jer_scan 10000 all` profile of *actual* pack worldgen to help you find that for which you seek.
+- [x] Custom configured Extended Days mod for ~20 minute days and usual ~10 min nights without messing up ticks
+- [x] Shoulder Surfing Reloaded configured adaptive crosshairs for proper 3rd person targeting throwing weapons, bows, and guns
+- [ ] Add interesting difficult recipes for creative items
+- [ ] Add final boss battle end game encounter (honestly i could use the help of a builder to generate the structures)
+- [ ] Make outer space more interesting and go over the Advaned Rocketry plantDefs.xml place-holder file.
+
 ## References
 * [Rotten Economy](https://www.curseforge.com/minecraft/modpacks/rotten-economy) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack

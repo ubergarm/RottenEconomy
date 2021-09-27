@@ -31,6 +31,15 @@ mods.techguns.Grinder.addRecipe(
 <chisel:netherrack:10>.asBlock().definition.hardness = 2.0;
 <chisel:netherrack:10>.asBlock().definition.setHarvestLevel("shovel", 0); // shovel, stone level
 
+<sonarcore:stableglass:*>.asBlock().definition.hardness = 15.0;
+<sonarcore:stableglass:*>.asBlock().definition.resistance = 20.0;
+<sonarcore:clearstableglass:*>.asBlock().definition.hardness = 15.0;
+<sonarcore:clearstableglass:*>.asBlock().definition.resistance = 20.0;
+<sonarcore:reinforcedstoneblock:*>.asBlock().definition.hardness = 20.0;
+<sonarcore:reinforcedstoneblock:*>.asBlock().definition.resistance = 20.0;
+<sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 20.0;
+<sonarcore:reinforcedstonestairs:*>.asBlock().definition.resistance = 20.0;
+
 ## Label items marked in epicsiegemod.cfg digging blacklist
 val zombieDiggingResistant = [
         <minecraft:concrete:*>,
@@ -52,7 +61,11 @@ val zombieDiggingResistant = [
         <malisisdoors:sliding_trapdoor:*>,
         <malisisdoors:garage_door:*>,
         <malisisdoors:hitechdoor:*>,
-        <malisisdoors:forcefielditem>
+        <malisisdoors:forcefielditem:*>,
+        <sonarcore:stableglass:*>,
+        <sonarcore:clearstableglass:*>,
+        <sonarcore:reinforcedstoneblock:*>,
+        <sonarcore:reinforcedstonestairs:*>
 ] as IItemStack[];
 
 for item in zombieDiggingResistant {

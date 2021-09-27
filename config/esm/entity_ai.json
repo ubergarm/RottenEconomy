@@ -49,7 +49,12 @@
       "malisisdoors:sliding_trapdoor",
       "malisisdoors:garage_door",
       "malisisdoors:hitechdoor",
-      "malisisdoors:forcefielditem"
+      "malisisdoors:forcefielditem",
+      "sonarcore:stableglass",
+      "sonarcore:clearstableglass",
+      "sonarcore:reinforcedstoneblock",
+      "sonarcore:reinforcedstonestairs",
+      "rewired:ecglass"
     ],
     "Invert Blacklist": false,
     "Requires Tools": false,
@@ -139,7 +144,12 @@
         "malisisdoors:sliding_trapdoor",
         "malisisdoors:garage_door",
         "malisisdoors:hitechdoor",
-        "malisisdoors:forcefielditem"
+        "malisisdoors:forcefielditem",
+        "sonarcore:stableglass",
+        "sonarcore:clearstableglass",
+        "sonarcore:reinforcedstoneblock",
+        "sonarcore:reinforcedstonestairs",
+        "rewired:ecglass"
       ]
     },
     "minecraft:husk": {
@@ -171,7 +181,12 @@
         "malisisdoors:sliding_trapdoor",
         "malisisdoors:garage_door",
         "malisisdoors:hitechdoor",
-        "malisisdoors:forcefielditem"
+        "malisisdoors:forcefielditem",
+        "sonarcore:stableglass",
+        "sonarcore:clearstableglass",
+        "sonarcore:reinforcedstoneblock",
+        "sonarcore:reinforcedstonestairs",
+        "rewired:ecglass"
       ]
     }
   }

@@ -40,7 +40,7 @@ mods.techguns.ChemLab.addRecipe(
     1,                          // quantity of first input
     <minecraft:blaze_powder>,   // second input slot (required even if 0) - filtered sand
     1,                          // quantity of second input (or 0 for null input)
-    <liquid:enrichedlava>*1000, // input liquid and qty
+    <liquid:obsidian>*500,      // input liquid and qty
     false,                      // allow swap
     <techguns:itemshared:64>*1, // output slot and qty
     <liquid:toxic_waste>*100,   // output liquid and qty
@@ -133,9 +133,45 @@ mods.techguns.Grinder.addRecipe(<cyberware:surgery>,
     [
         <minecraft:redstone>*5,           // redstone
         <minecraft:iron_ingot>*5,         // iron
-        <minecraft:gold_ingot>*3,         // diamond
+        <minecraft:diamond>*3,            // diamond
     ],
     [
+        1.00,
+        1.00,
+        1.00
+    ]
+);
+
+## recycle any excess redstone furnaces
+mods.techguns.Grinder.addRecipe(<thermalexpansion:machine>,
+    [
+        <minecraft:redstone>*2,             // redstone
+        <thermalexpansion:frame>,           // machine frame
+        <thermalfoundation:material:128>*4, // copper
+        <minecraft:gold_ingot>,             // gold
+        <minecraft:clay_ball>*8             // clay
+    ],
+    [
+        1.00,
+        1.00,
+        1.00,
+        0.75,
+        0.75
+    ]
+);
+
+## recycle any excess nuclearcraft manufactories
+mods.techguns.Grinder.addRecipe(<nuclearcraft:manufactory>,
+    [
+        <minecraft:redstone>*2,             // redstone
+        <minecraft:iron_ingot>*2,           // iron
+        <thermalfoundation:material:128>*2, // copper
+        <thermalfoundation:material:131>*2, // lead
+        <minecraft:flint>*2                 // flint
+    ],
+    [
+        1.00,
+        1.00,
         1.00,
         1.00,
         1.00
