@@ -4,7 +4,7 @@
 import crafttweaker.item.IItemStack;
 
 ## Convert the pillaring nerd pole block to/from rotten flesh
-recipes.addShaped("rotteneconomy.chisel.netherrack.10", <chisel:netherrack:10>,
+recipes.addShaped("rotteneconomy.rotten_netherrack", <contenttweaker:rotten_netherrack>,
   [
     [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, null],
     [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, null],
@@ -12,24 +12,28 @@ recipes.addShaped("rotteneconomy.chisel.netherrack.10", <chisel:netherrack:10>,
   ]
 );
 
-## use grinder on that "raw meat" netherrack
+## grind rotten netherrack for sweet bonus flesh
 mods.techguns.Grinder.addRecipe(
-    <chisel:netherrack:10>,        // input item
+    <contenttweaker:rotten_netherrack>,  // input item
     [
-        <minecraft:rotten_flesh>*4,  // array of output items
+        <minecraft:rotten_flesh>*4,      // array of output items
+        <minecraft:netherrack>,
         <minecraft:gunpowder>
     ],
     [
-        0.75,                   // chance of output
+        0.50,                            // chance of output
+        1.00,
         0.25
     ]
 );
 
-## probably make my own custom block for this w/ different sounds but good nuff for now
-## make it a bit slippery and a little softer than regular netherrack
-<chisel:netherrack:10>.asBlock().definition.defaultSlipperiness = 0.9;
-<chisel:netherrack:10>.asBlock().definition.hardness = 2.0;
-<chisel:netherrack:10>.asBlock().definition.setHarvestLevel("shovel", 0); // shovel, stone level
+## Add it into ore dict for netherrack for easy use bypassing bonus
+<ore:oreNetherrack>.add(<contenttweaker:rotten_netherrack>);
+
+## TODO think about this with more gameplay and testing
+## could easily add a cobble gen resource engine here with something like
+## cobble -> pocket nether link -> netherrack -> (add new recipe here) ->
+## rotten netherrack -> grinder -> rotten flesh
 
 <sonarcore:stableglass:*>.asBlock().definition.hardness = 15.0;
 <sonarcore:stableglass:*>.asBlock().definition.resistance = 20.0;

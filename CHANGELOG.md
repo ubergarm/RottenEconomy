@@ -1,5 +1,12 @@
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...
+* Adjust Pocket Nether Link recipe to include some mushrooms
+* Add custom content block for ESM pillaring called "Rotten Netherrack" and recipes
+* Turn off Toro HUD damage counters causing double damage particle effects to show
+* Disable toggles for bonus chest (it doesn't seem to work anyway) and structure spawning
+* oreDict Nuclearcraft glowing mushrooms so you can put them on pizza
+* Make a snazzy message appear upon first joining the world
+* Fixup drops on vanilla zombie, husk, and enderman
 
 ## v0.82
 * Loot galore from drops or from scavenging the revamped lost cities palette!

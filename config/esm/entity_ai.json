@@ -26,7 +26,7 @@
       "elanaidodge2:feeble:300:1"
     ],
     "Pillaring": false,
-    "Pillar Block": "chisel:netherrack:10",
+    "Pillar Block": "contenttweaker:rotten_netherrack",
     "Digging": false,
     "Digging Blacklist": [
       "minecraft:concrete",
@@ -120,7 +120,7 @@
       "Demolition": 0.01,
       "Pillaring": true,
       "Infectious": true,
-      "Pillar Block": "chisel:netherrack:10",
+      "Pillar Block": "contenttweaker:rotten_netherrack",
       "Invert Blacklist": false,
       "Requires Tools": false,
       "Digging Blacklist": [
@@ -157,7 +157,7 @@
       "Griefing": false,
       "Demolition": 0.01,
       "Pillaring": true,
-      "Pillar Block": "chisel:netherrack:10",
+      "Pillar Block": "contenttweaker:rotten_netherrack",
       "Invert Blacklist": false,
       "Requires Tools": false,
       "Digging Blacklist": [
