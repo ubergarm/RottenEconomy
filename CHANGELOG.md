@@ -1,3 +1,6 @@
+## v0.83
+* Completely overhauled air support crates for fun mega phat loot drops but with a catch...
+
 ## v0.82
 * Loot galore from drops or from scavenging the revamped lost cities palette!
 * Rework Rotten Economy drops and rates for easier inventory management and increased fun

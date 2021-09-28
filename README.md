@@ -6,12 +6,13 @@ a world where stonks went to zero and the earth's slowing orbit led
 to longer days than nights, can you survive and find your way in this
 Rotten Economy?!
 
-The wealthy elite escaped to their Martian utopian bunker leaving the
+The wealthy elite escaped to their martian utopian bunker leaving the
 rest of us behind on this shattered earth. Work together with your few
 remaining friends to launch into orbit and *remind* those egomaniacs
 that we're all in this together!!!
 
-Open video link below in new tab to watch the quick look!
+Open video link below in new tab to watch version 0.71 quick look!
+
 [![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
 
 Build a zombie proof base outside of town, search destroyed urban areas
@@ -42,8 +43,8 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 
 #### Tech Guns
 (be sure to check out the new tab with bullets icon in inventory)
+
 * `r` reload gun or clip in hand
-* `b` switch between semi/burst/auto fire
 * `n` toggle night vision goggles
 
 #### Epic Fight
@@ -61,7 +62,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `v` toggle 1st person and enhanced 3rd person view with adaptive crosshairs
 
 #### Ping
-* `Middle Click` open ping menu to notify friends of points of interest
+* `Middle Click` open ping menu to notify friends of John Cena cree—oooh its too late…
 
 #### Grave Keeper
 * `Right Click` retrieve your grave (don't try to break it)
@@ -93,7 +94,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `F9` cycle chunk display overlays
 
 #### Tip
-You have to to map other mod keys as needed and can use `Escape` key to unbind something.
+You have to map other mod keys as needed. Use `Escape` key to unbind something to `Nothing`.
 
 ## Server Installation
 Make sure to download the server zip file matching the same version as the client under Files.
@@ -101,7 +102,7 @@ Make sure to download the server zip file matching the same version as the clien
 Read the EULA, configure the startup script for the amount of RAM
 available on your server, and edit the `server.properties`. Linux example:
 
-* `unzip RottenEconomy-Server-vX.XX-Minecraft-v1.12.2.zip`
+* `unzip RottenEconomy-Server-vX.XX.zip`
 * `cd RottenEconomy`
 * `cp server.properties.example server.properties`
 * `echo "eula=true" > eula.txt`
@@ -110,7 +111,7 @@ available on your server, and edit the `server.properties`. Linux example:
 Windows will be very similar, but you might need a `start.bat` script instead.
 
 ## Server Commands
-Make a team and join you and your friends:
+Make a team and join with your friends:
 
 * `/scoreboard teams add MyTeamName MyTeamName`
 * `/scoreboard teams join MyTeamName player1name`
@@ -135,12 +136,13 @@ have OPs).
 ## Mods
 Please support our mod developers! They are the creative inspiration
 and perspiration for many beautiful gems and works of art! Check out
-their project pages and follow the links to donate, follow, subscribe,
-and support them however feels right to you!  Thanks and have fun!
+their project pages and follow the links to donate, like, subscribe,
+and support them however feels right to you!
 
 If you want to throw me some coin, check out my book at
 [emptyduck.com](https://emptyduck.com) or give directly through paypal
-using the `Donate` button above in the `About Project` box.
+using the `Donate` button above in the `About Project` box. Thanks and
+have fun!
 
 Complete list of mods with authors and links available in Files under Related Projects.
 
@@ -159,6 +161,7 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Spartan Shield bash does not work with Epic Fight battle stance
 * Some armor models and other minor visual glitches with Epic Fight battle stance
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
+(Work-around: `B:"Enable changes to player model (missing skin, missing limbs, Cybernetic limbs)"=false` in `cyberware.cfg`)
 
 ## TODO
 This pack is still under development despite being a 'release'. Consider it early access!
