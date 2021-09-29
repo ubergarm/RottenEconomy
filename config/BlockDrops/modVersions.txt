@@ -249,7 +249,7 @@
   "silentlib": "3.0.13",
   "torohud": "1.12.2-5",
   "baubles": "1.5.2",
-  "qmd": "1.0.2",
+  "qmd": "1.0.3",
   "exchangers": "1.12.2-2.10.1",
   "creativecore": "1.10.0",
   "bloodmoon": "1.5.3",
