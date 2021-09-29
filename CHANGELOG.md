@@ -9,6 +9,7 @@
 * Fixup drops on vanilla zombie, husk, and enderman
 * Dial-back tick rate of Zombie Awareness should give same results with less overhead
 * Remove spawn cap for endermans and coyotes
+* Add Rockhounding Chemistry Transposer recipe for Fuelium <-> Refined Fuel
 
 ## v0.82
 * Loot galore from drops or from scavenging the revamped lost cities palette!

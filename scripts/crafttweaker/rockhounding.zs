@@ -38,7 +38,9 @@ mods.rockhounding_chemistry.ToxicMutation.add("dyeBlack", <pickletweaks:dye_powd
 //input: the fluid/gas input
 //output: the converted fluid/gas
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000, <liquid:oxygen>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:compressed_air>*1000, <liquid:fluidcompressedair>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000, <liquid:ic2oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:refined_fuel>*1000, <liquid:fuelium>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fuelium>*1000, <liquid:refined_fuel>*1000);
 
 // LAB BLENDER
 //Note 1: input will be extended to their oredicts. Plans to improve this.
