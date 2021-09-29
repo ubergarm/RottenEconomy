@@ -146,15 +146,6 @@
         "result": "deny"
     },
     {
-        "mob": "betteranimalsplus:coyote",
-        "mincount": {
-            "mob": "betteranimalsplus:coyote",
-            "amount": 8,
-            "perchunk": true
-        },
-        "result": "deny"
-    },
-    {
         "mob": "betteranimalsplus:zotzpyre",
         "mincount": {
             "mob": "betteranimalsplus:zotzpyre",
@@ -380,15 +371,6 @@
     {
         "mob": "minecraft:enderman",
         "incity": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:enderman",
-        "mincount": {
-            "mob": "minecraft:enderman",
-            "amount": 8,
-            "perchunk": true
-        },
         "result": "deny"
     },
     {
