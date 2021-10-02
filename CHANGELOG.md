@@ -10,8 +10,9 @@
 * Increase Refined Storage base wireless range to 32 and double RF storage amounts
 * Adjust Rotten Flesh economy Rotten->Gritty->Jumpy production recipes
 * Reduce sonarcore reinforced blocks hardness/resistance a touch
+* Add inventory pets weapons and armor into Epic Fight config
 * Add Crafting Tweaks, YARCF, FastWorkbench, To the Bat Poles!, and OdysseyHUD mods
-* Update to CraftTweaker 4.1.20.662 and MoBends 1.1.0-28.09.21
+* Update CraftTweaker 4.1.20.662, MoBends 1.1.0-28.09.21, and SimpleStorageNetworks 1.8.2
 
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...

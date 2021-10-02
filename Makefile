@@ -2,7 +2,7 @@ RottenEconomy-Client.zip:
 	@echo Exporting client files to CurseForge / GDLauncher compatible modpack zip...
 	@ln -s ./ ./overrides
 	@sed -i 's/"exportMode": false/"exportMode": true/g' config/defaultsettings.json
-	zip -r RottenEconomy-Client.zip manifest.json modlist.html ./overrides/config ./overrides/scripts ./overrides/resources ./overrides/README.md ./overrides/CHANGELOG.md ./overrides/LICENSE -x "./overrides/config/forge.cfg" -x "./overrides/config/forgeChunkLoading.cfg" -x "*.git*" -x "*.log" -x "*.dat_old"
+	zip -r RottenEconomy-Client.zip manifest.json modlist.html ./overrides/config ./overrides/scripts ./overrides/resources ./overrides/README.md ./overrides/CHANGELOG.md ./overrides/LICENSE -x "./overrides/config/forge.cfg" -x "./overrides/config/forgeChunkLoading.cfg" -x "./overrides/config/mobends/*" -x "*.git*" -x "*.log" -x "*.dat_old"
 	@sed -i 's/"exportMode": true/"exportMode": false/g' config/defaultsettings.json
 	@rm -f ./overrides
 	@echo ...DONE!

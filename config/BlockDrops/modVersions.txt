@@ -226,7 +226,7 @@
   "diethopper": "1.1",
   "nuclearcraft": "2o.5.5",
   "raiders": "3.0.9",
-  "storagenetwork": "1.8.1",
+  "storagenetwork": "1.8.2",
   "defaultsettings": "2.2.4",
   "betteranimalsplus": "9.0.1",
   "surge": "2.0.79",

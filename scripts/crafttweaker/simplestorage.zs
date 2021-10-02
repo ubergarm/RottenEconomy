@@ -13,6 +13,7 @@ import mods.jei.JEI.hide;
 // the player is to progress to refined storage for unlimited range etc
 removeAndHide(<storagenetwork:inventory>);
 removeAndHide(<storagenetwork:controller>);
+removeAndHide(<storagenetwork:simple_kabel>);
 removeAndHide(<storagenetwork:process_kabel>);
 removeAndHide(<storagenetwork:remote:3>);
 removeAndHide(<storagenetwork:remote:2>);
