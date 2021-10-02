@@ -4,6 +4,7 @@
 * Add <qmd:lepton_cannon> into shoulder surfing adaptive crosshairs whitelist
 * Add <usefulstuffs:light_shooter*> into shoulder surfing config
 * Quadruple xnet basic connector recipes output
+* Fixup Makefile to generate valid importable CurseForge / GDLaunch modpack zip
 
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...
