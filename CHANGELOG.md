@@ -1,6 +1,9 @@
 ## v0.84
 * Disable Raiders time based progression and just buff their base stats more
 * Play the raiders suspenseful sound when hard day difficulty increases
+* Add <qmd:lepton_cannon> into shoulder surfing adaptive crosshairs whitelist
+* Add <usefulstuffs:light_shooter*> into shoulder surfing config
+* Quadruple xnet basic connector recipes output
 
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...
