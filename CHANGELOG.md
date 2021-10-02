@@ -1,3 +1,7 @@
+## v0.84
+* Disable Raiders time based progression and just buff their base stats more
+* Play the raiders suspenseful sound when hard day difficulty increases
+
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...
 * Adjust Pocket Nether Link recipe to include some mushrooms
