@@ -3,7 +3,8 @@
 
 import mods.jei.JEI.removeAndHide;
 
-## it now has itemRubber and materialRubber just to be safe
+## rubber bar now has itemRubber and materialRubber just to be safe
+<ore:itemRubber>.add(<techguns:itemshared:56>);
 <ore:materialRubber>.add(<techguns:itemshared:56>);
 
 ## get rid of blast furnace and make obsidian steel using mekanism only

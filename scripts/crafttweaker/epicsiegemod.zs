@@ -35,14 +35,14 @@ mods.techguns.Grinder.addRecipe(
 ## cobble -> pocket nether link -> netherrack -> (add new recipe here) ->
 ## rotten netherrack -> grinder -> rotten flesh
 
-<sonarcore:stableglass:*>.asBlock().definition.hardness = 15.0;
+<sonarcore:stableglass:*>.asBlock().definition.hardness = 5.0;
 <sonarcore:stableglass:*>.asBlock().definition.resistance = 20.0;
-<sonarcore:clearstableglass:*>.asBlock().definition.hardness = 15.0;
+<sonarcore:clearstableglass:*>.asBlock().definition.hardness = 5.0;
 <sonarcore:clearstableglass:*>.asBlock().definition.resistance = 20.0;
-<sonarcore:reinforcedstoneblock:*>.asBlock().definition.hardness = 20.0;
-<sonarcore:reinforcedstoneblock:*>.asBlock().definition.resistance = 20.0;
-<sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 20.0;
-<sonarcore:reinforcedstonestairs:*>.asBlock().definition.resistance = 20.0;
+<sonarcore:reinforcedstoneblock:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:reinforcedstoneblock:*>.asBlock().definition.resistance = 15.0;
+<sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:reinforcedstonestairs:*>.asBlock().definition.resistance = 15.0;
 
 ## Label items marked in epicsiegemod.cfg digging blacklist
 val zombieDiggingResistant = [

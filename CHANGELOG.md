@@ -8,6 +8,8 @@
 * Hide Refined Storage covers from JEI but they can still be crafted w/ cutter
 * Remove some Simple Storage Networks "advanced" items and reduce wireless range to 32
 * Increase Refined Storage base wireless range to 32 and double RF storage amounts
+* Adjust Rotten Flesh economy Rotten->Gritty->Jumpy production recipes
+* Reduce sonarcore reinforced blocks hardness/resistance a touch
 
 ## v0.83
 * Completely overhauled air support crates for fun mega phat loot drops but with a catch...

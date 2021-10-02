@@ -183,7 +183,21 @@ mods.rockhounding_chemistry.LabBlender.add(
 );
 
 ## Tier 2 Upgrade Conversion
-// 1:1 Rotten Flesh to Gritty Flesh
+// Rotten Flesh from Coal Slurry plus adjuncts
+// Tech Guns Chemistry Lab
+mods.techguns.ChemLab.addRecipe(
+    <mekanism:substrate>,            // first input slot (auto oreDict)
+    1,                               // quantity of first input
+    "dustNetherrack",                // second input slot (required even if 0)
+    1,                               // quantity of second input (or 0 for null input)
+    <liquid:coal_slurry>*250,        // input liquid and qty
+    false,                           // allow swap
+    <minecraft:rotten_flesh>*1,      // output slot and qty
+    <liquid:toxic_waste>*25,         // output liquid and qty
+    32                               // required RF/tick cost
+);
+
+// Gritty Flesh from Organic Slurry plus Adjuncts
 // 4x Rotten Flesh + 200mB Water -> Rockhounding Slurry Pond @10% Solution + Some RF -> 200mB Organic Slurry
 // 125 mB Water -> Alchemistry Evaporator -> 1x <alchemistry:mineral_salt>
 // 1 Rotten Flesh -> Mek Crusher = 2x Bio Fuel -> Mek Bio-Generator -> 34.72 kRF @ 280.0 RF/t
@@ -217,7 +231,7 @@ mods.rockhounding_chemistry.LabOven.add(
     <thermalfoundation:material:770>, // pulverized obsidian
     <contenttweaker:enderium_catalyst>,
     <liquid:organic_slurry>*50,
-    <liquid:toxic_waste>*250,
+    <liquid:coal_slurry>*250,
     <liquid:ender_sap>*250,
     <liquid:toxic_sludge>*5
 );
@@ -236,6 +250,6 @@ mods.rockhounding_chemistry.Precipitator.add(
     <contenttweaker:gritty_flesh>,
     null,
     <liquid:ender_sap>*250,
-    <liquid:toxic_waste>*200,
+    <liquid:toxic_waste>*100,
     <contenttweaker:jumpy_flesh>*1
 );
