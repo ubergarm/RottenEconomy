@@ -29,8 +29,9 @@ Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Gu
 
 ## Client Installation
 
+* Do **NOT** update Tech Guns or other mods for now! (newest mods may conflicts YMMV).
 * 6144MB RAM recommended for client and server
-* **MANUALLY download** [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/Rotten Economy/mods/` folder.
+* **MANUALLY** download [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/Rotten Economy/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
@@ -44,7 +45,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 #### Tech Guns
 (be sure to check out the new tab with bullets icon in inventory)
 
-* `r` reload gun or clip in hand
+* `r` force reload gun
 * `n` toggle night vision goggles
 
 #### Epic Fight
