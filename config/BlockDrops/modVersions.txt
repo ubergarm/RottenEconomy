@@ -145,7 +145,7 @@
   "cosmeticarmorreworked": "1.12.2-v5a",
   "mobends": "1.1.0",
   "base": "3.14.0",
-  "treechop": "0.14.4",
+  "treechop": "0.14.6",
   "ts2k16": "1.2.10",
   "realdrops": "1.2.14",
   "creativecoredummy": "1.0.0",

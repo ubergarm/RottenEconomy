@@ -8,6 +8,7 @@
 * Update Open Modular Passive Defense to ompd-1.12.2-3.1.1-76.jar
 * Update Open Modular Turrets to openmodularturrets-1.12.2-3.1.14-382.jar
 * Update Open Modular Lib to omlib-1.12.2-3.1.5-256.jar
+* Update HT's TreeChop to TreeChop-1.12.2-0.14.6.jar
 
 ## v0.84
 * Disable Raiders time based progression and just buff their base stats more
