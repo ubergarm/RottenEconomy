@@ -96,10 +96,10 @@ mods.techguns.Grinder.addRecipe(<cyberware:component:*>,
     [
         <minecraft:quartz>,               // (nether) quartz
         <minecraft:redstone>,             // redstone
-        <minecraft:iron_ingot>,           // iron
+        <minecraft:diamond>,              // diamond
+        <minecraft:iron_ingot>*2,         // iron
         <thermalfoundation:material:128>, // copper
         <thermalfoundation:material:131>, // lead
-        <thermalfoundation:material:129>, // tin
         <minecraft:gold_ingot>,           // gold
         <mekanism:ingot:1>,               // osmium
         <techreborn:nuggets:14>           // titanium nugget
@@ -107,10 +107,10 @@ mods.techguns.Grinder.addRecipe(<cyberware:component:*>,
     [
         0.75,
         0.75,
+        0.15,
         0.75,
         0.50,
         0.50,
-        0.25,
         0.25,
         0.25,
         0.25

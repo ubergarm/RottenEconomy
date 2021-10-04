@@ -18,11 +18,13 @@ mods.techguns.Grinder.addRecipe(
     [
         <minecraft:rotten_flesh>*4,      // array of output items
         <minecraft:netherrack>,
-        <minecraft:gunpowder>
+        <minecraft:gunpowder>,
+        <thermalfoundation:material:771> // dustSulfur
     ],
     [
-        0.50,                            // chance of output
-        1.00,
+        0.75,                            // chance of output
+        0.75,
+        0.25,
         0.25
     ]
 );
@@ -30,18 +32,13 @@ mods.techguns.Grinder.addRecipe(
 ## Add it into ore dict for netherrack for easy use bypassing bonus
 <ore:oreNetherrack>.add(<contenttweaker:rotten_netherrack>);
 
-## TODO think about this with more gameplay and testing
-## could easily add a cobble gen resource engine here with something like
-## cobble -> pocket nether link -> netherrack -> (add new recipe here) ->
-## rotten netherrack -> grinder -> rotten flesh
-
-<sonarcore:stableglass:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:stableglass:*>.asBlock().definition.hardness = 3.0;
 <sonarcore:stableglass:*>.asBlock().definition.resistance = 20.0;
-<sonarcore:clearstableglass:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:clearstableglass:*>.asBlock().definition.hardness = 3.0;
 <sonarcore:clearstableglass:*>.asBlock().definition.resistance = 20.0;
-<sonarcore:reinforcedstoneblock:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:reinforcedstoneblock:*>.asBlock().definition.hardness = 3.0;
 <sonarcore:reinforcedstoneblock:*>.asBlock().definition.resistance = 15.0;
-<sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 5.0;
+<sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 3.0;
 <sonarcore:reinforcedstonestairs:*>.asBlock().definition.resistance = 15.0;
 
 ## Label items marked in epicsiegemod.cfg digging blacklist

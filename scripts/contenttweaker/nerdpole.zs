@@ -8,8 +8,8 @@ import mods.contenttweaker.Block;
 
 var rottenNetherrackBlock = VanillaFactory.createBlock("rotten_netherrack", <blockmaterial:cake>);
 rottenNetherrackBlock.setLightValue(0);
-rottenNetherrackBlock.setBlockHardness(5.0);
-rottenNetherrackBlock.setBlockResistance(5.0);
+rottenNetherrackBlock.setBlockHardness(2.0);
+rottenNetherrackBlock.setBlockResistance(2.0);
 rottenNetherrackBlock.setToolClass("shovel");
 rottenNetherrackBlock.setToolLevel(0);
 rottenNetherrackBlock.setBlockSoundType(<soundtype:cloth>);

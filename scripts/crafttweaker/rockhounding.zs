@@ -41,6 +41,8 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000, <liquid:oxyg
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000, <liquid:ic2oxygen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:refined_fuel>*1000, <liquid:fuelium>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:fuelium>*1000, <liquid:refined_fuel>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:salt_brine>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:brine>*1000);
 
 // LAB BLENDER
 //Note 1: input will be extended to their oredicts. Plans to improve this.
@@ -82,5 +84,15 @@ mods.rockhounding_chemistry.LabOven.add(
     <liquid:lava>*500,
     <liquid:enrichedlava>*500,
     <liquid:toxic_waste>*50
+);
+
+// SEASONING RACK
+mods.rockhounding_chemistry.SeasoningRack.add(
+    <minecraft:wheat>,
+    <minecraft:wheat_seeds>
+);
+mods.rockhounding_chemistry.SeasoningRack.add(
+    <alchemistry:mineral_salt>,
+    <mekanism:salt>
 );
 

@@ -1,3 +1,10 @@
+## v0.85
+* Decrease Rotten Netherrack hardness so now faster to dig it
+* Increase drop rates on tech guns grinder for items including iron and diamonds
+* Streamline Rotten -> Gritty -> Jumpy flesh progression and recipes
+* Add a few recipes to machines for better interop between mods
+* Allow non ops on server to see more from lag goggles
+
 ## v0.84
 * Disable Raiders time based progression and just buff their base stats more
 * Play the raiders suspenseful sound when hard day difficulty increases

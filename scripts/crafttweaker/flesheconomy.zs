@@ -6,52 +6,52 @@
 
 ## Scratch Off Base Chances
 // Rotten Flesh
-var coalChance = 0.15;
-var redstoneChance = 0.15;
-var ironChance = 0.15;
-var copperChance = 0.10;
-var leadChance = 0.10;
-var tinChance = 0.10;
-var nickelChance = 0.08;
-var goldChance = 0.05;
-var woolChance = 0.08;
+var coalChance = 0.20;
+var redstoneChance = 0.20;
+var ironChance = 0.20;
+var copperChance = 0.15;
+var leadChance = 0.15;
+var tinChance = 0.15;
+var nickelChance = 0.10;
+var goldChance = 0.10;
+var woolChance = 0.15;
 
 // Gritty Flesh
-var mineralChance = 0.10;
-var quartzChance = 0.15;
-var resonatingOreChance = 0.10;
+var mineralChance = 0.15;
+var quartzChance = 0.20;
+var resonatingOreChance = 0.15;
 var saltpeterChance = 0.50;
-var oilShaleChance = 0.08;
+var oilShaleChance = 0.15;
 var osmiumChance = 0.10;
 var silverChance = 0.10;
-var aluminumChance = 0.08;
-var platinumChance = 0.05;
+var aluminumChance = 0.10;
+var platinumChance = 0.10;
 
 // Jumpy Flesh
-var enderChance = 0.10;
-var lapisChance = 0.15;
-var diamondChance = 0.05;
-var emeraldChance = 0.03;
+var enderChance = 0.20;
+var lapisChance = 0.20;
+var diamondChance = 0.15;
+var emeraldChance = 0.10;
 var heartChance = 0.05;
 var tungstenChance = 0.10;
-var titaniumChance = 0.02;
-var dilithiumChance = 0.02;
-var matterChance = 0.06;
+var titaniumChance = 0.05;
+var dilithiumChance = 0.05;
+var matterChance = 0.10;
 
 // Irradiated Flesh
 <qmd:flesh>.displayName = "Irradiated Flesh";
-var graniteChance = 0.10;
-var dioriteChance = 0.10;
-var andesiteChance = 0.10;
-var glowstoneChance = 0.15;
-var thoriumChance = 0.08;
-var uraniumChance = 0.08;
-var boronChance = 0.08;
-var lithiumChance = 0.08;
-var magnesiumChance = 0.08;
+var graniteChance = 0.15;
+var dioriteChance = 0.15;
+var andesiteChance = 0.15;
+var glowstoneChance = 0.20;
+var thoriumChance = 0.15;
+var uraniumChance = 0.15;
+var boronChance = 0.15;
+var lithiumChance = 0.15;
+var magnesiumChance = 0.15;
 
 ## Tier 1 Scratch-Offs
-## Tech Guns Grinder into small dust / nuggets
+## Tech Guns Grinder into ores
 ## 5 minutes 20 seconds to process full stack of 64 flesh
 // Rotten Flesh
 mods.techguns.Grinder.addRecipe(<minecraft:rotten_flesh>,
@@ -164,80 +164,84 @@ mods.techguns.Grinder.addRecipe(<qmd:flesh>,
 // input array: the list of ingredients with their quantity
 // output stack: the resulting mixture and its quantity
 
+// Rubber into Substrate
+mods.rockhounding_chemistry.LabBlender.add(
+    [
+        <techguns:itemshared:56>    // materialRubber
+    ],
+    <mekanism:substrate>*2
+);
+
 // 2:1 Rotten Flesh to Gritty Flesh
 mods.rockhounding_chemistry.LabBlender.add(
     [
-        <minecraft:rotten_flesh>*4,
-        <rockhounding_chemistry:chemical_items:18>*4,  // filtered sand
+        <minecraft:rotten_flesh>*2,
+        <mekanism:salt>,                               // dustSalt
+        <rockhounding_chemistry:chemical_items:11>*1,  // silicon compound
+        <rockhounding_chemistry:chemical_items:18>*1,  // filtered sand
     ],
-    <contenttweaker:gritty_flesh>*2
+    <contenttweaker:gritty_flesh>*1
 );
 
 // 2:1 Gritty Flesh to Jumpy Flesh
+// create a new oredict to share for cracked coal and charcoal
+<ore:compoundCrackedCarbon>.add(<rockhounding_chemistry:chemical_items>);
+<ore:compoundCrackedCarbon>.add(<rockhounding_chemistry:chemical_items:13>);
+
 mods.rockhounding_chemistry.LabBlender.add(
     [
-        <contenttweaker:gritty_flesh>*4,
-        <thermalfoundation:material:770>*4   // pulverized obsidian
+        <minecraft:rotten_flesh>*1,
+        <contenttweaker:gritty_flesh>*1,
+        <thermalfoundation:material:231>,        // nuggetEnderium
+        <rockhounding_chemistry:chemical_items>, // compoundCrackedCarbon
+        <thermalfoundation:material:770>*1       // pulverized obsidian
     ],
-    <contenttweaker:jumpy_flesh>*2
+    <contenttweaker:jumpy_flesh>*1
 );
 
 ## Tier 2 Upgrade Conversion
-// Rotten Flesh from Coal Slurry plus adjuncts
+// Rotten Flesh
 // Tech Guns Chemistry Lab
 mods.techguns.ChemLab.addRecipe(
     <mekanism:substrate>,            // first input slot (auto oreDict)
     1,                               // quantity of first input
     "dustNetherrack",                // second input slot (required even if 0)
     1,                               // quantity of second input (or 0 for null input)
-    <liquid:coal_slurry>*250,        // input liquid and qty
-    false,                           // allow swap
+    <liquid:organic_slurry>*250,     // input liquid and qty
+    true,                            // allow swap
     <minecraft:rotten_flesh>*1,      // output slot and qty
-    <liquid:toxic_waste>*25,         // output liquid and qty
-    32                               // required RF/tick cost
+    <liquid:toxic_waste>*100,        // output liquid and qty
+    64                               // required RF/tick cost
 );
 
-// Gritty Flesh from Organic Slurry plus Adjuncts
-// 4x Rotten Flesh + 200mB Water -> Rockhounding Slurry Pond @10% Solution + Some RF -> 200mB Organic Slurry
-// 125 mB Water -> Alchemistry Evaporator -> 1x <alchemistry:mineral_salt>
-// 1 Rotten Flesh -> Mek Crusher = 2x Bio Fuel -> Mek Bio-Generator -> 34.72 kRF @ 280.0 RF/t
+// Gritty Flesh
 // Tech Guns Chemistry Lab
 mods.techguns.ChemLab.addRecipe(
-    <alchemistry:mineral_salt>,      // first input slot (auto oreDict)
+    "dustSalt",                      // first input slot (auto oreDict)
     1,                               // quantity of first input
     <rockhounding_chemistry:chemical_items:18>,  // second input slot (required even if 0) - filtered sand
     1,                               // quantity of second input (or 0 for null input)
-    <liquid:organic_slurry>*50,      // input liquid and qty
-    false,                           // allow swap
+    <liquid:silicon>*250,            // input liquid and qty
+    true,                            // allow swap
     <contenttweaker:gritty_flesh>*1, // output slot and qty
-    <liquid:toxic_waste>*25,         // output liquid and qty
-    32                               // required RF/tick cost
+    <liquid:toxic_waste>*100,        // output liquid and qty
+    64                               // required RF/tick cost
 );
 
-// 1x Rotten Flesh + 1x Gritty Flesh to 1x Jumpy Flesh
-// Rockhounding Lab Oven Reactor
-// 50mB Organic Slurry + 250mB Toxic Waste + 10% Refined Obsidian Catalyst 1x Gritty Flesh + RF -> Lab Oven Reactor -> 250 mB fluid:ender_sap
-// Note 1: the solute must be always used. Solvent and the Solution cannot be null
-// Note 2: the catalyst must be a damageable item (any item with a durability).
-// display name: alternative name for the recipe selector. Can be null if not necessary
-// solute stack: the main ingredient (required)
-// catalyst: the damageable ingredient (optional)
-// solvent fluid: the main solvent and its quantity
-// reagent fluid: the secondary solvent and its quantity (optional)
-// solution fluid: the output fluid and its quantity
-// byproduct: the secondary output and its quantity (optional)
-mods.rockhounding_chemistry.LabOven.add(
-    "Ender Sap",
-    <thermalfoundation:material:770>, // pulverized obsidian
-    <contenttweaker:enderium_catalyst>,
-    <liquid:organic_slurry>*50,
-    <liquid:coal_slurry>*250,
-    <liquid:ender_sap>*250,
-    <liquid:toxic_sludge>*5
+mods.techguns.ChemLab.addRecipe(
+    <rockhounding_chemistry:chemical_items:11>,  // first input slot (auto oreDict)
+    1,                               // quantity of first input
+    <rockhounding_chemistry:chemical_items:18>,  // second input slot (required even if 0) - filtered sand
+    1,                               // quantity of second input (or 0 for null input)
+    <liquid:brine>*250,              // input liquid and qty
+    true,                            // allow swap
+    <contenttweaker:gritty_flesh>*1, // output slot and qty
+    <liquid:toxic_waste>*100,        // output liquid and qty
+    64                               // required RF/tick cost
 );
 
+// Jumpy Flesh
 // Rockhounding Precipitation Chamber
-// 250mB fluid:ender_sap = 1x Jumpy Flesh
 // **Note: the solute must be always used. Solvent and Solution cannot be null
 // display name: alternative name for the recipe selector. Can be null if not necessary
 // solute stack or roedict string: the main ingredient (required)
@@ -247,9 +251,9 @@ mods.rockhounding_chemistry.LabOven.add(
 // precipitate: the solid output
 mods.rockhounding_chemistry.Precipitator.add(
     "Jumpy Flesh",
-    <contenttweaker:gritty_flesh>,
-    null,
-    <liquid:ender_sap>*250,
+    <thermalfoundation:material:770>,    // pulverized obsidian
+    <contenttweaker:enderium_catalyst>,
+    <liquid:coal_slurry>*250,
     <liquid:toxic_waste>*100,
-    <contenttweaker:jumpy_flesh>*1
+    <contenttweaker:jumpy_flesh>
 );
