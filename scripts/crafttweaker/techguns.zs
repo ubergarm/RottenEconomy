@@ -12,6 +12,18 @@ import mods.jei.JEI.removeAndHide;
 ## regular steel and bronze can be made in other mods easily enough still
 removeAndHide(<techguns:simplemachine:11>);
 
+## add a note about cybernetic parts
+<techguns:itemshared:69>.addTooltip("§4NOTE: §7Loot drop from cyber demons and helicopters in military bases! ");
+
+## add a recipe to convert some cyberware stuff into tech guns cybernetic parts
+recipes.addShaped("techguns.cyberneticparts", <techguns:itemshared:69>,
+    [
+        [<cyberware:component:*>, <cyberware:component:*>, <cyberware:component:*>],
+        [<cyberware:component:*>, <cyberware:cyberlimbs:*>, <cyberware:component:*>],
+        [<cyberware:component:*>, <cyberware:component:*>, <cyberware:component:*>]
+    ]
+);
+
 ## give everything a nice shiny new long-ass name to make it more obvious
 <techguns:itemshared:51>.displayName = "Hardened Obsidian Plate Steel";
 <techguns:itemshared:84>.displayName = "Hardened Obsidian Steel Ingot";

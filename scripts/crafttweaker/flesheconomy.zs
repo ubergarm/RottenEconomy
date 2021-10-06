@@ -211,7 +211,7 @@ mods.techguns.ChemLab.addRecipe(
     true,                            // allow swap
     <minecraft:rotten_flesh>*1,      // output slot and qty
     <liquid:toxic_waste>*50,         // output liquid and qty
-    64                               // required RF/tick cost
+    32                               // required RF/tick cost
 );
 
 // Gritty Flesh
@@ -225,7 +225,7 @@ mods.techguns.ChemLab.addRecipe(
     true,                            // allow swap
     <contenttweaker:gritty_flesh>*1, // output slot and qty
     <liquid:toxic_waste>*50,         // output liquid and qty
-    64                               // required RF/tick cost
+    32                               // required RF/tick cost
 );
 
 mods.techguns.ChemLab.addRecipe(
@@ -237,7 +237,7 @@ mods.techguns.ChemLab.addRecipe(
     true,                            // allow swap
     <contenttweaker:gritty_flesh>*1, // output slot and qty
     <liquid:toxic_waste>*50,         // output liquid and qty
-    64                               // required RF/tick cost
+    32                               // required RF/tick cost
 );
 
 // Jumpy Flesh

@@ -4,8 +4,16 @@
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 
-// quadruple recipe output for basic cables and connectors
+// force displayNames to make it easier to distinguish network and routing stuff
+<xnet:connector:4>.displayName = "Routing Connector";
+game.setLocalization("tile.xnet.connector_routing.name","Routing Connector");
+<xnet:netcable:4>.displayName = "Routing Cable";
+game.setLocalization("tile.xnet.netcable_routing.name","Routing Cable");
 
+// add a hint about lapis vs blue dye powder
+<xnet:connector>.addTooltip("§eHINT: §7blue dye powder works as lapis!");
+
+// quadruple recipe output for basic cables and connectors
 recipes.removeByRecipeName("xnet:connector_0");
 recipes.addShaped("xnet.connector_0", <xnet:connector>*4,
     [

@@ -2,6 +2,8 @@
 * Slightly reduce XP boost from high difficulty mob kills
 * Reduce liquid cost to make flesh types and increase blender cost a bit
 * Update default world generator to new Rotten Economy logo
+* Disambiguate XNET routing cable and connector names
+* Add note and recipe regarding aquiring tech guns cybernetic parts
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
