@@ -15,8 +15,21 @@ mods.nuclearcraft.Manufactory.addRecipe(
     <alchemistry:mineral_salt>,
     <mekanism:salt>
 );
+
 // Galena Ore Doubling to Lead
 mods.nuclearcraft.Manufactory.addRecipe(
     <ore:oreGalena>,
     <thermalfoundation:material:67>*2
+);
+
+// SRParasites assimilated flesh to jumpy flesh
+mods.nuclearcraft.Manufactory.addRecipe(
+    <srparasites:assimilated_flesh>,
+    <contenttweaker:jumpy_flesh>
+);
+
+// SRParasites flesh to rotten netherrack
+mods.nuclearcraft.Manufactory.addRecipe(
+    <srparasites:parasitestain:2>,
+    <contenttweaker:rotten_netherrack>
 );

@@ -46,6 +46,20 @@ recipes.addShaped("techguns.cyberneticparts", <techguns:itemshared:69>,
 ## random fixup of original mod copy paste typo error
 <techguns:itemshared:137>.displayName = "Medium Ore Drill (Steel)";
 
+// Chem Lab now only makes rubber from any rubber tree type wood
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
+mods.techguns.ChemLab.addRecipe(
+    "logRubber",                // first input slot (auto oreDict)
+    1,                          // quantity of first input
+    <minecraft:dirt>,           // second input slot (required even if 0) - filtered sand
+    0,                          // quantity of second input (or 0 for null input)
+    <liquid:water>*1000,        // input liquid and qty
+    false,                      // allow swap
+    <techguns:itemshared:95>*1, // output slot and qty
+    <liquid:water>*0,           // output liquid and qty
+    32                          // required RF/tick cost
+);
+
 ## Chem Lab now only makes 1x Carbon Fibers per inputs (double original cost)
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:64>,null);
 mods.techguns.ChemLab.addRecipe(

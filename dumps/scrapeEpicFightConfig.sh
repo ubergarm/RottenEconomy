@@ -378,6 +378,20 @@ echo "            }"
 echo "        }"
 echo ""
 
+## scape and run parasites weapons
+cat recipes.log  | grep -o -e "srparasites:weapon_\w*" | grep -v _bow | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=GREATSWORD"
+    echo "            D:armor_negation=0.0"
+    echo "            D:impact=8.0"
+    echo "            I:max_strikes=4"
+    echo "        }"
+    echo ""
+done
+
 ## End Weapons
 echo "    }"
 echo ""
