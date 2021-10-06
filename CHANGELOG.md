@@ -11,6 +11,7 @@
 * Add Bonsai Trees 2 mod bonsaitrees-1.1.4-b170.jar
 * Add Bonsai Trees 2 config for SNAD, chisel dirt, and sugar cane
 * Tech Guns chem lab can make rubber only from rubber wood now
+* Add FTB Quests and dependency mods
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
