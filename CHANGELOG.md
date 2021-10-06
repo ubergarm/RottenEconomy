@@ -1,3 +1,6 @@
+## v0.90
+* Slightly reduce XP boost from high difficulty mob kills
+
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
 * Increase drop rates on tech guns grinder for items including iron and diamonds
