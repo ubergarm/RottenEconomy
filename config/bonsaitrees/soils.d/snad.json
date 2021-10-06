@@ -1,0 +1,16 @@
+{
+  "name": "snad:snad",
+  "mod": "snad",
+  "soil": {
+    "name": "snad:snad",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.5,
+    "dropChance": 1.0
+  },
+
+  "providedTags": [ "sand" ]
+}

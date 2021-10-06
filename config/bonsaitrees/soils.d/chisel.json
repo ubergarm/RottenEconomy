@@ -1,0 +1,72 @@
+[
+  {
+    "name": "chisel:dirt",
+    "mod": "chisel",
+    "soil": {
+      "name": "chisel:dirt",
+      "data": 0,
+      "ignoreMeta": true
+    },
+    "modifiers": {
+      "growTime": 1.10,
+      "dropChance": 0.90
+    },
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "chisel:netherrack",
+    "mod": "chisel",
+    "soil": {
+      "name": "chisel:netherrack",
+      "data": 0,
+      "ignoreMeta": true
+    },
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+    "providedTags": [ "netherrack" ]
+  },
+  {
+    "name": "chisel:endstone",
+    "mod": "chisel",
+    "soil": {
+      "name": "chisel:endstone",
+      "data": 0,
+      "ignoreMeta": true
+    },
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+    "providedTags": [ "endstone", "end_stone" ]
+  },
+  {
+    "name": "chisel:endstone1",
+    "mod": "chisel",
+    "soil": {
+      "name": "chisel:endstone1",
+      "data": 0,
+      "ignoreMeta": true
+    },
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+    "providedTags": [ "endstone", "end_stone" ]
+  },
+  {
+    "name": "chisel:endstone2",
+    "mod": "chisel",
+    "soil": {
+      "name": "chisel:endstone2",
+      "data": 0,
+      "ignoreMeta": true
+    },
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+    "providedTags": [ "endstone", "end_stone" ]
+  }
+]
