@@ -6,8 +6,8 @@
 * Add note and recipe regarding aquiring tech guns cybernetic parts
 * Update Particle Culling to particleculling-1.12.2-v1.2.jar
 * Update Mahou Tsukai mod to mahoutsukai-1.12.2-v1.19.50.jar
-* Add Scape and Run Parasites mod 
-* Add Bonsai Pots mod
+* Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
+* Add Bonsai Trees 2 mod bonsaitrees-1.1.4-b170.jar
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
