@@ -79,7 +79,10 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `Mouse Button 4` Swap Tool
 
 #### Advancements
-* `L` open progress log
+* `l` open progress log
+
+#### FTB Quests and Teams
+* `;` open team quests and shop menu (or use FTB Quest Book already in Akashic Tome)
 
 #### OptiFine
 * `c` zoom in
@@ -112,6 +115,8 @@ available on your server, and edit the `server.properties`. Linux example:
 Windows will be very similar, but you might need a `start.bat` script instead.
 
 ## Server Commands
+
+
 Make a team and join with your friends:
 
 * `/scoreboard teams add MyTeamName MyTeamName`
@@ -119,6 +124,10 @@ Make a team and join with your friends:
 * `/scoreboard teams join MyTeamName player2name`
 * `/scoreboard teams join MyTeamName player3name`
 * `/scoreboard teams option MyTeamName friendlyfire false`
+
+FTB Commands:
+
+* `/team create MyTeamName`
 
 Misc commands:
 
