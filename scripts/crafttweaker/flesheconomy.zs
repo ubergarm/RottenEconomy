@@ -175,12 +175,12 @@ mods.rockhounding_chemistry.LabBlender.add(
 // 2:1 Rotten Flesh to Gritty Flesh
 mods.rockhounding_chemistry.LabBlender.add(
     [
-        <minecraft:rotten_flesh>*2,
+        <minecraft:rotten_flesh>*4,
         <mekanism:salt>,                               // dustSalt
         <rockhounding_chemistry:chemical_items:11>*1,  // silicon compound
         <rockhounding_chemistry:chemical_items:18>*1,  // filtered sand
     ],
-    <contenttweaker:gritty_flesh>*1
+    <contenttweaker:gritty_flesh>
 );
 
 // 2:1 Gritty Flesh to Jumpy Flesh
@@ -190,13 +190,13 @@ mods.rockhounding_chemistry.LabBlender.add(
 
 mods.rockhounding_chemistry.LabBlender.add(
     [
-        <minecraft:rotten_flesh>*1,
-        <contenttweaker:gritty_flesh>*1,
-        <thermalfoundation:material:231>,        // nuggetEnderium
+        <minecraft:rotten_flesh>*2,
+        <contenttweaker:gritty_flesh>*2,
+        <inventorypets:nugget_ender>,
         <rockhounding_chemistry:chemical_items>, // compoundCrackedCarbon
         <thermalfoundation:material:770>*1       // pulverized obsidian
     ],
-    <contenttweaker:jumpy_flesh>*1
+    <contenttweaker:jumpy_flesh>
 );
 
 ## Tier 2 Upgrade Conversion
@@ -207,10 +207,10 @@ mods.techguns.ChemLab.addRecipe(
     1,                               // quantity of first input
     "dustNetherrack",                // second input slot (required even if 0)
     1,                               // quantity of second input (or 0 for null input)
-    <liquid:organic_slurry>*250,     // input liquid and qty
+    <liquid:organic_slurry>*100,     // input liquid and qty
     true,                            // allow swap
     <minecraft:rotten_flesh>*1,      // output slot and qty
-    <liquid:toxic_waste>*100,        // output liquid and qty
+    <liquid:toxic_waste>*50,         // output liquid and qty
     64                               // required RF/tick cost
 );
 
@@ -221,10 +221,10 @@ mods.techguns.ChemLab.addRecipe(
     1,                               // quantity of first input
     <rockhounding_chemistry:chemical_items:18>,  // second input slot (required even if 0) - filtered sand
     1,                               // quantity of second input (or 0 for null input)
-    <liquid:silicon>*250,            // input liquid and qty
+    <liquid:silicon>*100,            // input liquid and qty
     true,                            // allow swap
     <contenttweaker:gritty_flesh>*1, // output slot and qty
-    <liquid:toxic_waste>*100,        // output liquid and qty
+    <liquid:toxic_waste>*50,         // output liquid and qty
     64                               // required RF/tick cost
 );
 
@@ -233,10 +233,10 @@ mods.techguns.ChemLab.addRecipe(
     1,                               // quantity of first input
     <rockhounding_chemistry:chemical_items:18>,  // second input slot (required even if 0) - filtered sand
     1,                               // quantity of second input (or 0 for null input)
-    <liquid:brine>*250,              // input liquid and qty
+    <liquid:brine>*100,              // input liquid and qty
     true,                            // allow swap
     <contenttweaker:gritty_flesh>*1, // output slot and qty
-    <liquid:toxic_waste>*100,        // output liquid and qty
+    <liquid:toxic_waste>*50,         // output liquid and qty
     64                               // required RF/tick cost
 );
 
@@ -253,7 +253,7 @@ mods.rockhounding_chemistry.Precipitator.add(
     "Jumpy Flesh",
     <thermalfoundation:material:770>,    // pulverized obsidian
     <contenttweaker:enderium_catalyst>,
-    <liquid:coal_slurry>*250,
-    <liquid:toxic_waste>*100,
+    <liquid:coal_slurry>*100,
+    <liquid:toxic_waste>*50,
     <contenttweaker:jumpy_flesh>
 );

@@ -1,5 +1,6 @@
 ## v0.90
 * Slightly reduce XP boost from high difficulty mob kills
+* Reduce liquid cost to make flesh types and increase blender cost a bit
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
