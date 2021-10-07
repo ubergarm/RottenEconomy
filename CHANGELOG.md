@@ -12,6 +12,7 @@
 * Add Bonsai Trees 2 config for SNAD, chisel dirt, and sugar cane
 * Tech Guns chem lab can make rubber only from rubber wood now
 * Add FTB Quests and FTB Money and dependency mods
+* Add BiomeInfo mod configured to display under voxel map coordinates
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it
