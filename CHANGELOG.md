@@ -1,17 +1,18 @@
 ## v0.90
+* Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
+* Add Scape and Run Parasites weapons into Epic Fight
+* Add FTB Quests and FTB Money and dependency mods
+* Add Bonsai Trees 2 mod bonsaitrees-1.1.4-b170.jar
+* Add Bonsai Trees 2 config for SNAD, chisel dirt, and sugar cane
+* Update Particle Culling to particleculling-1.12.2-v1.2.jar
+* Update Mahou Tsukai mod to mahoutsukai-1.12.2-v1.19.50.jar
+* Update Shoulder Surfing to ShoulderSurfing-1.12.2-2.2.1.jar
+* Tech Guns chem lab can make rubber only from rubber wood now
+* Add note and recipe regarding aquiring Tech Guns cybernetic parts
 * Slightly reduce XP boost from high difficulty mob kills
 * Reduce liquid cost to make flesh types and increase blender cost a bit
 * Update default world generator to new Rotten Economy logo
 * Disambiguate XNET routing cable and connector names
-* Add note and recipe regarding aquiring tech guns cybernetic parts
-* Update Particle Culling to particleculling-1.12.2-v1.2.jar
-* Update Mahou Tsukai mod to mahoutsukai-1.12.2-v1.19.50.jar
-* Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
-* Add Scape and Run Parasites weapons into Epic Fight
-* Add Bonsai Trees 2 mod bonsaitrees-1.1.4-b170.jar
-* Add Bonsai Trees 2 config for SNAD, chisel dirt, and sugar cane
-* Tech Guns chem lab can make rubber only from rubber wood now
-* Add FTB Quests and FTB Money and dependency mods
 
 ## v0.85
 * Decrease Rotten Netherrack hardness so now faster to dig it

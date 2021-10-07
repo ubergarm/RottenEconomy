@@ -34,5 +34,10 @@
 		type: "item",
 		item: "minecraft:coal",
 		count: 16
+	},
+	{
+		uid: "b4698a33",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }
