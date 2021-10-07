@@ -1,0 +1,28 @@
+{
+	title: "If all else fails...",
+	x: -6.0d,
+	y: -1.5d,
+	description: "RTFM!",
+	text: [
+		"Many mods have guide books ready to help you along your way. Start off by adding the FTB Quest Book into your Akashic tome by placing them togther in a crafting grid.",
+		"",
+		"Most books have already been given to you in your tome, so don't lose it! You can access any book by right clicking in air with the tome in your main hand. To convert the item back into the tome simply left click the item to \"shake it\" back. ",
+		"",
+		"You can also store some wrenches in the Akashic tome for convenience, but it is recommended you use a different one for that just in case the tool breaks which will cause you to lose the tome and all its contents..."
+	],
+	tasks: [{
+		uid: "cf5ae6d4",
+		type: "item",
+		items: [{
+			item: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a9115023",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

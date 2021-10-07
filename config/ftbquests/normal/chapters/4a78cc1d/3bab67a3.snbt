@@ -1,0 +1,30 @@
+{
+	title: "Skills to Pay the Bills",
+	x: -4.5d,
+	y: -2.5d,
+	description: "Spend XP to Upgrade Skills",
+	text: [
+		"Use your Akashic tome to access the Book of Skills. You only have to do this one time as it will appear in your inventory next to the crafting grid now.",
+		"",
+		"You can bank your experience in case you die and save up to spend it on skills.",
+		"",
+		"You will find new skill pages in loot boxes around urban areas."
+	],
+	dependencies: [
+		"87d5f69f"
+	],
+	tasks: [{
+		uid: "1efb55e9",
+		type: "item",
+		items: [{
+			item: "improvableskills:skills_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03a06a00",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}
