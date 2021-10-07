@@ -1,0 +1,90 @@
+{
+  "type": "pizzacraft:oliveTree",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pizzacraft:olive_log",
+      "meta": 0
+    },
+    "b": {
+      "name": "pizzacraft:olive_leaves",
+      "meta": 4
+    },
+    "c": {
+      "name": "pizzacraft:olive_leaves",
+      "meta": 0
+    },
+    "d": {
+      "name": "pizzacraft:olive_leaves_growing",
+      "meta": 8
+    },
+    "e": {
+      "name": "pizzacraft:olive_leaves_growing",
+      "meta": 0
+    },
+    "f": {
+      "name": "pizzacraft:olive_leaves_growing",
+      "meta": 2
+    },
+    "g": {
+      "name": "pizzacraft:olive_leaves_growing",
+      "meta": 1
+    },
+    "h": {
+      "name": "pizzacraft:olive_leaves_growing",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " ccgb",
+      "bbcb ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "ebgeg",
+      "hbcbb",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " dbb ",
+      " bag ",
+      "cbagb",
+      "bcabc",
+      "  a  ",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  c  ",
+      "  cc ",
+      "bccbf",
+      "cgcbb",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " bbb ",
+      " bbb ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}
