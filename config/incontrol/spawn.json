@@ -155,8 +155,6 @@
         "result": "deny"
     },
 
-
-
     {
         "mob": "minecraft:creeper",
         "mincount": {
@@ -215,7 +213,7 @@
         "mob": "raiders:raider",
         "random": 0.05,
         "helditem": [
-            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:battleaxe_bronze",
             "10=spartanweaponry:warhammer_stone",
             "10=spartanweaponry:halberd_bronze",
             "10=spartanweaponry:pike_copper",
@@ -248,7 +246,7 @@
         "mob": "raiders:brute",
         "random": 0.05,
         "helditem": [
-            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:battleaxe_bronze",
             "10=spartanweaponry:warhammer_stone",
             "10=spartanweaponry:halberd_bronze",
             "10=spartanweaponry:pike_copper",
@@ -263,7 +261,7 @@
         "healthmultiply": 1.0,
         "damagemultiply": 1.0,
         "speedmultiply": 0.9,
-        "potion": ["epicfight:stun_immunity,6000,1","raiders:bruteserum,1200"],
+        "potion": ["epicfight:stun_immunity,6000,1","raiders:bruteserum,1200,1"],
         "result": "default"
     },
     {
@@ -332,7 +330,7 @@
         "mob": "minecraft:husk",
         "random": 0.05,
         "helditem": [
-            "10=spartanweaponry.battleaxe_bronze",
+            "10=spartanweaponry:battleaxe_bronze",
             "10=spartanweaponry:warhammer_stone",
             "10=spartanweaponry:halberd_bronze",
             "10=spartanweaponry:pike_copper",
@@ -340,7 +338,7 @@
             "10=spartanweaponry:dagger_bronze",
             "10=spartanweaponry:greatsword_bronze"
         ],
-        "armorhelmet": ["10=techreborn.bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
+        "armorhelmet": ["10=techreborn:bronzehelmet", "5=mekanismtools:lapislazulihelmet"],
         "armorchest": ["10=ic2:bronze_chestplate", "5=mekanismtools:steelchestplate"],
         "armorlegs": ["10=minecraft:chainmail_leggings", "5=mekanismtools:bronzeleggings"],
         "armorboots": ["10=ic2:rubber_boots", "5=mekanismtools:bronzeboots"],
@@ -433,6 +431,301 @@
     {
         "mob": "thermalfoundation:basalz",
         "incity": true,
+        "result": "deny"
+    },
+
+    {
+        "mod": "srparasites",
+        "biome": "srparasites:biome_parasite",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:sim_bigspider",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_human",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_cow",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_sheep",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_wolf",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_pig",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_villager",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_adventurer",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_horse",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_bear",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_enderman",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_sheephead",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_wolfhead",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_cowhead",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_pighead",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_villagerhead",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_horsehead",
+        "incity": true,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sim_humanhead",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:incompleteform_small",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:incompleteform_medium",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:host",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:carrier_heavy",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:buglin",
+        "customname": "Buglin",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:carrier_flying",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:rupter",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:movingflesh",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:worker",
+        "customname": "Worker",
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:beckon_si",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:beckon_sii",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:beckon_siii",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:beckon_siv",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:kyphosis",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:sentry",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_longarms",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_manducater",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_reeker",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_yelloweye",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_summoner",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_bolster",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:pri_arachnida",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_longarms",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_manducater",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_reeker",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_yelloweye",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_summoner",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_bolster",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:ada_arachnida",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:overseer",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:vigilante",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:warden",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:bomber_light",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:marauder",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:grunt",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:anc_dreadnaut",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:anc_overlord",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:anc_pod",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:anc_dreadnaut_ten",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:homming",
+        "incity": false,
+        "result": "deny"
+    },
+    {
+        "mob": "srparasites:tendril",
+        "incity": false,
         "result": "deny"
     },
     {

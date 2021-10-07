@@ -1,0 +1,24 @@
+{
+	title: "Kill 10 Zombies",
+	x: -3.0d,
+	y: -1.5d,
+	description: "Harvest that rotten zed flesh!",
+	text: [
+		"Rotten Flesh doesn't grow on trees you know, but it does grow on vanilla zombies!",
+		"",
+		"Kill yourself a small horde and harvest their flesh to get started."
+	],
+	tasks: [{
+		uid: "5bed016c",
+		type: "kill",
+		title: "Kill 10 Vanilla Zombies",
+		icon: "deepmoblearning:data_model_zombie",
+		entity: "minecraft:zombie",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "5696e988",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

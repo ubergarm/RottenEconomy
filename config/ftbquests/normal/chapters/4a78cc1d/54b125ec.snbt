@@ -1,0 +1,29 @@
+{
+	title: "Harvest 64 Rotten Flesh",
+	x: -2.0d,
+	y: -2.5d,
+	description: "It starts with a stack, but where will it end?!",
+	text: [
+		"Get your hands on as much Rotten Flesh as possible. It will begin generating basic resources soon enough!",
+		"",
+		"You can find Rotten Flesh as loot in buildings, air support utility crates, and as drops from most zombie types.",
+		"",
+		"Soon enough you will be able to manufacture your own through scientific means!"
+	],
+	dependencies: [
+		"4163caa3"
+	],
+	tasks: [{
+		uid: "5a1198e4",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "38f451cb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
