@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+        "textures": {
+            "layer0": "contenttweaker:items/record",
+            "layer1": "base:items/record_color"
+        }
+}

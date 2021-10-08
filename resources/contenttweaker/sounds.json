@@ -1,0 +1,47 @@
+{
+  "record_five": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_five",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_five"
+  },
+  "record_four": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_four",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_four"
+  },
+  "record_one": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_one",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_one"
+  },
+  "record_two": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_two",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_two"
+  },
+  "record_three": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_three",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_three"
+  }
+}

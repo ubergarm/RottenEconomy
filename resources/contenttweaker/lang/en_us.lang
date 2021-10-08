@@ -1,4 +1,16 @@
 item.contenttweaker.gritty_flesh.name=Gritty Flesh
 item.contenttweaker.jumpy_flesh.name=Jumpy Flesh
 item.contenttweaker.enderium_catalyst.name=Enderium Catalyst
+item.contenttweaker.record_one.name=ko0x - We are Flying (GREP edit)
+item.record.record_one.desc=ko0x - We are Flying (GREP edit)
+item.contenttweaker.record_two.name=Joule & Malmen - Safe with Me
+item.record.record_two.desc=Joule & Malmen - Safe with Me
+item.contenttweaker.record_three.name=Blz - Whisper's: January
+item.record.record_three.desc=Blz - Whisper's: January
+item.contenttweaker.record_four.name=Trash80 - Missing You
+item.record.record_four.desc=Trash80 - Missing You
+item.contenttweaker.record_five.name=Xerxes - Music for Chips
+item.record.record_five.desc=Xerxes - Music for Chips
 tile.contenttweaker.rotten_netherrack.name=Rotten Netherrack
+item.battery.0.name=Basic Rocketry Battery
+item.battery.1.name=Advanced Rocketry Battery
