@@ -13,6 +13,7 @@
   "bypassDamageSources": [
     "gorgon",
     "death.attack.sgcraft:transient",
-    "death.attack.sgcraft:iris"
+    "death.attack.sgcraft:iris",
+    "death.attack.fatal_rads"
   ]
 }
