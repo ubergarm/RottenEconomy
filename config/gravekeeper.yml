@@ -17,6 +17,7 @@ charm {
     # Warning: items listed here are responsible to save & restore inventory on death, GraveKeeper won't do it for them.
     S:charm_full_names <
         twilightforest:charm_of_keeping_3
+        inventorypets:grave_pet
      >
 }
 
@@ -78,7 +79,7 @@ grave_location {
 
 soulbound {
     # The amount of soulbound items should be kept in player inventory, remaining will go into the grave
-    I:amount=5
+    I:amount=64
 
     # Enable to workaround for soul binding mods that don't support modded inventories.
     # For example: CoFH doesn't support Baubles, Twilight Forest doesn't support TechGuns,

@@ -1,4 +1,10 @@
 ## v0.90
+* Add some sweet sweet chip tune records!
+* Nuclearcraft: Overhauled radiation does not persist after death
+* Nuclearcraft: Overhauled radiation cannot be PlayerRevived
+* Fixup Inventory Pets Grave Pet and GraveKeeper interactions
+
+## v0.90
 * Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
 * Add Scape and Run Parasites weapons into Epic Fight
 * Add FTB Quests and FTB Money and dependency mods
