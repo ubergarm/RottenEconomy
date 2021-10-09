@@ -1,6 +1,7 @@
 #modloaded techguns
 // Tech Guns
 
+import mods.jei.JEI.hide;
 import mods.jei.JEI.removeAndHide;
 
 ## rubber bar now has itemRubber and materialRubber just to be safe
@@ -13,7 +14,7 @@ import mods.jei.JEI.removeAndHide;
 removeAndHide(<techguns:simplemachine:11>);
 
 ## add a note about cybernetic parts
-<techguns:itemshared:69>.addTooltip("§4NOTE: §7Loot drop from cyber demons and helicopters in military bases! ");
+<techguns:itemshared:69>.addTooltip("§4NOTE: §7Loot drop from cyber demons and helicopters in military bases!");
 
 ## add a recipe to convert some cyberware stuff into tech guns cybernetic parts
 recipes.addShaped("techguns.cyberneticparts", <techguns:itemshared:69>,
@@ -45,6 +46,28 @@ recipes.addShaped("techguns.cyberneticparts", <techguns:itemshared:69>,
 
 ## random fixup of original mod copy paste typo error
 <techguns:itemshared:137>.displayName = "Medium Ore Drill (Steel)";
+
+// remove all references to tech guns radiation resistance
+for item in loadedMods["techguns"].items {
+    item.removeTooltip(".*RAD Resistance");
+}
+removeAndHide(<techguns:radaway>);
+removeAndHide(<techguns:radpills>);
+removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion"}));
+removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion_severe"}));
+removeAndHide(<minecraft:splash_potion>.withTag({Potion: "techguns:radpotion"}));
+removeAndHide(<minecraft:splash_potion>.withTag({Potion: "techguns:radpotion_severe"}));
+removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "techguns:radpotion_severe"}));
+removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "techguns:radpotion"}));
+removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "techguns:radpotion_severe"}));
+removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: "techguns:radpotion"}));
+removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: "techguns:radpotion_severe"}));
+
+// hazmat suit now works with nuclearcraft radiation (in nuclearcraft.cfg)
+<techguns:hazmat_helmet>.displayName = "Lead Hazmat Helmet";
+<techguns:hazmat_chestplate>.displayName = "Lead Hazmat Suit";
+<techguns:hazmat_leggings>.displayName = "Lead Hazmat Leggings";
+<techguns:hazmat_boots>.displayName = "Lead Hazmat Boots";
 
 // Chem Lab now only makes rubber from any rubber tree type wood
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);

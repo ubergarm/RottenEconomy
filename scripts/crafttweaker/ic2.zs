@@ -10,6 +10,20 @@ hide(<ic2:booze_mug>);
 // this item is too cheap, replace it with tech guns carbon fiber plate
 <ore:plateCarbon>.remove(<ic2:crafting:15>);
 
+// fixup display names for the rubber hazmat suit
+game.setLocalization("ic2.hazmat_helmet", "Rubber Hazmat Helmet");
+game.setLocalization("ic2.hazmat_chestplate", "Rubber Hazmat Suit");
+game.setLocalization("ic2.hazmat_leggings", "Rubber Hazmat Leggings");
+game.setLocalization("ic2.rubber_boots", "Rubber Hazmat Boots");
+<ic2:hazmat_helmet>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:hazmat_chestplate>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:hazmat_leggings>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:rubber_boots>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:quantum_helmet>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:quantum_chestplate>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:quantum_leggings>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+<ic2:quantum_boots>.addTooltip("§4NOTE: §7This full suit works for *both* IC2 and NuclearCraft radiation!");
+
 // fixup its recipes to use oredict instead of specific item
 // nano suit and stuff
 recipes.removeByRecipeName("ic2:124");

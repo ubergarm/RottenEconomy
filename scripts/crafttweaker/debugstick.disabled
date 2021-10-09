@@ -1,0 +1,77 @@
+// The debugging stick!
+// when you hold a stick and right click,
+// it dumps out debugging info into crafttweaker.log
+
+// Imports always go first
+import mods.jei.JEI.hide;
+import mods.jei.JEI.removeAndHide;
+
+import crafttweaker.world.IWorld;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockPattern;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
+import crafttweaker.block.IBlockState;
+import crafttweaker.block.IBlockProperties;
+
+import crafttweaker.events.IEventManager;
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.BlockHarvestDropsEvent;
+
+import crafttweaker.data.IData;
+import crafttweaker.util.IRandom;
+
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.entity.IEntityDefinition;
+
+events.onPlayerRightClickItem(function(event as crafttweaker.event.PlayerRightClickItemEvent) {
+    if isNull(event) { return; }
+    if isNull(event.world) { return; }
+    if isNull(event.item) { return; }
+    if isNull(event.player) { return; }
+
+    var world = event.world;
+    if(world.isRemote()) { return; }
+
+    var item = event.item as IItemStack;
+
+    if (<minecraft:stick>.matches(item)) {
+
+        print("---");
+        print("CRAFTTWEAKER DEBUGGING");
+        print("DUMP ALL ITEMS:");
+        print("unlocalized name, id");
+        for itemDef in game.items {
+            var name = "n/a";
+            var displayName = "n/a";
+            var unlocalizedName = "n/a";
+            var id = "n/a";
+
+            if !isNull(itemDef.name) {
+                unlocalizedName = itemDef.name;
+            }
+            if !isNull(itemDef.id) {
+                id = itemDef.id;
+            }
+            // print(name + ", " + displayName + ", " + unlocalizedName + ", " + id);
+            print(unlocalizedName + ", " + id);
+        }
+        print("---");
+
+        print("DUMP ALL ENTITIES:");
+        print("name, id");
+        for entityDef in game.entities {
+            var name = "n/a";
+            var id = "n/a";
+            if !isNull(entityDef.name) {
+                name = entityDef.name;
+            }
+            if !isNull(entityDef.id) {
+                id = entityDef.id;
+            }
+            print(name + ", " + id);
+        }
+        print("---");
+    }
+});

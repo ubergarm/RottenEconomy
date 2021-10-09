@@ -4,6 +4,10 @@
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 
+// fixup some missing libvulpes localization names
+game.setLocalization("item.battery.0.name", "Basic Rocketry Battery");
+game.setLocalization("item.battery.1.name", "Advanced Rocketry Battery");
+
 // seriously just use a block of coal don't make an ingot of coal
 // says the guy who just fell into <ore:plateCarbon> hell LMAO xD
 removeAndHide(<advancedrocketry:misc:1>);

@@ -1,8 +1,10 @@
-## v0.90
+## v0.91
 * Add some sweet sweet chip tune records!
 * Nuclearcraft: Overhauled radiation does not persist after death
 * Nuclearcraft: Overhauled radiation cannot be PlayerRevived
 * Fixup Inventory Pets Grave Pet and GraveKeeper interactions
+* Try to unite NuclearCraft:Overhauled and Tech Guns radiation
+* Add tooltips about IC2, DeepResonance, but not Matter Overdrive radiation
 
 ## v0.90
 * Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
