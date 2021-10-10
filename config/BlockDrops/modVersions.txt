@@ -111,7 +111,7 @@
   "thiccentities": "GRADLE:VERSION",
   "minecraft": "1.12.2",
   "worldprimer": "0.6.0-dev.20200122.211517",
-  "capsule": "1.12.2-3.4.58",
+  "capsule": "1.12.2-3.4.76",
   "theoneprobe": "1.4.28",
   "mousetweaks": "2.10.1",
   "ftbquests": "1202.9.0.15",

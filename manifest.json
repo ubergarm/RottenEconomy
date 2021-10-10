@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "RottenEconomy",
-  "version": "v0.90",
+  "version": "v0.91",
   "author": "ubergarm",
   "files": [
     {
@@ -916,7 +916,7 @@
     },
     {
       "projectID": 235338,
-      "fileID": 3374839,
+      "fileID": 3485545,
       "required": true
     },
     {

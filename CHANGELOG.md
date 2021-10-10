@@ -12,6 +12,7 @@
 * Increase Matter Overdrive Rogue Android spawns a little and oreDict Tritanium Plates
 * Fixup location of Mahou, Deep Mob Learning, and NuclearCraft: Overhauled Geiger HUDs
 * Fixup vanilla potion name when recipes accept any generic potion
+* Update Capsule to Capsule-1.12.2-3.4.76.jar
 * Fail to disambiguate used XNet Network Connectors vs Router Connectors...
 * McJty now makes guest appearances as a Raider!
 
