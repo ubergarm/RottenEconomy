@@ -3,6 +3,7 @@
 * Add Scape and Run Parasites into Lost Cities spawners
 * Nuclearcraft: Overhauled radiation does not persist after death
 * Nuclearcraft: Overhauled radiation cannot be PlayerRevived
+* Allow radiation plating to be applied to horse armor
 * Fixup Inventory Pets Grave Pet and GraveKeeper interactions
 * Try to unite NuclearCraft:Overhauled and Tech Guns radiation
 * Add tooltips about IC2, DeepResonance, but not Matter Overdrive radiation
