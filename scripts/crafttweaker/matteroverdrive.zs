@@ -15,3 +15,6 @@ hide(<matteroverdrive:matter_plasma>);
 
 // Fixup some display names
 <matteroverdrive:molten_tritanium>.displayName = "Molten Tritanium";
+
+// Fixup Ore Dict
+<ore:plateTritanium>.add(<matteroverdrive:tritanium_plate>);
