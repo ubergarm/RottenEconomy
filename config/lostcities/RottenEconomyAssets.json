@@ -22,6 +22,18 @@
       {
         "factor": 5,
         "value": "techguns:zombiesoldier"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:buglin"
+      },
+      {
+        "factor": 10,
+        "value": "srparasites:rupter"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:sim_humanhead"
       }
     ]
   },
@@ -34,15 +46,15 @@
         "value": "minecraft:zombie"
       },
       {
-        "factor": 15,
+        "factor": 10,
         "value": "minecraft:husk"
       },
       {
-        "factor": 10,
+        "factor": 15,
         "value": "cyberware:cyberzombie"
       },
       {
-        "factor": 15,
+        "factor": 20,
         "value": "rewired:cyberskeleton"
       },
       {
@@ -56,6 +68,34 @@
       {
         "factor": 5,
         "value": "techguns:skeletonsoldier"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:sim_human"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:sim_adventurer"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:sim_villager"
+      },
+      {
+        "factor": 5,
+        "value": "srparasites:sim_bigspider"
+      },
+      {
+        "factor": 2,
+        "value": "srparasites:pri_summoner"
+      },
+      {
+        "factor": 3,
+        "value": "srparasites:pri_bolster"
+      },
+      {
+        "factor": 2,
+        "value": "srparasites:pri_yelloweye"
       }
     ]
   },

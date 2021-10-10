@@ -1,5 +1,6 @@
 ## v0.91
 * Add some sweet sweet chip tune records!
+* Add Scape and Run Parasites into Lost Cities spawners
 * Nuclearcraft: Overhauled radiation does not persist after death
 * Nuclearcraft: Overhauled radiation cannot be PlayerRevived
 * Fixup Inventory Pets Grave Pet and GraveKeeper interactions
