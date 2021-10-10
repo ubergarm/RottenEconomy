@@ -8,6 +8,7 @@
 * Try to unite NuclearCraft:Overhauled and Tech Guns radiation
 * Add tooltips about IC2, DeepResonance, but not Matter Overdrive radiation
 * Increase Matter Overdrive Rogue Android spawns a little and oreDict Tritanium Plates
+* McJty now makes guest appearances as a Raider!
 
 ## v0.90
 * Add Scape and Run Parasites mod SRParasites-1.12.2v1.9.0ALPHA18.jar
