@@ -12,6 +12,9 @@ mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<techguns:itemshared:84>);
 <ore:listAllmushroom>.add(<nuclearcraft:glowing_mushroom>);
 <ore:mushroomAny>.add(<nuclearcraft:glowing_mushroom>);
 
+// rename the feral ghoul something more radiation-ish
+game.setLocalization("entity.nuclearcraft.feral_ghoul.name","Toxic Ghoul");
+
 // Manufactory
 // mods.nuclearcraft.Manufactory.addRecipe(IIngredient itemInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
 // Alchemistry Mineral Salt to Regular Salt

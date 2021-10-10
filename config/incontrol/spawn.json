@@ -308,7 +308,6 @@
     },
     {
         "mob": "nuclearcraft:feral_ghoul",
-        "customname": "Toxic Ghoul",
         "result": "allow"
     },
     {
@@ -547,11 +546,6 @@
         "result": "deny"
     },
     {
-        "mob": "srparasites:buglin",
-        "customname": "Buglin",
-        "result": "default"
-    },
-    {
         "mob": "srparasites:carrier_flying",
         "result": "default"
     },
@@ -561,11 +555,6 @@
     },
     {
         "mob": "srparasites:movingflesh",
-        "result": "default"
-    },
-    {
-        "mob": "srparasites:worker",
-        "customname": "Worker",
         "result": "default"
     },
     {
