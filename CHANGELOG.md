@@ -1,13 +1,18 @@
 ## v0.91
-* Add some sweet sweet chip tune records!
-* Add Scape and Run Parasites into Lost Cities spawners
+* Integrate Scape and Run Parasites into Lost Cities spawners
+* Integrate Deep Mob Learning with Scape and Run Parasites
+* Integrate Deep Mob Learning with Rotten Economy resources and mobs
+* Integrate NuclearCraft:Overhauled and Tech Guns radiation systems
 * Nuclearcraft: Overhauled radiation does not persist after death
 * Nuclearcraft: Overhauled radiation cannot be PlayerRevived
 * Allow radiation plating to be applied to horse armor
+* Add some sweet sweet chip tune records!
 * Fixup Inventory Pets Grave Pet and GraveKeeper interactions
-* Try to unite NuclearCraft:Overhauled and Tech Guns radiation
-* Add tooltips about IC2, DeepResonance, but not Matter Overdrive radiation
+* Add tooltips about IC2, DeepResonance, but not Matter Overdrive radiation systems
 * Increase Matter Overdrive Rogue Android spawns a little and oreDict Tritanium Plates
+* Fixup location of Mahou, Deep Mob Learning, and NuclearCraft: Overhauled Geiger HUDs
+* Fixup vanilla potion name when recipes accept any generic potion
+* Fail to disambiguate used XNet Network Connectors vs Router Connectors...
 * McJty now makes guest appearances as a Raider!
 
 ## v0.90

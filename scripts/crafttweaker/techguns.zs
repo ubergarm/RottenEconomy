@@ -53,6 +53,7 @@ for item in loadedMods["techguns"].items {
 }
 removeAndHide(<techguns:radaway>);
 removeAndHide(<techguns:radpills>);
+// also use jei/itemBlacklist.cfg to hide all the NBT related potions and items
 removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion"}));
 removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion_severe"}));
 removeAndHide(<minecraft:splash_potion>.withTag({Potion: "techguns:radpotion"}));
