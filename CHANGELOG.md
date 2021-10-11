@@ -1,3 +1,6 @@
+## v0.92
+* Default IC2 volume down to 80% like most other sound categories
+
 ## v0.91
 * Integrate Scape and Run Parasites into Lost Cities spawners
 * Integrate Deep Mob Learning with Scape and Run Parasites
