@@ -1,5 +1,6 @@
 ## v0.92
 * Default IC2 volume down to 80% like most other sound categories
+* Update a few default keybindings
 
 ## v0.91
 * Integrate Scape and Run Parasites into Lost Cities spawners

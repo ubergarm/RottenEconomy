@@ -61,6 +61,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 
 #### Shoulder Surfing
 * `v` toggle 1st person and enhanced 3rd person view with adaptive crosshairs
+* `o` toggle between left or right shoulder camera perspective
 
 #### Ping
 * `Middle Click` open ping menu to notify friends of John Cena cree—oooh its too late…
@@ -74,15 +75,11 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 #### Improved Backpacks
 * `b` Open Backpack
 
-#### Tool Belt
-* `k` Open Belt Slot Inventory
-* `Mouse Button 4` Swap Tool
-
 #### Advancements
 * `l` open progress log
 
 #### FTB Quests and Teams
-* `;` open team quests and shop menu (or use FTB Quest Book already in Akashic Tome)
+* `;` open team quests and shop menu (or use FTB Quest Book)
 
 #### OptiFine
 * `c` zoom in
@@ -90,6 +87,14 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 #### Voxel Map
 * `=` cycle zoom level
 * `m` open big map
+
+#### Lag Goggles
+* `insert` open profiler menu
+
+#### JEI
+* `u` see what item under mouse pointer can be used to craft
+* `a` add item under mouse pointer into recipe bookmarks
+* `Mouse Button 4` go back to last viewed recipe
 
 #### Misc
 * `F2` screenshot
