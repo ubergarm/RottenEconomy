@@ -1,4 +1,5 @@
 ## v0.92
+* Fixup raider Vallen "Bit-by-Bit" Mischief of Mice name to `VallenFrostweavr`
 * Increase quantity and variety of Parasites in Lost Cities spawners
 * Default IC2 volume down to 80% like most other sound categories
 * Update a few default keybindings
