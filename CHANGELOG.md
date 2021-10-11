@@ -1,4 +1,5 @@
 ## v0.92
+* Increase quantity and variety of Parasites in Lost Cities spawners
 * Default IC2 volume down to 80% like most other sound categories
 * Update a few default keybindings
 

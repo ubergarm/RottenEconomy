@@ -4,36 +4,44 @@
     "name": "easymobs",
     "values": [
       {
-        "factor": 15,
+        "factor": 25,
         "value": "minecraft:zombie"
       },
       {
-        "factor": 10,
+        "factor": 15,
         "value": "minecraft:husk"
       },
       {
-        "factor": 15,
+        "factor": 25,
         "value": "cyberware:cyberzombie"
       },
       {
-        "factor": 5,
+        "factor": 15,
         "value": "rewired:cyberskeleton"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "techguns:zombiesoldier"
       },
       {
-        "factor": 5,
-        "value": "srparasites:buglin"
-      },
-      {
-        "factor": 10,
+        "factor": 15,
         "value": "srparasites:rupter"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "srparasites:sim_humanhead"
+      },
+      {
+        "factor": 15,
+        "value": "srparasites:sim_human"
+      },
+      {
+        "factor": 10,
+        "value": "srparasites:sim_adventurer"
+      },
+      {
+        "factor": 10,
+        "value": "srparasites:pri_bolster"
       }
     ]
   },
@@ -42,7 +50,7 @@
     "name": "hardmobs",
     "values": [
       {
-        "factor": 5,
+        "factor": 10,
         "value": "minecraft:zombie"
       },
       {
@@ -70,31 +78,31 @@
         "value": "techguns:skeletonsoldier"
       },
       {
-        "factor": 5,
+        "factor": 15,
         "value": "srparasites:sim_human"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "srparasites:sim_adventurer"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "srparasites:sim_villager"
       },
       {
-        "factor": 5,
+        "factor": 10,
         "value": "srparasites:sim_bigspider"
       },
       {
-        "factor": 2,
+        "factor": 10,
         "value": "srparasites:pri_summoner"
       },
       {
-        "factor": 3,
+        "factor": 10,
         "value": "srparasites:pri_bolster"
       },
       {
-        "factor": 2,
+        "factor": 10,
         "value": "srparasites:pri_yelloweye"
       }
     ]
