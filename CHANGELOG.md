@@ -1,4 +1,5 @@
 ## v0.92
+* Allow Exchangers to work with OMPD Hardened Blocks, Walls, and Fences
 * Can now tame some Better Animals Plus mobs with Irradiated Flesh and Long Pork
 * Fixup raider Vallen "Bit-by-Bit" Mischief of Mice name to `VallenFrostweavr`
 * Increase quantity and variety of Parasites in Lost Cities spawners
