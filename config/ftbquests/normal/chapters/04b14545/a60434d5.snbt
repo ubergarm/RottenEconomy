@@ -1,7 +1,7 @@
 {
 	title: "Grind Rotten Flesh into Resources",
-	x: -3.0d,
-	y: -4.0d,
+	x: -6.5d,
+	y: -1.5d,
 	description: "Money printer go Brrr!",
 	text: [
 		"Now that you have some Rotten Flesh, you need to process it into resources with a Tech Guns Grinder.",
@@ -13,9 +13,6 @@
 		"Once you have your hands on one of these bad bois, place it down and right click on it to interact with it.",
 		"",
 		"Finally craft a Coal Generator using the battery from the quest reward to power it up and start grinding!"
-	],
-	dependencies: [
-		"54b125ec"
 	],
 	tasks: [{
 		uid: "410e0034",

@@ -1,0 +1,26 @@
+{
+	title: "Harvest 16 Rotten Flesh",
+	x: -4.5d,
+	y: 0.0d,
+	description: "No skin off my back.",
+	text: [
+		"Get your hands on as much Rotten Flesh as possible. You will begin generating basic resources from it soon enough!",
+		"",
+		"You can find Rotten Flesh as loot in buildings, air support utility crates, and as drops from many zombie types.",
+		"",
+		"There are also ways tol generate large amounts of Rotten Flesh through scientific means!"
+	],
+	tasks: [{
+		uid: "5a1198e4",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3a349577",
+		type: "random",
+		table: 0
+	}]
+}

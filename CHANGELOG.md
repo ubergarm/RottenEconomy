@@ -1,4 +1,5 @@
 ## v0.92
+* Added new FTB Quest content
 * Allow Exchangers to work with OMPD Hardened Blocks, Walls, and Fences
 * Can now tame some Better Animals Plus mobs with Irradiated Flesh and Long Pork
 * Fixup raider Vallen "Bit-by-Bit" Mischief of Mice name to `VallenFrostweavr`
@@ -6,6 +7,7 @@
 * Default IC2 volume down to 80% like most other sound categories
 * Increase Deep Mob Learning simulation and loot fabrication RF/t costs
 * Update a few default keybindings
+* Crafting Akashic Tome will include most all guides by default
 
 ## v0.91
 * Integrate Scape and Run Parasites into Lost Cities spawners

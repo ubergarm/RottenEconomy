@@ -1,0 +1,33 @@
+{
+	title: "Shoulder Surfing",
+	icon: "securitycraft:security_camera",
+	x: -7.5d,
+	y: -1.0d,
+	description: "Advanced 3rd Person Camera",
+	text: [
+		"Shoulder Surfing Reloaded mod provides and advanced 3rd Person Camera perspective. ",
+		"",
+		"Toggle quickly between 1st and 3rd Person using v and swap between left and right shoulder perspective using o. Feel free to remap the keys how you like or even use a gamepad joystick for some souls-like fighting fun!",
+		"",
+		"Notice that most ranged and thrown weapons feature adaptive crosshairs for accurate aiming in 3rd Person perspective.",
+		"",
+		"Finally, F5 will cycle between all camera views as usual."
+	],
+	dependencies: [
+		"ea116903"
+	],
+	tasks: [{
+		uid: "2bb1d6de",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4db639d2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "62c217b2",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	}]
+}

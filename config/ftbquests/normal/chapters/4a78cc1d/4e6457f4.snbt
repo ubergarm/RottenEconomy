@@ -1,0 +1,11 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "07dea6f4",
+		type: "item",
+		items: [{
+			item: "ompd:hardened 1 1"
+		}]
+	}]
+}

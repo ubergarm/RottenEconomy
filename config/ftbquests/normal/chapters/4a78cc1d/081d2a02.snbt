@@ -1,0 +1,39 @@
+{
+	title: "Epic Fight Battle Stance",
+	x: -4.5d,
+	y: -4.0d,
+	description: "Craft and dual-wield two stone swords.",
+	text: [
+		"Most weapons and armors in this modpack are integrated with Epic Fight. The JEI tooltips will show what effects you can expect when fighting in Battle Stance Mode.",
+		"",
+		"Toggle in and out of Battle Stance Mode using the back-tick ` key (called \"grave\" in the config menu). You will notice the HUD appear in the bottom right corner. Hold your attack click longer when this meter is full to perform a special attack.",
+		"",
+		"Smaller weapons can be dual-wielded by placing one in your off-hand shield-slot and using one in your main hand on your hot-bar. Larger weapons like battleaxes, warhammers, and greatswords are two handed only.",
+		"",
+		"Spears, halberds, and quarter-staffs can be used with or without a shield giving different attack combos and specials. Experiment and discover what melee fighting style you prefer!"
+	],
+	dependencies: [
+		"2f771c05"
+	],
+	tasks: [{
+		uid: "5c315d12",
+		type: "item",
+		icon: "minecraft:stone_sword",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e9184f9",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0909b2e3",
+		type: "item",
+		item: "spartanweaponry:greatsword_stone"
+	}]
+}
