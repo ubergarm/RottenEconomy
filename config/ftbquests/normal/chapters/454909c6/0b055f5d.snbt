@@ -1,0 +1,28 @@
+{
+	title: "There is Nothing without Poisonous Qualities",
+	x: -0.5d,
+	y: -0.5d,
+	description: "It is only the Dose which makes a Thing Poison",
+	text: [
+		"Wear this Geiger Counter in a bauble slot to monitor both your current dosage level as well as the amount of un-shielded radiation you are receiving from the environment.",
+		"",
+		"If you are wearing a Hazmat Suit or have similar Radiation Resistance active, you can hold the geiger counter and right click to measure the amount in the envionment independent of your personal resistance shielding."
+	],
+	dependencies: [
+		"3e09009f"
+	],
+	tasks: [{
+		uid: "e618fc9f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:geiger_counter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fd68fa6",
+		type: "random",
+		table: 0
+	}]
+}

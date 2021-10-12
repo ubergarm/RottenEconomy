@@ -1,0 +1,26 @@
+{
+	title: "Chunks Ahoy",
+	x: -2.0d,
+	y: 2.0d,
+	description: "How many Rads are up in this jawn?",
+	text: [
+		"If you plan to do much NuclearCraft:Overhauled, then you might want to build this Block version of the Geiger Counter so players can monitor the toxic radiation level in the chunk."
+	],
+	dependencies: [
+		"0b055f5d",
+		"a3794408"
+	],
+	tasks: [{
+		uid: "f96f3d44",
+		type: "interaction",
+		title: "Use a Geiger Counter Block",
+		icon: "nuclearcraft:geiger_block",
+		match_type: "block_id",
+		match: ""
+	}],
+	rewards: [{
+		uid: "7a0668f4",
+		type: "random",
+		table: 0
+	}]
+}

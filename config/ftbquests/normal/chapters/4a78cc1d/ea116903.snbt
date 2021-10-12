@@ -1,0 +1,35 @@
+{
+	title: "And so it begins...",
+	x: -6.5d,
+	y: -2.0d,
+	description: "Let these quests enlighten your path",
+	text: [
+		"You can access this quest menu using the FTB Quest book or pressing semi-colon ; which is right next to the Advancements key L.",
+		"",
+		"You can also access the shop to purchase rewards after earning coins from completing quests!",
+		"",
+		"Some quests, like this one, simply require you to click the checkmark to complete while others will auto-detect tasks.",
+		"",
+		"Make sure to claim all of the the rewards before moving on to your next quest as the rewards may help you progress."
+	],
+	tasks: [{
+		uid: "e2916f0a",
+		type: "checkmark",
+		icon: "ftbquests:book"
+	}],
+	rewards: [{
+		uid: "6c5769f2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a302d56c",
+		type: "item",
+		item: "minecraft:bookshelf"
+	},
+	{
+		uid: "fedcecf6",
+		type: "item",
+		item: "minecraft:book"
+	}]
+}

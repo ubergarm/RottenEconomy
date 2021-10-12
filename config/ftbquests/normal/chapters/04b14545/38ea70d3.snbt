@@ -1,0 +1,29 @@
+{
+	title: "One Machine to rule them all",
+	x: -7.5d,
+	y: 2.0d,
+	description: "It even makes wood",
+	text: [
+		"The NuclearCraft:Overhauled Manufactory is a great early game machine to process logs into planks, double ores, and even turn nasty parasite Infected Flesh into valuable Jumpy Flesh.",
+		"",
+		"Craft your own Manufactory or salvage one occasionally found in urban buildings. Place it down in your base, power it, and get busy!",
+		"",
+		"May you find what you're seeking wherever you roam, and may your hoppers always be filled with ore!"
+	],
+	dependencies: [
+		"6b98e9a2"
+	],
+	tasks: [{
+		uid: "b58e85d7",
+		type: "interaction",
+		title: "Use a NuclearCraft:Overhauled Manufactory",
+		icon: "nuclearcraft:manufactory",
+		match_type: "block_id",
+		match: "nuclearcraft:manufactory"
+	}],
+	rewards: [{
+		uid: "8be6b12a",
+		type: "random",
+		table: 0
+	}]
+}

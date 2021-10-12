@@ -1,0 +1,24 @@
+{
+	title: "It kind of glows",
+	x: -7.5d,
+	y: -1.0d,
+	description: "Tastes great, less filling",
+	text: [
+		"Toxic Ghouls have escaped the Nuclear Wasteland and rush at you spreading radiation and sorrow. Put them out of their misery and hold onto their Irradiated Flesh.",
+		"",
+		"You can eat this Irradiated Flesh without consequences, and it even provides temporary protection from NuclearCraft:Overhauled radiation. Be careful how you store this, especially if you get a lot of it together in one place as the rads per tick dose rate stacks. (more on that in the next chapter)",
+		"",
+		"You can grind it in the Tech Guns Grinder to procure special resources useful in building and fueling your own NuclearCraft:Overhauled reactor."
+	],
+	dependencies: [
+		"4163caa3"
+	],
+	tasks: [{
+		uid: "2c1e30f9",
+		type: "item",
+		items: [{
+			item: "qmd:flesh"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Old Skewl Radiation",
+	x: -5.0d,
+	y: -1.0d,
+	description: "Before Radiation was Cool",
+	text: [
+		"IC2 has its own radiation system that can only be protected against by using a complete suit of IC2 Rubber Hazmat Quantum Suit armor.",
+		"",
+		"In addition, some IC2 items have a NuclearCraft:Overhauled Radiation value and protection as well.",
+		"",
+		"it is confusing, but you will figure it out quickly, or maybe you will just get radiation all over your base.",
+		"",
+		"Don't throw IC2 Fuel Pellets at your friends or they will auto-pickup and probably die with the 1 Minute uncurable Radiation Debuff."
+	],
+	tasks: [{
+		uid: "79eb5400",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "ab3dee11",
+		type: "random",
+		table: 0
+	}]
+}

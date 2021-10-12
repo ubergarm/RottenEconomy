@@ -1,0 +1,23 @@
+{
+	title: "Resonating Radiation",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Good good good Vibrations",
+	text: [
+		"Deep Resonance generators produce their own kind of radiation as well. Each piece of the Deep Resonance Radiation Suit provides about 0.25 protection.",
+		"",
+		"This *only* applies to Deep Resonance and does not work with any other mods and vice-versa."
+	],
+	tasks: [{
+		uid: "316a2ad7",
+		type: "item",
+		items: [{
+			item: "deepresonance:energy_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "dfa9c0c0",
+		type: "random",
+		table: 0
+	}]
+}

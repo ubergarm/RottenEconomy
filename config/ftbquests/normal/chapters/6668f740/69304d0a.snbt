@@ -1,0 +1,28 @@
+{
+	x: -3.5d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"66d42654",
+		"4a341899",
+		"b632f1ec",
+		"d481e7de",
+		"cb4e0731"
+	],
+	tasks: [{
+		uid: "b48a25eb",
+		type: "checkmark",
+		title: "Pristine Rotten Master",
+		icon: "contenttweaker:record_one"
+	}],
+	rewards: [{
+		uid: "cfe855a5",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "af380e54",
+		type: "item",
+		item: "contenttweaker:record_one"
+	}]
+}

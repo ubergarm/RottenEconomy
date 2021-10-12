@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -2.5d,
+	dependencies: [
+		"e84da91f",
+		"ec66af09"
+	],
+	tasks: [{
+		uid: "58a20b50",
+		type: "interaction",
+		title: "Use a Refined Storage Importer",
+		icon: "refinedstorage:importer",
+		match_type: "block_id",
+		match: "refinedstorage:importer"
+	}]
+}

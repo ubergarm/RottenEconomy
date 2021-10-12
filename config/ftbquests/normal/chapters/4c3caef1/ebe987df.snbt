@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"7f60bb9c",
+		"31db39aa",
+		"aba703b9"
+	],
+	tasks: [{
+		uid: "e94a69ec",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:chemical_items"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "5926b0dc",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Rotten Economy",
+	icon: "contenttweaker:jumpy_flesh",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

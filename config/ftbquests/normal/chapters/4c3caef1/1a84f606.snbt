@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "52861e61",
+		type: "interaction",
+		title: "Use an Alchemistry Evaporator",
+		icon: "alchemistry:evaporator",
+		match_type: "block_id",
+		match: "alchemistry:evaporator"
+	}],
+	rewards: [{
+		uid: "82003a58",
+		type: "random",
+		table: 0
+	}]
+}

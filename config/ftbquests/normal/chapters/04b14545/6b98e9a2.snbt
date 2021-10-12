@@ -1,0 +1,37 @@
+{
+	title: "Hosting a Party?",
+	x: -7.5d,
+	y: 0.5d,
+	description: "Don't invite any Parasites",
+	text: [
+		"Scape and Run Parasites work together and can buff each other or fuse together to form more powerful mobs. It is terrifying.",
+		"",
+		"While you may have to run from the challenging Primitive and Adapted parasites, you can farm Infected Flesh from the easier Assimilated variety.",
+		"",
+		"While you can use it to craft unique items, the excess can be processed into Jumpy Flesh using a NuclearCraft:Overhauled Manufactory."
+	],
+	dependencies: [
+		"37a076d6",
+		"12507392",
+		"667a8f01"
+	],
+	tasks: [{
+		uid: "949e0590",
+		type: "item",
+		items: [{
+			item: "srparasites:assimilated_flesh"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "bf62d58e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4a6fa8e0",
+		type: "item",
+		item: "thermalfoundation:material 1 131",
+		count: 4
+	}]
+}

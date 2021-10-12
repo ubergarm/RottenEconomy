@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"d599e5d3"
+	],
+	tasks: [{
+		uid: "ccc39b6b",
+		type: "interaction",
+		title: "Use a Storage Cable",
+		icon: "storagenetwork:kabel",
+		match_type: "block_id",
+		match: "storagenetwork:kabel"
+	}]
+}

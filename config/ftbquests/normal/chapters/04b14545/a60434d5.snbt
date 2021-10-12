@@ -1,43 +1,43 @@
 {
 	title: "Grind Rotten Flesh into Resources",
-	x: -3.0d,
-	y: -4.0d,
+	x: -7.5d,
+	y: -4.5d,
 	description: "Money printer go Brrr!",
 	text: [
-		"Now that you have some Rotten Flesh, you need to process it into resources with a Tech Guns Grinder.",
+		"Now that you have some things to grind, you need to process it into resources with a Tech Guns Grinder.",
 		"",
 		"If you have enough iron you can build it from scratch, or you can search Lost Ciities buildings and scavenge one ready to go.",
 		"",
 		"Check out the recipes for the grinder as it can recycle many items into valuable resources.",
 		"",
-		"Once you have your hands on one of these bad bois, place it down and right click on it to interact with it.",
-		"",
-		"Finally craft a Coal Generator using the battery from the quest reward to power it up and start grinding!"
+		"Once you have your hands on one of these bad bois, place it down and right click on it to interact with it and toss in some Rotten Netherrack or Rotten Flesh to get started."
 	],
 	dependencies: [
-		"54b125ec"
+		"54b125ec",
+		"1bb70d25"
 	],
 	tasks: [{
 		uid: "410e0034",
 		type: "interaction",
+		title: "Use a Tech Guns Grinder",
 		icon: "techguns:simplemachine2 1 8",
 		match_type: "block_id",
 		match: "techguns:simplemachine2"
 	}],
 	rewards: [{
-		uid: "c2363281",
+		uid: "a314b46b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "9368b6f3",
 		type: "item",
 		item: "libvulpes:battery"
 	},
 	{
-		uid: "76df4642",
+		uid: "aac0d289",
 		type: "item",
 		item: "minecraft:coal",
 		count: 16
-	},
-	{
-		uid: "b4698a33",
-		type: "ftbmoney:money",
-		ftb_money: 25L
 	}]
 }

@@ -1,0 +1,31 @@
+{
+	title: "Tea, Earl Grey, Hot!",
+	x: 2.5d,
+	y: -1.0d,
+	description: "...with a side of Radiation",
+	text: [
+		"Be warned! The replication process produces high amounts of radiation. Without protective plating, any living creature will receive large doses of radiation followed by a ton of negative potion effects, such as Hunger, Nausea, Fatigue, Weakness, and Poison.",
+		"",
+		"To protect against radiation, a maximum of 5 Tritanium Plate can be used to protect the user from the deadly radiation. Each plate also decreases the area of effect.",
+		"",
+		"This radiation effect has nothing to do with any other mod and there is no other way to protect yourself."
+	],
+	tasks: [{
+		uid: "4ddecfcd",
+		type: "interaction",
+		title: "Use a Matter Replicator",
+		icon: "matteroverdrive:replicator",
+		match_type: "block_id",
+		match: "matteroverdrive:replicator"
+	}],
+	rewards: [{
+		uid: "c966bd39",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "f0f5f008",
+		type: "item",
+		item: "matteroverdrive:tritanium_ore"
+	}]
+}

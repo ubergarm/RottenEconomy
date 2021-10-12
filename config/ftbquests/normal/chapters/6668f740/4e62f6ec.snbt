@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"29e4c501"
+	],
+	tasks: [{
+		uid: "d3ea0a56",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blaze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a22d0301",
+		type: "random",
+		table: 0
+	}]
+}

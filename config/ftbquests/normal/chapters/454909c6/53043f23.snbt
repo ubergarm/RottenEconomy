@@ -1,0 +1,42 @@
+{
+	title: "Welcome to Hell",
+	x: -2.0d,
+	y: 0.5d,
+	description: "You Went Swimming Anyway",
+	text: [
+		"Going for a swim in the Nuclear Wasteland Biome will teleport you to the NuclearCraft:Overhauled Wasteland dimension.",
+		"",
+		"Have fun getting your corpse back!",
+		"",
+		"All your friends will be \"Missing You\"!!!"
+	],
+	dependencies: [
+		"3e09009f"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6d25b274",
+		type: "dimension",
+		title: "Visit the NuclearCraft:Overhauled Wasteland Dimension",
+		dim: 4598
+	}],
+	rewards: [{
+		uid: "2b3f1de2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0a7a76ef",
+		type: "command",
+		title: "Trash80 - Missing You",
+		icon: "contenttweaker:record_four",
+		auto: "enabled",
+		command: "/playsound contenttweaker:record_four record @p",
+		player_command: true
+	},
+	{
+		uid: "daf66816",
+		type: "item",
+		item: "contenttweaker:record_four"
+	}]
+}

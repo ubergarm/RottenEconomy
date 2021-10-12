@@ -1,0 +1,7 @@
+{
+	title: "Rotten Radiation",
+	icon: "nuclearcraft:rad_x",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

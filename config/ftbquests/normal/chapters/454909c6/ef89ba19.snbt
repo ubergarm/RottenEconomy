@@ -1,0 +1,28 @@
+{
+	title: "Pill Poppin'",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Radiation Stoppin",
+	text: [
+		"You can take a single does of Rad-X every 10 minutes to provide you with 25 rad shielding.",
+		"",
+		"It does nothing to reduce your existing radioactivity dose level, but it does prevent it from increasing further.",
+		"",
+		"Some foods provide a similar buff, but only these pills clearly show the effect \"Rad Resistance\"."
+	],
+	dependencies: [
+		"3e09009f"
+	],
+	tasks: [{
+		uid: "65de9919",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_x"
+		}]
+	}],
+	rewards: [{
+		uid: "211286f1",
+		type: "random",
+		table: 0
+	}]
+}

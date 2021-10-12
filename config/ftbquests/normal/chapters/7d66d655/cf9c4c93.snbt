@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"e84da91f",
+		"a71ca073"
+	],
+	tasks: [{
+		uid: "8af22bb0",
+		type: "interaction",
+		title: "Use a Storage Import Cable",
+		icon: "storagenetwork:im_kabel",
+		match_type: "block_id",
+		match: "storagenetwork:im_kabel"
+	}],
+	rewards: [{
+		uid: "96c5ea8c",
+		type: "random",
+		table: 0
+	}]
+}

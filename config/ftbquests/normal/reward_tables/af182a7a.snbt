@@ -1,0 +1,34 @@
+{
+	title: "RandomCoins",
+	icon: "thermalfoundation:coin 1 1",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		ftb_money: 10L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 15L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 20L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 25L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 30L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 35L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 40L,
+		type: "ftbmoney:money"
+	}]
+}

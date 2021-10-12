@@ -1,0 +1,33 @@
+{
+	title: "Things are Looking Up",
+	x: 0.5d,
+	y: 0.5d,
+	description: "Don't Let Gravity Keep You Down!",
+	text: [
+		"Build an Advanced Rocketry Rocketship, escape this planet, and setup a Space Station."
+	],
+	tasks: [{
+		uid: "4872af53",
+		type: "dimension",
+		title: "Launch into Orbit",
+		dim: -2
+	}],
+	rewards: [{
+		uid: "53777c91",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ba38034e",
+		type: "command",
+		title: "Blz - Whisper's: January",
+		icon: "contenttweaker:record_three",
+		command: "/playsound contenttweaker:record_three record @p",
+		player_command: true
+	},
+	{
+		uid: "c34910c3",
+		type: "item",
+		item: "contenttweaker:record_three"
+	}]
+}

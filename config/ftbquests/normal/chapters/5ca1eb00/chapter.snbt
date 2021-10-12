@@ -1,0 +1,7 @@
+{
+	title: "Rotten Rocketry",
+	icon: "advancedrocketry:spacehelmet",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

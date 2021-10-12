@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"97a3695b",
+		"da455a72"
+	],
+	tasks: [{
+		uid: "159fbfa2",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_enderman"
+		}],
+		count: 16L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "95dc9542",
+		type: "random",
+		table: 0
+	}]
+}

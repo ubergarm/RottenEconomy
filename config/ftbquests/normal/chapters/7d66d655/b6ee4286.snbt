@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"d599e5d3"
+	],
+	tasks: [{
+		uid: "bb4c5273",
+		type: "item",
+		title: "Craft a Simple Storage Networks Storage Remote",
+		items: [{
+			item: "storagenetwork:remote"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ebe8ce8",
+		type: "random",
+		table: 0
+	}]
+}

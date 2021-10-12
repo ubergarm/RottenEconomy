@@ -1,0 +1,36 @@
+{
+	title: "Turn down that noise!",
+	x: -6.5d,
+	y: -5.5d,
+	description: "The volume knob goes to 11",
+	text: [
+		"While the chimney helps with the sooty coal smoke, this Super Sound Muffler helps with all the grinder noise.",
+		"",
+		"Craft a Super Sound Muffler and place it down in your base and right click on it to open the GUI.",
+		"",
+		"Set it to \"Black List\" mode. Set the Range however much you want.",
+		"",
+		"Click \"Add\" and type in \"grinder\" in the search bar then select \"techguns:machines.grinder.work\" so you know it is running but you can still hear your friends on discord."
+	],
+	dependencies: [
+		"a60434d5"
+	],
+	tasks: [{
+		uid: "8078a3f1",
+		type: "interaction",
+		title: "Use a Super Sound Muffler",
+		icon: "supersoundmuffler:sound_muffler",
+		match_type: "block_id",
+		match: "supersoundmuffler:sound_muffler"
+	}],
+	rewards: [{
+		uid: "747d0a6d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7d479706",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

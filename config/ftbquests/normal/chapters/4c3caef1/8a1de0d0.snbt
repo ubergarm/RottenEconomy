@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	dependencies: [
+		"1f632a79"
+	],
+	tasks: [{
+		uid: "26eff1c6",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Power Station",
+		icon: {
+			id: "rockhounding_chemistry:machines_a",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 2s
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_a:2"
+	}],
+	rewards: [{
+		uid: "fd408583",
+		type: "random",
+		table: 0
+	}]
+}

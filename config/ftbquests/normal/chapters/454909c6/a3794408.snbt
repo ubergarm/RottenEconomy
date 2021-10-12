@@ -1,0 +1,35 @@
+{
+	title: "Workin' in a Coal Mine",
+	x: -3.5d,
+	y: -0.5d,
+	description: "Whooop! About to slip doooown!",
+	text: [
+		"The Radiation Badge will detect and alert you for every 25 Rads of radiation dose you have received. After 250 Rads the badge will break and you will need to make a new one.",
+		"",
+		"Wear it in a bauble slot and if the Canary in the Coal Mine starts chirping-get the heck out of there!",
+		"",
+		"Remember a 1000 Rad dose will kill you instantly, a Radiation effect will begin at 350 Rads, and progressively worse negative effects begin at a 400 Rad dose."
+	],
+	dependencies: [
+		"3e09009f"
+	],
+	tasks: [{
+		uid: "7e3d09b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"nuclearcraft:capability_radiation_sink": {
+					radiationLevel: 0.0d
+				}
+			},
+			id: "nuclearcraft:radiation_badge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d1bc449",
+		type: "random",
+		table: 0
+	}]
+}

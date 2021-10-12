@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"d82b0512",
+		"2b0d402b",
+		"5748668a"
+	],
+	tasks: [{
+		uid: "589196a3",
+		type: "checkmark",
+		title: "Master the Flesh",
+		icon: "contenttweaker:record_five"
+	}],
+	rewards: [{
+		uid: "ea8d5586",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a2150cf8",
+		type: "item",
+		item: "contenttweaker:record_five"
+	}]
+}

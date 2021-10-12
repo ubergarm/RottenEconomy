@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "e2e5f575",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Profiling Bench",
+		icon: {
+			id: "rockhounding_chemistry:machines_a",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 11s
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_a:11"
+	}],
+	rewards: [{
+		uid: "bf693e60",
+		type: "random",
+		table: 0
+	}]
+}

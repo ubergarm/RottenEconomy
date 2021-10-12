@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -4.0d,
+	dependencies: [
+		"dd99e6e9"
+	],
+	tasks: [{
+		uid: "f9d3ad34",
+		type: "interaction",
+		title: "Use a Deep Mob Learning Loot Fabricator",
+		icon: "deepmoblearning:extraction_chamber",
+		match_type: "block_id",
+		match: "deepmoblearning:extraction_chamber"
+	}],
+	rewards: [{
+		uid: "2ffc2ebe",
+		type: "random",
+		table: 0
+	}]
+}

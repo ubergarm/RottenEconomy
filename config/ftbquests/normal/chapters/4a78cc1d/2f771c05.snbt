@@ -1,0 +1,40 @@
+{
+	title: "Aiming to get ahead",
+	x: -5.5d,
+	y: -3.0d,
+	description: "Head-shot a mob with your Hand Cannon",
+	text: [
+		"Iblis Headshots mod grants 4x damage when head-shotting mobs. It damages helmets more too. It works with guns, bows, and even throwing weapons!",
+		"",
+		"Players can *not* be head-shot though because First-Aid mod already tracks location based damage on players. Mobs can head-shot other mobs. Head-shots are indicated with a \"ding\" sound and a cross-hairs symbol will briefly pop out.",
+		"",
+		"Finally, you must be at least 4 blocks away, so if the mob appears in the One Probe you are too close for a head-shot."
+	],
+	dependencies: [
+		"ea116903"
+	],
+	tasks: [{
+		uid: "ec844c0a",
+		type: "advancement",
+		icon: {
+			id: "techguns:handcannon",
+			tag: {
+				ammo: 1s,
+				ammovariant: "default",
+				camo: 0b
+			}
+		},
+		advancement: "iblis_headshots:adventure/shoot_head",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "a4e3e94b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4d0f856d",
+		type: "item",
+		item: "mekanismtools:woodpaxel"
+	}]
+}

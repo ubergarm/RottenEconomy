@@ -1,0 +1,39 @@
+{
+	title: "Treat Yourself",
+	x: -7.5d,
+	y: -6.5d,
+	description: "Make a little noise to celebrate",
+	text: [
+		"Great job!",
+		"",
+		"You can now process Rotten Flesh, Gritty Flesh, Irradiated Flesh, and Jumpy Flesh into most all the resources you need!",
+		"",
+		"Improve your defenses, progress in the various tech mods, and keep going to automate resource production!",
+		"",
+		"But for now, play some lovely chip tunes in the juke box and enjoy the present moment!",
+		"",
+		"Hint: Don't put this right next to the super sound muffler if you didn't configure the muffler yet... xD"
+	],
+	dependencies: [
+		"f6cb5327",
+		"2129d77f"
+	],
+	tasks: [{
+		uid: "5b84accc",
+		type: "interaction",
+		title: "Use a Jukebox",
+		icon: "minecraft:jukebox",
+		match_type: "block_id",
+		match: "minecraft:jukebox"
+	}],
+	rewards: [{
+		uid: "0f4ff3df",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "cd6d573e",
+		type: "item",
+		item: "contenttweaker:record_two"
+	}]
+}

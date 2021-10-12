@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"4c34f1fa"
+	],
+	tasks: [{
+		uid: "82e6af0b",
+		type: "item",
+		title: "Mass Produce Rotten Flesh",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 512L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "420a93b5",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Shields Up!",
+	x: 2.5d,
+	y: -2.5d,
+	description: "Wrap it up and stay safe",
+	text: [
+		"Craft up to 5x Tritanium Plates and upgrade your Matter Replicator to protect against Matter Overdrive Radiation."
+	],
+	dependencies: [
+		"8330f15d"
+	],
+	tasks: [{
+		uid: "baa09273",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:tritanium_plate"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "19d0ba44",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	dependencies: [
+		"dd99e6e9"
+	],
+	tasks: [{
+		uid: "76ac7c67",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "ac027b33",
+		type: "random",
+		table: 0
+	}]
+}

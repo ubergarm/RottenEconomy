@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	dependencies: [
+		"1f632a79"
+	],
+	tasks: [{
+		uid: "783e21e9",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Slurry Pond",
+		icon: {
+			id: "rockhounding_chemistry:machines_b",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			}
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_b"
+	}],
+	rewards: [{
+		uid: "7129f499",
+		type: "random",
+		table: 0
+	}]
+}

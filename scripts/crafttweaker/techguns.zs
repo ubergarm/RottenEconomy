@@ -64,6 +64,10 @@ removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "techguns:radpotion_
 removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: "techguns:radpotion"}));
 removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: "techguns:radpotion_severe"}));
 
+// fixup Tech Guns Inventory GUI Radiation Tooltip
+// this doesn't work here so put it into a lang file
+// game.setLocalization("techguns.tgguitooltip.currentrad", "Use a Geiger Counter to see Radiation Exposure");
+
 // hazmat suit now works with nuclearcraft radiation (in nuclearcraft.cfg)
 <techguns:hazmat_helmet>.displayName = "Lead Hazmat Helmet";
 <techguns:hazmat_chestplate>.displayName = "Lead Hazmat Suit";

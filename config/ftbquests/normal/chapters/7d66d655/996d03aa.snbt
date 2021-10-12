@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -4.5d,
+	dependencies: [
+		"6cf2472a"
+	],
+	tasks: [{
+		uid: "c0267837",
+		type: "item",
+		title: "Craft a Wireless Crafting Monitor",
+		icon: "refinedstorage:wireless_crafting_monitor 1 1",
+		items: [{
+			item: "refinedstorage:wireless_crafting_monitor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91a664fb",
+		type: "random",
+		table: 0
+	}]
+}

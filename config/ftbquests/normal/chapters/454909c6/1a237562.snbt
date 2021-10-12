@@ -1,0 +1,30 @@
+{
+	title: "An Ounce of Prevention",
+	x: -2.0d,
+	y: -3.0d,
+	description: "...is worth a pound of RadAway",
+	text: [
+		"You can craft shielding to apply to your armor or horse armor to protecth yourself and your horse from NuclearCraft:Overhauled radioactivity.",
+		"",
+		"Applying 3x Medium Radiation Shielding to any armor will give you 0.3 Rad resistance which is enough to safely traverse the Nuclear Wasteland Biome. Just don't go swimming there..."
+	],
+	dependencies: [
+		"ef89ba19",
+		"71bdfce9"
+	],
+	tasks: [{
+		uid: "997d58a4",
+		type: "item",
+		title: "Craft 3x Medium Radiation Shielding",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 1"
+		}],
+		count: 3L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9417de13",
+		type: "random",
+		table: 0
+	}]
+}

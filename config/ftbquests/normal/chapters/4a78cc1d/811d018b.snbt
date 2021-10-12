@@ -1,0 +1,31 @@
+{
+	title: "Scaling Health",
+	icon: "scalinghealth:heartcontainer",
+	x: -9.5d,
+	y: -1.0d,
+	description: "and Scaling Difficulty",
+	text: [
+		"Have a heart, and eat it too! Eating Scaling Health Heart Containers gives some instant healing and increases max health by one. You can only increase your max health this way to 100, but there are other ways to go beyond this cap.",
+		"",
+		"Be warned however, every night at dusk the server-wide difficulty increases based on number of players. The difficulty meter will flash briefly in the bottom right corner when difficulty changes much up or down. Press <shift+N> to toggle it always on or off.",
+		"",
+		"There are some special items and events that increase or decrease difficulty as well. Mobs become stronger and can become powerful flaming blights at higher difficulties!"
+	],
+	dependencies: [
+		"d51dff6c"
+	],
+	tasks: [{
+		uid: "63a6c4ea",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "2e2ab2c5",
+		type: "command",
+		title: "More Fun!",
+		icon: "scalinghealth:difficultychanger 1 1",
+		command: "/scalinghealth world_difficulty add 1 @p"
+	}]
+}

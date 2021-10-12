@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"8a1de0d0"
+	],
+	tasks: [{
+		uid: "e068a70e",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Sizer Controller",
+		icon: {
+			id: "rockhounding_chemistry:machines_a",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			}
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_a"
+	}],
+	rewards: [{
+		uid: "dcd24a92",
+		type: "random",
+		table: 0
+	}]
+}
