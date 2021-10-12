@@ -7,103 +7,53 @@ import crafttweaker.event.PlayerPickupItemEvent;
 import crafttweaker.block.IBlockState;
 import crafttweaker.data.IData;
 
-// // force displayName to make it easier to distinguish network and routing stuff
-// // network cables already have clear names
+// tl;dr it is too difficult to distinguish Network and Routing Connectors!
+// it is impossible to fixup the names as breaking/placing connectors loses
+// the NBT tag as the block is not a tileentity probably so just get rid of
+// all routing cables and connectors and properly name that regular ones a
+// little bit better so its less confusing i tried all kinds of shenanigans
+// to detect and apply NBT onPickup and various block break events- NO DICE!
+// setting displayName does not work as there is like one name for all items
+// putting the actual name in a tooltip seems to be the best solution for now
 
-// network connectors need clear names
-// <xnet:connector:0>.displayName = "Blue Network Connector";
-game.setLocalization("tile.xnet.connector_blue.name", "Blue Network Connector");
-// this next jawn has to be "Connector" because once broken they lose the correct name UGH MCJty!!! xD
-game.setLocalization("tile.xnet.connector.name", "Ambigious Connector");
-// <xnet:connector:1>.displayName = "Red Network Connector";
-game.setLocalization("tile.xnet.connector_red.name", "Red Network Connector");
-// <xnet:connector:2>.displayName = "Yellow Network Connector";
-game.setLocalization("tile.xnet.connector_yellow.name", "Yellow Network Connector");
-// <xnet:connector:3>.displayName = "Green Network Connector";
-game.setLocalization("tile.xnet.connector_green.name", "Green Network Connector");
-
-// advanced network connectors need clear names
-// <xnet:advanced_connector:0>.displayName = "Advanced Blue Network Connector";
-game.setLocalization("tile.xnet.advanced_connector_blue.name", "Advanced Blue Network Connector");
-game.setLocalization("tile.xnet.advanced_connector.name", "Advanced Network Connector");
-// <xnet:advanced_connector:1>.displayName = "Advanced Red Network Connector";
-game.setLocalization("tile.xnet.advanced_connector_red.name", "Advanced Red Network Connector");
-// <xnet:advanced_connector:2>.displayName = "Advanced Yellow Network Connector";
-game.setLocalization("tile.xnet.advanced_connector_yellow.name", "Advanced Yellow Network Connector");
-// <xnet:advanced_connector:3>.displayName = "Advanced Green Network Connector";
-game.setLocalization("tile.xnet.advanced_connector_green.name", "Advanced Green Network Connector");
-
-// router cables need clear names
-// <xnet:netcable:4>.displayName = "Router Cable";
+// this generic name is ambigious once the cable is broken it loses its name UGH! MCJty!!! xD
+game.setLocalization("tile.xnet.netcable.name", "Ambigious XNet Cable");
+game.setLocalization("tile.xnet.netcable_blue.name", "Blue Network Cable");
+<xnet:netcable:0>.addTooltip("Blue Network Cable");
+game.setLocalization("tile.xnet.netcable_red.name", "Red Network Cable");
+<xnet:netcable:1>.addTooltip("Red Network Cable");
+game.setLocalization("tile.xnet.netcable_yellow.name", "Yellow Network Cable");
+<xnet:netcable:2>.addTooltip("Yellow Network Cable");
+game.setLocalization("tile.xnet.netcable_green.name", "Green Network Cable");
+<xnet:netcable:3>.addTooltip("Green Network Cable");
 game.setLocalization("tile.xnet.netcable_routing.name", "Router Cable");
-game.setLocalization("tile.xnet.netcable.name", "Router Cable");
+<xnet:netcable:4>.addTooltip("Router Cable");
 
-// router connectors need clear names
-// <xnet:connector:4>.displayName = "Router Connector";
+// this generic name is ambigious once the connector is broken it loses its name UGH! MCJty!!! xD
+game.setLocalization("tile.xnet.connector.name", "Ambigious XNet Connector");
+game.setLocalization("tile.xnet.connector_blue.name", "Blue Network Connector");
+<xnet:connector:0>.addTooltip("Blue Network Connector");
+game.setLocalization("tile.xnet.connector_red.name", "Red Network Connector");
+<xnet:connector:1>.addTooltip("Red Network Connector");
+game.setLocalization("tile.xnet.connector_yellow.name", "Yellow Network Connector");
+<xnet:connector:2>.addTooltip("Yellow Network Connector");
+game.setLocalization("tile.xnet.connector_green.name", "Green Network Connector");
+<xnet:connector:3>.addTooltip("Green Network Connector");
 game.setLocalization("tile.xnet.connector_routing.name", "Router Connector");
+<xnet:connector:4>.addTooltip("Router Connector");
 
-// fixup router connector name so it shows the correct NBT localized name
-recipes.removeByRecipeName("xnet:connector_routing");
-recipes.addShaped("xnet.connector_routing", <xnet:connector:4>.withTag({display: {LocName: "tile.xnet.connector_routing.name"}}),
-    [
-        [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-        [<minecraft:gold_nugget>, <xnet:connector:0>, <minecraft:gold_nugget>],
-        [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
-    ]
-);
+// same for the generic advanced connector name
+game.setLocalization("tile.xnet.advanced_connector.name", "Ambigious XNet Advanced Network Connector");
+game.setLocalization("tile.xnet.advanced_connector_blue.name", "Advanced Blue Network Connector");
+<xnet:advanced_connector:0>.addTooltip("Advanced Blue Network Connector");
+game.setLocalization("tile.xnet.advanced_connector_red.name", "Advanced Red Network Connector");
+<xnet:advanced_connector:1>.addTooltip("Advanced Red Network Connector");
+game.setLocalization("tile.xnet.advanced_connector_yellow.name", "Advanced Yellow Network Connector");
+<xnet:advanced_connector:2>.addTooltip("Advanced Yellow Network Connector");
+game.setLocalization("tile.xnet.advanced_connector_green.name", "Advanced Green Network Connector");
+<xnet:advanced_connector:3>.addTooltip("Advanced Green Network Connector");
 
-// // FIXME: this is not setting the tag for some reason
-// // perhaps event.item.item is a copy and not actually the item
-// // because event.item.item cannot actually be set ??? who knows...
-// // this is overkill but register event handler item pickup to properly disambiguated network vs router cable NBT name tags
-// events.onPlayerPickupItem(function(event as crafttweaker.event.PlayerPickupItemEvent) {
-//     if isNull(event) { return; }
-//     if isNull(event.item) { return; }
-//     if isNull(event.player) { return; }
-
-//     var player = event.player;
-//     var item = event.item.item;
-
-//     var world = player.world;
-//     if(world.isRemote()) { return; }
-
-//     // check if the item is one of the connectors for which we want to disambiguate the name with NBT tags
-//     if (<xnet:connector:0>.matches(item)) {
-//         // event.item.item.displayName = "Blue Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.connector_blue.name"}});
-//     } else if (<xnet:connector:1>.matches(item)) {
-//         // event.item.item.displayName = "Red Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.connector_red.name"}});
-//     } else if (<xnet:connector:2>.matches(item)) {
-//         // event.item.item.displayName = "Yellow Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.connector_yellow.name"}});
-//     } else if (<xnet:connector:3>.matches(item)) {
-//         // event.item.item.displayName = "Green Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.connector_green.name"}});
-//     } else if (<xnet:connector:4>.matches(item)) {
-//         // event.item.item.displayName = "Router Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.connector_routing.name"}});
-//     } else if (<xnet:advanced_connector:0>.matches(item)) {
-//         // event.item.item.displayName = "Advanced Blue Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.advanced_connector_blue.name"}});
-//     } else if (<xnet:advanced_connector:1>.matches(item)) {
-//         // event.item.item.displayName = "Advanced Red Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.advanced_connector_red.name"}});
-//     } else if (<xnet:advanced_connector:2>.matches(item)) {
-//         // event.item.item.displayName = "Advanced Yellow Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.advanced_connector_yellow.name"}});
-//     } else if (<xnet:advanced_connector:3>.matches(item)) {
-//         // event.item.item.displayName = "Advanced Green Network Connector";
-//         event.item.item.updateTag({display: {LocName: "tile.xnet.advanced_connector_green.name"}});
-//     }
-
-//     return;
-// });
-
-// add a hint about lapis vs blue dye powder
-<xnet:connector:0>.addTooltip("§eHINT: §7blue dye powder works as lapis in recipe!");
-
-// quadruple recipe output for basic connectors
+// quadruple recipe output for basic network connectors
 recipes.removeByRecipeName("xnet:connector_0");
 recipes.addShaped("xnet.connector_0", <xnet:connector:0>.withTag({display: {LocName: "tile.xnet.connector_blue.name"}})*4,
     [
@@ -113,6 +63,7 @@ recipes.addShaped("xnet.connector_0", <xnet:connector:0>.withTag({display: {LocN
     ]
 );
 
+// quadruple recipe output for advanced network connector upgrades
 recipes.removeByRecipeName("xnet:connector_upgrade");
 recipes.addShaped("xnet.connector_upgrade", <xnet:connector_upgrade>*4,
     [
@@ -121,11 +72,42 @@ recipes.addShaped("xnet.connector_upgrade", <xnet:connector_upgrade>*4,
     ]
 );
 
+// make a 4x recipe for advanced network connectors
 recipes.removeByRecipeName("xnet:advanced_connector_0");
 recipes.addShaped("xnet.advanced_connector_0", <xnet:advanced_connector:0>.withTag({display: {LocName: "tile.xnet.advanced_connector_blue.name"}})*4,
     [
         [<xnet:connector:0>, <minecraft:diamond>, <xnet:connector:0>],
         [null, <minecraft:ender_pearl>, null],
         [<xnet:connector:0>, <minecraft:redstone>, <xnet:connector:0>]
+    ]
+);
+
+// fixup network cable name in output of recipe so it shows correct NBT localized name
+recipes.removeByRecipeName("xnet:netcable_0");
+recipes.addShaped("xnet.netcable_0", (<xnet:netcable>*16).withTag({display: {LocName: "tile.xnet.netcable_blue.name"}}),
+    [
+        [<ore:string>, <minecraft:redstone>, <ore:string>],
+        [<minecraft:redstone>, <minecraft:gold_nugget>, <minecraft:redstone>],
+        [<ore:string>, <minecraft:redstone>, <ore:string>]
+    ]
+);
+
+// fixup router cable name in output of recipe so it shows correct NBT localized name
+recipes.removeByRecipeName("xnet:netcable_routing");
+recipes.addShaped("xnet.netcable_routing", (<xnet:netcable:4>*32).withTag({display: {LocName: "tile.xnet.netcable_routing.name"}}),
+    [
+        [<ore:string>, <minecraft:redstone_block>, <ore:string>],
+        [<minecraft:redstone_block>, <minecraft:gold_ingot>, <minecraft:redstone_block>],
+        [<ore:string>, <minecraft:redstone_block>, <ore:string>]
+    ]
+);
+
+// fixup the router connector recipe name so it shows the correct NBT localized name
+recipes.removeByRecipeName("xnet:connector_routing");
+recipes.addShaped("xnet.connector_routing", <xnet:connector:4>.withTag({display: {LocName: "tile.xnet.connector_routing.name"}}),
+    [
+        [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+        [<minecraft:gold_nugget>, <xnet:connector:0>, <minecraft:gold_nugget>],
+        [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
     ]
 );

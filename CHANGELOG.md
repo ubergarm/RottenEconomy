@@ -5,7 +5,10 @@
 * Increase quantity and variety of Parasites in Lost Cities spawners
 * Default IC2 volume down to 80% like most other sound categories
 * Increase Deep Mob Learning simulation and loot fabrication RF/t costs
+* Another attempt to clean-up XNet names by adding actual name into tooltips
 * Update a few default keybindings
+* Rename Cyberware Human Muscle to Stringy Muscle
+* Crafting Akashic Tome will include most all guides by default
 
 ## v0.91
 * Integrate Scape and Run Parasites into Lost Cities spawners
