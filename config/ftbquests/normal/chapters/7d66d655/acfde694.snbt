@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"4121aef3"
+	],
+	tasks: [{
+		uid: "d7cdc4bb",
+		type: "interaction",
+		title: "Use a Refined Storage Crafting Grid",
+		icon: "refinedstorage:grid 1 1",
+		match_type: "block_id",
+		match: "refinedstorage:grid:1"
+	}],
+	rewards: [{
+		uid: "12602b37",
+		type: "random",
+		table: 0
+	}]
+}

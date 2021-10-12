@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6ee4286",
+		"86ca3738"
+	],
+	tasks: [{
+		uid: "b760c82a",
+		type: "interaction",
+		title: "Use a Refined Storage Controller",
+		icon: {
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 32000
+			},
+			Damage: 1s
+		},
+		match_type: "block_id",
+		match: "refinedstorage:controller"
+	}],
+	rewards: [{
+		uid: "83dcaf1e",
+		type: "random",
+		table: 0
+	}]
+}

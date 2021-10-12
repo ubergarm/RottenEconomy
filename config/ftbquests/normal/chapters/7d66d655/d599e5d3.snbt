@@ -1,6 +1,11 @@
 {
 	x: 2.0d,
 	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"39d9b34d",
+		"e84da91f"
+	],
 	tasks: [{
 		uid: "cf14c4e9",
 		type: "interaction",

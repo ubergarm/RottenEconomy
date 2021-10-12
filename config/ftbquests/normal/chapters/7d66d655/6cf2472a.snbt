@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	dependencies: [
+		"ec66af09"
+	],
+	tasks: [{
+		uid: "9d11cafa",
+		type: "interaction",
+		title: "Use a Refined Storage Wireless Transmitter",
+		icon: "refinedstorage:wireless_transmitter",
+		match_type: "block_id",
+		match: "refinedstorage:wireless_transmitter"
+	}],
+	rewards: [{
+		uid: "75e64518",
+		type: "random",
+		table: 0
+	}]
+}
