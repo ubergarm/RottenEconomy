@@ -1,6 +1,6 @@
 {
-	title: "Rotten Resources",
-	icon: "contenttweaker:gritty_flesh",
+	title: "Rotten Economy",
+	icon: "contenttweaker:jumpy_flesh",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

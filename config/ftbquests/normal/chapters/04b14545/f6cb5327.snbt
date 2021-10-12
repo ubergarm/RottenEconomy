@@ -1,0 +1,31 @@
+{
+	title: "Burn Baby Burn",
+	x: -8.5d,
+	y: -5.5d,
+	description: "Where there is smoke, there is power",
+	text: [
+		"Craft a coal power generator and place it next to your grinder.",
+		"",
+		"Toss in some coal or charcoal and add a chimney on top to pipe that sooty dirty smoke outside of your base. The chimney won't help with that awful grinding noise though..."
+	],
+	dependencies: [
+		"a60434d5"
+	],
+	tasks: [{
+		uid: "a244b986",
+		type: "interaction",
+		icon: "libvulpes:coalgenerator",
+		match_type: "block_id",
+		match: ""
+	}],
+	rewards: [{
+		uid: "cd9c46a9",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "db83156f",
+		type: "item",
+		item: "adchimneys:brick"
+	}]
+}

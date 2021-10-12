@@ -10,7 +10,7 @@
 		"",
 		"Speaking of time, the OdysseyHUD mod turns vanilla clocks into a bauble that when worn conviently displays the time, weather, and moon phase.",
 		"",
-		"So don't stay out all night! Especially on Fiull Moon nights which occur every 8 days."
+		"So don't stay out too late, especially on Full Moons which occur every 8th night!"
 	],
 	dependencies: [
 		"4e6457f4"

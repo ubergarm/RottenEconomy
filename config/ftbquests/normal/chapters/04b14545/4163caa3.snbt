@@ -1,0 +1,27 @@
+{
+	title: "Better off Zed",
+	x: -7.5d,
+	y: -2.5d,
+	description: "Loss and gain are all relative",
+	text: [
+		"Kill any 10 mobs and collect the drops.",
+		"",
+		"Flesh doesn't grow on trees you know, but it does grow on mobs! Notice that killing 10 mobs will reduce the difficulty by 1 point.",
+		"",
+		"Zombies and Husks enhanced by Epic Siege mod will briefly stun you with their attacks, so use Elenai Dodge 2 to double tap \"a\", \"s\", or \"d\" to escape trouble!",
+		"",
+		"\"Bring war material with you from home, but forage on the enemy.\" - Sun Tzu, The Art of War"
+	],
+	tasks: [{
+		uid: "aa69ff66",
+		type: "stat",
+		icon: "minecraft:skull 1 2",
+		stat: "stat.mobKills",
+		value: 10
+	}],
+	rewards: [{
+		uid: "9c18c858",
+		type: "random",
+		table: 0
+	}]
+}

@@ -26,7 +26,6 @@
 		type: "command",
 		title: "More Fun!",
 		icon: "scalinghealth:difficultychanger 1 1",
-		auto: "enabled",
 		command: "/scalinghealth world_difficulty add 1 @p"
 	}]
 }

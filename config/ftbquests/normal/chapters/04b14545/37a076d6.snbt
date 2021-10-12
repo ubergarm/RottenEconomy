@@ -1,0 +1,29 @@
+{
+	title: "Extra Tasty Gritty",
+	x: -9.0d,
+	y: -2.0d,
+	description: "Harvest Husks for Gritty Flesh",
+	text: [
+		"This sandy, salty, Gritty Flesh comes from Husks that have escaped the desert biomes and taken over the cities.",
+		"",
+		"You can also find it in loot boxes and eventually produce it scientifically.",
+		"",
+		"Toss it into the Tech Guns Grinder for valuable resources!"
+	],
+	dependencies: [
+		"4163caa3"
+	],
+	tasks: [{
+		uid: "15839410",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gritty_flesh"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b08b33b9",
+		type: "random",
+		table: 0
+	}]
+}

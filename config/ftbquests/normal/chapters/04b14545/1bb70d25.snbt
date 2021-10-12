@@ -1,0 +1,37 @@
+{
+	title: "Nerd Poles from Hell",
+	x: -6.5d,
+	y: -3.5d,
+	description: "Collect 16 Rotten Netherrack",
+	text: [
+		"Epic Siege Mod enhanced Zombies and Husks can pillar up to reach you using this custom block. After blasting all the zeds, harvest this valuable resource with a shovel."
+	],
+	dependencies: [
+		"4163caa3"
+	],
+	tasks: [{
+		uid: "155e5b56",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rotten_netherrack"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7ff13b3f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "b606442c",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 8
+	},
+	{
+		uid: "149a7d03",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

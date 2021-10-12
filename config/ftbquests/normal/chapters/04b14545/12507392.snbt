@@ -1,0 +1,29 @@
+{
+	title: "Jumpy Jawns",
+	x: -6.0d,
+	y: -2.0d,
+	description: "Harvest Endermans for Jumpy Flesh",
+	text: [
+		"It is difficult to keep hold of this purple-blue quivering Jumpy Flesh. It smells of ender pearls and slightly of obsidian dust.",
+		"",
+		"Perhaps you can figure out how to manufacturer more of it to process in the Tech Guns Grinder for valuable resources.",
+		"",
+		"In the mean time, look around in loot chests in buildings or air supply utility crates to get as much as possible."
+	],
+	dependencies: [
+		"4163caa3"
+	],
+	tasks: [{
+		uid: "123febd6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:jumpy_flesh"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2c1735ef",
+		type: "random",
+		table: 0
+	}]
+}
