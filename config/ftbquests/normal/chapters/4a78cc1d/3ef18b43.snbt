@@ -1,0 +1,48 @@
+{
+	title: "Williams Street Swap Shop",
+	x: -5.5d,
+	y: 0.5d,
+	description: "Exchange for Zombie digging resistant blocks!",
+	text: [
+		"There are a variety of Exchangers available that are able to swap out existing blocks in the world for blocks in your inventory.",
+		"",
+		"The exchanger must be of high enough tier to remove the target block from the world. There are also exchangers that use RF instead of durability.",
+		"",
+		"1. Place a good block you want to use and sneak right click on it.",
+		"",
+		"2. Right click on a target block to exchange it for a good block from your inventory.",
+		"",
+		"3. Profit"
+	],
+	dependencies: [
+		"4e6457f4"
+	],
+	tasks: [{
+		uid: "0b94ebc4",
+		type: "item",
+		title: "Craft a Wooden Exchanger",
+		items: [{
+			id: "exchangers:wooden_exchanger",
+			tag: {
+				mode: 0,
+				fuzzyPlacementChance: 100,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				fuzzyPlacement: 0b,
+				voidItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "3df5f2ee",
+		type: "random",
+		table: 0
+	}]
+}

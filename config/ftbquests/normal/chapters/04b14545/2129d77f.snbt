@@ -18,9 +18,10 @@
 	tasks: [{
 		uid: "8078a3f1",
 		type: "interaction",
+		title: "Use a Super Sound Muffler",
 		icon: "supersoundmuffler:sound_muffler",
 		match_type: "block_id",
-		match: ""
+		match: "supersoundmuffler:sound_muffler"
 	}],
 	rewards: [{
 		uid: "747d0a6d",

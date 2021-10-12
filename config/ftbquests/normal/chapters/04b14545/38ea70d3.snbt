@@ -16,9 +16,10 @@
 	tasks: [{
 		uid: "b58e85d7",
 		type: "interaction",
+		title: "Use a NuclearCraft:Overhauled Manufactory",
 		icon: "nuclearcraft:manufactory",
 		match_type: "block_id",
-		match: ""
+		match: "nuclearcraft:manufactory"
 	}],
 	rewards: [{
 		uid: "8be6b12a",

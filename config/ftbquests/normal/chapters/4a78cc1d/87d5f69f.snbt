@@ -2,7 +2,7 @@
 	title: "If all else fails...",
 	x: -7.5d,
 	y: -3.0d,
-	description: "RTFM: Craft an Akashic Tome.",
+	description: "RTFM",
 	text: [
 		"Many mods have guide books ready to help you along your way. The Akashic tome includes most of these guide books already.",
 		"",
@@ -16,6 +16,7 @@
 	tasks: [{
 		uid: "cf5ae6d4",
 		type: "item",
+		title: "Craft an Akashic Tome",
 		items: [{
 			item: "akashictome:tome"
 		}],

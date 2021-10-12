@@ -1,0 +1,34 @@
+{
+	title: "Weird Science",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Living tissue, warm flesh",
+	text: [
+		"The Tech Guns Chemical Laboratory has a number of useful recipes including the ability to generate Rotten Flesh and Gritty Flesh directly.",
+		"",
+		"\"Talent and imagination",
+		"(Weird science)",
+		"Not what teacher said to do",
+		"Makin' dreams come true",
+		"Living tissue; warm flesh",
+		"(Weird science)",
+		"Plastic tubes and pots and pans",
+		"Bits and pieces and",
+		"Bits and pieces and",
+		"Bits of my creation, is it real?\"",
+		"- Oingo Boingo"
+	],
+	tasks: [{
+		uid: "126f1936",
+		type: "interaction",
+		title: "Use a Tech Guns Chemical Laboratory",
+		icon: "techguns:basicmachine 1 2",
+		match_type: "block_id",
+		match: "techguns:basicmachine:2"
+	}],
+	rewards: [{
+		uid: "7eaf014d",
+		type: "random",
+		table: 0
+	}]
+}

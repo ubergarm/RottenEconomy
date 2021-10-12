@@ -1,0 +1,26 @@
+{
+	title: "Rush's Thunderbolt",
+	x: -1.0d,
+	y: -2.5d,
+	description: "Flush your System",
+	text: [
+		"Fast and Slow RadAway both remove a total of 300Rads from your existing radiation dose. Remember a dose of 1000 Rads is instantly fatal.",
+		"",
+		"However, RadAway does nothing to shield you from receiving new radiation from the environment."
+	],
+	dependencies: [
+		"3e09009f"
+	],
+	tasks: [{
+		uid: "3812660f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway"
+		}]
+	}],
+	rewards: [{
+		uid: "4225efc2",
+		type: "random",
+		table: 0
+	}]
+}

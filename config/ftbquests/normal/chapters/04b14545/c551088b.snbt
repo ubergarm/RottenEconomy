@@ -19,9 +19,10 @@
 	tasks: [{
 		uid: "5b84accc",
 		type: "interaction",
+		title: "Use a Jukebox",
 		icon: "minecraft:jukebox",
 		match_type: "block_id",
-		match: ""
+		match: "minecraft:jukebox"
 	}],
 	rewards: [{
 		uid: "0f4ff3df",

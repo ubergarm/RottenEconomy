@@ -16,6 +16,7 @@
 	tasks: [{
 		uid: "06b78430",
 		type: "item",
+		title: "Cook up 1x Toasty Flesh",
 		items: [{
 			item: "xlfoodmod:flesh"
 		}]

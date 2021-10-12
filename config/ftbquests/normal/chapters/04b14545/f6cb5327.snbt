@@ -14,9 +14,10 @@
 	tasks: [{
 		uid: "a244b986",
 		type: "interaction",
+		title: "Use a libvulpes Coal Generator",
 		icon: "libvulpes:coalgenerator",
 		match_type: "block_id",
-		match: ""
+		match: "libvulpes:coalgenerator"
 	}],
 	rewards: [{
 		uid: "cd9c46a9",

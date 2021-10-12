@@ -19,6 +19,7 @@
 	tasks: [{
 		uid: "410e0034",
 		type: "interaction",
+		title: "Use a Tech Guns Grinder",
 		icon: "techguns:simplemachine2 1 8",
 		match_type: "block_id",
 		match: "techguns:simplemachine2"

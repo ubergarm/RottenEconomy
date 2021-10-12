@@ -21,7 +21,7 @@
 		items: [{
 			item: "srparasites:assimilated_flesh"
 		}],
-		count: 8L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "bf62d58e",
