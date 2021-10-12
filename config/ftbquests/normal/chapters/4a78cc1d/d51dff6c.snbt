@@ -1,8 +1,8 @@
 {
 	title: "Shoulder Surfing",
 	icon: "securitycraft:security_camera",
-	x: -7.5d,
-	y: -1.0d,
+	x: -8.0d,
+	y: -1.5d,
 	description: "Advanced 3rd Person Camera",
 	text: [
 		"Shoulder Surfing Reloaded mod provides and advanced 3rd Person Camera perspective. ",

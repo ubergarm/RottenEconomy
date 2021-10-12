@@ -1,0 +1,30 @@
+{
+	title: "Death is Inevitable",
+	x: -3.5d,
+	y: -1.0d,
+	description: "...but don't fear the reaper!",
+	text: [
+		"When you inevitably die, the contents of your inventory will go into a GraveKeeper grave. The grave is not breakable, but you can access it by right clicking. It will automatically put everything back where it was (assuming your inventory is empty enough).",
+		"",
+		"You have two hours to finish your corpse run before other players will be allowed to loot your corpse.",
+		"",
+		"Be careful with the Inventory Pet's Grave Pet, it *must* be in your hotbar and well fed otherwise all your stuff will drop into the world on death. The contents of your Tech Guns Inventory will still be placed into a grave even with a happy Grave Pet.",
+		"",
+		"If you play on a server with friends, they will have 60 seconds to PlayerRevive you by right clicking on your body for 5 seconds before you *for-real* die!"
+	],
+	dependencies: [
+		"82205740"
+	],
+	tasks: [{
+		uid: "1d04efe1",
+		type: "stat",
+		icon: "inventorypets:grave_pet",
+		stat: "stat.deaths",
+		value: 1
+	}],
+	rewards: [{
+		uid: "d3499bfa",
+		type: "random",
+		table: 0
+	}]
+}

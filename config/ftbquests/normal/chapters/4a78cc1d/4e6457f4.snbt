@@ -1,7 +1,7 @@
 {
 	title: "When is a block not a block?",
-	x: -5.5d,
-	y: -1.0d,
+	x: -6.5d,
+	y: -0.5d,
 	description: "When the TNT explodes",
 	text: [
 		"Epic Siege Mod allows vanilla Zombies and Husks to grief most blocks and pillar to you. Zombie Awareness allows many mobs to smell your bleeding, hear your digging, and come investigate your torch light.",

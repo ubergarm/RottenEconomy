@@ -1,0 +1,28 @@
+{
+	title: "Let Them Eat Flesh",
+	x: -5.0d,
+	y: -1.5d,
+	description: "Toasty is tasty but you can't grind it",
+	text: [
+		"A couple varieties of Flesh can be eaten without any negative effects. Cook up a piece of Toasty Flesh and notice how you can place food items into your Tech Guns Inventory slots.",
+		"",
+		"To access the Tech Guns Inventory, push e to go to the usual inventory screen, and at the top there is a new tab with a bullets icon. You can place ammo and food into these slots.",
+		"",
+		"Additionally, you will automatically consume food items from these slots when you have hunger."
+	],
+	dependencies: [
+		"ea116903"
+	],
+	tasks: [{
+		uid: "06b78430",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:flesh"
+		}]
+	}],
+	rewards: [{
+		uid: "60fc066e",
+		type: "random",
+		table: 0
+	}]
+}

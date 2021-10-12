@@ -1,7 +1,7 @@
 {
 	title: "Days that last all day",
-	x: -4.5d,
-	y: 0.0d,
+	x: -6.5d,
+	y: 1.0d,
 	description: "And sleepless nights",
 	text: [
 		"Earth's weakened gravitational field has led to a wobbly orbit giving roughly an extra 10 minutes of daylight per cycle.",

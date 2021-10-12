@@ -1,9 +1,21 @@
 {
+	title: "Its getting HOT in here!",
 	x: -2.5d,
 	y: -1.0d,
+	description: "...so why not put on a Hazmet Suit!",
+	text: [
+		"Watch Out!",
+		"",
+		"The NuclearCraft:Overhauled Nuclear Wasteland is toxicly contaminated with radioactivity! Just being in this biome you will receive a 0.25Rad/tick radiation dose.",
+		"",
+		"Claim this reward quickly and put on some rubber boots to shield you. If you reach a dose of 1000 Rads you with instantly die without a chance for PlayerRevive.",
+		"",
+		"Even at lower dosages you will receive stacking negative effects beginniing with a \"Radiation\" effect to make it clear what is happening. Craft a Geiger Counter to monitor your personal dose level as well as the surrounding chunks radioactive contamination levels."
+	],
 	tasks: [{
 		uid: "bc293410",
 		type: "biome",
+		title: "Visit a Nuclear Wasteland biome",
 		icon: "nuclearcraft:radaway",
 		biome: "nuclearcraft:nuclear_wasteland"
 	}],

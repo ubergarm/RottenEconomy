@@ -8,7 +8,7 @@
 		"",
 		"Craft your own Manufactory or salvage one occasionally found in urban buildings. Place it down in your base, power it, and get busy!",
 		"",
-		"Listen to some more sweet sweet chip tunes and may your hoppers always be filled with ore!"
+		"May you find what you're seeking wherever you roam, and may your hoppers always be filled with ore!"
 	],
 	dependencies: [
 		"6b98e9a2"
@@ -24,10 +24,5 @@
 		uid: "8be6b12a",
 		type: "random",
 		table: 0
-	},
-	{
-		uid: "1917691e",
-		type: "item",
-		item: "contenttweaker:record_five"
 	}]
 }

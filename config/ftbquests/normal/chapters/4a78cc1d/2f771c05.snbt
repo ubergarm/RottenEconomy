@@ -8,7 +8,7 @@
 		"",
 		"Players can *not* be head-shot though because First-Aid mod already tracks location based damage on players. Mobs can head-shot other mobs. Head-shots are indicated with a \"ding\" sound and a cross-hairs symbol will briefly pop out.",
 		"",
-		"Finally you must be at least 4 blocks away, so if the mob appears in the One Probe you are too close for a head-shot."
+		"Finally, you must be at least 4 blocks away, so if the mob appears in the One Probe you are too close for a head-shot."
 	],
 	dependencies: [
 		"ea116903"
