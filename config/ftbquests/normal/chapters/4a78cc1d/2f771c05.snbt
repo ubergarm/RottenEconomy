@@ -1,8 +1,8 @@
 {
-	title: "Aiming to get ahead!",
+	title: "Aiming to get ahead",
 	x: -5.5d,
 	y: -3.0d,
-	description: "Head-shot a mob with your Hand Cannon.",
+	description: "Head-shot a mob with your Hand Cannon",
 	text: [
 		"Iblis Headshots mod grants 4x damage when head-shotting mobs. It damages helmets more too. It works with guns, bows, and even throwing weapons!",
 		"",
@@ -33,8 +33,8 @@
 		table: 0
 	},
 	{
-		uid: "425d6df6",
+		uid: "4d0f856d",
 		type: "item",
-		item: "minecraft:stone_pickaxe"
+		item: "mekanismtools:woodpaxel"
 	}]
 }

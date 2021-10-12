@@ -1,0 +1,11 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "5f42584e",
+		type: "item",
+		items: [{
+			item: "supersoundmuffler:sound_muffler"
+		}]
+	}]
+}

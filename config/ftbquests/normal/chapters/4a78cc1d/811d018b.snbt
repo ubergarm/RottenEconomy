@@ -3,7 +3,7 @@
 	icon: "scalinghealth:heartcontainer",
 	x: -8.5d,
 	y: 0.0d,
-	description: "and Scaling Difficulty!",
+	description: "and Scaling Difficulty",
 	text: [
 		"Have a heart, and eat it too! Eating Scaling Health Heart Containers gives some instant healing and increases max health by one. You can only increase your max health this way to 100, but there are other ways to go beyond this cap.",
 		"",

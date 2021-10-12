@@ -1,11 +1,40 @@
 {
+	title: "When is a block not a block?",
 	x: -5.5d,
 	y: -1.0d,
+	description: "When the TNT explodes",
+	text: [
+		"Epic Siege Mod allows vanilla Zombies and Husks to grief most blocks and pillar to you. Zombie Awareness allows many mobs to smell your bleeding, hear your digging, and come investigate your torch light.",
+		"",
+		"While high hardness blocks will slow down diggers, search the JEI for \"Zombie digging resistant\" to see all of the special blocks that Zombies, Husks, and Parasites cannot grief. Note that explosions can still destroy these blocks indirectly. ",
+		"",
+		"Open Modular Passive Defense Hardened Blocks (Tier 2) have 20 blast resistance which is good enough for regular TNT. Craft enough to build a small outpost or you can takeover and upgrade an existing digging resistant building in town."
+	],
+	dependencies: [
+		"ea116903"
+	],
 	tasks: [{
 		uid: "07dea6f4",
 		type: "item",
 		items: [{
 			item: "ompd:hardened 1 1"
-		}]
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "573c866b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ae48893b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 4
+	},
+	{
+		uid: "0e8f4330",
+		type: "item",
+		item: "minecraft:redstone"
 	}]
 }

@@ -2,7 +2,7 @@
 	title: "Epic Fight Battle Stance",
 	x: -4.5d,
 	y: -4.0d,
-	description: "Craft and dual-wield two stone swords.",
+	description: "Craft and dual-wield two stone swords",
 	text: [
 		"Most weapons and armors in this modpack are integrated with Epic Fight. The JEI tooltips will show what effects you can expect when fighting in Battle Stance Mode.",
 		"",

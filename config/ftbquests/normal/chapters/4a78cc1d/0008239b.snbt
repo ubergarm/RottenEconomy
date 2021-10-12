@@ -1,11 +1,31 @@
 {
+	title: "Days that last all day",
 	x: -4.5d,
 	y: 0.0d,
+	description: "And sleepless nights",
+	text: [
+		"Earth's weakened gravitational field has led to a wobbly orbit giving roughly an extra 10 minutes of daylight per cycle.",
+		"",
+		"Use this time to your advantage because you can't sleep anymore, but you can still use a bed to set your spawn point.",
+		"",
+		"Speaking of time, the OdysseyHUD mod turns vanilla clocks into a bauble that when worn conviently displays the time, weather, and moon phase.",
+		"",
+		"So don't stay out all night! Especially on Fiull Moon nights which occur every 8 days."
+	],
+	dependencies: [
+		"4e6457f4"
+	],
 	tasks: [{
 		uid: "5a03c92a",
 		type: "item",
 		items: [{
 			item: "minecraft:clock"
-		}]
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "07ffd79c",
+		type: "random",
+		table: 0
 	}]
 }

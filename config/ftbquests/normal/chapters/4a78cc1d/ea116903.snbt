@@ -2,7 +2,7 @@
 	title: "And so it begins...",
 	x: -6.5d,
 	y: -2.0d,
-	description: "Let these quests enlighten your path.",
+	description: "Let these quests enlighten your path",
 	text: [
 		"You can access this quest menu using the FTB Quest book or pressing semi-colon ; which is right next to the Advancements key L.",
 		"",
