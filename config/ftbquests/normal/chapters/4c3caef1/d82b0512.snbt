@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	dependencies: [
+		"4c34f1fa"
+	],
+	tasks: [{
+		uid: "c8ccc967",
+		type: "item",
+		title: "Create 64x Gritty Flesh",
+		items: [{
+			item: "contenttweaker:gritty_flesh"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "cd0475ab",
+		type: "choice",
+		table: 0
+	}]
+}

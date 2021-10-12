@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"d599e5d3"
+	],
+	tasks: [{
+		uid: "31d223f8",
+		type: "interaction",
+		title: "Use a Storage Request Table",
+		icon: "storagenetwork:request",
+		match_type: "block_id",
+		match: "storagenetwork:request"
+	}],
+	rewards: [{
+		uid: "bf124cd6",
+		type: "random",
+		table: 0
+	}]
+}

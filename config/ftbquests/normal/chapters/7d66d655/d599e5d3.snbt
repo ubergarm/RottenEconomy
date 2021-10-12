@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "cf14c4e9",
+		type: "interaction",
+		title: "Use a Storage Network Master",
+		icon: "storagenetwork:master",
+		match_type: "block_id",
+		match: "storagenetwork:master"
+	}],
+	rewards: [{
+		uid: "aed222ce",
+		type: "choice",
+		table: 0
+	}]
+}

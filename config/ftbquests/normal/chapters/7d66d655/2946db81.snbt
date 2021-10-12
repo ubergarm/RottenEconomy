@@ -1,0 +1,23 @@
+{
+	title: "Use any Basic Storage Drawers",
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0ba52b7d",
+		type: "interaction",
+		icon: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		},
+		match_type: "block_id",
+		match: "storagedrawers:basicdrawers"
+	}],
+	rewards: [{
+		uid: "4993410e",
+		type: "random",
+		table: 0
+	}]
+}

@@ -19,7 +19,8 @@
 		title: "Cook up 1x Toasty Flesh",
 		items: [{
 			item: "xlfoodmod:flesh"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "60fc066e",

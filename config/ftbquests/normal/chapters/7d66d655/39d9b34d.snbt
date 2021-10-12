@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e7faf432",
+		type: "interaction",
+		title: "Use a Drawer Controller",
+		icon: "storagedrawers:controller",
+		match_type: "block_id",
+		match: "storagedrawers:controller"
+	}],
+	rewards: [{
+		uid: "59e270e1",
+		type: "random",
+		table: 0
+	}]
+}

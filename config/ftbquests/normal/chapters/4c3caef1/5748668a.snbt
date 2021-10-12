@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	dependencies: [
+		"4c34f1fa"
+	],
+	tasks: [{
+		uid: "82e6af0b",
+		type: "item",
+		title: "Create 64x Rotten Flesh",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "420a93b5",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"1801a708"
+	],
+	tasks: [{
+		uid: "344b8474",
+		type: "item",
+		title: "Create 64x Jumpy Flesh",
+		items: [{
+			item: "contenttweaker:jumpy_flesh"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "44fab548",
+		type: "random",
+		table: 0
+	}]
+}

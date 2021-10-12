@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"d599e5d3"
+	],
+	tasks: [{
+		uid: "c6082410",
+		type: "interaction",
+		title: "Use a Storage Link Cable",
+		icon: "storagenetwork:storage_kabel",
+		match_type: "block_id",
+		match: "storagenetwork:storage_kabel"
+	}],
+	rewards: [{
+		uid: "073709b0",
+		type: "random",
+		table: 0
+	}]
+}

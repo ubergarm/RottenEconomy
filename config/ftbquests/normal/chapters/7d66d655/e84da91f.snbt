@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a28be116",
+		type: "interaction",
+		title: "Use a Better Crates Wooden Crate",
+		icon: "bettercrates:wooden_crate",
+		match_type: "block_id",
+		match: "bettercrates:wooden_crate"
+	}],
+	rewards: [{
+		uid: "e7919661",
+		type: "random",
+		table: 0
+	}]
+}

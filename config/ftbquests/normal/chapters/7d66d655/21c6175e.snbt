@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "97c5ab85",
+		type: "interaction",
+		title: "Use a Hopping Bonsai Pot",
+		icon: "bonsaitrees:bonsaipot 1 1",
+		match_type: "block_id",
+		match: "bonsaitrees:bonsaipot:1"
+	}],
+	rewards: [{
+		uid: "507d97c3",
+		type: "random",
+		table: 0
+	}]
+}
