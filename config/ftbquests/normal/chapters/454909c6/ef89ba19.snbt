@@ -1,7 +1,7 @@
 {
 	title: "Pill Poppin'",
 	x: -3.0d,
-	y: -2.5d,
+	y: -2.0d,
 	description: "Radiation Stoppin",
 	text: [
 		"You can take a single does of Rad-X every 10 minutes to provide you with 25 rad shielding.",

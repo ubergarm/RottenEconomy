@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "8986f84f",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Precipitation Chamber",
+		icon: {
+			id: "rockhounding_chemistry:machines_e",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 11s
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_e:11"
+	}],
+	rewards: [{
+		uid: "0677aa24",
+		type: "random",
+		table: 0
+	}]
+}

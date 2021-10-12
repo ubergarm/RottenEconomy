@@ -1,0 +1,23 @@
+{
+	title: "Too many Cooks",
+	x: -6.5d,
+	y: -1.0d,
+	description: "Nuke the Radiation Systems",
+	text: [
+		"How many radiation systems can one modpack fit into it? At least 5 clearly!",
+		"",
+		"Tech Guns Radiation System, useless tooltips, and items have removed as much as possible as that system is an incomplete WIP. ",
+		"",
+		"Instead, some items and armors have been integrated to work with NuclearCraft:Overhauled Radiation System and show accurate values."
+	],
+	tasks: [{
+		uid: "a6155ad0",
+		type: "checkmark",
+		icon: "techguns:radpills"
+	}],
+	rewards: [{
+		uid: "f47fc849",
+		type: "random",
+		table: 0
+	}]
+}

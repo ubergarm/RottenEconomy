@@ -1,6 +1,6 @@
 {
 	title: "Shields Up!",
-	x: 8.0d,
+	x: 2.5d,
 	y: -2.5d,
 	description: "Wrap it up and stay safe",
 	text: [

@@ -1,26 +1,23 @@
 {
 	x: 1.5d,
-	y: -1.5d,
-	dependencies: [
-		"1f632a79"
-	],
+	y: 0.0d,
 	tasks: [{
-		uid: "31891850",
+		uid: "e2e5f575",
 		type: "interaction",
-		title: "Use a Rockhounding Chemistry Lab Blender",
+		title: "Use a Rockhounding Chemistry Profiling Bench",
 		icon: {
 			id: "rockhounding_chemistry:machines_a",
 			tag: {
 				Energy: 0,
 				Fuel: 0
 			},
-			Damage: 9s
+			Damage: 11s
 		},
 		match_type: "block_id",
-		match: "rockhounding_chemistry:machines_a:9"
+		match: "rockhounding_chemistry:machines_a:11"
 	}],
 	rewards: [{
-		uid: "7baefe21",
+		uid: "bf693e60",
 		type: "random",
 		table: 0
 	}]

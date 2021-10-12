@@ -1,7 +1,7 @@
 {
 	title: "An Ounce of Prevention",
 	x: -2.0d,
-	y: -4.0d,
+	y: -3.0d,
 	description: "...is worth a pound of RadAway",
 	text: [
 		"You can craft shielding to apply to your armor or horse armor to protecth yourself and your horse from NuclearCraft:Overhauled radioactivity.",

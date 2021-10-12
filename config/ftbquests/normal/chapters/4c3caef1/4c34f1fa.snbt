@@ -1,6 +1,6 @@
 {
 	title: "Weird Science",
-	x: 0.0d,
+	x: -1.5d,
 	y: 0.0d,
 	description: "Living tissue, warm flesh",
 	text: [
@@ -13,9 +13,15 @@
 		"Living tissue; warm flesh",
 		"(Weird science)",
 		"Plastic tubes and pots and pans",
-		"Bits and pieces and",
-		"Bits and pieces and",
-		"Bits of my creation, is it real?\"",
+		"Bits of my creation, is it real?",
+		"It's my creation—I do not know",
+		"No hesitation—No heart of gold",
+		"Just flesh and blood—I do not know",
+		"I do not know",
+		"From my heart and from my hand,",
+		"Why don't people understand",
+		"My intentions?",
+		"(Weird science)\"",
 		"- Oingo Boingo"
 	],
 	tasks: [{

@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "5c1bf74b",
+		type: "interaction",
+		title: "Use a Rockhounding Chemistry Precipitation Reactor",
+		icon: {
+			id: "rockhounding_chemistry:machines_e",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 12s
+		},
+		match_type: "block_id",
+		match: "rockhounding_chemistry:machines_e:12"
+	}],
+	rewards: [{
+		uid: "158e7fee",
+		type: "random",
+		table: 0
+	}]
+}

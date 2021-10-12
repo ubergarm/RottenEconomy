@@ -1,7 +1,7 @@
 {
 	title: "Rush's Thunderbolt",
 	x: -1.0d,
-	y: -2.5d,
+	y: -2.0d,
 	description: "Flush your System",
 	text: [
 		"Fast and Slow RadAway both remove a total of 300Rads from your existing radiation dose. Remember a dose of 1000 Rads is instantly fatal.",

@@ -1,7 +1,7 @@
 {
 	title: "Welcome to Hell",
 	x: -2.0d,
-	y: 1.0d,
+	y: 0.5d,
 	description: "You Went Swimming Anyway",
 	text: [
 		"Going for a swim in the Nuclear Wasteland Biome will teleport you to the NuclearCraft:Overhauled Wasteland dimension.",

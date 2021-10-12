@@ -1,26 +1,26 @@
 {
 	x: 1.5d,
-	y: -1.5d,
+	y: 1.5d,
 	dependencies: [
 		"1f632a79"
 	],
 	tasks: [{
-		uid: "31891850",
+		uid: "26eff1c6",
 		type: "interaction",
-		title: "Use a Rockhounding Chemistry Lab Blender",
+		title: "Use a Rockhounding Chemistry Power Station",
 		icon: {
 			id: "rockhounding_chemistry:machines_a",
 			tag: {
 				Energy: 0,
 				Fuel: 0
 			},
-			Damage: 9s
+			Damage: 2s
 		},
 		match_type: "block_id",
-		match: "rockhounding_chemistry:machines_a:9"
+		match: "rockhounding_chemistry:machines_a:2"
 	}],
 	rewards: [{
-		uid: "7baefe21",
+		uid: "fd408583",
 		type: "random",
 		table: 0
 	}]

@@ -1,11 +1,9 @@
 {
-	title: "IC2 Radiation",
-	x: 1.5d,
+	title: "Old Skewl Radiation",
+	x: -5.0d,
 	y: -1.0d,
 	description: "Before Radiation was Cool",
 	text: [
-		"How many radiation systems can one modpack fit into it? At least 5 clearly!",
-		"",
 		"IC2 has its own radiation system that can only be protected against by using a complete suit of IC2 Rubber Hazmat Quantum Suit armor.",
 		"",
 		"In addition, some IC2 items have a NuclearCraft:Overhauled Radiation value and protection as well.",

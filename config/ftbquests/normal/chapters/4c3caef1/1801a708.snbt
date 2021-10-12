@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "415cd00b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enderium_catalyst"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5ccc544",
+		type: "random",
+		table: 0
+	}]
+}
