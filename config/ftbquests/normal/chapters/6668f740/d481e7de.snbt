@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: -4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"872e6ae0",
+		"da455a72"
+	],
+	tasks: [{
+		uid: "c5c4e935",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_zombie"
+		}],
+		count: 64L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "39a23c38",
+		type: "random",
+		table: 0
+	}]
+}

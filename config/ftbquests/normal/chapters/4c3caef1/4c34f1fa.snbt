@@ -1,7 +1,7 @@
 {
 	title: "Weird Science",
-	x: -2.0d,
-	y: 0.5d,
+	x: 3.0d,
+	y: 1.5d,
 	description: "Living tissue, warm flesh",
 	text: [
 		"The Tech Guns Chemical Laboratory has a number of useful recipes including the ability to generate Rotten Flesh and Gritty Flesh directly.",

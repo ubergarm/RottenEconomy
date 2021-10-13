@@ -12,8 +12,7 @@
 		items: [{
 			item: "refinedstorage:wireless_crafting_monitor"
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: false
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "91a664fb",

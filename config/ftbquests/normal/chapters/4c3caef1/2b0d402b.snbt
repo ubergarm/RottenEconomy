@@ -1,17 +1,20 @@
 {
-	x: 5.0d,
+	x: 4.5d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"1801a708"
 	],
 	tasks: [{
 		uid: "344b8474",
 		type: "item",
-		title: "Create 64x Jumpy Flesh",
+		title: "Mass Produce Jumpy Flesh",
 		items: [{
 			item: "contenttweaker:jumpy_flesh"
 		}],
-		count: 64L,
+		count: 768L,
 		only_from_crafting: true
 	}],
 	rewards: [{
