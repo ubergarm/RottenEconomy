@@ -11,21 +11,30 @@ rest of us behind on this shattered earth. Work together with your few
 remaining friends to launch into orbit and *remind* those egomaniacs
 that we're all in this together!!!
 
-Open video link below in new tab to watch version 0.71 quick look!
+Open video link below in new tab to watch Official Trailer v0.92!
 
-[![IMG_ALT](https://img.youtube.com/vi/eROl4nQ_mqw/0.jpg)](https://www.youtube.com/watch?v=eROl4nQ_mqw)
+[![IMG_ALT](https://img.youtube.com/vi/G49x8WaUMbk/0.jpg)](https://www.youtube.com/watch?v=G49x8WaUMbk)
 
-Build a zombie proof base outside of town, search destroyed urban areas
-for loot, equip yourself, skill up, improve your defenses, **grind
-multiple tiers of rotten flesh for resources**, become a cyborg, android
-or clone; finally craft high tech machines and rocket ships to fly across
-the solar system and lay siege on Mars!
+Build or take over an existing zombie proof base, search destroyed
+urban areas for loot, equip yourself, skill up, improve your defenses,
+**grind multiple tiers of rotten flesh for resources**, become a cyborg,
+android or clone; finally craft high tech machines and rocket ships to
+fly across the solar system and lay siege on Mars!
 
 But *be warned*, server-wide difficulty increases nightly and expect
 challenges during each full moon!
 
 ## Features
-Unique Resource Economy. Dual-wielding. Zombies. Cyborgs. Androids. Chemisty. Guns. Head-shots. Rockets. Nukes.
+
+* Original Quests to guide you through custom content
+* Unique resrouce generation mechanics
+* Epic Fight *all the things* fully configured
+* Tech Guns integrated with NuclearCraft:Overhauled Radiation system
+* Scape and Run parasites integrated with Deep Mob Learning
+* Vanilla Zombies, Husks, and large Parasites can grief most types of blocks
+* Quad damage head-shots work with Spartan throwing weapons
+* Cyborgs, androids, clones, nukes, rockets and so much more!
+* Pizza
 
 ## Client Installation
 
@@ -121,7 +130,6 @@ Windows will be very similar, but you might need a `start.bat` script instead.
 
 ## Server Commands
 
-
 Make a team and join with your friends:
 
 * `/scoreboard teams add MyTeamName MyTeamName`
@@ -179,20 +187,6 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 (Work-around: `B:"Enable changes to player model (missing skin, missing limbs, Cybernetic limbs)"=false` in `cyberware.cfg`)
 
-## TODO
-This pack is still under development despite being a 'release'. Consider it early access!
-
-- [x] Configure and balance Epic Fight so most all weapons and armor are usable in battle stance mod.
-- [x] Rotten Economy resource gathering mechanic in place with multipe paths for upgrading loot tiers
-- [x] Customized Lost Cities world generation with actually valuable loot and zombie proof buildings
-- [x] Integrate a bunch of zombies with latest Epic Siege Mod, Zombie Awareness, Blood Moon, Raiders and more mods.
-- [x] `/jer_scan 10000 all` profile of *actual* pack worldgen to help you find that for which you seek.
-- [x] Custom configured Extended Days mod for ~20 minute days and usual ~10 min nights without messing up ticks
-- [x] Shoulder Surfing Reloaded configured adaptive crosshairs for proper 3rd person targeting throwing weapons, bows, and guns
-- [ ] Add interesting difficult recipes for creative items
-- [ ] Add final boss battle end game encounter (honestly i could use the help of a builder to generate the structures)
-- [ ] Make outer space more interesting and go over the Advaned Rocketry plantDefs.xml place-holder file.
-
 ## References
 * [Rotten Economy](https://www.curseforge.com/minecraft/modpacks/rotten-economy) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack
@@ -202,3 +196,5 @@ This pack is still under development despite being a 'release'. Consider it earl
 [![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)
 [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
 Creative Commons Attribution-NonCommercial 3.0 Unported
+
+Any audio/image/code content not created by `ubergarm` is licensed as per their respective owners.
