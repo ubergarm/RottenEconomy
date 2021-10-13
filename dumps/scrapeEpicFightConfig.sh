@@ -436,6 +436,18 @@ cat recipes.log  | grep -oP "<\K\w*:\w*pack\w*" | grep -v -e part -e ice | sort 
     echo ""
 done
 
+## shirts
+cat recipes.log | grep -oP "<\K\w*:\w*_shirt\w*" | grep -v -e part -e ice | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=1.0"
+    echo "            D:weight=1.0"
+    echo "        }"
+    echo ""
+done
+
 ## helmets
 cat recipes.log  | grep -oP "<\K\w*:\w*helmet\w*" | grep -v module | sort | uniq | while read -r item ; do
     echo -n "        "
@@ -454,13 +466,23 @@ cat recipes.log  | grep -oP "<\K\w*:\w*goggle\w*" | sort | uniq | while read -r 
     echo -n "$item" | tr : .
     echo " {"
     echo "            S:registry_name=$item"
-    echo "            D:stun_armor=1.5"
-    echo "            D:weight=2.0"
+    echo "            D:stun_armor=1.0"
+    echo "            D:weight=1.0"
     echo "        }"
     echo ""
 done
 
-
+## hats
+cat recipes.log | grep -oP "<\K\w*:\w*_hat\w*" | grep -v epicfight | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=0.5"
+    echo "            D:weight=1.0"
+    echo "        }"
+    echo ""
+done
 
 ## leggings
 cat recipes.log  | grep -oP "<\K\w*:\w*leggings\w*" | sort | uniq | while read -r item ; do

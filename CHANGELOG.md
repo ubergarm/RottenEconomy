@@ -10,6 +10,8 @@
 * Update a few default keybindings
 * Rename Cyberware Human Muscle to Stringy Muscle
 * Crafting Akashic Tome will include most all guides by default
+* Add voxelmap.properties into defaultsettings
+* Add PizzaCraft shirts and hats into Epic Fight
 * Add in a lovely dark themed Advanced Rocketry x16 resource pack
 * Mobs receive buffs from NuclearCraft radiation and cannot die from it
 * Update to latest AdvancedRocketry-1.12.2-2.0.0-256-universal.jar
