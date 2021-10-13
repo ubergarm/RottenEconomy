@@ -167,6 +167,7 @@ I highly recommend these unobtrusive resource packs which come pre-installed in 
 * [Nuka Cola Potions](https://www.curseforge.com/minecraft/texture-packs/nuka-cola/files/2560603)
 * [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-16/files/2986604)
 * [Pixel Reality - Atmosphere](https://www.curseforge.com/minecraft/texture-packs/pixel-reality-atmosphere/files/2456861) - nice moon; best with OptiFine
+* [Advanced Rocketry NuclearCraft Unification](https://www.curseforge.com/minecraft/texture-packs/advanced-rocketry-nuclearcraft-unification/files/2857089)
 * [Faithful 32x Modded Edition](http://f32.me/) - or something similar with some mod coverage
 
 ## Known Bugs

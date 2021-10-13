@@ -10,6 +10,9 @@
 * Update a few default keybindings
 * Rename Cyberware Human Muscle to Stringy Muscle
 * Crafting Akashic Tome will include most all guides by default
+* Add in a lovely dark themed Advanced Rocketry x16 resource pack
+* Mobs receive buffs from NuclearCraft radiation and cannot die from it
+* Update to latest AdvancedRocketry-1.12.2-2.0.0-256-universal.jar
 
 ## v0.91
 * Integrate Scape and Run Parasites into Lost Cities spawners

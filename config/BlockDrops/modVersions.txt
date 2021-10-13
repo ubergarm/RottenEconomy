@@ -181,7 +181,7 @@
   "bettercrates": "1.2.0",
   "ping": "1.4.5",
   "adpoles": "1.12.2-2.0.3.0",
-  "advancedrocketry": "2.0.0.-255",
+  "advancedrocketry": "2.0.0.-256",
   "vehicle": "0.44.1",
   "elenaidodge2": "1.1.0",
   "simplylight": "1.12.2-0.8.7",
