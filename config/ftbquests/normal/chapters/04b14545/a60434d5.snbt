@@ -25,17 +25,17 @@
 		match: "techguns:simplemachine2"
 	}],
 	rewards: [{
-		uid: "79fd9f55",
-		type: "choice",
+		uid: "a314b46b",
+		type: "random",
 		table: 0
 	},
 	{
-		uid: "0059f3eb",
+		uid: "9368b6f3",
 		type: "item",
 		item: "libvulpes:battery"
 	},
 	{
-		uid: "1baa08c7",
+		uid: "aac0d289",
 		type: "item",
 		item: "minecraft:coal",
 		count: 16

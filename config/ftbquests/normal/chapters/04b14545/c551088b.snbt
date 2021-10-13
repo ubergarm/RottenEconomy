@@ -10,7 +10,9 @@
 		"",
 		"Improve your defenses, progress in the various tech mods, and keep going to automate resource production!",
 		"",
-		"But for now, play some lovely chip tunes in the juke box and enjoy the present moment!"
+		"But for now, play some lovely chip tunes in the juke box and enjoy the present moment!",
+		"",
+		"Hint: Don't put this right next to the super sound muffler if you didn't configure the muffler yet... xD"
 	],
 	dependencies: [
 		"f6cb5327",

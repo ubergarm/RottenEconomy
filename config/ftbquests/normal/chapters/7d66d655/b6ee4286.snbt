@@ -11,8 +11,7 @@
 		items: [{
 			item: "storagenetwork:remote"
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8ebe8ce8",

@@ -37,8 +37,7 @@
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3df5f2ee",
