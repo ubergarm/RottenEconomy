@@ -1,3 +1,7 @@
+## v0.93
+* Add Matter Overdrive Fixes resourcepack with plasma shield
+* Unhide previously untextured Matter Overdrive items from JEI
+
 ## v0.92
 * Added new FTB Quest content
 * Allow Exchangers to work with OMPD Hardened Blocks, Walls, and Fences
