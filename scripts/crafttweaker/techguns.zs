@@ -51,8 +51,16 @@ recipes.addShaped("techguns.cyberneticparts", <techguns:itemshared:69>,
 for item in loadedMods["techguns"].items {
     item.removeTooltip(".*RAD Resistance");
 }
+
+// radaway and radpills still drop in loot crates, so give a note and way to convert to new equivalents
 removeAndHide(<techguns:radaway>);
+<techguns:radaway>.addTooltip("§4WARNING: §7This item does nothing, craft it into Nuclearcraft:Overhauled RadAway!");
+recipes.addShapeless("rotten_economy.radaway", <nuclearcraft:radaway>, [<techguns:radaway>]);
+
 removeAndHide(<techguns:radpills>);
+<techguns:radpills>.addTooltip("§4WARNING: §7This item does nothing, craft it into Nuclearcraft:Overhauled Rad-X!");
+recipes.addShapeless("rotten_economy.rad_x", <nuclearcraft:rad_x>, [<techguns:radpills>]);
+
 // also use jei/itemBlacklist.cfg to hide all the NBT related potions and items
 removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion"}));
 removeAndHide(<minecraft:potion>.withTag({Potion: "techguns:radpotion_severe"}));

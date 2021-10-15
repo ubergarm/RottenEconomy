@@ -2,6 +2,8 @@
 * Add Matter Overdrive Fixes resourcepack with plasma shield
 * Unhide previously untextured Matter Overdrive items from JEI
 * Bump cyberware drop chance from cyberzombie back up to 50%
+* Add silver ingots to Deep Mob Learning Pristine Gritty Flesh Loot Fabricator
+* Add recipe to convert Tech Guns radaway/pills drops into NuclearCraft equivalents
 
 ## v0.92
 * Added new FTB Quest content
