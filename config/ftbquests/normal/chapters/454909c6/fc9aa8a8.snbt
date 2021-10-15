@@ -4,7 +4,9 @@
 	y: -2.5d,
 	description: "Wrap it up and stay safe",
 	text: [
-		"Craft up to 5x Tritanium Plates and upgrade your Matter Replicator to protect against Matter Overdrive Radiation."
+		"Craft up to 5x Tritanium Plates and upgrade your Matter Replicator to protect against Matter Overdrive Radiation.",
+		"",
+		"Now you won't irradiate yourself replicating your favorite beverage!"
 	],
 	dependencies: [
 		"8330f15d"
@@ -21,5 +23,11 @@
 		uid: "19d0ba44",
 		type: "random",
 		table: 0
+	},
+	{
+		uid: "3d3fceab",
+		type: "item",
+		item: "matteroverdrive:earl_gray_tea",
+		count: 4
 	}]
 }

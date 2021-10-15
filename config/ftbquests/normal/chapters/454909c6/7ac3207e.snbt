@@ -6,9 +6,11 @@
 	text: [
 		"How many radiation systems can one modpack fit into it? At least 5 clearly!",
 		"",
-		"Tech Guns Radiation System, useless tooltips, and items have removed as much as possible as that system is an incomplete WIP. ",
+		"Tech Guns Radiation System, useless tooltips, and items have removed as much as possible as that system is an incomplete WIP.",
 		"",
-		"Instead, some items and armors have been integrated to work with NuclearCraft:Overhauled Radiation System and show accurate values."
+		"You may still find some Tech Guns Radiation Pills and RadAway in structure loot boxes, but they do not work. Recipes have been added to convert them into their working NuclearCraft variants.",
+		"",
+		"The HazMat Suit and other items and armors have been integrated to work with NuclearCraft:Overhauled Radiation System and show accurate values."
 	],
 	tasks: [{
 		uid: "a6155ad0",

@@ -4,6 +4,9 @@
 * Bump cyberware drop chance from cyberzombie back up to 50%
 * Add silver ingots to Deep Mob Learning Pristine Gritty Flesh Loot Fabricator
 * Add recipe to convert Tech Guns radaway/pills drops into NuclearCraft equivalents
+* Add Earl Grey to appropriate quest rewards so you can replicate it.
+* Add animal types and tooltips to help with Fart Generator
+* Make tech guns zombies drop necrotic limbs when killed with cyberware Katana
 
 ## v0.92
 * Added new FTB Quest content
