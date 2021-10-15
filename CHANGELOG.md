@@ -7,6 +7,7 @@
 * Add Earl Grey to appropriate quest rewards so you can replicate it.
 * Add animal types and tooltips to help with Fart Generator
 * Make tech guns zombies drop necrotic limbs when killed with cyberware Katana
+* Add bettercrates wooden crates spawn empty in Lost Cities to help your inventory
 
 ## v0.92
 * Added new FTB Quest content
