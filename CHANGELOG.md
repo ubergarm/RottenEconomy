@@ -1,6 +1,7 @@
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack with plasma shield
 * Unhide previously untextured Matter Overdrive items from JEI
+* Bump cyberware drop chance from cyberzombie back up to 50%
 
 ## v0.92
 * Added new FTB Quest content
