@@ -8,6 +8,13 @@
 * Add animal types and tooltips to help with Fart Generator
 * Make tech guns zombies drop necrotic limbs when killed with cyberware Katana
 * Add bettercrates wooden crates spawn empty in Lost Cities to help your inventory
+* Reduce starting health to 30 down from 40
+* Scaling Difficulty goes up faster based on health of current players on server
+* Add recipes for Scaling Health Enchanted and Cursed Hearts
+* Add nitrogen, nitrogen dioxide, oxygen, and hydrogen gasses into RockHounding transposer
+* Add Tech Guns concrete, obsidian, and fixup tooltips for other Zombie Digging Resistant blocks
+* Make ReWIRED glass slightly more blast proof than sonarcore glass
+* Update to `Chunk+Pregenerator-V1.12-2.5.1.jar`
 
 ## v0.92
 * Added new FTB Quest content

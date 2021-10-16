@@ -34,13 +34,31 @@ mods.rockhounding_chemistry.ToxicMutation.add("dyeRed", <pickletweaks:dye_powder
 mods.rockhounding_chemistry.ToxicMutation.add("dyeBlack", <pickletweaks:dye_powder:0>);
 
 // TRANSPOSER
+<rockhounding_chemistry:machines_d:11>.addTooltip("§eNOTE: §7Use the Transposer to convert between RockHounding pipelines and other mods!");
 //Note: to just allow the Gas Pipeline recognize gases from other mods, input and output below must be set same
 //input: the fluid/gas input
 //output: the converted fluid/gas
+// ic2 and nuclearcraft oxygen
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000,<liquid:ic2oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000,<liquid:oxygen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000, <liquid:oxygen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000, <liquid:ic2oxygen>*1000);
+
+// ic2 and nuclearcraft hydrogen
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2hydrogen>*1000,<liquid:ic2hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000,<liquid:hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2hydrogen>*1000,<liquid:hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000,<liquid:ic2hydrogen>*1000);
+
+// nuclearcraft nitrogen nitrogen dioxide
+mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>*1000,<liquid:nitrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen_dioxide>*1000,<liquid:nitrogen_dioxide>*1000);
+
+// thermal foundation refined fuel <-> mrcrayfish vehicles fuelium
 mods.rockhounding_chemistry.Transposer.add(<liquid:refined_fuel>*1000, <liquid:fuelium>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:fuelium>*1000, <liquid:refined_fuel>*1000);
+
+// mekanism brine <-> rockhounding brine
 mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:salt_brine>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:brine>*1000);
 

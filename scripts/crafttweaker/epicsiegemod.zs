@@ -40,6 +40,8 @@ mods.techguns.Grinder.addRecipe(
 <sonarcore:reinforcedstoneblock:*>.asBlock().definition.resistance = 15.0;
 <sonarcore:reinforcedstonestairs:*>.asBlock().definition.hardness = 3.0;
 <sonarcore:reinforcedstonestairs:*>.asBlock().definition.resistance = 15.0;
+<rewired:ecglass:*>.asBlock().definition.hardness = 3.0;
+<rewired:ecglass:*>.asBlock().definition.resistance = 25.0;
 
 ## Label items marked in epicsiegemod.cfg digging blacklist
 val zombieDiggingResistant = [
@@ -54,8 +56,13 @@ val zombieDiggingResistant = [
         <icbmclassic:concrete:*>,
         <icbmclassic:reinforcedglass:*>,
         <advancedrocketry:concrete:*>,
+        <techguns:concrete:*>,
+        <techguns:stairs_concrete:*>,
+        <minecraft:obsidian:*>,
+        <chisel:obsidian:*>,
         <ic2:glass:*>,
         <ic2:reinforced_door:*>,
+        <mekanism:reinforcedplasticblock:*>,
         <malisisdoors:big_door_iron_3x3:*>,
         <malisisdoors:big_door_rusty_3x3>,
         <malisisdoors:rustyhatch:*>,
@@ -66,7 +73,8 @@ val zombieDiggingResistant = [
         <sonarcore:stableglass:*>,
         <sonarcore:clearstableglass:*>,
         <sonarcore:reinforcedstoneblock:*>,
-        <sonarcore:reinforcedstonestairs:*>
+        <sonarcore:reinforcedstonestairs:*>,
+        <rewired:ecglass:*>
 ] as IItemStack[];
 
 for item in zombieDiggingResistant {

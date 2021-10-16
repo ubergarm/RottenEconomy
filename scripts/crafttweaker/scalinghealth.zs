@@ -9,6 +9,24 @@ import crafttweaker.command.ICommandManager;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.command.ICommand;
 
+// add recipe for enchanted heart
+recipes.addShaped("scalinghealth.enchanted_heart", <scalinghealth:difficultychanger>,
+    [
+        [<scalinghealth:heartcontainer>, <minecraft:ghast_tear>, <scalinghealth:heartcontainer>],
+        [<scalinghealth:heartcontainer>, <minecraft:cake>, <scalinghealth:heartcontainer>],
+        [<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>],
+    ]
+);
+
+// add recipe for cursed heart
+recipes.addShaped("scalinghealth.cursed_heart", <scalinghealth:difficultychanger:1>,
+    [
+        [<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>],
+        [<scalinghealth:heartcontainer>, <dimensionalcake:blockendcake>, <scalinghealth:heartcontainer>],
+        [<scalinghealth:heartcontainer>, <minecraft:ghast_tear>, <scalinghealth:heartcontainer>],
+    ]
+);
+
 ## Since we use SERVER_WIDE difficulty need items to change that
 ## as per player difficulty has no meaning in SERVER_WIDE mode
 ## fortunately the displayed difficulty is the world_difficulty

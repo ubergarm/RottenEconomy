@@ -69,7 +69,34 @@ are more than one mod option for most aspects of the game. Have Fun!
 * Matter Overdrive
 * ICBM
 
-
+#### Internal Command Testing
+```
+# create a scoreboard variable to auto track player health
+# /scoreboard objectives add <objective> <criteria> [displayName]
+# player must be in survival once to be on scoreboard, tracks current health not max
+/scoreboard objectives add Health health Health # player must be in survival once to be on scoreboard, tracks current health not max
+/scoreboard objectives add Deaths deathCount Deaths
+#/scoreboard objectives add TotalMobKills totalKillCount TotalMobKills
+/scoreboard objectives list
+# /scoreboard objectives remove Health
+# this next command adds 0 to Deaths which implicitly adds all new players onto scoreboard
+#/scoreboard players add @a Deaths 0
+/scoreboard players list
+/scoreboard players list *
+/execute @a[score_Health_min=10,score_Health=20] ~ ~ ~ say I have between [10,20] inclusive current health
+# final command
+# exponential (1.02)^n nightly increase in difficulty
+/execute @a[score_Health_min=11,score_Health=20] ~ ~ ~ scalinghealth world_difficulty add 1.22 @p
+/execute @a[score_Health_min=21,score_Health=30] ~ ~ ~ scalinghealth world_difficulty add 1.49 @p
+/execute @a[score_Health_min=31,score_Health=40] ~ ~ ~ scalinghealth world_difficulty add 1.81 @p
+/execute @a[score_Health_min=41,score_Health=50] ~ ~ ~ scalinghealth world_difficulty add 2.21 @p
+/execute @a[score_Health_min=51,score_Health=60] ~ ~ ~ scalinghealth world_difficulty add 2.69 @p
+/execute @a[score_Health_min=61,score_Health=70] ~ ~ ~ scalinghealth world_difficulty add 3.28 @p
+/execute @a[score_Health_min=71,score_Health=80] ~ ~ ~ scalinghealth world_difficulty add 4.00 @p
+/execute @a[score_Health_min=81,score_Health=90] ~ ~ ~ scalinghealth world_difficulty add 4.88 @p
+/execute @a[score_Health_min=91,score_Health=100] ~ ~ ~ scalinghealth world_difficulty add 5.94 @p
+/execute @a[score_Health_min=101] ~ ~ ~ scalinghealth world_difficulty add 7.24 @p
+```
 
 ## PackDev References
 * [Inspirations Cauldron](https://docs.blamejared.com/1.12/en/Mods/Modtweaker/Inspirations/Handlers/Cauldron/)
