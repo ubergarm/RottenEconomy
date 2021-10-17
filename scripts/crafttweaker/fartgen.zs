@@ -22,9 +22,9 @@ import crafttweaker.util.Position3f;
 recipes.removeByRecipeName("fartgen:fartgen");
 recipes.addShaped("fartgen.fartgen", <fartgen:generator>,
     [
-        [<minecraft:lead>, null, <betteranimalsplus:trillium> | <ore:listAllberry>],
-        [<minecraft:glass_pane>, <minecraft:iron_bars>, null],
-        [<minecraft:redstone_block>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:hay_block>]
+        [null, null, <minecraft:lead>],
+        [<minecraft:glass_pane>, <minecraft:iron_bars>, <betteranimalsplus:trillium> | <ore:listAllberry> | <ore:listAllfishraw>],
+        [<ore:itemBattery>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:hay_block>]
     ]
 );
 

@@ -1,6 +1,6 @@
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
-* Fart Generators have a chance of giving nearby players nausea effect
+* Fart Generators have a chance of giving nearby players nausea effect and updated recipe
 * Adjust minigun range and minimum damage down a wee bit
 * Add Rockhounding Transposer support for Ammonia and other liquids and gasses
 * Add NuclearCraft:Overhauled Supercooler support for Ammonia and some other conversions
@@ -8,6 +8,8 @@
 * Reduce Iblis Headshot damage from 400% to 200%
 * Mobs become even stronger when exposed to Nuclearcraft:Overhauled radiation
 * Tech Guns Cyberdemons now spawn in Nuclearcraft Wastelands biomes
+* Fixup Elevator Mod to use oreDict dyes for re-coloring recipes
+* Update to `QMD-1.0.4-1.12.2.jar`
 
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack without plasma shield
