@@ -1,5 +1,6 @@
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
+* Fart Generators have a chance of giving nearby players nausea effect
 
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack without plasma shield
