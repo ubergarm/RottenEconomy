@@ -5,6 +5,8 @@
 * Add Rockhounding Transposer support for Ammonia
 * Reduce percentage of total health allocated to First Aid head location slightly
 * Reduce Iblis Headshot damage from 400% to 200% and reduce body shot damage from 100% to 75%
+* Mobs become even stronger when exposed to Nuclearcraft:Overhauled radiation
+* Tech Guns Cyberdemons now spawn in Nuclearcraft Wastelands biomes
 
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack without plasma shield

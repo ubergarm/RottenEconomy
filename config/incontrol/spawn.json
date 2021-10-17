@@ -293,8 +293,13 @@
     },
     {
         "mob": "raiders:ranger",
-        "incity": false,
+        "incity": true,
         "result": "deny"
+    },
+    {
+        "mob": "nuclearcraft:feral_ghoul",
+        "biome": ["Nuclear Wasteland", "Parasite Biome"],
+        "result": "allow"
     },
     {
         "mob": "nuclearcraft:feral_ghoul",
@@ -309,6 +314,15 @@
     {
         "mob": "nuclearcraft:feral_ghoul",
         "result": "allow"
+    },
+    {
+        "mob": "techguns:cyberdemon",
+        "biome": ["Nuclear Wasteland", "Parasite Biome"],
+        "result": "allow"
+    },
+    {
+        "mob": "techguns:cyberdemon",
+        "result": "deny"
     },
     {
         "mob": "matteroverdrive:rogue_android",
@@ -435,7 +449,7 @@
 
     {
         "mod": "srparasites",
-        "biome": "srparasites:biome_parasite",
+        "biome": ["Nuclear Wasteland", "Parasite Biome"],
         "result": "default"
     },
     {

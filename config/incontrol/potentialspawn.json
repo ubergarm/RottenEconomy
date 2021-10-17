@@ -56,6 +56,22 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 0,
+        "maxcount": {
+            "mob": "techguns:cyberdemon",
+            "amount": 4,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "techguns:cyberdemon",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
 ]
 
