@@ -4,11 +4,9 @@
 	y: -3.0d,
 	description: "Head-shot a mob with your Hand Cannon",
 	text: [
-		"Iblis Headshots mod grants 4x damage when head-shotting mobs. It damages helmets more too. It works with guns, bows, and even throwing weapons!",
+		"Iblis Headshots mod grants 200% damage when head-shotting mobs. It damages helmets more too. It works with guns, bows, and even throwing weapons!",
 		"",
-		"Players can *not* be head-shot though because First-Aid mod already tracks location based damage on players. Mobs can head-shot other mobs. Head-shots are indicated with a \"ding\" sound and a cross-hairs symbol will briefly pop out.",
-		"",
-		"Finally, you must be at least 4 blocks away, so if the mob appears in the One Probe you are too close for a head-shot."
+		"Players can *not* be head-shot though because First-Aid mod already tracks location based damage on players. Mobs can head-shot other mobs. Head-shots are indicated with a \"ding\" sound and a cross-hairs symbol will briefly pop out."
 	],
 	dependencies: [
 		"ea116903"

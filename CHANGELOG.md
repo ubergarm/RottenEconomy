@@ -1,8 +1,10 @@
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
 * Fart Generators have a chance of giving nearby players nausea effect
-* Adjust minigun damage and range down a wee bit
+* Adjust minigun range and minimum damage down a wee bit
 * Add Rockhounding Transposer support for Ammonia
+* Reduce percentage of total health allocated to First Aid head location slightly
+* Reduce Iblis Headshot damage from 400% to 200% and reduce body shot damage from 100% to 75%
 
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack without plasma shield

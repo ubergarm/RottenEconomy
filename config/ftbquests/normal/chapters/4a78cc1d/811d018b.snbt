@@ -7,9 +7,9 @@
 	text: [
 		"Have a heart, and eat it too! Eating Scaling Health Heart Containers gives some instant healing and increases max health by one. You can only increase your max health this way to 100, but there are other ways to go beyond this cap.",
 		"",
-		"Be warned however, every night at dusk the server-wide difficulty increases based on number of players. The difficulty meter will flash briefly in the bottom right corner when difficulty changes much up or down. Press <shift+N> to toggle it always on or off.",
+		"Be warned however, every night at dusk the server-wide difficulty increases based on number of players and how much health each player currently has. The difficulty meter will flash briefly in the bottom right corner when difficulty changes much up or down. Press <shift+N> to toggle it always on or off.",
 		"",
-		"There are some special items and events that increase or decrease difficulty as well. Mobs become stronger and can become powerful flaming blights at higher difficulties!"
+		"There are some special items and events that increase or decrease difficulty as well. Mobs become stronger, imbued with potion effects, and can spawn as powerful flaming blights at higher difficulties!"
 	],
 	dependencies: [
 		"d51dff6c"
