@@ -1,5 +1,8 @@
+## v0.94
+* Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
+
 ## v0.93
-* Add Matter Overdrive Fixes resourcepack with plasma shield
+* Add Matter Overdrive Fixes resourcepack without plasma shield
 * Unhide previously untextured Matter Overdrive items from JEI
 * Bump cyberware drop chance from cyberzombie back up to 50%
 * Add silver ingots to Deep Mob Learning Pristine Gritty Flesh Loot Fabricator

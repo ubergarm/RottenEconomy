@@ -3,9 +3,21 @@
 
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
-import crafttweaker.event.PlayerPickupItemEvent;
+
+import crafttweaker.world.IWorld;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockPattern;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
 import crafttweaker.block.IBlockState;
+import crafttweaker.block.IBlockProperties;
+
+import crafttweaker.events.IEventManager;
+import crafttweaker.event.PlayerLeftClickBlockEvent;
+
 import crafttweaker.data.IData;
+import crafttweaker.util.Position3f;
 
 // tl;dr it is too difficult to distinguish Network and Routing Connectors!
 // it is impossible to fixup the names as breaking/placing connectors loses
@@ -111,3 +123,43 @@ recipes.addShaped("xnet.connector_routing", <xnet:connector:4>.withTag({display:
         [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
     ]
 );
+
+// when the player whacks an xnet controller with a stick it "jump starts" it with a few free RF of power
+<xnet:controller>.addTooltip("§eNOTE: §7Whack controller with a stick to jump start it when out of power.");
+events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftClickBlockEvent) {
+    if isNull(event) { return; }
+    if isNull(event.world) { return; }
+
+    // always bail if world isRemote() to avoid desyncing server and double execution
+    var world = event.world as IWorld;
+    if (world.isRemote()) { return; }
+
+    // bail if the player is not whacking with a stick
+    if isNull(event.item) { return; }
+    var item = event.item;
+    if (!<minecraft:stick>.matches(item)) { return; }
+
+    if isNull(event.position) { return; }
+    var pos = event.position;
+
+    var block = world.getBlock(pos) as IBlock;
+    if isNull(block) { return; }
+
+    var state = world.getBlockState(pos) as IBlockState;
+    if isNull(state) { return; }
+
+    if isNull(block.data) { return; }
+    var data = block.data as IData;
+    if (data.id.asString() != "xnet:controller") { return; }
+
+    // only "jump start" if it has less than 15RF currently stored
+    if(data.Energy >= 15) { return; }
+
+    // give it 10 RF for each individual click (hold left click only triggers once)
+    val override as IData = {
+        Energy : (data.Energy + 10) as long
+    };
+    world.setBlockState(state, data + override, pos);
+
+    return;
+});
