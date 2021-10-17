@@ -1,3 +1,6 @@
+## v0.95
+* Update to `HammerLib-1.12.2-2.0.6.31.jar`
+
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
 * Fart Generators have a chance of giving nearby players nausea effect and updated recipe
