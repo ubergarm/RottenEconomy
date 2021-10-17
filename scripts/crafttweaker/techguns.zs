@@ -4,6 +4,9 @@
 import mods.jei.JEI.hide;
 import mods.jei.JEI.removeAndHide;
 
+import mods.techguns.GunStats;
+import mods.techguns.ArmorStats;
+
 ## rubber bar now has itemRubber and materialRubber just to be safe
 <ore:itemRubber>.add(<techguns:itemshared:56>);
 <ore:materialRubber>.add(<techguns:itemshared:56>);
@@ -12,6 +15,15 @@ import mods.jei.JEI.removeAndHide;
 ## harder as it now takes some diamonds in the chain to get good guns
 ## regular steel and bronze can be made in other mods easily enough still
 removeAndHide(<techguns:simplemachine:11>);
+
+// nerf the minigun range
+GunStats.setWeaponStat("minigun", "DAMAGE", 5.0);
+GunStats.setWeaponStat("minigun", "DAMAGE_MIN", 1.0);
+GunStats.setWeaponStat("minigun", "DAMAGE_DROP_START", 15.0);
+GunStats.setWeaponStat("minigun", "DAMAGE_DROP_END", 24.0);
+GunStats.setWeaponStat("minigun", "BULLET_DISTANCE", 45.0);
+GunStats.setWeaponStat("minigun", "BULLET_SPEED", 2.0);
+GunStats.setWeaponStat("minigun", "SPREAD", 0.05);
 
 ## add a note about cybernetic parts
 <techguns:itemshared:69>.addTooltip("§4NOTE: §7Loot drop from cyber demons and helicopters in military bases!");

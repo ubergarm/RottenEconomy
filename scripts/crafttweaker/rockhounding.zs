@@ -59,8 +59,16 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:refined_fuel>*1000, <liquid:f
 mods.rockhounding_chemistry.Transposer.add(<liquid:fuelium>*1000, <liquid:refined_fuel>*1000);
 
 // mekanism brine <-> rockhounding brine
+mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:brine>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:salt_brine>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:salt_brine>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:brine>*1000);
+
+// nuclearcraft ammonia <-> rockhounding ammonia
+mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>*1000, <liquid:ammonia>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>*1000, <liquid:liquid_ammonia>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_ammonia>*1000, <liquid:liquid_ammonia>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_ammonia>*1000, <liquid:ammonia>*1000);
 
 // LAB BLENDER
 //Note 1: input will be extended to their oredicts. Plans to improve this.

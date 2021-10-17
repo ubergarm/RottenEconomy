@@ -1,6 +1,8 @@
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
 * Fart Generators have a chance of giving nearby players nausea effect
+* Adjust minigun damage and range down a wee bit
+* Add Rockhounding Transposer support for Ammonia
 
 ## v0.93
 * Add Matter Overdrive Fixes resourcepack without plasma shield
