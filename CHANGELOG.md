@@ -2,9 +2,10 @@
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
 * Fart Generators have a chance of giving nearby players nausea effect
 * Adjust minigun range and minimum damage down a wee bit
-* Add Rockhounding Transposer support for Ammonia
+* Add Rockhounding Transposer support for Ammonia and other liquids and gasses
+* Add NuclearCraft:Overhauled Supercooler support for Ammonia and some other conversions
 * Reduce percentage of total health allocated to First Aid head location slightly
-* Reduce Iblis Headshot damage from 400% to 200% and reduce body shot damage from 100% to 75%
+* Reduce Iblis Headshot damage from 400% to 200%
 * Mobs become even stronger when exposed to Nuclearcraft:Overhauled radiation
 * Tech Guns Cyberdemons now spawn in Nuclearcraft Wastelands biomes
 

@@ -41,6 +41,17 @@ mods.nuclearcraft.Manufactory.addRecipe(
     <contenttweaker:rotten_netherrack>
 );
 
+// Supercooler
+//mods.nuclearcraft.Supercooler.addRecipe(ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:ammonia>*64, <liquid:liquid_ammonia>*1, (4.0/600.0), 5.0, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:nitrogen_dioxide>*64, <liquid:fluidnitrogendioxide>*1, (4.0/600.0), 2.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:compressed_air>*64, <liquid:fluidcompressedair>*1, (4.0/600.0), 2.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:steam>*64, <liquid:condensate_water>*1, (4.0/600.0), 2.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:ic2steam>*64, <liquid:condensate_water>*1, (4.0/600.0), 2.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:water_vapour>*64, <liquid:condensate_water>*1, (4.0/600.0), 2.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:condensate_water>*250, <liquid:water>*250, (150.0/600.0), 0.5, 0);
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:ic2air>*250, <liquid:cooled_air>*250, (150.0/600.0), 1, 0);
+
 // make consistent hazmat suit names with techguns and ic2
 <nuclearcraft:helm_hazmat>.displayName = "Shielded Hazmat Helmet";
 <nuclearcraft:chest_hazmat>.displayName = "Shielded Hazmat Suit";

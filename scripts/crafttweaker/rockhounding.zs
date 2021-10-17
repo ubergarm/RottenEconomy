@@ -38,21 +38,40 @@ mods.rockhounding_chemistry.ToxicMutation.add("dyeBlack", <pickletweaks:dye_powd
 //Note: to just allow the Gas Pipeline recognize gases from other mods, input and output below must be set same
 //input: the fluid/gas input
 //output: the converted fluid/gas
-// ic2 and nuclearcraft oxygen
+
+// ic2 <-> nuclearcraft oxygen
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000,<liquid:ic2oxygen>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000,<liquid:oxygen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2oxygen>*1000, <liquid:oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000,<liquid:oxygen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000, <liquid:ic2oxygen>*1000);
 
-// ic2 and nuclearcraft hydrogen
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquidoxygen>*1000,<liquid:liquidoxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquidoxygen>*1000,<liquid:liquid_oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_oxygen>*1000,<liquid:liquid_oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_oxygen>*1000,<liquid:liquidoxygen>*1000);
+
+// ic2 <-> nuclearcraft hydrogen
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2hydrogen>*1000,<liquid:ic2hydrogen>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000,<liquid:hydrogen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ic2hydrogen>*1000,<liquid:hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000,<liquid:hydrogen>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000,<liquid:ic2hydrogen>*1000);
 
-// nuclearcraft nitrogen nitrogen dioxide
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidhydrogen>*1000,<liquid:fluidhydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidhydrogen>*1000,<liquid:liquid_hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_hydrogen>*1000,<liquid:liquid_hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_hydrogen>*1000,<liquid:fluidhydrogen>*1000);
+
+// nitrogen
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>*1000,<liquid:nitrogen>*1000);
+
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_nitrogen>*1000,<liquid:liquid_nitrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_nitrogen>*1000,<liquid:fluidnitrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidnitrogen>*1000,<liquid:fluidnitrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidnitrogen>*1000,<liquid:liquid_nitrogen>*1000);
+
+// nitrogen dioxide
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen_dioxide>*1000,<liquid:nitrogen_dioxide>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidnitrogendioxide>*1000,<liquid:fluidnitrogendioxide>*1000);
 
 // thermal foundation refined fuel <-> mrcrayfish vehicles fuelium
 mods.rockhounding_chemistry.Transposer.add(<liquid:refined_fuel>*1000, <liquid:fuelium>*1000);
@@ -60,15 +79,36 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:fuelium>*1000, <liquid:refine
 
 // mekanism brine <-> rockhounding brine
 mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:brine>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:salt_brine>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:brine>*1000, <liquid:salt_brine>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:salt_brine>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:salt_brine>*1000, <liquid:brine>*1000);
 
-// nuclearcraft ammonia <-> rockhounding ammonia
+// ammonia
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>*1000, <liquid:ammonia>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>*1000, <liquid:liquid_ammonia>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_ammonia>*1000, <liquid:liquid_ammonia>*1000);
-mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_ammonia>*1000, <liquid:ammonia>*1000);
+
+// syngas
+mods.rockhounding_chemistry.Transposer.add(<liquid:syngas>*1000, <liquid:syngas>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:raw_syngas>*1000, <liquid:raw_syngas>*1000);
+
+// argon
+mods.rockhounding_chemistry.Transposer.add(<liquid:argon>*1000, <liquid:argon>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:liquid_argon>*1000, <liquid:liquid_argon>*1000);
+
+// compressed air
+mods.rockhounding_chemistry.Transposer.add(<liquid:compressed_air>*1000, <liquid:compressed_air>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:fluidcompressedair>*1000, <liquid:fluidcompressedair>*1000);
+
+// various steams and british steam
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2steam>*1000, <liquid:ic2steam>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2steam>*1000, <liquid:water_vapour>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:ic2steam>*1000, <liquid:steam>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:steam>*1000, <liquid:steam>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:steam>*1000, <liquid:ic2steam>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:steam>*1000, <liquid:water_vapour>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:water_vapour>*1000, <liquid:water_vapour>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:water_vapour>*1000, <liquid:ic2steam>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:water_vapour>*1000, <liquid:steam>*1000);
 
 // LAB BLENDER
 //Note 1: input will be extended to their oredicts. Plans to improve this.
