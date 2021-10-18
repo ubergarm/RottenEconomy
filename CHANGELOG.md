@@ -5,6 +5,7 @@
 * Add `RecurrentComplex-1.4.8.2.jar` and library `IvToolkit-1.3.3-1.12.jar` Mods for Matter Overdrive Structures
 * Add Copy-Paste Mod `copypaste-1.1.jar` to put Matter Overdrive Structure files in place
 * Buff Tech Guns Attack Chopper armor and armor toughness
+* Nerf SRParasites Sentry armor dissolving 70% degradation down to something more friendly
 * Update to `HammerLib-1.12.2-2.0.6.31.jar`
 
 ## v0.94
