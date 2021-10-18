@@ -192,6 +192,7 @@ Report bugs on the github issue tracker not in the comments when possible please
 * [Rotten Economy](https://www.curseforge.com/minecraft/modpacks/rotten-economy) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack
 * [7 Days to Die](https://store.steampowered.com/app/251570/7_Days_to_Die/) - inspirational co-op survival crafting game
+* [Matter Overdrive Structures by Gandalf360one](https://complex.ivorius.de/submissions/170)
 
 ## License
 [![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)

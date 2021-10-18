@@ -1,0 +1,395 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "MO_Crashed_Airship",
+  "items": [
+    {
+      "weight": 99.99998474121094,
+      "min": 8,
+      "max": 20,
+      "item": {
+        "id": "matteroverdrive:emergency_ration",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 50.30833435058594,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "matteroverdrive:earl_gray_tea",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 50.30833435058594,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "matteroverdrive:romulan_ale",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 50.30833435058594,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "matteroverdrive:isolinear_circuit",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 39.6475944519043,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "matteroverdrive:isolinear_circuit",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 30.87596893310547,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "matteroverdrive:isolinear_circuit",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 20.692365646362305,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:isolinear_circuit",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:android_pill",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:android_pill",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_barrel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315797805786133,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_barrel",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_barrel",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_barrel",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:tritanium_spine",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:rogue_android_part",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Type": {
+              "nbtType": "byte",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:rogue_android_part",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Type": {
+              "nbtType": "byte",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:rogue_android_part",
+        "damage": 2,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Type": {
+              "nbtType": "byte",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "matteroverdrive:rogue_android_part",
+        "damage": 3,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Type": {
+              "nbtType": "byte",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:battery",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "energy": {
+              "nbtType": "compound",
+              "nbt": {
+                "maxReceive": {
+                  "nbtType": "int",
+                  "nbt": 400
+                },
+                "maxExtract": {
+                  "nbtType": "int",
+                  "nbt": 800
+                },
+                "energy": {
+                  "nbtType": "int",
+                  "nbt": 153251
+                },
+                "capacity": {
+                  "nbtType": "int",
+                  "nbt": 524288
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 10.897062301635742,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:phaser_rifle",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "energy": {
+              "nbtType": "compound",
+              "nbt": {
+                "maxReceive": {
+                  "nbtType": "int",
+                  "nbt": 128
+                },
+                "maxExtract": {
+                  "nbtType": "int",
+                  "nbt": 128
+                },
+                "energy": {
+                  "nbtType": "int",
+                  "nbt": 18541
+                },
+                "capacity": {
+                  "nbtType": "int",
+                  "nbt": 32000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 8,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "matteroverdrive:weapon_module_color",
+        "damage": 9,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
