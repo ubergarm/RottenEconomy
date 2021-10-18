@@ -98,6 +98,15 @@ are more than one mod option for most aspects of the game. Have Fun!
 /execute @a[score_Health_min=101] ~ ~ ~ scalinghealth world_difficulty add 7.24 @p
 ```
 
+## Matter Overdrive Structures Notes
+| Map | Generation Category | weight |
+| Android House | Adventure | 1.0    |
+| Cargo Ship | Rare | 0.11125 |
+| Crashed Airship | Adventure | 1 |
+| Sand Pit | Adventure | 1 |
+| Underwater Base | rare | 1 | $OCEAN is all of them
+
+
 ## PackDev References
 * [Inspirations Cauldron](https://docs.blamejared.com/1.12/en/Mods/Modtweaker/Inspirations/Handlers/Cauldron/)
 * [Rockhounding Chemistry](https://github.com/GlobbyPotato/Rockhounding_Chemistry/blob/1.12.2/CraftTweaker_chemistry_script_1_12_2.zs)
