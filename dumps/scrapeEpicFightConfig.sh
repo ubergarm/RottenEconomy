@@ -392,6 +392,77 @@ cat recipes.log  | grep -o -e "srparasites:weapon_\w*" | grep -v _bow | sort | u
     echo ""
 done
 
+# nocubessrpaddon specific
+cat recipes.log  | grep -o "<nocubessrpaddon:\w*>" | grep -o -e "\w*:\w*blade\w*" -e "\w*:\w*flesheater\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=SWORD"
+    echo ""
+    echo "            onehand {"
+    echo "                D:armor_negation=0.0"
+    echo "                D:impact=3.0"
+    echo "                I:max_strikes=2"
+    echo "            }"
+    echo ""
+    echo "            twohand {"
+    echo "                D:armor_negation=0.0"
+    echo "                D:impact=2.0"
+    echo "                I:max_strikes=2"
+    echo "            }"
+    echo "        }"
+    echo ""
+done
+
+cat recipes.log  | grep -o "<nocubessrpaddon:\w*>" | grep -o -e "\w*:\w*scythe\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=GREATSWORD"
+    echo "            D:armor_negation=0.0"
+    echo "            D:impact=8.0"
+    echo "            I:max_strikes=4"
+    echo "        }"
+    echo ""
+done
+
+cat recipes.log  | grep -oP "<\K\w*:\w*diggingclaw\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=FIST"
+    echo ""
+    echo "            onehand {"
+    echo "                D:armor_negation=00.0"
+    echo "                D:impact=2.0"
+    echo "                I:max_strikes=1"
+    echo "            }"
+    echo ""
+    echo "            twohand {"
+    echo "                D:armor_negation=00.0"
+    echo "                D:impact=1.5"
+    echo "                I:max_strikes=1"
+    echo "            }"
+    echo "        }"
+    echo ""
+done
+
+cat recipes.log  | grep -o "<nocubessrpaddon:\w*>" | grep -o -e "\w*:\w*maul\w*" -e "\w*:\w*shellbreaker\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            S:weapon_type=AXE"
+    echo "            D:armor_negation=0.0"
+    echo "            D:impact=1.5"
+    echo "            I:max_strikes=0"
+    echo "        }"
+    echo ""
+done
+
 ## End Weapons
 echo "    }"
 echo ""
@@ -423,6 +494,19 @@ cat recipes.log  | grep -oP "<\K\w*:\w*chestplate\w*" | sort | uniq | while read
     echo "        }"
     echo ""
 done
+
+cat recipes.log  | grep -oP "<\K\w*:\w*armorbody\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=2.0"
+    echo "            D:weight=7.0"
+    echo "        }"
+    echo ""
+done
+
+
 
 ## jetpacks and backpacks and batpacks lol
 cat recipes.log  | grep -oP "<\K\w*:\w*pack\w*" | grep -v -e part -e ice | sort | uniq | while read -r item ; do
@@ -495,6 +579,19 @@ cat recipes.log  | grep -oP "<\K\w*:\w*leggings\w*" | sort | uniq | while read -
     echo "        }"
     echo ""
 done
+
+cat recipes.log  | grep -oP "<\K\w*:\w*armorlegs\w*" | sort | uniq | while read -r item ; do
+    echo -n "        "
+    echo -n "$item" | tr : .
+    echo " {"
+    echo "            S:registry_name=$item"
+    echo "            D:stun_armor=1.0"
+    echo "            D:weight=4.0"
+    echo "        }"
+    echo ""
+done
+
+
 
 ## boots
 cat recipes.log  | grep -oP "<\K\w*:\w*boots\w*" | sort | uniq | while read -r item ; do
