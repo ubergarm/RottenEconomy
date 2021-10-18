@@ -6,6 +6,7 @@
 * Add Copy-Paste Mod `copypaste-1.1.jar` to put Matter Overdrive Structure files in place
 * Buff Tech Guns Attack Chopper armor and armor toughness
 * Nerf SRParasites Sentry armor dissolving 70% degradation down to something more friendly
+* Remove more broken ICBM EMP stuff
 * Update to `HammerLib-1.12.2-2.0.6.31.jar`
 
 ## v0.94

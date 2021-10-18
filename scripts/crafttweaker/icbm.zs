@@ -6,8 +6,11 @@ import mods.jei.JEI.hide;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 
-// EMP doesn't seem to actually drain batteries etc
+// EMP doesn't seem to actually drain batteries and tower crashes server
 removeAndHide(<icbmclassic:explosives:16>);
+removeAndHide(<icbmclassic:missile:16>);
+removeAndHide(<icbmclassic:bombcart:16>);
+removeAndHide(<icbmclassic:emptower>);
 
 // Anti-Grav/Ender lags server and moves a ton of blocks LMAO nope
 removeAndHide(<icbmclassic:explosives:19>);
