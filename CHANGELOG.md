@@ -13,6 +13,8 @@
 * Nerf SRParasites Sentry armor dissolving 70% degradation down to something more friendly
 * Remove more broken ICBM EMP stuff
 * Update to `HammerLib-1.12.2-2.0.6.31.jar`
+* Adjust nightly difficulty increase down a bit for <=50 hearts and leave it same for >50 hearts
+* Update a fresh `/jer_profile 10000 all` to account for new structures and blocks in worldgen
 
 ## v0.94
 * Jump start XNet Controller that has no power by whacking it with a stick - so convenient!
