@@ -1,0 +1,29 @@
+{
+	title: "Use an Alchemistry Chemical Dissolver",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Requires substantial RockHounding Chemistry Progression",
+	text: [
+		"After progressing through RockHounding Chemistry to be able to unlock crafting the Alchemistry Chemical Dissolver you can dissolve Parasite Infested blocks for Genetics Reborn Organic Matter."
+	],
+	dependencies: [
+		"e9d7c3ca"
+	],
+	tasks: [{
+		uid: "4cc0e8db",
+		type: "interaction",
+		icon: "alchemistry:chemical_dissolver",
+		match_type: "block_id",
+		match: "alchemistry:chemical_dissolver"
+	}],
+	rewards: [{
+		uid: "2e368d2d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ff0b9b39",
+		type: "item",
+		item: "srparasites:infestedstain"
+	}]
+}

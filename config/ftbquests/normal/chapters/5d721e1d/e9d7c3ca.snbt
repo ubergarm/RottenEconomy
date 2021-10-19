@@ -1,0 +1,35 @@
+{
+	title: "This Too Shall Pass",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Look Upon Ozymandias' Works",
+	text: [
+		"Take a good long look at this spreading Parasite Infestation. All of life is transient in nature and empty of separate self.",
+		"",
+		"But that doesn't mean you just have to take it lying down! Mine, dig, or toss a modpack exclusive ICBMClassic Anti-Parasite Bug Bomb to hold back the tide!"
+	],
+	tasks: [{
+		uid: "708f4283",
+		type: "observation",
+		icon: "srparasites:infestedstain",
+		match_type: "block_id",
+		match: "srparasites:infestedstain",
+		timer: 600L
+	}],
+	rewards: [{
+		uid: "ed8f3bbc",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7d0ed4c5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 3s
+		}
+	}]
+}

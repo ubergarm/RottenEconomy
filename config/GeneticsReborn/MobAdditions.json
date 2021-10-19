@@ -10,5 +10,11 @@
     "wooly",
     "speed",
     "milky"
+  ],
+  "EntitySpiderSpooky": [
+    "scare_spiders"
+  ],
+  "EntityZombieSpooky": [
+    "scare_zombies"
   ]
 }

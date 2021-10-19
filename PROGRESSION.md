@@ -96,6 +96,12 @@ are more than one mod option for most aspects of the game. Have Fun!
 /execute @a[score_Health_min=81,score_Health=90] ~ ~ ~ scalinghealth world_difficulty add 4.88 @p
 /execute @a[score_Health_min=91,score_Health=100] ~ ~ ~ scalinghealth world_difficulty add 5.94 @p
 /execute @a[score_Health_min=101] ~ ~ ~ scalinghealth world_difficulty add 7.24 @p
+// scoreboard players tag @e[type=item] add magicDirt {Item:{id:"minecraft:dirt",tag:{display:{Name:"Magic Dirt"}}}}
+// execute @e[type=item,tag=magicDirt] ~ ~ ~ say Hello
+// execute @a[score_Health_min=11,score_Health=20] ~ ~ ~
+// execute @e[type=icbmclassic:item.grenade] ~ ~ ~ say goteem
+// execute @e[name=icbm.grenade.icbmclassic:debilitation] ~ ~ ~ say goteem
+// entitydata @e[type=cow,r=10] {CustomName:Duke}
 ```
 
 ## Matter Overdrive Structures Notes

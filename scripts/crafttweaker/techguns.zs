@@ -17,13 +17,13 @@ import mods.techguns.ArmorStats;
 removeAndHide(<techguns:simplemachine:11>);
 
 // nerf the minigun range
-GunStats.setWeaponStat("minigun", "DAMAGE", 5.0);
-GunStats.setWeaponStat("minigun", "DAMAGE_MIN", 1.0);
-GunStats.setWeaponStat("minigun", "DAMAGE_DROP_START", 15.0);
-GunStats.setWeaponStat("minigun", "DAMAGE_DROP_END", 24.0);
-GunStats.setWeaponStat("minigun", "BULLET_DISTANCE", 45.0);
-GunStats.setWeaponStat("minigun", "BULLET_SPEED", 2.0);
-GunStats.setWeaponStat("minigun", "SPREAD", 0.05);
+// GunStats.setWeaponStat("minigun", "DAMAGE", 5.0); // was 5.0
+// GunStats.setWeaponStat("minigun", "DAMAGE_MIN", 3.0); // was 3.0
+GunStats.setWeaponStat("minigun", "DAMAGE_DROP_START", 20.0); // was 30
+GunStats.setWeaponStat("minigun", "DAMAGE_DROP_END", 40.0); // was 50
+GunStats.setWeaponStat("minigun", "BULLET_DISTANCE", 50.0); // was 75
+GunStats.setWeaponStat("minigun", "BULLET_SPEED", 2.0); // was 3.0
+// GunStats.setWeaponStat("minigun", "SPREAD", 0.05); // was 0.025 but doesn't change lol
 
 ## add a note about cybernetic parts
 <techguns:itemshared:69>.addTooltip("§4NOTE: §7Loot drop from cyber demons and helicopters in military bases!");

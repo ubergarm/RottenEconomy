@@ -1,0 +1,36 @@
+{
+	title: "Dissolve 64x Infested Blocks into Organic Matter",
+	x: 0.0d,
+	y: -3.0d,
+	description: "It's basically CRISPR/Cas9",
+	text: [
+		"Notice how the different kinds of Infested Blocks produce different Tiers of Organic Matter. You will have to produce enough to synthesize the gene mutations you desire.",
+		"",
+		"Genetics Reborn is in *hard mode* but you are able to share your blood with other players once you've unlocked a genetic mutation.",
+		"",
+		"You cannot clone or mutate mobs, and the only way to obtain organic matter is through this process of extracting it from Parasite Samples."
+	],
+	dependencies: [
+		"b26310c5"
+	],
+	tasks: [{
+		uid: "4496c87a",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:organicmatter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "1a229666",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "295326a2",
+		type: "item",
+		item: "geneticsreborn:glasssyringe"
+	}]
+}
