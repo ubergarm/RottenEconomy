@@ -58,7 +58,14 @@
       "sonarcore:clearstableglass",
       "sonarcore:reinforcedstoneblock",
       "sonarcore:reinforcedstonestairs",
-      "rewired:ecglass"
+      "rewired:ecglass",
+      "matteroverdrive:decorative.clean",
+      "matteroverdrive:decorative.tritanium_plate",
+      "matteroverdrive:decorative.tritanium_plate_stripe",
+      "matteroverdrive:decorative.carbon_fiber_plate",
+      "matteroverdrive:decorative.white_plate",
+      "matteroverdrive:decorative.tritanium_plate_colored",
+      "matteroverdrive:industrial_glass"
     ],
     "Invert Blacklist": false,
     "Requires Tools": false,
@@ -157,7 +164,14 @@
         "sonarcore:clearstableglass",
         "sonarcore:reinforcedstoneblock",
         "sonarcore:reinforcedstonestairs",
-        "rewired:ecglass"
+        "rewired:ecglass",
+        "matteroverdrive:decorative.clean",
+        "matteroverdrive:decorative.tritanium_plate",
+        "matteroverdrive:decorative.tritanium_plate_stripe",
+        "matteroverdrive:decorative.carbon_fiber_plate",
+        "matteroverdrive:decorative.white_plate",
+        "matteroverdrive:decorative.tritanium_plate_colored",
+        "matteroverdrive:industrial_glass"
       ]
     },
     "minecraft:husk": {
@@ -198,7 +212,14 @@
         "sonarcore:clearstableglass",
         "sonarcore:reinforcedstoneblock",
         "sonarcore:reinforcedstonestairs",
-        "rewired:ecglass"
+        "rewired:ecglass",
+        "matteroverdrive:decorative.clean",
+        "matteroverdrive:decorative.tritanium_plate",
+        "matteroverdrive:decorative.tritanium_plate_stripe",
+        "matteroverdrive:decorative.carbon_fiber_plate",
+        "matteroverdrive:decorative.white_plate",
+        "matteroverdrive:decorative.tritanium_plate_colored",
+        "matteroverdrive:industrial_glass"
       ]
     }
   }

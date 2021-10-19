@@ -1,6 +1,11 @@
 ## v0.95
+* Add modpack exclusive Anti-Parasite Bug Bomb grenade to clean up Parasite infested blocks
+* Add modpack exclusive Genetics Reborn Organic Matter from Infected Parasite Blocks mechanic
 * Add Scape and Run Parasites Addon Mod `NoCube's_SRP_Addon_1.0.2.jar` and configure for Epic Fight
 * Add Genetics Reborn Mod `geneticsreborn-1.12-1.32.jar` keep an eye on https://github.com/turtton/GeneticsReborn-Patched
+* Add recipe for Matter Overdrive Industrial Glass
+* Add Matter Overdrive decorative materials into `Parasite and Zombie griefing resistant` block list
+* Add more foods and decorative blocks into Matter Overdrive replicator
 * Add rebuilt Matter Overdrive Structures by `Gandalf360one` https://complex.ivorius.de/submissions/170
 * Add `RecurrentComplex-1.4.8.2.jar` and library `IvToolkit-1.3.3-1.12.jar` Mods for Matter Overdrive Structures
 * Add Copy-Paste Mod `copypaste-1.1.jar` to put Matter Overdrive Structure files in place

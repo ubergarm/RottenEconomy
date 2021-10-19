@@ -2,7 +2,7 @@
 	title: "Williams Street Swap Shop",
 	x: -5.5d,
 	y: 0.5d,
-	description: "Exchange for Zombie digging resistant blocks!",
+	description: "Exchange for Parasite and Zombie griefing resistant blocks!",
 	text: [
 		"There are a variety of Exchangers available that are able to swap out existing blocks in the world for blocks in your inventory.",
 		"",
