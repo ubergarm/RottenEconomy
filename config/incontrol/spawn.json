@@ -573,23 +573,19 @@
     },
     {
         "mob": "srparasites:beckon_si",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "srparasites:beckon_sii",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "srparasites:beckon_siii",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "srparasites:beckon_siv",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "srparasites:kyphosis",
@@ -723,13 +719,15 @@
     },
     {
         "mob": "srparasites:homming",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "srparasites:tendril",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
+    },
+    {
+        "mob": "srparasites:biomass",
+        "result": "default"
     },
     {
         "result": "default"

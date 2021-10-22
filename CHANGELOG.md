@@ -1,3 +1,11 @@
+## v0.96
+* Parasites now tells the server in chat once a evolution stage is reached or node/colony is placed
+* Increase spawn rate of some of the tougher Parasites once the correct Evolution Stage is reached
+* Fixup Parasites config to no longer prevent fishing loot or mob drops on Call of the Hive effect
+* Fixup Parasites config to include JEI tagged matteroverdrive blocks in all mob griefing and infection blacklists
+* Update to `SRParasites-1.12.2v1.9.1.jar`
+* Update to `"NoCube's_SRP_Addon_2.0.0.jar"`
+
 ## v0.95
 * Add modpack exclusive Anti-Parasite Bug Bomb grenade to clean up Parasite infested blocks
 * Add modpack exclusive Genetics Reborn Organic Matter from Infected Parasite Blocks mechanic

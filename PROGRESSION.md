@@ -103,6 +103,138 @@ are more than one mod option for most aspects of the game. Have Fun!
 // execute @e[name=icbm.grenade.icbmclassic:debilitation] ~ ~ ~ say goteem
 // entitydata @e[type=cow,r=10] {CustomName:Duke}
 ```
+## example entity nbt
+`entitydata @e[r=3,c=2] {}` # to query a mob within 3 blocks
+```json
+{
+    HurtByTimestamp:0,
+    ForgeData: {
+        srpcothimmunity:1,
+        "scalinghealth:difficulty":0s
+    },
+    Attributes:[
+        {
+            Base:0.0d,
+            Name:"techguns.radiationResistance"
+        },
+        {
+            Base:100.0d,
+            Name:"cyberware.tolerance"
+        },
+        {
+            Base:40.0d,
+            Name:"weight"
+        },
+        {
+            Base:1.0d,
+            Name:"max_strikes"
+        },
+        {
+            Base:0.0d,
+            Name:"armor_negation"
+        },
+        {
+            Base:1.0d,
+            Name:"impact"
+        },
+        {
+            Base:0.0d,
+            Name:"stun_armor"
+        },
+        {
+            Base:20.0d,
+            Modifiers:
+            [
+                {
+                    UUIDMost:-4557935957806527035L,
+                    UUIDLeast:-4950522221421205810L,
+                    Amount:0.0d,
+                    Operation:1,
+                    Name:"ScalingHealth.HealthModifier"
+                }
+            ],
+            Name:"generic.maxHealth"
+        },
+        {
+            Base:0.0d,
+            Modifiers:
+            [
+                {
+                    UUIDMost:-5548687441136563473L,
+                    UUIDLeast:-6505252887250778788L,
+                    Amount:0.026784097343001505d,
+                    Operation:0,
+                    Name:"Random spawn bonus"
+                }
+            ],
+            Name:"generic.knockbackResistance"
+        },
+        {
+            Base:0.23000000417232513d,Modifiers:[],Name:"generic.movementSpeed"},
+        {
+            Base:2.0d,Modifiers:[],Name:"generic.armor"},
+        {
+            Base:0.0d,Modifiers:[],Name:"generic.armorToughness"},
+        {
+            Base:1.0d,Name:"forge.swimSpeed"},
+        {
+            Base:64.0d,
+            Modifiers:[{UUIDMost:9069015471576727820L,UUIDLeast:-4633884797858615247L,Amount:0.03509479745675772d,Operation:1,Name:"Random spawn bonus"}],
+            Name:"generic.followRange"},
+        {
+            Base:3.0d,Modifiers:[{UUIDMost:-3218372695593237220L,UUIDLeast:-8743736172551149415L,Amount:0.0d,Operation:0,Name:"ScalingHealth.DamageModifier"}],
+            Name:"generic.attackDamage"},
+        {
+            Base:0.0d,Name:"zombie.spawnReinforcements"
+        }
+    ],
+    Invulnerable:0b,
+    FallFlying:0b,
+    PortalCooldown:0,
+    AbsorptionAmount:0.0f,
+    FallDistance:0.0f,
+    DeathTime:0s,
+    ForgeCaps:{
+        "nuclearcraft:capability_entity_rads":{
+            consumed:0b,
+            radawayBuffer:0.0d,
+            shouldWarn:0b,
+            radXUsed:0b,
+            poisonBuffer:0.0d,
+            radXCooldown:0.0d,
+            radXWoreOff:0b,
+            radawayCooldown:0.0d,
+            recentRadawayAddition:0.0d,
+            maxRads:1000.0d,
+            setMaxRads:1b,
+            radawayBufferSlow:0.0d,
+            externalRadiationResistance:0.0d,
+            messageCooldownTime:0,
+            totalRads:1.522540535467117E-7d,
+            radiationLevel:1.644772021898704E-10d,
+            recentPoisonAddition:0.0d,
+            recentRadXAddition:0.0d,
+            radiationImmunityStage:0b,
+            giveGuidebook:0b,
+            internalRadiationResistance:0.0d,
+            radiationImmunityTime:0.0d
+        },
+        "dsurround:data":{a:0b,f:0b},
+        "geneticsreborn:genes":{},
+        "mahoutsukai:mahou":{MAHOUTSUKAI_PLAYER_PREV_YAW:0.0f,MAHOUTSUKAI_SHOW_MAHOU:1b,MAHOUTSUKAI_MANA_FULL:1b,MAHOUTSUKAI_MANA_UP_COUNTER:100,MAHOUTSUKAI_PLAYER_POSSESSING:0b,MAHOUTSUKAI_AUTHORITY_HIT:0b,MAHOUTSUKAI_LAST_RECIPE_CLOTH:0b,MAHOUTSUKAI_PLAYER_HAS_MAGIC:0b,MAHOUTSUKAI_PLAYER_CHARGE_RATE:0.1d,MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES:0,MAHOUTSUKAI_PLAYER_PREV_PITCH:0.0f,MAHOUTSUKAI_KODOKU_VALUE:0,MAHOUTSUKAI_PLAYER_MAX_MANA:100,MAHOUTSUKAI_PLAYER_STORED_MANA:100,MAHOUTSUKAI_PLAYER_OLD_DIMENSION:0,MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES:0,MAHOUTSUKAI_CANCEL_TIME:-1L,MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT:0.0f},
+        "techguns:deathtype":{},
+        "epicsiegemod:modified_handler":{
+            data:{
+                "epicsiegemod:general_spawn":{
+                    hasModifiers:1b,
+                    checkMobBomb:1b
+                }
+            },
+            modified:0b
+        },
+        "geneticsreborn:maxhealth":{BonusHealth:0.0f}},
+        HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,ConversionTime:-1,Motion:[0.0d,-0.0784000015258789d,0.0d],Leashed:0b,UUIDLeast:-4675304839776730736L,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Dimension:0,Rotation:[90.855316f,0.0f],UpdateBlocked:0b,HandItems:[{},{}],ProfessionName:"minecraft:butcher",ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:4,UUIDMost:-7954192744790079271L,Pos:[80.76065274123268d,71.0d,-243.49317922870028d],CanBreakDoors:0b,Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,HurtTime:0s,SurgeAABB:[80.46065272931175d,71.0d,-243.79317924062116d,81.0606527531536d,72.95000004768372d,-243.19317921677938d]}
+```
 
 ## Matter Overdrive Structures Notes
 | Map | Generation Category | weight |
