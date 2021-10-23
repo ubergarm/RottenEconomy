@@ -1,0 +1,27 @@
+{
+	title: "A structure tower of babel",
+	x: -2.5d,
+	y: -0.5d,
+	description: "in the beginning was the world",
+	text: [
+		"Craft at least 4x Structure Towers and place them just outside your launch pad beginning on the same y level.",
+		"",
+		"Build it between 4 and 64 blocks high above the Launch Pad tall enough to fit your rocket or space station design."
+	],
+	dependencies: [
+		"8eb2ab1f"
+	],
+	tasks: [{
+		uid: "9bd3b079",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "75f5fc88",
+		type: "random",
+		table: 0
+	}]
+}

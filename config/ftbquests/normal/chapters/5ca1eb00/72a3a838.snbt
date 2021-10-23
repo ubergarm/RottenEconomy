@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"1d948e7e",
+		"ff7b9484"
+	],
+	tasks: [{
+		uid: "9a17e25f",
+		type: "interaction",
+		title: "Use a Guidance Computer",
+		icon: "advancedrocketry:guidancecomputer",
+		match_type: "block_id",
+		match: "advancedrocketry:guidancecomputer"
+	}],
+	rewards: [{
+		uid: "3a382436",
+		type: "random",
+		table: 0
+	}]
+}

@@ -65,7 +65,9 @@
       "matteroverdrive:decorative.carbon_fiber_plate",
       "matteroverdrive:decorative.white_plate",
       "matteroverdrive:decorative.tritanium_plate_colored",
-      "matteroverdrive:industrial_glass"
+      "matteroverdrive:industrial_glass",
+      "advancedrocketry:launchpad",
+      "advancedrocketry:structuretower"
     ],
     "Invert Blacklist": false,
     "Requires Tools": false,
@@ -171,7 +173,9 @@
         "matteroverdrive:decorative.carbon_fiber_plate",
         "matteroverdrive:decorative.white_plate",
         "matteroverdrive:decorative.tritanium_plate_colored",
-        "matteroverdrive:industrial_glass"
+        "matteroverdrive:industrial_glass",
+        "advancedrocketry:launchpad",
+        "advancedrocketry:structuretower"
       ]
     },
     "minecraft:husk": {
@@ -219,7 +223,9 @@
         "matteroverdrive:decorative.carbon_fiber_plate",
         "matteroverdrive:decorative.white_plate",
         "matteroverdrive:decorative.tritanium_plate_colored",
-        "matteroverdrive:industrial_glass"
+        "matteroverdrive:industrial_glass",
+        "advancedrocketry:launchpad",
+        "advancedrocketry:structuretower"
       ]
     }
   }

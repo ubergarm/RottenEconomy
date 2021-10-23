@@ -81,7 +81,9 @@ val zombieDiggingResistant = [
     <matteroverdrive:decorative.carbon_fiber_plate:*>,
     <matteroverdrive:decorative.white_plate:*>,
     <matteroverdrive:decorative.tritanium_plate_colored:*>,
-    <matteroverdrive:industrial_glass:*>
+    <matteroverdrive:industrial_glass:*>,
+    <advancedrocketry:launchpad:*>,
+    <advancedrocketry:structuretower:*>
 ] as IItemStack[];
 
 for item in zombieDiggingResistant {

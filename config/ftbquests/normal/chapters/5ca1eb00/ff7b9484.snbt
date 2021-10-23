@@ -1,0 +1,24 @@
+{
+	title: "Use a Rocket Assembling Machine",
+	x: -1.5d,
+	y: -2.0d,
+	description: "the sky is no longer the limit",
+	text: [
+		"Place a Rocket Assembling Machine adjacent and one block above your Launch Pad. Power it with RF and you will be able to scan rockets up to the height of your Structure Tower and within the bounds of the Launch Pad."
+	],
+	dependencies: [
+		"286cb45a"
+	],
+	tasks: [{
+		uid: "a3725926",
+		type: "interaction",
+		icon: "advancedrocketry:rocketbuilder",
+		match_type: "block_id",
+		match: "advancedrocketry:rocketbuilder"
+	}],
+	rewards: [{
+		uid: "f8d11fc7",
+		type: "random",
+		table: 0
+	}]
+}

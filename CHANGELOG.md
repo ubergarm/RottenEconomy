@@ -1,4 +1,7 @@
 ## v0.96
+* Add more advanced rocketry quest content to help get you to the moon
+* Adjust GUI/HUD stuff so it looks better when doing advanced rocketry
+* Add a couple Advanced Rocketry blocks into griefing resistant list
 * Add recipe to convert Parasitic Dirt/Stone/Logs back to Infested blocks at Tech Guns Chem Lab
 * Parasites now tells the server in chat once a evolution stage is reached or node/colony is placed
 * Increase spawn rate of some of the tougher Parasites once the correct Evolution Stage is reached

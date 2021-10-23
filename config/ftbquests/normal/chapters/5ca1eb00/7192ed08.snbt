@@ -1,16 +1,23 @@
 {
 	title: "Things are Looking Up",
-	x: 0.5d,
-	y: 0.5d,
+	x: -1.5d,
+	y: -6.5d,
 	description: "Don't Let Gravity Keep You Down!",
 	text: [
-		"Build an Advanced Rocketry Rocketship, escape this planet, and setup a Space Station."
+		"Build an Advanced Rocketry Rocketship, escape this planet, land on Rotten Earth's moon \"Luna\".",
+		"",
+		"TIP: Make sure to reprogram your Guidance Chip ID for Rotten Earth before trying to come home or you will just waste precious fuel!",
+		"",
+		"TODO:",
+		"Next you will search mars for a Planet ID chip containing the location of the Martian Bunker.",
+		"",
+		"You can then build a space station to orbit Mars and launch your attack!"
 	],
 	tasks: [{
 		uid: "4872af53",
 		type: "dimension",
-		title: "Launch into Orbit",
-		dim: -2
+		title: "Launch a Rocket to Luna",
+		dim: 3
 	}],
 	rewards: [{
 		uid: "53777c91",
@@ -22,6 +29,7 @@
 		type: "command",
 		title: "Blz - Whisper's: January",
 		icon: "contenttweaker:record_three",
+		auto: "enabled",
 		command: "/playsound contenttweaker:record_three record @p",
 		player_command: true
 	},

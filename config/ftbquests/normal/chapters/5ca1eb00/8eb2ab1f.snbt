@@ -1,0 +1,22 @@
+{
+	title: "A wise man builds his house",
+	x: -1.5d,
+	y: 0.5d,
+	description: "upon a launch pad",
+	text: [
+		"Craft at least 9x Launch Pad blocks to get started. The Launch pad must be between 3x3 and 16x16 square and forms the base of your rocket or space station assembling area."
+	],
+	tasks: [{
+		uid: "f6865dbb",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "31967157",
+		type: "random",
+		table: 0
+	}]
+}

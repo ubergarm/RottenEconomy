@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		"The Fueling station must be linked to a rocket using a Linker: shift right-click on the Fueling station first before right-clicking the rocket (after building it). "
+	],
+	dependencies: [
+		"a66c5298"
+	],
+	tasks: [{
+		uid: "61318cd7",
+		type: "item",
+		items: [{
+			item: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9e99d61",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Use a Space Station Assembler",
+	x: -3.5d,
+	y: -2.0d,
+	description: "your home away from home",
+	text: [
+		"Place a Space Station Assembler adjacent and one block above your Launch Pad. Power it with RF and you will be able to scan space station structures up to the height of your Structure Tower and within the bounds of the Launch Pad."
+	],
+	dependencies: [
+		"286cb45a"
+	],
+	tasks: [{
+		uid: "dc7e5e99",
+		type: "interaction",
+		icon: "advancedrocketry:stationbuilder",
+		match_type: "block_id",
+		match: "advancedrocketry:stationbuilder"
+	}],
+	rewards: [{
+		uid: "ce01350f",
+		type: "random",
+		table: 0
+	}]
+}

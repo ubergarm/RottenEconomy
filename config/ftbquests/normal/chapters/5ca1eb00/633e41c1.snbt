@@ -1,0 +1,29 @@
+{
+	title: "Build a Working Rocket",
+	x: -1.5d,
+	y: -5.0d,
+	description: "Parts is Parts",
+	text: [
+		"You will probably want at least 4x Monopropollent Rocket Engines or better and at least ~27 matching fuel tanks to be able to return home safely.",
+		"",
+		"The rocket will also need 1x Guidance Computer, 1x Seat.",
+		"",
+		"After you \"Build\" the rocket at the Rocket Assembling Machine and confirm you are \"Clear for liftoff!\" you will wan to fuel up using the linker and fueling station.",
+		"",
+		"Finally you must place an ID Chip into the Guidance Computer by pressing <shift>+<right click> and use the GUI to select your destination as Luna."
+	],
+	dependencies: [
+		"72a3a838",
+		"0321cc3a"
+	],
+	tasks: [{
+		uid: "0844979e",
+		type: "checkmark",
+		icon: "advancedrocketry:rocketmotor"
+	}],
+	rewards: [{
+		uid: "d229a99d",
+		type: "random",
+		table: 0
+	}]
+}

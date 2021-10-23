@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"Placed next to a Launch Pad, it can insert fuel into the rocket. It requires power to operate and it will only accept Rocket Fuel from Advanced Rocketry."
+	],
+	dependencies: [
+		"8eb2ab1f"
+	],
+	tasks: [{
+		uid: "c5f56174",
+		type: "interaction",
+		title: "Use a Fueling Station",
+		icon: "advancedrocketry:fuelingstation",
+		match_type: "block_id",
+		match: "advancedrocketry:fuelingstation"
+	}],
+	rewards: [{
+		uid: "1b46d6e5",
+		type: "random",
+		table: 0
+	}]
+}
