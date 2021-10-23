@@ -450,7 +450,7 @@ cat recipes.log  | grep -oP "<\K\w*:\w*diggingclaw\w*" | sort | uniq | while rea
     echo ""
 done
 
-cat recipes.log  | grep -o "<nocubessrpaddon:\w*>" | grep -o -e "\w*:\w*maul\w*" -e "\w*:\w*shellbreaker\w*" | sort | uniq | while read -r item ; do
+cat recipes.log  | grep -o "<nocubessrpaddon:\w*>" | grep -o -e "\w*:\w*maul\w*" -e "\w*:\w*shellbreaker\w*" -e "\w*:\w*mallet\w*" | sort | uniq | while read -r item ; do
     echo -n "        "
     echo -n "$item" | tr : .
     echo " {"
