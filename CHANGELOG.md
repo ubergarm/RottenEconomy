@@ -1,4 +1,5 @@
 ## v0.96
+* Add recipe to convert Parasitic Dirt/Stone/Logs back to Infested blocks at Tech Guns Chem Lab
 * Parasites now tells the server in chat once a evolution stage is reached or node/colony is placed
 * Increase spawn rate of some of the tougher Parasites once the correct Evolution Stage is reached
 * Fixup Parasites config to no longer prevent fishing loot or mob drops on Call of the Hive effect

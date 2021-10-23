@@ -152,6 +152,46 @@ mods.techguns.ChemLab.addRecipe(
     32                               // required RF/tick cost
 );
 
+// chem lab recipe to convert parasitic dirt/stone/logs into infested versions for quest and genetics purposes
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
+mods.techguns.ChemLab.addRecipe(
+    <srparasites:parasitestain>,// first input slot (auto oreDict)
+    1,                          // quantity of first input
+    <minecraft:dirt>,           // second input slot (required even if 0) - filtered sand
+    0,                          // quantity of second input (or 0 for null input)
+    <liquid:water>*1000,        // input liquid and qty
+    false,                      // allow swap
+    <srparasites:infestedstain>*1, // output slot and qty
+    <liquid:water>*0,           // output liquid and qty
+    32                          // required RF/tick cost
+);
+
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
+mods.techguns.ChemLab.addRecipe(
+    <srparasites:parasiterubble:2>,// first input slot (auto oreDict)
+    1,                          // quantity of first input
+    <minecraft:dirt>,           // second input slot (required even if 0) - filtered sand
+    0,                          // quantity of second input (or 0 for null input)
+    <liquid:water>*1000,        // input liquid and qty
+    false,                      // allow swap
+    <srparasites:infestedrubble>*1, // output slot and qty
+    <liquid:water>*0,           // output liquid and qty
+    32                          // required RF/tick cost
+);
+
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
+mods.techguns.ChemLab.addRecipe(
+    <srparasites:parasitetrunk:*>,// first input slot (auto oreDict)
+    1,                          // quantity of first input
+    <minecraft:dirt>,           // second input slot (required even if 0) - filtered sand
+    0,                          // quantity of second input (or 0 for null input)
+    <liquid:water>*1000,        // input liquid and qty
+    false,                      // allow swap
+    <srparasites:infestedtrunk>*1, // output slot and qty
+    <liquid:water>*0,           // output liquid and qty
+    32                          // required RF/tick cost
+);
+
 // grinder to get gunpowder back out of old stone bullets
 mods.techguns.Grinder.addRecipe(
     <techguns:itemshared>,        // input item

@@ -6,7 +6,9 @@
 	text: [
 		"Take a good long look at this spreading Parasite Infestation. All of life is transient in nature and empty of separate self.",
 		"",
-		"But that doesn't mean you just have to take it lying down! Mine, dig, or toss a modpack exclusive ICBMClassic Anti-Parasite Bug Bomb to hold back the tide!"
+		"But that doesn't mean you just have to take it lying down! Mine, dig, or toss a modpack exclusive ICBMClassic Anti-Parasite Bug Bomb to hold back the tide!",
+		"",
+		"This quest is specifically to observe Infested Dirt, however if you wait too long you will have to convert some Parasitic Dirt back into Infested Dirt by rehydrating it at the Tech Guns Chemical Lab and then take it far enough away from the Parasite Biome that it won't convert back too fast."
 	],
 	tasks: [{
 		uid: "708f4283",
