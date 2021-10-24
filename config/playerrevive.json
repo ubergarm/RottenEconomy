@@ -14,6 +14,7 @@
     "gorgon",
     "death.attack.sgcraft:transient",
     "death.attack.sgcraft:iris",
-    "death.attack.fatal_rads"
+    "death.attack.fatal_rads",
+    "death.attack.LowOxygen"
   ]
 }

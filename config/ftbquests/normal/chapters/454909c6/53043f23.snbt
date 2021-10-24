@@ -31,7 +31,7 @@
 		title: "Trash80 - Missing You",
 		icon: "contenttweaker:record_four",
 		auto: "enabled",
-		command: "/playsound contenttweaker:record_four record @p",
+		command: "/playsound contenttweaker:record_four record @p ~ ~ ~ 100",
 		player_command: true
 	},
 	{

@@ -257,3 +257,9 @@ mods.rockhounding_chemistry.Precipitator.add(
     <liquid:toxic_waste>*50,
     <contenttweaker:jumpy_flesh>
 );
+
+// Add a note for plasteel tritanium reinfornced blocks
+<contenttweaker:plasteel_tritanium_plate>.addTooltip("§eNOTE: §7Too difficult to mine. Perhaps a breaching charge could penetrate it...");
+
+// Add note for Martian Security Beacon
+<contenttweaker:martian_security_beacon>.addTooltip("§eNOTE: §7Place this Beacon in the artifact slot of your Space Station Warp Core to emit a Cargo Ship signal to gain access to orbit Mars without provoking hostile action.");

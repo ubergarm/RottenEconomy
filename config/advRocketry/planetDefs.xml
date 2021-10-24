@@ -33,7 +33,7 @@
         </planet>
         <planet name="§c§lTerraformed Mars" DIMID="16" customIcon="MarsLike">
             <isKnown>false</isKnown>
-            <artifact></artifact>
+            <artifact>contenttweaker:martian_security_beacon</artifact>
             <OreGen></OreGen>
             <fillerBlock></fillerBlock>
             <fogColor>0xC1440E</fogColor>
@@ -89,7 +89,7 @@
             <generateCraters>true</generateCraters>
             <generateVolcanos>false</generateVolcanos>
             <generateGeodes>true</generateGeodes>
-            <craterFrequencyMultiplier>3.5</craterFrequencyMultiplier>
+            <craterFrequencyMultiplier>7.5</craterFrequencyMultiplier>
             <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren,minecraft:ice_flats</biomeIds>
         </planet>
 	</star>

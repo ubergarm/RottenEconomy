@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"Power the Oxygen Vent and provide oxygen.",
+		"",
+		"In place of oxygen you could instead place 2x CO2 Scrubbers, one on either side (loaded with Carbon Collection Cartridges)."
+	],
+	dependencies: [
+		"5d847f52"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d51a3d57",
+		type: "interaction",
+		title: "Use an Oxygen Vent",
+		icon: "advancedrocketry:oxygenvent",
+		match_type: "block_id",
+		match: "advancedrocketry:oxygenvent"
+	}],
+	rewards: [{
+		uid: "cc3aada4",
+		type: "random",
+		table: 0
+	}]
+}

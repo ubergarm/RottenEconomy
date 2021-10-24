@@ -27,3 +27,8 @@ var enderiumCatalyst = VanillaFactory.createItem("enderium_catalyst");
 enderiumCatalyst.maxStackSize = 1;
 enderiumCatalyst.maxDamage = 512;
 enderiumCatalyst.register();
+
+// an item to use is in artifact slot of Advanced Rocketry Warp Core to reach Mars
+var martianSecurityBeacon = VanillaFactory.createItem("martian_security_beacon");
+martianSecurityBeacon.maxStackSize = 1;
+martianSecurityBeacon.register();

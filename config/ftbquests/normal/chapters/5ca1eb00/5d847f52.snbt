@@ -1,0 +1,26 @@
+{
+	title: "Home away from Home",
+	x: -5.5d,
+	y: -2.0d,
+	description: "Build a Space Station",
+	text: [
+		"You can use any blocks to build your space station. There are two methods to building your space station: in space or on the surface. Each has its own benefits and drawbacks.",
+		"",
+		"Building in space means you don't have to worry about launching any other modules but your first one, however, you will have to contend with no oxygen and lack of materials.",
+		"",
+		"Building on the surface means access to resources and breathable atmosphere, but you'll have to deal with the logistics of launching modules into space. "
+	],
+	dependencies: [
+		"375b5ac3"
+	],
+	tasks: [{
+		uid: "08bbdc85",
+		type: "checkmark",
+		icon: "advancedrocketry:circlelight"
+	}],
+	rewards: [{
+		uid: "ae9ff982",
+		type: "random",
+		table: 0
+	}]
+}

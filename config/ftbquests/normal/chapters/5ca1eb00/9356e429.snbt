@@ -1,0 +1,29 @@
+{
+	title: "Use a Satellite Builder",
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"Must be placed directly on top of a Power Input Plug to function.",
+		"",
+		"To copy a Space Station ID Chip:",
+		"1. Place Space Sation ID Chip with data in center chip slot.",
+		"2. Place blank Space Station ID Chip in right chip slot.",
+		"3. Click green \"Write to Secondary Chip\" button in top right corner."
+	],
+	dependencies: [
+		"5d847f52"
+	],
+	tasks: [{
+		uid: "0212ceaa",
+		type: "interaction",
+		title: "Use a Satellite Builder",
+		icon: "advancedrocketry:satellitebuilder",
+		match_type: "block_id",
+		match: "advancedrocketry:satellitebuilder"
+	}],
+	rewards: [{
+		uid: "768e406c",
+		type: "random",
+		table: 0
+	}]
+}

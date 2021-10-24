@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5d847f52"
+	],
+	tasks: [{
+		uid: "63fcb625",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd5aedcb",
+		type: "random",
+		table: 0
+	}]
+}

@@ -10,7 +10,7 @@
 		"",
 		"After you \"Build\" the rocket at the Rocket Assembling Machine and confirm you are \"Clear for liftoff!\" you will wan to fuel up using the linker and fueling station.",
 		"",
-		"Finally you must place an ID Chip into the Guidance Computer by pressing <shift>+<right click> and use the GUI to select your destination as Luna."
+		"Finally you must place an Planet ID Chip into the Guidance Computer by pressing <shift>+<right click> once seated and use the GUI to select your destination as Luna."
 	],
 	dependencies: [
 		"72a3a838",

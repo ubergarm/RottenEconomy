@@ -1,5 +1,6 @@
 ## v0.96
-* Add more advanced rocketry quest content to help get you to the moon
+* Add customized structure and items as part of main story quest content
+* Add more advanced rocketry quest content for Moon and Space Station progress
 * Adjust GUI/HUD stuff so it looks better when doing advanced rocketry
 * Add a couple Advanced Rocketry blocks into griefing resistant list
 * Add recipe to convert Parasitic Dirt/Stone/Logs back to Infested blocks at Tech Guns Chem Lab

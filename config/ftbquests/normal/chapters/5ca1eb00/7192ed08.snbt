@@ -1,23 +1,20 @@
 {
 	title: "Things are Looking Up",
-	x: -1.5d,
+	x: -5.5d,
 	y: -6.5d,
 	description: "Don't Let Gravity Keep You Down!",
 	text: [
-		"Build an Advanced Rocketry Rocketship, escape this planet, land on Rotten Earth's moon \"Luna\".",
+		"Build a Space Station, launch it into orbit, and begin preparing your Martian Siege!",
 		"",
-		"TIP: Make sure to reprogram your Guidance Chip ID for Rotten Earth before trying to come home or you will just waste precious fuel!",
+		"You will need to find a special artifact to place into your warp core before you can sneak into orbit around Mars without raising the alarm.",
 		"",
-		"TODO:",
-		"Next you will search mars for a Planet ID chip containing the location of the Martian Bunker.",
-		"",
-		"You can then build a space station to orbit Mars and launch your attack!"
+		"Perhaps you can find such an artifact aboard a cargo ship on the Moon, Rotten Luna? Disguising your Space Station with a Cargo Ship Beacon perhaps?"
 	],
 	tasks: [{
 		uid: "4872af53",
 		type: "dimension",
-		title: "Launch a Rocket to Luna",
-		dim: 3
+		title: "Visit your new Space Station",
+		dim: -2
 	}],
 	rewards: [{
 		uid: "53777c91",
@@ -30,7 +27,7 @@
 		title: "Blz - Whisper's: January",
 		icon: "contenttweaker:record_three",
 		auto: "enabled",
-		command: "/playsound contenttweaker:record_three record @p",
+		command: "/playsound contenttweaker:record_three record @p ~ 130 ~ 100",
 		player_command: true
 	},
 	{

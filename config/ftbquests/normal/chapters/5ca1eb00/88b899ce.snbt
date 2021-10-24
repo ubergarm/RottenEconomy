@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -2.0d,
+	text: [
+		"Place a Carbon Collection Cartridge inside"
+	],
+	dependencies: [
+		"5d847f52"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3769a4e0",
+		type: "interaction",
+		title: "Use a CO2 Scrubber",
+		icon: "advancedrocketry:oxygenscrubber",
+		match_type: "block_id",
+		match: "advancedrocketry:oxygenscrubber"
+	}],
+	rewards: [{
+		uid: "846e7d6b",
+		type: "random",
+		table: 0
+	}]
+}

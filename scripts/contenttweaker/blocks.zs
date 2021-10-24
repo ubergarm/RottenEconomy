@@ -6,6 +6,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
+// nerd pole for epic siege mod pillaring mobs
 var rottenNetherrackBlock = VanillaFactory.createBlock("rotten_netherrack", <blockmaterial:cake>);
 rottenNetherrackBlock.setLightValue(0);
 rottenNetherrackBlock.setBlockHardness(2.5);
@@ -15,3 +16,13 @@ rottenNetherrackBlock.setToolLevel(0);
 rottenNetherrackBlock.setBlockSoundType(<soundtype:cloth>);
 rottenNetherrackBlock.setSlipperiness(0.90);
 rottenNetherrackBlock.register();
+
+// a block too hard to mine but you can break it with breaching charges or big explosions
+var plasteelTritaniumPlate = VanillaFactory.createBlock("plasteel_tritanium_plate", <blockmaterial:iron>);
+plasteelTritaniumPlate.setLightValue(0);
+plasteelTritaniumPlate.setBlockHardness(1000000);
+plasteelTritaniumPlate.setBlockResistance(60);
+plasteelTritaniumPlate.setToolClass("pickaxe");
+plasteelTritaniumPlate.setToolLevel(5);
+plasteelTritaniumPlate.setBlockSoundType(<soundtype:metal>);
+plasteelTritaniumPlate.register();

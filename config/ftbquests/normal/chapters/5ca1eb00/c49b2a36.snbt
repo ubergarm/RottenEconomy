@@ -1,0 +1,34 @@
+{
+	x: -5.5d,
+	y: -5.0d,
+	text: [
+		"Build an unmanned rocket containing enough engines and fuel plus",
+		"",
+		"to launch a Space Station:",
+		"1. Guidance Computer",
+		"2. Space Station ID Chip placed in Guidance Computer",
+		"3. At least one Satellite Bay",
+		"4. A Space Station *container* placed in Satellite Bay",
+		"",
+		"Link the rocket monitoring system to your unmanned rocket then right-click to see the GUI and information about the rocket. Hit launch when you are ready. It will take a few seconds before the rocket reacts. ",
+		"",
+		"You will need a new manned rocket with a copy of the Space Station ID Chip in the Guidance Computer to now visit your new Space Station and retrieve your unmanned rocket."
+	],
+	dependencies: [
+		"95ede131",
+		"bb5ae5f5"
+	],
+	tasks: [{
+		uid: "81462219",
+		type: "interaction",
+		title: "Use a Rocket Monitoring Station",
+		icon: "advancedrocketry:monitoringstation",
+		match_type: "block_id",
+		match: "advancedrocketry:monitoringstation"
+	}],
+	rewards: [{
+		uid: "112d6771",
+		type: "random",
+		table: 0
+	}]
+}

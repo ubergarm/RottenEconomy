@@ -1,0 +1,27 @@
+{
+	title: "Shoot the Moon",
+	x: -1.5d,
+	y: -6.5d,
+	description: "but don't overshoot it!",
+	text: [
+		"Build an Advanced Rocketry Rocketship, escape this planet, land on Rotten Earth's moon \"Rotten Luna\".",
+		"",
+		"TIP: Make sure to reprogram your Guidance Chip ID for Rotten Earth before trying to come home or you will just waste precious fuel!",
+		"",
+		"\"The thief left it behind:",
+		"the moon",
+		"at my window.\"",
+		"-Ryōkan"
+	],
+	tasks: [{
+		uid: "8b6464b5",
+		type: "dimension",
+		title: "To the Moon!",
+		dim: 3
+	}],
+	rewards: [{
+		uid: "25afa01a",
+		type: "random",
+		table: 0
+	}]
+}

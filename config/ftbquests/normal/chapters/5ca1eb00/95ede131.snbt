@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	text: [
+		"WARNING: When you click build in the Space Station Assembler, the programmed space station ID chip will be consumed. Be sure you make a copy of your Space Station ID Chip in the Satellite Builder."
+	],
+	dependencies: [
+		"5d847f52"
+	],
+	tasks: [{
+		uid: "37ed0fa8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46fa924b",
+		type: "random",
+		table: 0
+	}]
+}

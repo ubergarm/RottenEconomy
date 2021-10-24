@@ -2,9 +2,14 @@
 	title: "Use a Space Station Assembler",
 	x: -3.5d,
 	y: -2.0d,
-	description: "your home away from home",
 	text: [
-		"Place a Space Station Assembler adjacent and one block above your Launch Pad. Power it with RF and you will be able to scan space station structures up to the height of your Structure Tower and within the bounds of the Launch Pad."
+		"In the space station assembler, place a satellite bay in the top left slot. If this is your first space station module, place a blank space station ID chip in the top right slot.",
+		"",
+		"When you are ready, press \"Scan\" and then press \"Build\".",
+		"",
+		"WARNING: Once you press build there is no going back! Any blocks currently in the scan will be removed permanently and placed in the space station container.",
+		"",
+		"Once the assembly is complete you will receive a space station *container* and if this is your first module, a programmed space station ID chip."
 	],
 	dependencies: [
 		"286cb45a"

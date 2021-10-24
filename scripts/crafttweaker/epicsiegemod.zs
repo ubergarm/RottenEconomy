@@ -82,6 +82,7 @@ val zombieDiggingResistant = [
     <matteroverdrive:decorative.white_plate:*>,
     <matteroverdrive:decorative.tritanium_plate_colored:*>,
     <matteroverdrive:industrial_glass:*>,
+    <contenttweaker:plasteel_tritanium_plate:*>,
     <advancedrocketry:launchpad:*>,
     <advancedrocketry:structuretower:*>
 ] as IItemStack[];
