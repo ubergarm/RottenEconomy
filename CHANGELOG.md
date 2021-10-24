@@ -1,5 +1,6 @@
 ## v0.96
 * Warning this version updates most advanced rocketry space dimensions, if you've been to space already backup first.
+* Prevent androids, drones, and some other mobs taking damage in space vacuum (still need to do this for player androids probably)
 * Add customized structure and items as part of main story quest content
 * Add more advanced rocketry quest content for Moon and Space Station progress
 * Adjust GUI/HUD stuff so it looks better when doing advanced rocketry

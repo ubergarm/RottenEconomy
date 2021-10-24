@@ -91,6 +91,9 @@
             <generateGeodes>true</generateGeodes>
             <craterFrequencyMultiplier>7.5</craterFrequencyMultiplier>
             <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren,minecraft:ice_flats</biomeIds>
+            <spawnable weight="10" groupMin="1" groupMax="2">lcrdrfs:laser_creeper</spawnable>
+            <spawnable weight="5" groupMin="1" groupMax="1">lcrdrfs:robot_dino</spawnable>
+            <spawnable weight="20" groupMin="2" groupMax="4">lcrdrfs:jet_pack_spider</spawnable>
         </planet>
 	</star>
 </galaxy>

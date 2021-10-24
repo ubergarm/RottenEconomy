@@ -20,6 +20,10 @@
         "result": "deny"
     },
     {
+        "dimension": 17,
+        "result": "deny"
+    },
+    {
         "mob": "minecraft:sheep",
         "mincount": {
             "mob": "minecraft:sheep",

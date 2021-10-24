@@ -72,6 +72,54 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 22,
+        "maxcount": {
+            "mob": "lcrdrfs:laser_creeper",
+            "amount": 2,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "lcrdrfs:laser_creeper",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 22,
+        "maxcount": {
+            "mob": "lcrdrfs:robo_dino",
+            "amount": 1,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "lcrdrfs:robo_dino",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 22,
+        "maxcount": {
+            "mob": "lcrdrfs:jet_pack_spider",
+            "amount": 4,
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "lcrdrfs:jet_pack_spider",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
 ]
 
