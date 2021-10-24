@@ -79,7 +79,7 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `Right Click` retrieve your grave (don't try to break it)
 
 #### Player Revive
-* `Right Click` hold 5 seconds to revive downed friend
+* `Right Click` hold 5 seconds to revive downed friend (except for death by Radiation Poisioning or Oxygen Deprivation)
 
 #### Improved Backpacks
 * `b` Open Backpack
