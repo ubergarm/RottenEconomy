@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "RottenEconomy",
-  "version": "v0.96",
+  "version": "v0.97",
   "author": "ubergarm",
   "files": [
     {
@@ -191,7 +191,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3478825,
+      "fileID": 3502227,
       "required": true
     },
     {
@@ -371,7 +371,7 @@
     },
     {
       "projectID": 400212,
-      "fileID": 3308079,
+      "fileID": 3498503,
       "required": true
     },
     {
@@ -396,7 +396,7 @@
     },
     {
       "projectID": 514409,
-      "fileID": 3496541,
+      "fileID": 3503948,
       "required": true
     },
     {
@@ -731,7 +731,7 @@
     },
     {
       "projectID": 255257,
-      "fileID": 3334690,
+      "fileID": 3497720,
       "required": true
     },
     {
@@ -1051,7 +1051,7 @@
     },
     {
       "projectID": 236541,
-      "fileID": 3434864,
+      "fileID": 3499791,
       "required": true
     },
     {
@@ -1191,7 +1191,7 @@
     },
     {
       "projectID": 238891,
-      "fileID": 3098835,
+      "fileID": 3497269,
       "required": true
     },
     {

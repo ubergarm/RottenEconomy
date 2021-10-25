@@ -1,3 +1,11 @@
+## v0.97
+* Update to `NoCube's_SRP_Addon_2.1.0.jar`
+* Update to `LibVulpes-1.12.2-0.4.2-85-universal.jar`
+* Update to `DynamicSurroundings-1.12.2-3.6.3.jar`
+* Update to `GraveKeeper-1.12.2-0.6.1.1.jar`
+* Update to `CraftTweaker2-1.12-4.1.20.663.jar`
+* Update to `LootTweaker-0.3.0+oldparsing-MC1.12.2.jar`
+
 ## v0.96
 * Warning this version updates most advanced rocketry space dimensions, if you've been to space already backup first.
 * Prevent androids, drones, and some other mobs taking damage in space vacuum (still need to do this for player androids probably)

@@ -5,7 +5,7 @@
 
 # Documentation Here
 # https://loottweaker-docs.readthedocs.io/en/latest/type-docs/loot-table.html
-# pool.addItemEntry(<IItemStack>, weight, dunno, [Functions.setCount(<min>, <max>, [<optional Conditions>]);
+# pool.addItemEntryHelper(<IItemStack>, weight, dunno, [Functions.setCount(<min>, <max>, [<optional Conditions>]);
 
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
@@ -19,12 +19,12 @@ val zombieTable = LootTweaker.getTable("minecraft:entities/zombie");
 ## inject additional custom pool
 val zombiePool = zombieTable.addPool("RottenEconomy", 1, 2, 1, 2);
 ## add drops for when killed by player
-zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
+zombiePool.addItemEntryHelper(<minecraft:rotten_flesh>, 10, 1,
     [Functions.setCount(0,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
 ## add drops for when killed by non player
-zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
+zombiePool.addItemEntryHelper(<minecraft:rotten_flesh>, 10, 1,
     [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
 
@@ -32,11 +32,11 @@ zombiePool.addItemEntry(<minecraft:rotten_flesh>, 10, 1,
 val huskTable = LootTweaker.getTable("minecraft:entities/husk");
 ## inject additional custom pool
 val huskPool = huskTable.addPool("RottenEconomy", 1, 2, 1, 2);
-huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
+huskPool.addItemEntryHelper(<contenttweaker:gritty_flesh>, 10, 1,
     [Functions.setCount(0,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
-huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
+huskPool.addItemEntryHelper(<contenttweaker:gritty_flesh>, 10, 1,
     [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
 
@@ -44,10 +44,10 @@ huskPool.addItemEntry(<contenttweaker:gritty_flesh>, 10, 1,
 val endermanTable = LootTweaker.getTable("minecraft:entities/enderman");
 ## inject additional custom pool
 val endermanPool = endermanTable.addPool("RottenEconomy", 1, 2, 1, 2);
-endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
+endermanPool.addItemEntryHelper(<contenttweaker:jumpy_flesh>, 10, 1,
     [Functions.setCount(1,3), Functions.lootingEnchantBonus(1, 2, 3)],
     [Conditions.killedByPlayer()]
 );
-endermanPool.addItemEntry(<contenttweaker:jumpy_flesh>, 10, 1,
+endermanPool.addItemEntryHelper(<contenttweaker:jumpy_flesh>, 10, 1,
     [Functions.setCount(0,2)], [Conditions.killedByNonPlayer()]
 );
