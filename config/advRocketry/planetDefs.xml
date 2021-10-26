@@ -9,7 +9,7 @@
             <orbitalDistance>100</orbitalDistance>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <atmosphereDensity>100</atmosphereDensity>
-            <planet name="§8§lRotten Luna" DIMID="3" customIcon="Moon">
+            <planet name="§8§lLuna" DIMID="3" customIcon="Moon">
                 <isKnown>true</isKnown>
                 <artifact></artifact>
                 <OreGen></OreGen>

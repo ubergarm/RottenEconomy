@@ -1,0 +1,32 @@
+{
+	title: "Going Under Cover",
+	x: -2.5d,
+	y: -7.5d,
+	description: "Finders Keepers",
+	text: [
+		"You've heard about the AmaJawn corporation CEO, Beff Jezos, and Tezle INC CEO, Melon Husk, smuggling arms on a Cargo Ship currently located on Luna.",
+		"",
+		"(TODO: fix the Advanced Rocketry Beacon so you can use a Beacon Finder in your Space Helmet to find the ship)",
+		"",
+		"Perhaps you will find a pattern drive on that Cargo Ship and could use a Matter Overdrive Replicator to create one of these things?",
+		"",
+		"Place it in your space station warp drive controller artifact slot and once you have collected enough data to find Mars-go there!"
+	],
+	dependencies: [
+		"a484cd42"
+	],
+	tasks: [{
+		uid: "6f58d395",
+		type: "item",
+		items: [{
+			item: "contenttweaker:martian_security_beacon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ccc96344",
+		type: "random",
+		table: 0
+	}]
+}

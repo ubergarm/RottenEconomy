@@ -23,5 +23,18 @@
 		uid: "25afa01a",
 		type: "random",
 		table: 0
+	},
+	{
+		uid: "864b890c",
+		type: "command",
+		icon: "contenttweaker:record_three",
+		auto: "enabled",
+		command: "/playsound contenttweaker:record_three record @p ~ 130 ~ 100",
+		player_command: true
+	},
+	{
+		uid: "0b981920",
+		type: "item",
+		item: "contenttweaker:record_three"
 	}]
 }
