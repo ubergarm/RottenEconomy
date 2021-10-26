@@ -1,0 +1,8 @@
+1;NukaEnjoy;https://ubergarm.com/images/nuka-enjoy.jpg;db63f93b00b69bf1a93a3eb9157da62e
+2;NukaReal;https://ubergarm.com/images/nuka-real.jpg;24f8a156d078a134617511e9654117d8
+3;NukaRad;https://ubergarm.com/images/nuka-rad.jpg;8688ca1ba2ef683437a62c801d6514a4
+4;NukaThirst;https://ubergarm.com/images/nuka-thirst.jpg;594eb4d5687fa2b95192bb188487a7cf
+5;RussianShock;https://ubergarm.com/images/russian-shock.png;2e763e63ae34c85cd9f06de7495829cc
+6;RussianOof;https://ubergarm.com/images/russian-oof.jpg;d96fd89f756e7e1fab2d0170c7cdd22a
+7;RussianRocket;https://ubergarm.com/images/russian-rocket.jpg;e3677c9e81204294df60bad55c73503b
+8;RussianCosmo;https://ubergarm.com/images/russian-cosmo.jpg;6331adac0b009e9266bef83029e9a98d
