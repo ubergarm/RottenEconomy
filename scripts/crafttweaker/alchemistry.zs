@@ -5,7 +5,6 @@
 var ironCasing = <rockhounding_chemistry:misc_items:5>;
 var heatingElement = <mekanism:basicblock2:5>;
 
-
 recipes.removeByRecipeName("alchemistry:chemical_dissolver");
 recipes.addShaped("alchemistry/chemical_dissolver", <alchemistry:chemical_dissolver>,
   [
@@ -23,3 +22,18 @@ recipes.addShaped("alchemistry/chemical_combiner", <alchemistry:chemical_combine
     [ironCasing, <vehicle:jack>, ironCasing]
   ]
 );
+
+// mods.alchemistry.Dissolver.addRecipe(IIngredient input, boolean relativeProbability, int rolls, Object[][] probabilityGroups);
+// create 4x protien from raw or cooked long pork
+mods.alchemistry.Dissolver.addRecipe(<rewired:meat_raw>, true, 1,
+    [
+        [ 100, <alchemistry:compound:9>*4 ],
+    ]
+);
+
+mods.alchemistry.Dissolver.addRecipe(<rewired:meat_cooked>, true, 1,
+    [
+        [ 100, <alchemistry:compound:9>*4 ],
+    ]
+);
+

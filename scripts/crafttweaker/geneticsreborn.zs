@@ -66,6 +66,15 @@ recipes.addShaped("geneticsreborn.dragonhealthcrystal", <geneticsreborn:dragonhe
     ]
 );
 
+// add a second way to make organic substrate by brewing egg instead od organic matter with mundane potion
+//brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
+brewing.addBrew(
+    <minecraft:potion>.withTag({Potion: "minecraft:mundane"}),
+    <minecraft:egg>,
+    <minecraft:potion>.withTag({Potion: "geneticsreborn:substrate"}),
+    false
+);
+
 // Make sure to have an Entity to provide possiblity of each Genetics Reborn Effect
 // - [x] Bioluminescence=true
 // - [x] Claws=true
@@ -122,48 +131,48 @@ recipes.addShaped("geneticsreborn.dragonhealthcrystal", <geneticsreborn:dragonhe
 // COMMON comes from Infested Dirt
 mods.alchemistry.Dissolver.addRecipe(<srparasites:infestedstain>, true, 1,
     [
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityCaveSpider"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityCyberZombie"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntitySheep"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityCow"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityCreeper"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityHorse"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityChicken"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntitySlime"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityPig"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample",entityCodeName:"EntityParrot"}) ]
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample α",entityCodeName:"EntityCaveSpider"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample β",entityCodeName:"EntityCyberZombie"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample γ",entityCodeName:"EntitySheep"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample δ",entityCodeName:"EntityCow"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample ε",entityCodeName:"EntityCreeper"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample ζ",entityCodeName:"EntityHorse"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample η",entityCodeName:"EntityChicken"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample θ",entityCodeName:"EntitySlime"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample λ",entityCodeName:"EntityPig"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§FCOMMON §7Parasite Sample ω",entityCodeName:"EntityRabbit"}) ]
     ]
 );
 
 // UNCOMMON comes from Infested Stone
 mods.alchemistry.Dissolver.addRecipe(<srparasites:infestedrubble>, true, 1,
     [
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityBlaze"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"Wither Skeleton"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityDoppleganger"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityEndermite"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityPigZombie"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityGuardian"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityEnderman"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityEntityOcelot"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntitySpiderSpooky"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample",entityCodeName:"EntityMagmaCube"}) ]
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample α",entityCodeName:"EntityBlaze"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample β",entityCodeName:"Wither Skeleton"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample γ",entityCodeName:"EntityDoppleganger"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample δ",entityCodeName:"EntityEndermite"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample ε",entityCodeName:"EntityPigZombie"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample ζ",entityCodeName:"EntityGuardian"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample η",entityCodeName:"EntityEnderman"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample θ",entityCodeName:"EntityOcelot"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample λ",entityCodeName:"EntitySpiderSpooky"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§1RARE §7Parasite Sample ω",entityCodeName:"EntityMagmaCube"}) ]
     ]
 );
 
 // RARE comes from Infested Logs
 mods.alchemistry.Dissolver.addRecipe(<srparasites:infestedtrunk>, true, 1,
     [
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"MoCEntityWerewolf"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"Ender Dragon"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntitySilverfish"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntityWolf"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntityPixie"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntityShulker"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntitySpinout"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntityWither"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"EntityZombieSpooky"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample",entityCodeName:"MoCEntityBear"}) ]
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample α",entityCodeName:"MoCEntityWerewolf"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample β",entityCodeName:"Ender Dragon"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample γ",entityCodeName:"EntitySilverfish"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample δ",entityCodeName:"EntityWolf"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample ε",entityCodeName:"EntityPixie"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample ζ",entityCodeName:"EntityShulker"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample η",entityCodeName:"EntitySpinout"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample θ",entityCodeName:"EntityWither"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample λ",entityCodeName:"EntityZombieSpooky"}) ],
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample ω",entityCodeName:"MoCEntityBear"}) ]
     ]
 );
 
