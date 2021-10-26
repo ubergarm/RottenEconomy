@@ -1,10 +1,10 @@
 ## v0.97
-* Fixup Moon Structure for main quest line
-* Add adverts xD
-* More stuff can be replicated in Matter Overdrive
+* Fixup custom moon structure and main-quest-line quests (final boss battle showdown comingsoon™!)
+* Add custom decorative adverts
+* Add more stuff to be replicated into Matter Overdrive
 * Add Greek letters to Genetics Reborn Parasitic Organic Matter names
-* Add alchemistry recipe to dissolve long pork into protein
 * Add brewing recipe to make Genetics Reborn Organic Substrate from eggs
+* Add Alchemistry recipe to dissolve long pork into protein
 * Update to `NoCube's_SRP_Addon_2.1.0.jar`
 * Update to `LibVulpes-1.12.2-0.4.2-85-universal.jar`
 * Update to `DynamicSurroundings-1.12.2-3.6.3.jar`
