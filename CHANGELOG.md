@@ -1,3 +1,6 @@
+## v0.98
+* Fixup a few Genetics Reborn Organic Matter mappings to valid Helix Gene combinations
+
 ## v0.97
 * Fixup custom moon structure and main-quest-line quests (final boss battle showdown comingsoon™!)
 * Add custom decorative adverts

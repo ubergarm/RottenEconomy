@@ -172,7 +172,7 @@ mods.alchemistry.Dissolver.addRecipe(<srparasites:infestedtrunk>, true, 1,
         [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample η",entityCodeName:"EntitySpinout"}) ],
         [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample θ",entityCodeName:"EntityWither"}) ],
         [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample λ",entityCodeName:"EntityZombieSpooky"}) ],
-        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample ω",entityCodeName:"MoCEntityBear"}) ]
+        [ 10, <geneticsreborn:organicmatter>.withTag({entityName:"§5EPIC §7Parasite Sample ω",entityCodeName:"EntityParrot"}) ]
     ]
 );
 

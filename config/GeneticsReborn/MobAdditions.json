@@ -16,5 +16,22 @@
   ],
   "EntityZombieSpooky": [
     "scare_zombies"
+  ],
+  "EntityDoppelganger": [
+    "invisible",
+    "luck"
+  ],
+  "EntityPixie": [
+    "photosynthesis",
+    "no_fall_damage"
+  ],
+  "EntitySpinout": [
+    "fire_proof",
+    "thorns"
+  ],
+  "MoCEntityWerewolf": [
+    "strength",
+    "claws",
+    "emerald_heart"
   ]
 }
