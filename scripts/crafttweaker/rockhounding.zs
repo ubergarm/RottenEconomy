@@ -162,3 +162,12 @@ mods.rockhounding_chemistry.SeasoningRack.add(
     <mekanism:salt>
 );
 
+// oreDict these nice glasses so they can go into matteroverdrive config
+<ore:brickDidymium>.add(<rockhounding_chemistry:misc_items:23>);
+<ore:glassDidymium>.add(<rockhounding_chemistry:didymium_glass>);
+<ore:borderedGlassDidymium>.add(<rockhounding_chemistry:didymium_glass:1>);
+<ore:brickGlassDidymium>.add(<rockhounding_chemistry:didymium_glass:2>);
+
+// now make them hard and very blast proof and then add to griefing resistance blacklisting too
+<rockhounding_chemistry:didymium_glass:*>.asBlock().definition.hardness = 3.0;
+<rockhounding_chemistry:didymium_glass:*>.asBlock().definition.resistance = 50.0;

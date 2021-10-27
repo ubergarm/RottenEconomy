@@ -3,6 +3,9 @@
 * Add Scaling Health heart dust, crystal shards, and heart containers into matter replicator
 * Add Mekanism Enrichment Chamber to up-cycle heart dust into heart crystal shards
 * Increase Jumpy Flesh heart dust chance from 5% to 20% to help automate reducing difficulty
+* Add Stellite ingot recipe to Alchemistry combiner
+* Add Didymium brick recipe to Combiner to more easily make lovely griefing and blast resistant Didymium glass
+* Add more things into Matter Overdrive Replicator
 
 ## v0.97
 * Fixup custom moon structure and main-quest-line quests (final boss battle showdown comingsoon™!)
