@@ -1,4 +1,6 @@
 ## v0.98
+* Add modpack exclusive AmaJawn™ Tracking ROM chip for Advanced Rocketry main quest line
+* Fixup main quest line to include new custom items and give some hints
 * Fixup a few Genetics Reborn Organic Matter mappings to valid Helix Gene combinations
 * Add Scaling Health heart dust, crystal shards, and heart containers into matter replicator
 * Add Mekanism Enrichment Chamber to up-cycle heart dust into heart crystal shards

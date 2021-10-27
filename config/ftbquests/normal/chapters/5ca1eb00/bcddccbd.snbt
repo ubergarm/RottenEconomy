@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: -7.5d,
+	text: [
+		"One of the hardest materials known in the universe, Plasteel Reinforced Tritanium Plates are very expensive and typically reserved for military applications.",
+		"",
+		"However, smugglers have been known to use them on cargo ships to hide and protect contraband.",
+		"",
+		"While they cannot be mined, supposedly a strong blast can breach them. Be careful and don't just place one anywhere without thinking!"
+	],
+	dependencies: [
+		"a484cd42"
+	],
+	tasks: [{
+		uid: "a369d241",
+		type: "observation",
+		title: "Observe Plasteel Reinforced Tritanium Plate",
+		icon: "contenttweaker:plasteel_tritanium_plate",
+		match_type: "block_id",
+		match: "contenttweaker:plasteel_tritanium_plate",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "322740a4",
+		type: "random",
+		table: 0
+	}]
+}

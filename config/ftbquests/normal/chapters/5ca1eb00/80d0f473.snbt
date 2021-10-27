@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"You can find these in loot chests in Matter Overdrive structures including crashed shuttles, android homes, cargo ships, and underwater bases.",
+		"",
+		"Use it to craft Advanced Rocketry Tracking Circuits required for space travel.",
+		"",
+		"If you can't find enough, perhaps you can find a way to crack the DRM with a Matter Overdrive Matter Analyzer and copy that floppy!"
+	],
+	tasks: [{
+		uid: "b26ba34f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:amajawn_tracking_rom"
+		}]
+	}],
+	rewards: [{
+		uid: "f78195b6",
+		type: "random",
+		table: 0
+	}]
+}

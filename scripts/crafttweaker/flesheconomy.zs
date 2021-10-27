@@ -259,7 +259,13 @@ mods.rockhounding_chemistry.Precipitator.add(
 );
 
 // Add a note for plasteel tritanium reinfornced blocks
-<contenttweaker:plasteel_tritanium_plate>.addTooltip("§eNOTE: §7Too difficult to mine. Perhaps a breaching charge could penetrate it...");
+<contenttweaker:plasteel_tritanium_plate>.addTooltip("Hold §bSHIFT §7for more info.");
+<contenttweaker:plasteel_tritanium_plate>.addShiftTooltip("Too difficult to mine. Perhaps an ICBM breaching charge or Mekanism TNT could penetrate it...");
 
 // Add note for Martian Security Beacon
-<contenttweaker:martian_security_beacon>.addTooltip("§eNOTE: §7Place this Beacon in the artifact slot of your Space Station Warp Core to emit a Cargo Ship signal to gain access to orbit Mars without provoking hostile action.");
+<contenttweaker:martian_security_beacon>.addTooltip("Hold §bSHIFT §7for more info.");
+<contenttweaker:martian_security_beacon>.addShiftTooltip("Place this §6AmaJawn™ §7Cargo Ship beacon in the artifact slot of a Space Station Warp Core to sneak into orbit around Mars without attracting attention!");
+
+// Add note for AmaJawn Tracking ROM
+<contenttweaker:amajawn_tracking_rom>.addTooltip("Hold §bSHIFT §7for more info.");
+<contenttweaker:amajawn_tracking_rom>.addShiftTooltip("This ROM protected by §6AmaJawn™ §7proprietary DRM. Do *not* copy or replicate under penalty of law.");

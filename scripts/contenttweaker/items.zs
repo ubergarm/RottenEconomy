@@ -32,3 +32,8 @@ enderiumCatalyst.register();
 var martianSecurityBeacon = VanillaFactory.createItem("martian_security_beacon");
 martianSecurityBeacon.maxStackSize = 1;
 martianSecurityBeacon.register();
+
+// find this item in matter overdrive crashed shuttle chests to unlock advanced rocketry tracking circuits
+var amajawnTrackingRom = VanillaFactory.createItem("amajawn_tracking_rom");
+amajawnTrackingRom.maxStackSize = 16;
+amajawnTrackingRom.register();
