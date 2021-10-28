@@ -90,7 +90,7 @@
   "opencomputers": "1.7.5.192",
   "jev": "2.0.0",
   "copypaste": "1.1",
-  "epicfight": "1.12.2-2.2.7",
+  "epicfight": "1.12.2-2.2.8",
   "smoothfontcore": "mc1.12.2-2.1.2",
   "naturescompass": "1.8.5",
   "compactmachines3": "3.0.18",

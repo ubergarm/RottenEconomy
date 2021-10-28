@@ -9,6 +9,7 @@
 * Add Stellite ingot recipe to Alchemistry combiner
 * Add Didymium brick recipe to Combiner to more easily make lovely griefing and blast resistant Didymium glass
 * Add more things into Matter Overdrive Replicator
+* Update to `EpicFightMod-1.12.2-2.2.8.jar`
 * Update to `ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar`
 * Update to `CraftTweaker2-1.12-4.1.20.665.jar` including #1374 adding IBlockDefinition resistance getter with
   special thanks to [democat3457](https://github.com/democat3457) of [Rebirth of the Night](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) fame!
