@@ -1,0 +1,30 @@
+{
+	title: "Scrap the Self",
+	x: -6.5d,
+	y: 1.0d,
+	description: "Autonomous Block Detection and Deconstruction",
+	text: [
+		"This new item is a WIP (Work In Progress). Currently you can use it kind of like a pickaxe as well as right-click on blocks to see their mining hardness and blast resistance level.",
+		"",
+		"It can be used to compare different blocks within the griefing resistant category to see which ones might prove stronger against TNT etc. It has some glitches and cannot properly read blocks with multiple meta states or tile data like OMPD Hardened Blocks Tiers 1 through 5.",
+		"",
+		"In the future it may be used to recycle blocks on the spot by destroying them with a chance of dropping its ingredients."
+	],
+	dependencies: [
+		"4e6457f4"
+	],
+	tasks: [{
+		uid: "81e2be9e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scrapper_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad4a2147",
+		type: "random",
+		table: 0
+	}]
+}

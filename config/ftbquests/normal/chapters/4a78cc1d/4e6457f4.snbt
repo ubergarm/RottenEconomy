@@ -6,6 +6,8 @@
 	text: [
 		"Epic Siege Mod allows vanilla Zombies and Husks to grief most blocks and pillar to you. Zombie Awareness allows many mobs to smell your bleeding, hear your digging, and come investigate your torch light.",
 		"",
+		"More advanced Scape and Run Parasites can grief and eventually infest and convert blocks based on their hardness.",
+		"",
 		"While high hardness blocks will slow down diggers, search the JEI for \"griefing resistant\" to see all of the special blocks that Zombies, Husks, and Parasites cannot grief or infect. Note that explosions can still destroy these blocks indirectly. ",
 		"",
 		"Open Modular Passive Defense Hardened Blocks (Tier 2) have 20 blast resistance which is good enough for regular TNT. Craft enough to build a small outpost or you can takeover and upgrade an existing griefing resistant building in town."

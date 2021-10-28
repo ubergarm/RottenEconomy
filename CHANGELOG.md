@@ -1,5 +1,6 @@
 ## v0.98
 * Add modpack exclusive AmaJawn™ Tracking ROM chip for Advanced Rocketry main quest line
+* Add modpack exclusive Tezle, Inc. Autonomous Scrapper tool to read block mining hardness and blast resistance on right click
 * Fixup main quest line to include new custom items and give some hints
 * Fixup a few Genetics Reborn Organic Matter mappings to valid Helix Gene combinations
 * Add Scaling Health heart dust, crystal shards, and heart containers into matter replicator
@@ -8,6 +9,9 @@
 * Add Stellite ingot recipe to Alchemistry combiner
 * Add Didymium brick recipe to Combiner to more easily make lovely griefing and blast resistant Didymium glass
 * Add more things into Matter Overdrive Replicator
+* Update to `ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar`
+* Update to `CraftTweaker2-1.12-4.1.20.665.jar` including #1374 adding IBlockDefinition resistance getter with
+  special thanks to [democat3457](https://github.com/democat3457) of [Rebirth of the Night](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) fame!
 
 ## v0.97
 * Fixup custom moon structure and main-quest-line quests (final boss battle showdown comingsoon™!)

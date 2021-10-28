@@ -6,7 +6,7 @@
   "contenttweaker": "1.12.2-4.10.0",
   "thermalinnovation": "0.3.6",
   "modnametooltip": "1.10.1",
-  "forgeendertech": "1.12.2-4.5.5.0",
+  "forgeendertech": "1.12.2-4.5.6.0",
   "hammercore": "2.0.6.31",
   "ctm": "MC1.12.2-1.0.2.31",
   "xnet": "1.8.2",

@@ -21,7 +21,7 @@ rottenNetherrackBlock.register();
 var plasteelTritaniumPlate = VanillaFactory.createBlock("plasteel_tritanium_plate", <blockmaterial:iron>);
 plasteelTritaniumPlate.setLightValue(0);
 plasteelTritaniumPlate.setBlockHardness(1000000);
-plasteelTritaniumPlate.setBlockResistance(60);
+plasteelTritaniumPlate.setBlockResistance(100);
 plasteelTritaniumPlate.setToolClass("pickaxe");
 plasteelTritaniumPlate.setToolLevel(5);
 plasteelTritaniumPlate.setBlockSoundType(<soundtype:metal>);
