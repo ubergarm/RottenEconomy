@@ -12,7 +12,12 @@
 	tasks: [{
 		uid: "a3725926",
 		type: "interaction",
-		icon: "advancedrocketry:rocketbuilder",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:rocketbuilder"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:rocketbuilder"
 	}],

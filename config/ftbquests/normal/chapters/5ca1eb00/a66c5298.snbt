@@ -11,7 +11,12 @@
 		uid: "c5f56174",
 		type: "interaction",
 		title: "Use a Fueling Station",
-		icon: "advancedrocketry:fuelingstation",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:fuelingstation"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:fuelingstation"
 	}],

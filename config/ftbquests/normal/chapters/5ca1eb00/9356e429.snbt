@@ -17,7 +17,12 @@
 		uid: "0212ceaa",
 		type: "interaction",
 		title: "Use a Satellite Builder",
-		icon: "advancedrocketry:satellitebuilder",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:satellitebuilder"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:satellitebuilder"
 	}],

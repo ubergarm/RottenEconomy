@@ -17,7 +17,10 @@
 		uid: "4496c87a",
 		type: "item",
 		items: [{
-			item: "geneticsreborn:organicmatter"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "geneticsreborn:organicmatter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b,
@@ -31,6 +34,11 @@
 	{
 		uid: "295326a2",
 		type: "item",
-		item: "geneticsreborn:glasssyringe"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "geneticsreborn:glasssyringe"
+		}
 	}]
 }

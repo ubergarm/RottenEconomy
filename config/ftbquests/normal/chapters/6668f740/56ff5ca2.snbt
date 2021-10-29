@@ -8,7 +8,10 @@
 		uid: "76ac7c67",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:polymer_clay"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:polymer_clay"
 		}],
 		count: 64L,
 		only_from_crafting: true

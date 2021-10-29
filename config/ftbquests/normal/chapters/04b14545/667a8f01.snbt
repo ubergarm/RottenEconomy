@@ -17,7 +17,10 @@
 		uid: "2c1e30f9",
 		type: "item",
 		items: [{
-			item: "qmd:flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "qmd:flesh"
 		}],
 		count: 8L
 	}]

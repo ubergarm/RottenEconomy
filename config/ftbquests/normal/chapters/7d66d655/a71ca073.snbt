@@ -8,7 +8,12 @@
 		uid: "ccc39b6b",
 		type: "interaction",
 		title: "Use a Storage Cable",
-		icon: "storagenetwork:kabel",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:kabel"
+		},
 		match_type: "block_id",
 		match: "storagenetwork:kabel"
 	}]

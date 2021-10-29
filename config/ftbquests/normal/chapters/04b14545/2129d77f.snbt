@@ -19,7 +19,12 @@
 		uid: "8078a3f1",
 		type: "interaction",
 		title: "Use a Super Sound Muffler",
-		icon: "supersoundmuffler:sound_muffler",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "supersoundmuffler:sound_muffler"
+		},
 		match_type: "block_id",
 		match: "supersoundmuffler:sound_muffler"
 	}],
@@ -31,6 +36,11 @@
 	{
 		uid: "7d479706",
 		type: "item",
-		item: "minecraft:diamond"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}
 	}]
 }

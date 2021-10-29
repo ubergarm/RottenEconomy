@@ -12,7 +12,12 @@
 	tasks: [{
 		uid: "4cc0e8db",
 		type: "interaction",
-		icon: "alchemistry:chemical_dissolver",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "alchemistry:chemical_dissolver"
+		},
 		match_type: "block_id",
 		match: "alchemistry:chemical_dissolver"
 	}],
@@ -24,6 +29,11 @@
 	{
 		uid: "ff0b9b39",
 		type: "item",
-		item: "srparasites:infestedstain"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "srparasites:infestedstain"
+		}
 	}]
 }

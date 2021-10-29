@@ -17,7 +17,11 @@
 		type: "item",
 		title: "Craft 3x Medium Radiation Shielding",
 		items: [{
-			item: "nuclearcraft:rad_shielding 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:rad_shielding",
+			Damage: 1s
 		}],
 		count: 3L,
 		only_from_crafting: true

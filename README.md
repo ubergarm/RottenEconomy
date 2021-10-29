@@ -40,10 +40,15 @@ challenges during each full moon!
 
 * Do **NOT** update Tech Guns or other mods for now! (newest mods may conflicts YMMV).
 * 6144MB RAM recommended for client and server
-* **MANUALLY** download [OptiFine 1.12.2 HD U G5 jar](http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar&x=1630) or newer into `instances/Rotten Economy/mods/` folder.
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
+
+*NOTE* if you are connected to the internet on modpack start, itwill automatically download
+[OptiFine_1.12.2_HD_U_G6_pre1.jar](https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar)
+into your `instances/Rotten Economy/mods/` folder and confirm the files
+have valid hashes. So make sure you do *not* have other versions of
+Optifine in the mods folder already when updating the pack!
 
 ## Default Client Controls
 Most of these can be reconfigured in the controls menu or in client `.cfg` files.
@@ -110,6 +115,8 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `F5` cycle camera perspective
 * `F7` cycle light level overlays
 * `F9` cycle chunk display overlays
+* `F3+R` reload audio driver (RAD mod)
+* `F3+Q` debugging menu (careful you will throw your held item xD)
 
 #### Tip
 You have to map other mod keys as needed. Use `Escape` key to unbind something to `Nothing`.

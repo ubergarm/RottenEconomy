@@ -43,5 +43,14 @@
       }
     ],
     "subtitle": "subtitle.contenttweaker.record_three"
+  },
+  "record_six": {
+    "sounds": [
+      {
+        "name": "contenttweaker:record_six",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.record_six"
   }
 }

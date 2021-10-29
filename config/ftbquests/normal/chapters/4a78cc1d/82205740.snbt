@@ -18,7 +18,10 @@
 		type: "item",
 		title: "Cook up 1x Toasty Flesh",
 		items: [{
-			item: "xlfoodmod:flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "xlfoodmod:flesh"
 		}],
 		only_from_crafting: true
 	}],

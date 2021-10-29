@@ -14,7 +14,12 @@
 		uid: "d51a3d57",
 		type: "interaction",
 		title: "Use an Oxygen Vent",
-		icon: "advancedrocketry:oxygenvent",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygenvent"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:oxygenvent"
 	}],

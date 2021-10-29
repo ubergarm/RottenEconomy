@@ -8,7 +8,12 @@
 		uid: "e7faf432",
 		type: "interaction",
 		title: "Use a Drawer Controller",
-		icon: "storagedrawers:controller",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controller"
+		},
 		match_type: "block_id",
 		match: "storagedrawers:controller"
 	}],

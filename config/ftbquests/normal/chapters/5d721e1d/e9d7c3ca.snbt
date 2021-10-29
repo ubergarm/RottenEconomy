@@ -13,7 +13,12 @@
 	tasks: [{
 		uid: "708f4283",
 		type: "observation",
-		icon: "srparasites:infestedstain",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "srparasites:infestedstain"
+		},
 		match_type: "block_id",
 		match: "srparasites:infestedstain",
 		timer: 600L
@@ -28,7 +33,8 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				Parent: {}
+				Parent: {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "icbmclassic:grenade",
 			Damage: 3s

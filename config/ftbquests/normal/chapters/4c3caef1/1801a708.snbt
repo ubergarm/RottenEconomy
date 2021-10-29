@@ -9,7 +9,10 @@
 		uid: "415cd00b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:enderium_catalyst"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:enderium_catalyst"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

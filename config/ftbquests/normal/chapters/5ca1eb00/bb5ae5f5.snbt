@@ -11,7 +11,11 @@
 		uid: "63fcb625",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:loader 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:loader",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}],

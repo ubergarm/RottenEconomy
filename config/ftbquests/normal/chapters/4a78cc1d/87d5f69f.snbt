@@ -18,7 +18,10 @@
 		type: "item",
 		title: "Craft an Akashic Tome",
 		items: [{
-			item: "akashictome:tome"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "akashictome:tome"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b,

@@ -1,6 +1,9 @@
 {
 	title: "Rotten Sōkoban",
 	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
 		id: "refinedstorage:controller",
 		tag: {
 			Energy: 32000

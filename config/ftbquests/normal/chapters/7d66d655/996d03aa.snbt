@@ -8,9 +8,18 @@
 		uid: "c0267837",
 		type: "item",
 		title: "Craft a Wireless Crafting Monitor",
-		icon: "refinedstorage:wireless_crafting_monitor 1 1",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:wireless_crafting_monitor",
+			Damage: 1s
+		},
 		items: [{
-			item: "refinedstorage:wireless_crafting_monitor"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:wireless_crafting_monitor"
 		}],
 		ignore_nbt: 1b
 	}],

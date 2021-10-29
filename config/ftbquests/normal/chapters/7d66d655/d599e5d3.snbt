@@ -10,7 +10,12 @@
 		uid: "cf14c4e9",
 		type: "interaction",
 		title: "Use a Storage Network Master",
-		icon: "storagenetwork:master",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:master"
+		},
 		match_type: "block_id",
 		match: "storagenetwork:master"
 	}],

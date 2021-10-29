@@ -17,7 +17,10 @@
 		uid: "81e2be9e",
 		type: "item",
 		items: [{
-			item: "contenttweaker:scrapper_tool"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:scrapper_tool"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

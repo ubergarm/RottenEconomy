@@ -10,7 +10,12 @@
 		uid: "589196a3",
 		type: "checkmark",
 		title: "Master the Flesh",
-		icon: "contenttweaker:record_five"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_five"
+		}
 	}],
 	rewards: [{
 		uid: "ea8d5586",
@@ -20,6 +25,11 @@
 	{
 		uid: "a2150cf8",
 		type: "item",
-		item: "contenttweaker:record_five"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_five"
+		}
 	}]
 }

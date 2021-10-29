@@ -10,7 +10,10 @@
 		uid: "60ae9cfa",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:pristine_matter_blaze"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:pristine_matter_blaze"
 		}],
 		count: 48L,
 		only_from_crafting: true

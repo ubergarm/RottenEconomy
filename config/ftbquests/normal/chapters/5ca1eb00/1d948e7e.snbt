@@ -11,7 +11,10 @@
 		uid: "61318cd7",
 		type: "item",
 		items: [{
-			item: "libvulpes:linker"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:linker"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

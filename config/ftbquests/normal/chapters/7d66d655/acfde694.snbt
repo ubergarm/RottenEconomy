@@ -8,7 +8,13 @@
 		uid: "d7cdc4bb",
 		type: "interaction",
 		title: "Use a Refined Storage Crafting Grid",
-		icon: "refinedstorage:grid 1 1",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:grid",
+			Damage: 1s
+		},
 		match_type: "block_id",
 		match: "refinedstorage:grid:1"
 	}],

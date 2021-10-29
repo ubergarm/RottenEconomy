@@ -15,7 +15,10 @@
 		uid: "baa09273",
 		type: "item",
 		items: [{
-			item: "matteroverdrive:tritanium_plate"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "matteroverdrive:tritanium_plate"
 		}],
 		count: 5L
 	}],
@@ -27,7 +30,12 @@
 	{
 		uid: "3d3fceab",
 		type: "item",
-		item: "matteroverdrive:earl_gray_tea",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "matteroverdrive:earl_gray_tea"
+		},
 		count: 4
 	}]
 }

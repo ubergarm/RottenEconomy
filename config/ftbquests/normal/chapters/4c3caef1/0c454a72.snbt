@@ -9,6 +9,9 @@
 		type: "interaction",
 		title: "Use a Rockhounding Chemistry Precipitation Reactor",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "rockhounding_chemistry:machines_e",
 			tag: {
 				Energy: 0,

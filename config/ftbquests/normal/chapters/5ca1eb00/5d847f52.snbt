@@ -16,7 +16,12 @@
 	tasks: [{
 		uid: "08bbdc85",
 		type: "checkmark",
-		icon: "advancedrocketry:circlelight"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:circlelight"
+		}
 	}],
 	rewards: [{
 		uid: "ae9ff982",

@@ -9,7 +9,12 @@
 		uid: "8af22bb0",
 		type: "interaction",
 		title: "Use a Storage Import Cable",
-		icon: "storagenetwork:im_kabel",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:im_kabel"
+		},
 		match_type: "block_id",
 		match: "storagenetwork:im_kabel"
 	}],

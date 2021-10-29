@@ -1,6 +1,12 @@
 {
 	title: "RandomCoins",
-	icon: "thermalfoundation:coin 1 1",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:coin",
+		Damage: 1s
+	},
 	loot_size: 1,
 	hide_tooltip: true,
 	rewards: [{

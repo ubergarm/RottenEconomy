@@ -8,7 +8,12 @@
 		uid: "31d223f8",
 		type: "interaction",
 		title: "Use a Storage Request Table",
-		icon: "storagenetwork:request",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:request"
+		},
 		match_type: "block_id",
 		match: "storagenetwork:request"
 	}],

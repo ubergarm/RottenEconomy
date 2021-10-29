@@ -22,6 +22,9 @@
 		type: "item",
 		title: "Craft a Wooden Exchanger",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "exchangers:wooden_exchanger",
 			tag: {
 				mode: 0,

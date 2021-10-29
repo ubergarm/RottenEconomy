@@ -9,7 +9,12 @@
 		uid: "c6082410",
 		type: "interaction",
 		title: "Use a Storage Link Cable",
-		icon: "storagenetwork:storage_kabel",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:storage_kabel"
+		},
 		match_type: "block_id",
 		match: "storagenetwork:storage_kabel"
 	}],

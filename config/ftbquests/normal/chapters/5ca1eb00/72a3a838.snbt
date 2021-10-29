@@ -10,7 +10,12 @@
 		uid: "9a17e25f",
 		type: "interaction",
 		title: "Use a Guidance Computer",
-		icon: "advancedrocketry:guidancecomputer",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:guidancecomputer"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:guidancecomputer"
 	}],

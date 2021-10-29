@@ -15,7 +15,12 @@
 	tasks: [{
 		uid: "e2916f0a",
 		type: "checkmark",
-		icon: "ftbquests:book"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
 	}],
 	rewards: [{
 		uid: "6c5769f2",
@@ -25,11 +30,21 @@
 	{
 		uid: "a302d56c",
 		type: "item",
-		item: "minecraft:bookshelf"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bookshelf"
+		}
 	},
 	{
 		uid: "fedcecf6",
 		type: "item",
-		item: "minecraft:book"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
+		}
 	}]
 }

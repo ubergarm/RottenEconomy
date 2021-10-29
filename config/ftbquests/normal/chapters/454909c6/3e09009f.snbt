@@ -16,7 +16,12 @@
 		uid: "bc293410",
 		type: "biome",
 		title: "Visit a Nuclear Wasteland Biome",
-		icon: "qmd:irradiator",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "qmd:irradiator"
+		},
 		biome: "nuclearcraft:nuclear_wasteland"
 	}],
 	rewards: [{
@@ -27,6 +32,11 @@
 	{
 		uid: "abc571c6",
 		type: "item",
-		item: "ic2:rubber_boots"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:rubber_boots"
+		}
 	}]
 }

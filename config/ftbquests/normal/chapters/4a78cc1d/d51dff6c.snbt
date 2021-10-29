@@ -1,6 +1,11 @@
 {
 	title: "Shoulder Surfing",
-	icon: "securitycraft:security_camera",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "securitycraft:security_camera"
+	},
 	x: -8.0d,
 	y: -1.5d,
 	description: "Advanced 3rd Person Camera",
@@ -28,6 +33,11 @@
 	{
 		uid: "62c217b2",
 		type: "item",
-		item: "scalinghealth:heartcontainer"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "scalinghealth:heartcontainer"
+		}
 	}]
 }

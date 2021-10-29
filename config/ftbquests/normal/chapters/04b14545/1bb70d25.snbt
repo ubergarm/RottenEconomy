@@ -13,7 +13,10 @@
 		uid: "155e5b56",
 		type: "item",
 		items: [{
-			item: "contenttweaker:rotten_netherrack"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:rotten_netherrack"
 		}],
 		count: 16L
 	}],
@@ -25,13 +28,24 @@
 	{
 		uid: "b606442c",
 		type: "item",
-		item: "thermalfoundation:material 1 128",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
+		},
 		count: 8
 	},
 	{
 		uid: "149a7d03",
 		type: "item",
-		item: "minecraft:redstone",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
 		count: 8
 	}]
 }

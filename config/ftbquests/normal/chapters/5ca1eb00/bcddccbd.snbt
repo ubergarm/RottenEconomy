@@ -15,7 +15,12 @@
 		uid: "a369d241",
 		type: "observation",
 		title: "Observe Plasteel Reinforced Tritanium Plate",
-		icon: "contenttweaker:plasteel_tritanium_plate",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:plasteel_tritanium_plate"
+		},
 		match_type: "block_id",
 		match: "contenttweaker:plasteel_tritanium_plate",
 		timer: 100L

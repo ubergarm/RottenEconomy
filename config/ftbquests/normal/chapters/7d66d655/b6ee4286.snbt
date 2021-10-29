@@ -9,7 +9,10 @@
 		type: "item",
 		title: "Craft a Simple Storage Networks Storage Remote",
 		items: [{
-			item: "storagenetwork:remote"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:remote"
 		}],
 		ignore_nbt: 1b
 	}],

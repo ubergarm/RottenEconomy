@@ -8,7 +8,12 @@
 		uid: "0d39d905",
 		type: "interaction",
 		title: "Use a Deep Mob Learning Simulation Chamber",
-		icon: "deepmoblearning:simulation_chamber",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:simulation_chamber"
+		},
 		match_type: "block_id",
 		match: "deepmoblearning:simulation_chamber"
 	}],

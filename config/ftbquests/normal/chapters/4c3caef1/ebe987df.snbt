@@ -10,7 +10,10 @@
 		uid: "e94a69ec",
 		type: "item",
 		items: [{
-			item: "rockhounding_chemistry:chemical_items"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:chemical_items"
 		}],
 		count: 64L,
 		only_from_crafting: true

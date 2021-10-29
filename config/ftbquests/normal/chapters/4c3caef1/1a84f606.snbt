@@ -5,7 +5,12 @@
 		uid: "52861e61",
 		type: "interaction",
 		title: "Use an Alchemistry Evaporator",
-		icon: "alchemistry:evaporator",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "alchemistry:evaporator"
+		},
 		match_type: "block_id",
 		match: "alchemistry:evaporator"
 	}],

@@ -29,14 +29,23 @@
 		uid: "0a7a76ef",
 		type: "command",
 		title: "Trash80 - Missing You",
-		icon: "contenttweaker:record_four",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_four"
+		},
 		auto: "enabled",
-		command: "/playsound contenttweaker:record_four record @p ~ ~ ~ 100",
-		player_command: true
+		command: "/execute @p ~ ~ ~ playsound contenttweaker:record_four record @p ~ ~ ~ 100"
 	},
 	{
 		uid: "daf66816",
 		type: "item",
-		item: "contenttweaker:record_four"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_four"
+		}
 	}]
 }

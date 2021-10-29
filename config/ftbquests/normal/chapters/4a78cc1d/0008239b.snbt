@@ -20,7 +20,10 @@
 		type: "item",
 		title: "Craft a Clock",
 		items: [{
-			item: "minecraft:clock"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clock"
 		}],
 		only_from_crafting: true
 	}],

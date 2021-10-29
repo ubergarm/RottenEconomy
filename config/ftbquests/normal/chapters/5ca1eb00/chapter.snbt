@@ -1,6 +1,11 @@
 {
 	title: "Rotten Rocketry",
-	icon: "advancedrocketry:spacehelmet",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:spacehelmet"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

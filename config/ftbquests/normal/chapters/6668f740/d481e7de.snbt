@@ -10,7 +10,10 @@
 		uid: "c5c4e935",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:pristine_matter_zombie"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:pristine_matter_zombie"
 		}],
 		count: 64L,
 		only_from_crafting: true

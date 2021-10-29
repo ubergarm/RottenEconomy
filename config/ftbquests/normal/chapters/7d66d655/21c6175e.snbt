@@ -8,7 +8,13 @@
 		uid: "97c5ab85",
 		type: "interaction",
 		title: "Use a Hopping Bonsai Pot",
-		icon: "bonsaitrees:bonsaipot 1 1",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bonsaitrees:bonsaipot",
+			Damage: 1s
+		},
 		match_type: "block_id",
 		match: "bonsaitrees:bonsaipot:1"
 	}],

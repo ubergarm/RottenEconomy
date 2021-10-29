@@ -12,7 +12,10 @@
 		uid: "316a2ad7",
 		type: "item",
 		items: [{
-			item: "deepresonance:energy_collector"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepresonance:energy_collector"
 		}]
 	}],
 	rewards: [{

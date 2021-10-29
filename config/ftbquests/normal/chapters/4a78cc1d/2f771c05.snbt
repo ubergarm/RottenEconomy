@@ -15,6 +15,9 @@
 		uid: "ec844c0a",
 		type: "advancement",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "techguns:handcannon",
 			tag: {
 				ammo: 1s,
@@ -33,6 +36,11 @@
 	{
 		uid: "4d0f856d",
 		type: "item",
-		item: "mekanismtools:woodpaxel"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanismtools:woodpaxel"
+		}
 	}]
 }

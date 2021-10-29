@@ -9,7 +9,10 @@
 		type: "item",
 		title: "Mass Produce Rotten Flesh",
 		items: [{
-			item: "minecraft:rotten_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
 		}],
 		count: 512L,
 		only_from_crafting: true

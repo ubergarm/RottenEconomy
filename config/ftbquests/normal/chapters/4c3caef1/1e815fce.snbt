@@ -9,6 +9,9 @@
 		type: "interaction",
 		title: "Use a Rockhounding Chemistry Slurry Pond",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "rockhounding_chemistry:machines_b",
 			tag: {
 				Energy: 0,

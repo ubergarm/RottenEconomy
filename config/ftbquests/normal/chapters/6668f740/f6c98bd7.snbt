@@ -8,7 +8,10 @@
 		uid: "f41cf35c",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:data_model_shulker"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:data_model_shulker"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

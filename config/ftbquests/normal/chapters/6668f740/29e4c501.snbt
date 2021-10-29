@@ -5,7 +5,10 @@
 		uid: "26cde79a",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:deep_learner"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:deep_learner"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

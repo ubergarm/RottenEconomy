@@ -17,7 +17,12 @@
 	tasks: [{
 		uid: "dc7e5e99",
 		type: "interaction",
-		icon: "advancedrocketry:stationbuilder",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:stationbuilder"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:stationbuilder"
 	}],

@@ -12,7 +12,10 @@
 		type: "item",
 		title: "Mass Produce Jumpy Flesh",
 		items: [{
-			item: "contenttweaker:jumpy_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:jumpy_flesh"
 		}],
 		count: 768L,
 		only_from_crafting: true

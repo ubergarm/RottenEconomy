@@ -17,7 +17,10 @@
 		uid: "15839410",
 		type: "item",
 		items: [{
-			item: "contenttweaker:gritty_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:gritty_flesh"
 		}],
 		count: 16L
 	}],

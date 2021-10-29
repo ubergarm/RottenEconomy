@@ -21,7 +21,12 @@
 		uid: "1d04efe1",
 		type: "stat",
 		title: "Die Once",
-		icon: "inventorypets:grave_pet",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:grave_pet"
+		},
 		stat: "stat.deaths",
 		value: 1
 	}],
@@ -33,6 +38,11 @@
 	{
 		uid: "896b349a",
 		type: "item",
-		item: "minecraft:cake"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cake"
+		}
 	}]
 }

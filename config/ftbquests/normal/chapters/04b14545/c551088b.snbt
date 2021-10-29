@@ -22,7 +22,12 @@
 		uid: "5b84accc",
 		type: "interaction",
 		title: "Use a Jukebox",
-		icon: "minecraft:jukebox",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:jukebox"
+		},
 		match_type: "block_id",
 		match: "minecraft:jukebox"
 	}],
@@ -34,6 +39,11 @@
 	{
 		uid: "cd6d573e",
 		type: "item",
-		item: "contenttweaker:record_two"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_two"
+		}
 	}]
 }

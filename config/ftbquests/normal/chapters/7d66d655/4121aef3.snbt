@@ -11,6 +11,9 @@
 		type: "interaction",
 		title: "Use a Refined Storage Controller",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "refinedstorage:controller",
 			tag: {
 				Energy: 32000

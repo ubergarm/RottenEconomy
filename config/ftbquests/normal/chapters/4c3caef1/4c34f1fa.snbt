@@ -28,7 +28,13 @@
 		uid: "126f1936",
 		type: "interaction",
 		title: "Use a Tech Guns Chemical Laboratory",
-		icon: "techguns:basicmachine 1 2",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:basicmachine",
+			Damage: 2s
+		},
 		match_type: "block_id",
 		match: "techguns:basicmachine:2"
 	}],

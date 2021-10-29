@@ -1,0 +1,19 @@
+{
+    "url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
+    "follows": ["preview OptiFine 1.12.2 HD U G6 pre1"],
+    "fileName": "OptiFine_1.12.2_HD_U_G6_pre1.jar",
+    "options": {
+        "launchwrapperTweakerForceNext": true
+    },
+    "installationPolicy": {
+        "continueOnFailedDownload": true
+    },
+    "metadata": {
+        "side": "CLIENT",
+        "hash": {
+            "SHA-256": "58bd0865025a99d031220bdc855ede653aff865e49bda2064a31f4b1cf11622c",
+            "SHA-1": "ab2118b1ed23444d6decf081e0295e4c679af6c2",
+            "MD5": "9ee4100b8d430f8c8aa82e6f3b13b87e"
+        }
+    }
+}

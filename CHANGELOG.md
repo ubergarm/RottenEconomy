@@ -1,3 +1,13 @@
+## v0.99
+* NOTE: ModDirector automatically downloads OptiFine mod now so if you have an older
+  version of OptiFine already you might need to delete that jarfile from mods folder
+* Add CustomNPCs and nashorn for custom boss battles!
+* Add a new chip tune and attempt to fixup the audio reward command for the Moon quest
+* Increase Tech Guns Advanced Mining Charge to break Plasteel Tritanium Reinforced Plate blocks (don't shoot your eye out!)
+* Add more bread types for Culinary Construct sandwiches
+* Turn off dynamic surrounds for space dimensions
+* Tech Guns Turrets and SecurityCraft sentries can no longer become blights
+
 ## v0.98
 * Add modpack exclusive AmaJawn™ Tracking ROM chip for Advanced Rocketry main quest line
 * Add modpack exclusive Tezle, Inc. Autonomous Scrapper tool to read block mining hardness and blast resistance on right click

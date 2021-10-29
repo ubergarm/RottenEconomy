@@ -15,7 +15,12 @@
 	tasks: [{
 		uid: "a6155ad0",
 		type: "checkmark",
-		icon: "techguns:radpills"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:radpills"
+		}
 	}],
 	rewards: [{
 		uid: "f47fc849",

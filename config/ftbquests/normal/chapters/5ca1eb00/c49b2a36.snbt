@@ -22,7 +22,12 @@
 		uid: "81462219",
 		type: "interaction",
 		title: "Use a Rocket Monitoring Station",
-		icon: "advancedrocketry:monitoringstation",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:monitoringstation"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:monitoringstation"
 	}],

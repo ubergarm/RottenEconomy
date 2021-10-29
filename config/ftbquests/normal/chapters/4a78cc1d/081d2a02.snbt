@@ -19,9 +19,17 @@
 		uid: "5c315d12",
 		type: "item",
 		title: "Craft 2x Stone Swords",
-		icon: "minecraft:stone_sword",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone_sword"
+		},
 		items: [{
-			item: "minecraft:stone_sword"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone_sword"
 		}],
 		count: 2L,
 		ignore_damage: true,
@@ -35,6 +43,11 @@
 	{
 		uid: "0909b2e3",
 		type: "item",
-		item: "spartanweaponry:greatsword_stone"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "spartanweaponry:greatsword_stone"
+		}
 	}]
 }

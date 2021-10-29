@@ -8,7 +8,12 @@
 		uid: "9d11cafa",
 		type: "interaction",
 		title: "Use a Refined Storage Wireless Transmitter",
-		icon: "refinedstorage:wireless_transmitter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:wireless_transmitter"
+		},
 		match_type: "block_id",
 		match: "refinedstorage:wireless_transmitter"
 	}],

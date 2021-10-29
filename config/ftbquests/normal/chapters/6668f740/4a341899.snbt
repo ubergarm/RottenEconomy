@@ -10,7 +10,10 @@
 		uid: "8efd4a0d",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:pristine_matter_shulker"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:pristine_matter_shulker"
 		}],
 		count: 32L,
 		only_from_crafting: true

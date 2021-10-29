@@ -18,7 +18,10 @@
 		type: "item",
 		title: "Access Book of Skills from Akashic Tome",
 		items: [{
-			item: "improvableskills:skills_book"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "improvableskills:skills_book"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -10,7 +10,10 @@
 		uid: "159fbfa2",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:pristine_matter_enderman"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:pristine_matter_enderman"
 		}],
 		count: 16L,
 		only_from_crafting: true

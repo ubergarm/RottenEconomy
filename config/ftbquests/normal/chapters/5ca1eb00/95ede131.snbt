@@ -11,7 +11,10 @@
 		uid: "37ed0fa8",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spacestationchip"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:spacestationchip"
 		}],
 		ignore_nbt: 1b
 	}],

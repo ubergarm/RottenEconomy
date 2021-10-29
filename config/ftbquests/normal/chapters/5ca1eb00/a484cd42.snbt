@@ -18,6 +18,20 @@
 		type: "dimension",
 		title: "To the Moon!",
 		dim: 3
+	},
+	{
+		uid: "8d28c286",
+		type: "observation",
+		title: "Observe Dark Moon Turf",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:moonturf_dark"
+		},
+		match_type: "block_id",
+		match: "advancedrocketry:moonturf_dark",
+		timer: 100L
 	}],
 	rewards: [{
 		uid: "25afa01a",
@@ -27,14 +41,24 @@
 	{
 		uid: "864b890c",
 		type: "command",
-		icon: "contenttweaker:record_three",
+		title: "DuckTales (NES) - The Moon",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_six"
+		},
 		auto: "enabled",
-		command: "/playsound contenttweaker:record_three record @p ~ 130 ~ 100",
-		player_command: true
+		command: "/execute @p ~ ~ ~ playsound contenttweaker:record_six record @p ~ ~ ~ 100"
 	},
 	{
 		uid: "0b981920",
 		type: "item",
-		item: "contenttweaker:record_three"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_six"
+		}
 	}]
 }

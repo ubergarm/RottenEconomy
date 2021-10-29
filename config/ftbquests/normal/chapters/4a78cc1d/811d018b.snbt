@@ -1,6 +1,11 @@
 {
 	title: "Scaling Health",
-	icon: "scalinghealth:heartcontainer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "scalinghealth:heartcontainer"
+	},
 	x: -9.5d,
 	y: -1.0d,
 	description: "and Scaling Difficulty",
@@ -18,14 +23,23 @@
 		uid: "63a6c4ea",
 		type: "item",
 		items: [{
-			item: "scalinghealth:heartcontainer"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "scalinghealth:heartcontainer"
 		}]
 	}],
 	rewards: [{
 		uid: "2e2ab2c5",
 		type: "command",
 		title: "More Fun!",
-		icon: "scalinghealth:difficultychanger 1 1",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "scalinghealth:difficultychanger",
+			Damage: 1s
+		},
 		command: "/scalinghealth world_difficulty add 1 @p"
 	}]
 }

@@ -8,7 +8,12 @@
 		uid: "a066d41b",
 		type: "interaction",
 		title: "Use a Refined Storage Cable",
-		icon: "refinedstorage:cable",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:cable"
+		},
 		match_type: "block_id",
 		match: "refinedstorage:cable"
 	}],

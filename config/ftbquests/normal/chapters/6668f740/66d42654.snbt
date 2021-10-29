@@ -10,7 +10,10 @@
 		uid: "d119392e",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:pristine_matter_ghast"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:pristine_matter_ghast"
 		}],
 		count: 48L,
 		only_from_crafting: true

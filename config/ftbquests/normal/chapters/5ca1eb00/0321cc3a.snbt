@@ -9,7 +9,12 @@
 		uid: "16cbf349",
 		type: "interaction",
 		title: "Use a Seat",
-		icon: "advancedrocketry:seat",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:seat"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:seat"
 	}],

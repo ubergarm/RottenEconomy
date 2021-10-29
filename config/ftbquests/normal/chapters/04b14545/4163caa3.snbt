@@ -15,7 +15,13 @@
 	tasks: [{
 		uid: "aa69ff66",
 		type: "stat",
-		icon: "minecraft:skull 1 2",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
+		},
 		stat: "stat.mobKills",
 		value: 10
 	}],

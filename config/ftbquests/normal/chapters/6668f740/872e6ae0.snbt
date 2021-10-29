@@ -8,7 +8,10 @@
 		uid: "9572dd81",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:data_model_zombie"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:data_model_zombie"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

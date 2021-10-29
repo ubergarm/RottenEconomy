@@ -20,7 +20,13 @@
 		uid: "410e0034",
 		type: "interaction",
 		title: "Use a Tech Guns Grinder",
-		icon: "techguns:simplemachine2 1 8",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:simplemachine2",
+			Damage: 8s
+		},
 		match_type: "block_id",
 		match: "techguns:simplemachine2"
 	}],
@@ -32,12 +38,22 @@
 	{
 		uid: "9368b6f3",
 		type: "item",
-		item: "libvulpes:battery"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:battery"
+		}
 	},
 	{
 		uid: "aac0d289",
 		type: "item",
-		item: "minecraft:coal",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		},
 		count: 16
 	}]
 }

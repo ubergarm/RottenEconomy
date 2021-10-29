@@ -19,7 +19,12 @@
 	tasks: [{
 		uid: "0844979e",
 		type: "checkmark",
-		icon: "advancedrocketry:rocketmotor"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:rocketmotor"
+		}
 	}],
 	rewards: [{
 		uid: "d229a99d",

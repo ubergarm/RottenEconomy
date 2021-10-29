@@ -10,6 +10,9 @@
 		type: "interaction",
 		title: "Use a Rockhounding Chemistry Lab Blender",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "rockhounding_chemistry:machines_a",
 			tag: {
 				Energy: 0,

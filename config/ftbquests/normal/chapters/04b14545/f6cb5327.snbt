@@ -15,7 +15,12 @@
 		uid: "a244b986",
 		type: "interaction",
 		title: "Use a libvulpes Coal Generator",
-		icon: "libvulpes:coalgenerator",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:coalgenerator"
+		},
 		match_type: "block_id",
 		match: "libvulpes:coalgenerator"
 	}],
@@ -27,6 +32,11 @@
 	{
 		uid: "db83156f",
 		type: "item",
-		item: "adchimneys:brick"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "adchimneys:brick"
+		}
 	}]
 }

@@ -8,7 +8,12 @@
 		uid: "2bf4db19",
 		type: "interaction",
 		title: "Use a Warp Core Controller",
-		icon: "advancedrocketry:warpmonitor",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:warpmonitor"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:warpmonitor"
 	}],

@@ -13,7 +13,12 @@
 		uid: "b48a25eb",
 		type: "checkmark",
 		title: "Pristine Rotten Master",
-		icon: "contenttweaker:record_one"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_one"
+		}
 	}],
 	rewards: [{
 		uid: "cfe855a5",
@@ -23,6 +28,11 @@
 	{
 		uid: "af380e54",
 		type: "item",
-		item: "contenttweaker:record_one"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_one"
+		}
 	}]
 }

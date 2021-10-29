@@ -20,5 +20,28 @@
 		uid: "53777c91",
 		type: "random",
 		table: 0
+	},
+	{
+		uid: "26510c24",
+		type: "command",
+		title: "Blz - Whisper's: January",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_three"
+		},
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ playsound contenttweaker:record_three record @p ~ 128 ~ 100"
+	},
+	{
+		uid: "6186bca7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:record_three"
+		}
 	}]
 }

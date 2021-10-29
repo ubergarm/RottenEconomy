@@ -14,7 +14,12 @@
 		uid: "f96f3d44",
 		type: "interaction",
 		title: "Use a Geiger Counter Block",
-		icon: "nuclearcraft:geiger_block",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:geiger_block"
+		},
 		match_type: "block_id",
 		match: ""
 	}],

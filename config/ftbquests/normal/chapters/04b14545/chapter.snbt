@@ -1,6 +1,11 @@
 {
 	title: "Rotten Resources",
-	icon: "contenttweaker:gritty_flesh",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:gritty_flesh"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -6,6 +6,9 @@
 		uid: "0ba52b7d",
 		type: "interaction",
 		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "storagedrawers:basicdrawers",
 			tag: {
 				material: "oak"

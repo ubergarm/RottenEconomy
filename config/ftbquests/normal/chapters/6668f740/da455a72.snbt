@@ -8,7 +8,12 @@
 		uid: "f9d3ad34",
 		type: "interaction",
 		title: "Use a Deep Mob Learning Loot Fabricator",
-		icon: "deepmoblearning:extraction_chamber",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:extraction_chamber"
+		},
 		match_type: "block_id",
 		match: "deepmoblearning:extraction_chamber"
 	}],

@@ -12,7 +12,12 @@
 		uid: "3769a4e0",
 		type: "interaction",
 		title: "Use a CO2 Scrubber",
-		icon: "advancedrocketry:oxygenscrubber",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygenscrubber"
+		},
 		match_type: "block_id",
 		match: "advancedrocketry:oxygenscrubber"
 	}],

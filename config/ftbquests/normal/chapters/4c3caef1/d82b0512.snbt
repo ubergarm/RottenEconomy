@@ -9,7 +9,10 @@
 		type: "item",
 		title: "Mass Produce Gritty Flesh",
 		items: [{
-			item: "contenttweaker:gritty_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:gritty_flesh"
 		}],
 		count: 512L,
 		only_from_crafting: true

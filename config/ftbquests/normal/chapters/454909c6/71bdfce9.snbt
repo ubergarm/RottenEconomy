@@ -15,7 +15,10 @@
 		uid: "3812660f",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:radaway"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:radaway"
 		}]
 	}],
 	rewards: [{

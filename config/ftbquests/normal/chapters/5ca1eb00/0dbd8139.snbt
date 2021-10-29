@@ -20,7 +20,10 @@
 		uid: "6f58d395",
 		type: "item",
 		items: [{
-			item: "contenttweaker:martian_security_beacon"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:martian_security_beacon"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

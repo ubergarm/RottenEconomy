@@ -10,7 +10,10 @@
 		uid: "f6865dbb",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:launchpad"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:launchpad"
 		}],
 		count: 9L
 	}],

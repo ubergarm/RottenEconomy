@@ -19,7 +19,10 @@
 		uid: "949e0590",
 		type: "item",
 		items: [{
-			item: "srparasites:assimilated_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "srparasites:assimilated_flesh"
 		}],
 		count: 4L
 	}],
@@ -31,7 +34,13 @@
 	{
 		uid: "4a6fa8e0",
 		type: "item",
-		item: "thermalfoundation:material 1 131",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 131s
+		},
 		count: 4
 	}]
 }

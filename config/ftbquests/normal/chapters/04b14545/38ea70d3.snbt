@@ -17,7 +17,12 @@
 		uid: "b58e85d7",
 		type: "interaction",
 		title: "Use a NuclearCraft:Overhauled Manufactory",
-		icon: "nuclearcraft:manufactory",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:manufactory"
+		},
 		match_type: "block_id",
 		match: "nuclearcraft:manufactory"
 	}],

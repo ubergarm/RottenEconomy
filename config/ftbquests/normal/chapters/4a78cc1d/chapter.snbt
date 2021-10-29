@@ -1,6 +1,11 @@
 {
 	title: "Rotten Beginnings",
-	icon: "minecraft:rotten_flesh",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:rotten_flesh"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "circle"

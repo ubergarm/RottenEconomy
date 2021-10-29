@@ -8,7 +8,10 @@
 		uid: "d5eb3db6",
 		type: "item",
 		items: [{
-			item: "deepmoblearning:data_model_enderman"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:data_model_enderman"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

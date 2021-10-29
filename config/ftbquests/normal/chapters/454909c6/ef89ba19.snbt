@@ -17,7 +17,10 @@
 		uid: "65de9919",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:rad_x"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:rad_x"
 		}]
 	}],
 	rewards: [{

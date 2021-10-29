@@ -17,7 +17,10 @@
 		uid: "5a1198e4",
 		type: "item",
 		items: [{
-			item: "minecraft:rotten_flesh"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
 		}],
 		count: 32L
 	}],
@@ -29,13 +32,23 @@
 	{
 		uid: "ba91d3bb",
 		type: "item",
-		item: "minecraft:iron_ingot",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		},
 		count: 16
 	},
 	{
 		uid: "82d1f8ec",
 		type: "item",
-		item: "minecraft:flint",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
 		count: 8
 	}]
 }
