@@ -153,7 +153,6 @@ mods.techguns.ChemLab.addRecipe(
 );
 
 // chem lab recipe to convert parasitic dirt/stone/logs into infested versions for quest and genetics purposes
-mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
 mods.techguns.ChemLab.addRecipe(
     <srparasites:parasitestain>,// first input slot (auto oreDict)
     1,                          // quantity of first input
@@ -166,7 +165,6 @@ mods.techguns.ChemLab.addRecipe(
     32                          // required RF/tick cost
 );
 
-mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
 mods.techguns.ChemLab.addRecipe(
     <srparasites:parasiterubble:2>,// first input slot (auto oreDict)
     1,                          // quantity of first input
@@ -179,7 +177,6 @@ mods.techguns.ChemLab.addRecipe(
     32                          // required RF/tick cost
 );
 
-mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
 mods.techguns.ChemLab.addRecipe(
     <srparasites:parasitetrunk:*>,// first input slot (auto oreDict)
     1,                          // quantity of first input

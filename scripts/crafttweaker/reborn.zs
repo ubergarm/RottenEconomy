@@ -25,3 +25,13 @@ recipes.addShaped("techreborn.machine_frame_1", <techreborn:machine_frame:1>,
 <techreborn:diamonddrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
 <techreborn:advanceddrill>.addShiftTooltip("Activate with <sneak>+<right click> to harvest 3x3 area.");
 
+## add any extra uu-matter conversions here
+// iridium ore from the letter I
+recipes.addShaped("rotteneconomy.iridium_ore", <thermalfoundation:ore:7>,
+    [
+        [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+        [null, <techreborn:uumatter>, null],
+        [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
+    ]
+);
+

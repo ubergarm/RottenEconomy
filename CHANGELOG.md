@@ -2,10 +2,14 @@
 * NOTE: ModDirector automatically downloads OptiFine mod now so if you have an older
   version of OptiFine already you might need to delete that jarfile from mods folder
 * Add CustomNPCs and nashorn for custom boss battles!
+* Add ModTweaker and MTLib for custom Thermal Expansion machine recipes
 * Add a new chip tune and attempt to fixup the audio reward command for the Moon quest
+* Fix bug with recipes making Tech Guns rubber from rubber tree logs in Chemistry Lab
 * Increase Tech Guns Advanced Mining Charge to break Plasteel Tritanium Reinforced Plate blocks (don't shoot your eye out!)
 * Add more bread types for Culinary Construct sandwiches
+* Disable parasite spawning in space dimensions
 * Turn off dynamic surrounds for space dimensions
+* Add Iridium Ore recipe from UU-Matter
 * Tech Guns Turrets and SecurityCraft sentries can no longer become blights
 
 ## v0.98

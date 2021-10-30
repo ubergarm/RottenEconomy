@@ -1,13 +1,26 @@
 #modloaded thermalexpansion
 // Thermal Expansion
 
-import crafttweaker.block.IMaterial;
+import mods.thermalexpansion.Imbuer;
+import mods.thermalexpansion.Enchanter;
 
-## Requires Mod Tweaker
+// mods.thermalexpansion.Imbuer.addRecipe(ILiquidStack output, IItemStack input, ILiquidStack inputFluid, int energy);
+// this does not work, not sure how to get a liquid handler for a potion nbt?
+// mundane potion + egg = geneticsreborn:substrate potion
+// mods.thermalexpansion.Imbuer.addRecipe(
+//     <liquid:potion>.withTag({Potion: "minecraft:mundane"})*500,
+//     <minecraft:egg>,
+//     <liquid:potion>.withTag({Potion: "geneticsreborn:substrate"}*500),
+//     4800
+// );
 
-## TODO: add mod tweaker and stuff here if needed
+// this example works fine
+// mods.thermalexpansion.Imbuer.addRecipe(
+//     <liquid:lava>*500,
+//     <minecraft:egg>,
+//     <liquid:water>*500,
+//     4800
+// );
 
-// Don't know how to make the thermalexpansion:frame a block placable in world unfortunately
-//crafttweaker.blocks.IMaterial.iron();
-//<thermalexpansion:frame>.asBlock().definition
-//<thermalexpansion:frame>.definition.setHarvestLevel("pick", 0);
+// Arcane Ensorcellator (a.k.a Enchanter)
+//mods.thermalexpansion.Enchanter.addRecipe(IItemStack output, IItemStack input, IItemStack secondInput, int energy, int experience, boolean empowered);
