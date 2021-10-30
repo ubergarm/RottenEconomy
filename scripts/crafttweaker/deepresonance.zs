@@ -17,11 +17,11 @@ removeAndHide(<deepresonance:resonating_ore:1>);
 removeAndHide(<deepresonance:resonating_ore:2>);
 
 // this radiation stuff does *not* work with nuclearcraft which is what we want anyway
-<deepresonance:helmet>.addTooltip("§4NOTE: §7This is only for Deep Resonance explosion radiation!");
-<deepresonance:chest>.addTooltip("§4NOTE: §7This is only for Deep Resonance explosion radiation!");
-<deepresonance:leggings>.addTooltip("§4NOTE: §7This is only for Deep Resonance explosion radiation!");
-<deepresonance:boots>.addTooltip("§4NOTE: §7This is only for Deep Resonance explosion radiation!");
-<deepresonance:radiation_monitor>.addTooltip("§4NOTE: §7This is only for Deep Resonance explosion radiation!");
+<deepresonance:helmet>.addTooltip("§4NOTE: §7This is only for Deep Resonance generator radiation!");
+<deepresonance:chest>.addTooltip("§4NOTE: §7This is only for Deep Resonance generator radiation!");
+<deepresonance:leggings>.addTooltip("§4NOTE: §7This is only for Deep Resonance generator radiation!");
+<deepresonance:boots>.addTooltip("§4NOTE: §7This is only for Deep Resonance generator radiation!");
+<deepresonance:radiation_monitor>.addTooltip("§4NOTE: §7This is only for Deep Resonance generator radiation!");
 
 ## Make manually spawned Resonating Crystals have decent random NBT tags when harvested
 ## https://docs.blamejared.com/1.12/en/Vanilla/World/IWorld/
