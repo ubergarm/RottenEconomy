@@ -330,12 +330,24 @@
     },
     {
         "mob": "matteroverdrive:rogue_android",
-        "incity": false,
-        "result": "deny"
+        "result": "default"
     },
     {
         "mob": "matteroverdrive:ranged_rogue_android",
-        "incity": false,
+        "result": "default"
+    },
+    {
+        "mod": "lcrdrfs",
+        "dimension": 22,
+        "maxcount": {
+            "mod": "lcrdrfs",
+            "amount": 12,
+            "perchunk": true
+        },
+        "result": "default"
+    },
+    {
+        "mod": "lcrdrfs",
         "result": "deny"
     },
     {

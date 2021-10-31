@@ -50,7 +50,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     // grant immunity to farts if wearing a <mekanism:gasmask>
     // slot 39 seems to be the armor head slot
-    // unfortunately cannot access baubles or Tech Guns special slots
+    // TODO: possibly access Tech Guns special face slot via player data NBT
     var headSlot = 39;
     if !isNull(player.getInventoryStack(headSlot)) {
         var item = player.getInventoryStack(headSlot);

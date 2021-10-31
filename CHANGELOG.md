@@ -1,8 +1,11 @@
 ## v0.99
 * NOTE: ModDirector automatically downloads OptiFine mod now so if you have an older
   version of OptiFine already you might need to delete that jarfile from mods folder
-* Add CustomNPCs and nashorn for custom boss battles!
+* Add CustomNPCs and nashorn for custom boss battles comingsoon™!
 * Add BONUS scavenged cyberware drops to cyberskeletons/zombies when killed by explosions/grenades
+* Player Androids with `respirocytes` skill unlocked do not need oxygen or space suit in space vacuum
+* Increased Advanced Rocketry space vacuum damage from 1 up to 5 per half second
+* Players can respawn near beds on planets IF the spawn location is in a breathable atmosphere
 * Add ModTweaker and MTLib for custom Thermal Expansion machine recipes
 * Add recipe to make Genetics Reborn Organic Substrate potion in Thermal Expansion Imbuer
 * Add a new chip tune and attempt to fixup the audio reward command for the Moon quest
@@ -10,10 +13,11 @@
 * Give Tech Guns HEV Suit a little NuclearCraft:Overhauled radiation resistance by default
 * Increase Tech Guns Advanced Mining Charge to break Plasteel Tritanium Reinforced Plate blocks (don't shoot your eye out!)
 * Add more bread types for Culinary Construct sandwiches
-* Disable parasite spawning in space dimensions
+* Disable parasite evolution in non overworld dimensions (they may still spawn basic bugs a bit)
 * Turn off dynamic surrounds for space dimensions
 * Add Iridium Ore recipe from UU-Matter
 * Tech Guns Turrets and SecurityCraft sentries can no longer become blights
+* Happy Halloween 2021 you might notice some funny dressed zombies with angel wings and jack-o-lantern heads!
 
 ## v0.98
 * Add modpack exclusive AmaJawn™ Tracking ROM chip for Advanced Rocketry main quest line
