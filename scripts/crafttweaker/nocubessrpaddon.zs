@@ -11,3 +11,7 @@ removeAndHide(<nocubessrpaddon:flamethrowercore>);
 removeAndHide(<nocubessrpaddon:flamethrowertank>);
 removeAndHide(<nocubessrpaddon:flamethrowergrip>);
 removeAndHide(<nocubessrpaddon:flamethrowerpart>);
+removeAndHide(<nocubessrpaddon:flamethrower2>);
+removeAndHide(<nocubessrpaddon:flamethrowercore2>);
+removeAndHide(<nocubessrpaddon:flamethrower3>);
+removeAndHide(<nocubessrpaddon:flamethrowercore3>);

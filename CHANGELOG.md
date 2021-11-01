@@ -17,6 +17,11 @@
 * Turn off dynamic surrounds for space dimensions
 * Add Iridium Ore recipe from UU-Matter
 * Tech Guns Turrets and SecurityCraft sentries can no longer become blights
+* Remove GottschCore as it was an orphaned dependency from long ago
+* Update to `CraftTweaker2-1.12-4.1.20.668.jar`
+* Update to `EnhancedVisuals_v1.4.4_mc1.12.2.jar`
+* Update to `LootTweaker-0.3.1+MC1.12.2.jar`
+* Update to `NoCube's_SRP_Addon_2.2.0.jar`
 * Happy Halloween 2021 you might notice some funny dressed zombies with angel wings and jack-o-lantern heads!
 
 ## v0.98

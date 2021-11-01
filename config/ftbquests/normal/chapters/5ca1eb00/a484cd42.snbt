@@ -60,5 +60,45 @@
 			},
 			id: "contenttweaker:record_six"
 		}
+	},
+	{
+		uid: "997098f8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					engineTier: 0,
+					wheelType: 0,
+					vehicle: "vehicle:off_roader"
+				}
+			}
+		}
+	},
+	{
+		uid: "c6c12ce6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "vehicle:wrench"
+		}
+	},
+	{
+		uid: "d53dfc1f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "vehicle:industrial_jerry_can",
+			tag: {
+				fuel: 15000.0f
+			}
+		}
 	}]
 }

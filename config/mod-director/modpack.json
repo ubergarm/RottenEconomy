@@ -2,7 +2,7 @@
     "packName": "Rotten Economy",
     "icon": {
         "path": "config/defaultworldgenerator-port/RottenEconomyLogo.png",
-        "width": 128,
-        "height": 128
+        "width": 512,
+        "height": 512
    }
 }

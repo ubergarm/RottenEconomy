@@ -66,32 +66,7 @@ events.onEntityLivingAttacked(function(event as crafttweaker.event.EntityLivingA
     // server.commandManager.executeCommand(server, "say entity hit by damage type: "+damageType);
     if (damageType != "Vacuum") { return; }
 
-    // oops don't need any mob stuff as advRocketry.cfg has `S:entityAtmBypass <` section
-    // Player Entitites have null IEntityDefinition
-    // use this to distinguish between players and mobs
-    // CASE 1: handle all non-player entity mobs taking damage
-    // if !isNull(entity.definition) {
-    //     var definition = entity.definition;
-
-    //     if isNull(definition.name) { return; }
-    //     var name = definition.name;
-    //     // server.commandManager.executeCommand(server, "say mob named: "+name+" hit by damage type: "+damageType);
-
-    //     if ((elb.isUndead == true) ||
-    //         (name == "ranged_rogue_android") ||
-    //         (name == "rogue_android") ||
-    //         (name == "drone") ||
-    //         (name == "lcrdrfs.laser_creeper") ||
-    //         (name == "lcrdrfs.robo_dino") ||
-    //         (name == "lcrdrfs.jet_pack_spider")) {
-    //         event.cancel();
-    //     }
-
-    //     // CASE 1: done
-    //     return;
-    // }
-
-    // CASE 2: handle player entities taking damage by checking player nbt data
+    // handle player entities taking damage by checking player nbt data
     // check if they are 1. an android and 2. have respirocytes ability unlocked
     // TODO: could possibly check Tech Guns special slots for oxygen tank etc?
     if isNull(elb.nbt) { return; }
@@ -142,7 +117,7 @@ events.onEntityLivingAttacked(function(event as crafttweaker.event.EntityLivingA
     elb.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(0, 5, false, false));
     elb.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(0, 5, false, false));
 
-    // unfortunately it still says "Warning: Atmosphere lacks oxygen!" constantly... is there a config for that? lol
+    // unfortunately it still says "Warning: Atmosphere lacks oxygen!" constantly... unsure how to fix that hrm...
 
     return;
 });
