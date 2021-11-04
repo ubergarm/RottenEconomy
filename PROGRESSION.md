@@ -236,6 +236,16 @@ are more than one mod option for most aspects of the game. Have Fun!
         HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,ConversionTime:-1,Motion:[0.0d,-0.0784000015258789d,0.0d],Leashed:0b,UUIDLeast:-4675304839776730736L,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Dimension:0,Rotation:[90.855316f,0.0f],UpdateBlocked:0b,HandItems:[{},{}],ProfessionName:"minecraft:butcher",ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:4,UUIDMost:-7954192744790079271L,Pos:[80.76065274123268d,71.0d,-243.49317922870028d],CanBreakDoors:0b,Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,HurtTime:0s,SurgeAABB:[80.46065272931175d,71.0d,-243.79317924062116d,81.0606527531536d,72.95000004768372d,-243.19317921677938d]}
 ```
 
+## JVM profiling
+```bash
+## list all java programs running with jvm process status tool
+jps -l
+## show all threads and what they are doing and check thread locks
+jstack <pid> | less
+## https://github.com/ajermakovics/jvm-mon/releases
+jvm-mon
+```
+
 ## Matter Overdrive Structures Notes
 | Map | Generation Category | weight |
 | Android House | Adventure | 1.0    |

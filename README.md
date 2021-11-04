@@ -1,5 +1,30 @@
 Rotten Economy
 ===
+Open video link below in new tab to watch Official Trailer v0.92!
+
+[![IMG_ALT](https://img.youtube.com/vi/G49x8WaUMbk/0.jpg)](https://www.youtube.com/watch?v=G49x8WaUMbk)
+
+## Features
+
+* Original FTB Quests and Rewards Shop to guide you through custom content
+* Unique resource generation mechanics to keep your storage system full of ores
+* Epic Fight fully configured for *all* weapons and armor
+* Tech Guns integrated with NuclearCraft:Overhauled Radiation system
+* Scape and Run parasites custom integrated with Deep Mob Learning
+* Genetics Reborn custom integrated with Scape and Run Parasites
+* Matter Overdrive custom structures and Player Androids can breathe in space!
+* Fart Generator custom integrated with Better Animals Plus including special nausea effect
+* Air Support loot crates contain tons of items and mobs per crate thanks to CraftTweaker
+* Scavenge Lost Cities buildings to find useful machines and Resonating Crystals
+* Vanilla Zombies, Husks, and many Parasites can grief most types of blocks
+* 200% damage head-shots work with Spartan throwing weapons and all bows and guns
+* Modpack exclusive content like Scrapper Tool, Anti-Parasite Bug Bomb, and more!
+* BONUS explosion drops on Cyberware/ReWIRED guarantee all 50+ Scavenged parts
+* Cyborgs, androids, clones, nukes, rockets and so much more!
+* Pizza Sandwiches
+
+## Story
+
 The cataclysmic combination of self-inflicted environmental devastation
 and a global zombie pandemic prompted complete economic collapse! In
 a world where stonks went to zero and the earth's slowing orbit led
@@ -11,40 +36,24 @@ rest of us behind on this shattered earth. Work together with your few
 remaining friends to launch into orbit and *remind* those egomaniacs
 that we're all in this together!!!
 
-Open video link below in new tab to watch Official Trailer v0.92!
-
-[![IMG_ALT](https://img.youtube.com/vi/G49x8WaUMbk/0.jpg)](https://www.youtube.com/watch?v=G49x8WaUMbk)
-
 Build or take over an existing zombie proof base, search destroyed
 urban areas for loot, equip yourself, skill up, improve your defenses,
-**grind multiple tiers of rotten flesh for resources**, become a cyborg,
-android or clone; finally craft high tech machines and rocket ships to
-fly across the solar system and lay siege on Mars!
+**multiple tiers of rotten flesh for resource generation**, become a cyborg,
+android or clone; finally craft high tech machines and rocket ships to explore
+the moon and fly across the solar system to lay siege on Mars!
 
-But *be warned*, server-wide difficulty increases nightly and expect
-challenges during each full moon!
-
-## Features
-
-* Original Quests to guide you through custom content
-* Unique resrouce generation mechanics
-* Epic Fight *all the things* fully configured
-* Tech Guns integrated with NuclearCraft:Overhauled Radiation system
-* Scape and Run parasites integrated with Deep Mob Learning
-* Vanilla Zombies, Husks, and large Parasites can grief most types of blocks
-* Quad damage head-shots work with Spartan throwing weapons
-* Cyborgs, androids, clones, nukes, rockets and so much more!
-* Pizza
+But *be warned*, server-wide difficulty increases nightly per player health
+and expect extra challenges during each full moon!
 
 ## Client Installation
 
 * Do **NOT** update Tech Guns or other mods for now! (newest mods may conflicts YMMV).
-* 6144MB RAM recommended for client and server
+* 6-8GB RAM recommended for client and server
 * Defaults turn off fog, clouds and auto-jump.
 * Defaults Dynamic Lighting to FANCY but at least use FAST.
 * If your potato can handle it, turn up render distance a bit to 10 or 12.
 
-*NOTE* if you are connected to the internet on modpack start, itwill automatically download
+*NOTE* if you are connected to the internet on modpack start, it will automatically download
 [OptiFine_1.12.2_HD_U_G6_pre1.jar](https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar)
 into your `instances/Rotten Economy/mods/` folder and confirm the files
 have valid hashes. So make sure you do *not* have other versions of
@@ -128,9 +137,11 @@ Read the EULA, configure the startup script for the amount of RAM
 available on your server, and edit the `server.properties`. Linux example:
 
 * `unzip RottenEconomy-Server-vX.XX.zip`
-* `cd RottenEconomy`
-* `cp server.properties.example server.properties`
+* `cd RottenEconomy/`
 * `echo "eula=true" > eula.txt`
+* `cp server.properties.example server.properties`
+* `# optionally edit server.properties`
+* `# optionally edit start.sh to change default 6GB RAM`
 * `./start.sh`
 
 Windows will be very similar, but you might need a `start.bat` script instead.

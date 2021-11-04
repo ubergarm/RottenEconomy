@@ -1,3 +1,5 @@
+## v1.00
+
 ## v0.99
 * NOTE: ModDirector automatically downloads OptiFine mod now so if you have an older
   version of OptiFine already you might need to delete that jarfile from mods folder
