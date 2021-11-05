@@ -1,0 +1,40 @@
+{
+	title: "Ramana Maharshi",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Nan Yar? Who am I?",
+	text: [
+		"Thoughts alone constitute the mind; and for all thoughts the base or source is the “I” thought. “I” is the mind. If we go inward questing for the source of the “I,” the “I” topples down. This is the jnana enquiry.",
+		"",
+		"Happiness is the very nature of the Self; happiness and the Self are not different. There is no happiness in any object of the world. We imagine through our ignorance that we derive happiness from objects. When the mind goes out, it experiences misery. In truth, when its desires are fulfilled, it returns to its own place and enjoys the happiness that is the Self. Similarly, in the states of sleep, samadhi and fainting, and when the object desired is obtained or the object disliked is removed, the mind becomes inward-turned, and enjoys pure Self-Happiness.",
+		"",
+		"Thus the mind moves without rest alternately going out of the Self and returning to it. Under the tree the shade is pleasant; out in the open the heat is scorching. A person who has been going about in the sun feels cool when he reaches the shade. Someone who keeps on going from the shade into the sun and then back into the shade is a fool.",
+		"",
+		"A wise man stays permanently in the shade"
+	],
+	dependencies: [
+		"e9bd8c6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb77a5f8",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:aliensapling"
+		}
+	}],
+	rewards: [{
+		uid: "2cbef493",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:aliensapling"
+		},
+		count: 8
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Emmanuel",
+	x: 3.0d,
+	y: -2.0d,
+	description: "...and the Word Was Yes",
+	text: [
+		"You yourself must wander for a time in the illusion, believing every bit of it-almost. It was in order to remember that you went through life's disturbing experiences. You have no idea of the miracle of the yes that has brought you to this point of understanding.",
+		"",
+		"You entered the darkness to believe in it but not enough to extinguish the flame of your Divine purpose. Your yes in the center of no is a leap of faith in the heart of doubt.",
+		"",
+		"By your remembering, the Light begins to emerge, the darkness dissipates, and the wonder of who You are illuminates the world. Yes replaces every no that you have ever uttered. All is touched in this moment by the flame that you have honored secretly, courageously, and now consciously in your life. ",
+		"",
+		"If the Heart had not been willing to enter into forgetting, the Heart could not bring the gift that is born of that struggle. You are about the business of transformation, all of you."
+	],
+	dependencies: [
+		"538e2d09"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad9cc7c8",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "matteroverdrive:weapon_module_holo_sights"
+		}
+	}],
+	rewards: [{
+		uid: "d3da7505",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "matteroverdrive:star_map"
+		}
+	}]
+}

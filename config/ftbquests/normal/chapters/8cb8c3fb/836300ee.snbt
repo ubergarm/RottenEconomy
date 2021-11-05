@@ -1,0 +1,48 @@
+{
+	title: "Ryokan",
+	x: -2.0d,
+	y: 0.0d,
+	description: "One Robe, One Bowl",
+	text: [
+		"Buddha is your mind",
+		"And the Way goes nowhere.",
+		"Don’t look for anything but this.",
+		"If you point your cart north",
+		"When you want to go south,",
+		"How will you arrive?"
+	],
+	dependencies: [
+		"95146784"
+	],
+	hide: true,
+	tasks: [{
+		uid: "36274e72",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bowl"
+		}
+	}],
+	rewards: [{
+		uid: "2bf1858c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "epicfight:stray_robe"
+		}
+	},
+	{
+		uid: "85043d2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bowl"
+		}
+	}]
+}

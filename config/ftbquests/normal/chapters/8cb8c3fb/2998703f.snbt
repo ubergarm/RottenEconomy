@@ -1,0 +1,49 @@
+{
+	title: "Bodhidharma",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Principles",
+	text: [
+		"To realize the essence through instruction and to believe that all living things share the same true nature, which isn't apparent because it is obscured by sensation and delusion.",
+		"",
+		"Those who turn from delusion back to what is real, who meditate on walls, the absence of self and other, the oneness of fool and sage, and who remain unmoved, even by scriptures, are in complete and unspoken agreement with principles.",
+		"",
+		"Without moving or effort, they enter, we say, by principles."
+	],
+	dependencies: [
+		"836300ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d4a154c",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone_wall"
+		}
+	}],
+	rewards: [{
+		uid: "cb3f82be",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		},
+		count: 64
+	},
+	{
+		uid: "605dbfec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:carpet_red",
+			Damage: 1s
+		}
+	}]
+}

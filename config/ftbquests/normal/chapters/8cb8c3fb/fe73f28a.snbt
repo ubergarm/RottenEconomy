@@ -1,0 +1,43 @@
+{
+	title: "Bodhidharma",
+	x: -2.0d,
+	y: -4.0d,
+	description: "Practice",
+	text: [
+		"To enter by practice refers to four all-inclusive practices: suffering injustice, adapting to conditions, seeking nothing, and practicing the Dharma.",
+		"",
+		"Neither gods nor humans can foresee when an evil deed with bear its fruit. I accept adversity with an open heart and without complaint.",
+		"",
+		"All suffering and joy we experience depend on conditions. Fame or fortune-when conditions change, it ends. Why delight in its existence? Mind neither waxes nor wanes. Those who remain unmoved by the wind of joy silently follow the Path.",
+		"",
+		"People of this world are deluded. They are always longing for something-always, in a word, seeking. To seek is to suffer. To seek nothing is bliss.",
+		"",
+		"The Dharma is the truth that all natures are pure. By this truth, all appearances are empty."
+	],
+	dependencies: [
+		"2998703f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3257b36e",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone_wall",
+			Damage: 1s
+		}
+	}],
+	rewards: [{
+		uid: "369e72f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:vine"
+		},
+		count: 64
+	}]
+}

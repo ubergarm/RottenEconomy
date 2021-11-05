@@ -206,6 +206,9 @@ Report bugs on the github issue tracker not in the comments when possible please
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 (Work-around: `B:"Enable changes to player model (missing skin, missing limbs, Cybernetic limbs)"=false` in `cyberware.cfg`)
 
+* If your client stutters and uses excess CPU its likely due to Java Garbage Collection, you can tune some Java Arguments when starting the client for your PC e.g.:
+`-Xms4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:MaxGCPauseMillis=200 -XX:ParallelGCThreads=4`
+
 ## References
 * [Rotten Economy](https://www.curseforge.com/minecraft/modpacks/rotten-economy) - this zombie tech modpack
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack

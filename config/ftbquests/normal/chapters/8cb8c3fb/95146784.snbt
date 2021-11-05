@@ -1,0 +1,42 @@
+{
+	title: "Milarepa",
+	x: 0.0d,
+	y: 1.0d,
+	description: "The Hundred Thousand Songs",
+	text: [
+		"Listen to me, dear patron! A horse of Prana-Mind have I; I adorn him with the silk scarf of Dhyana. His skin is the magic Ensuing Dhyana Stage, His saddle, illuminating Self-Awareness. My spurs are the Three Visualizations, His crupper the secret teaching of the Two Gates.",
+		"",
+		"His headstall is the Prana of Vital-force; His forelock curl is Three-pointed Time. Tranquillity within is his adornment, Bodily movement is his rein, And ever-flowing inspiration is his bridle.",
+		"",
+		"He gallops wildly along the Spine's Central Path. He is a yogi's horse, this steed of mine. By riding him, one escapes Samsara's mud, By following him one reaches the safe land of Bodhi.",
+		"",
+		"My dear patron, I have no need of your black horse. Go your way, young man, and look for pleasure!"
+	],
+	tasks: [{
+		uid: "6b0291b7",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:flying_saddle_pet"
+		}
+	}],
+	rewards: [{
+		uid: "f8144493",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					Variant: 4,
+					Tame: 1b,
+					id: "minecraft:horse"
+				}
+			}
+		}
+	}]
+}

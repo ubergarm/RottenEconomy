@@ -1,0 +1,49 @@
+{
+	title: "The Diamond Cutter",
+	x: 0.0d,
+	y: -2.0d,
+	description: "of Unexcelled Supreme Wisdom",
+	text: [
+		"As a lamp, a cataract, a shooting star",
+		"an illusion, a dewdrop, a bubble",
+		"a dream, a cloud, a flash of lightning",
+		"view all conditioned things like this.",
+		"",
+		"Appo Deepo Bhava",
+		"",
+		"Be a light unto yourself!"
+	],
+	dependencies: [
+		"c5e0c442"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9c8c311",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:part",
+			Damage: 5s
+		}
+	}],
+	rewards: [{
+		uid: "e3fe9c45",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "spartanweaponry:saber_diamond",
+			tag: {
+				display: {
+					Lore: [
+						"Bodhisattva Manjusri's sword, representing the realization of transcendent wisdom, cuts down ignorance and duality at the root. When your final foe refuses to fall, wield this to slice free the Gordian Knot!"
+					],
+					Name: "Vajra Cutter"
+				}
+			}
+		}
+	}]
+}

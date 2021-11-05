@@ -1,0 +1,41 @@
+{
+	title: "Stonehouse",
+	x: 2.0d,
+	y: -4.0d,
+	description: "Poems for Zen Monks",
+	text: [
+		"#23 White Hut",
+		"",
+		"A perfectly empty light filled the whole world",
+		"",
+		"the eaves of my hut glittered like ice",
+		"",
+		"through my little window when the sky cleared last night",
+		"",
+		"there was no sign of plum blossoms only their scent"
+	],
+	dependencies: [
+		"3b94993c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "754c477e",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:feral_flare_lantern"
+		}
+	}],
+	rewards: [{
+		uid: "783fae9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:feral_flare_lantern"
+		}
+	}]
+}

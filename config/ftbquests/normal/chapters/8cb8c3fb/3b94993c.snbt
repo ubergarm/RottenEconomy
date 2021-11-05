@@ -1,0 +1,42 @@
+{
+	title: "Chuang Tzu",
+	x: 0.0d,
+	y: -5.0d,
+	description: "The Lost Pearl",
+	text: [
+		"The Yellow Emperor went wandering To the north of the Red Water To the Kwan Lun mountain. He looked around Over the edge of the world. On the way home He lost his night-colored pearl.",
+		"",
+		"He sent out Science to seek his pearl, and got nothing.",
+		"",
+		"He sent Analysis to look for his pearl, and got nothing.",
+		"",
+		"He sent out Logic to seek his pearl, and got nothing.",
+		"",
+		"Then he asked Nothingness, and Nothingness had it!",
+		"",
+		"The Yellow Emperor said: \"Strange, indeed: Nothingness Who was not sent Who did no work to find it Had the night-colored pearl!\""
+	],
+	dependencies: [
+		"fe73f28a"
+	],
+	tasks: [{
+		uid: "8934a892",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:frozen_pearl"
+		}
+	}],
+	rewards: [{
+		uid: "79f45bdd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:frozen_pearl"
+		}
+	}]
+}

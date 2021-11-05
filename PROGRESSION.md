@@ -244,6 +244,8 @@ jps -l
 jstack <pid> | less
 ## https://github.com/ajermakovics/jvm-mon/releases
 jvm-mon
+##  bcc bpf tools profile CPU for 5 seconds output to flame graph folded format
+sudo /usr/share/bcc/tools/profile -f 5 -p <pid>
 ```
 
 ## Matter Overdrive Structures Notes

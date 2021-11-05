@@ -1,0 +1,13 @@
+{
+	title: "Rotten Dharma",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:carpet_red",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
