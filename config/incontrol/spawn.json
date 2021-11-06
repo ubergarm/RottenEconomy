@@ -368,6 +368,20 @@
         "result": "allow"
     },
     {
+        "dimension": 22,
+        "mod": "lcrdrfs",
+        "maxcount": {
+            "mod": "lcrdrfs",
+            "amount": 16,
+            "perchunk": true
+        },
+        "result": "default"
+    },
+    {
+        "mod": "lcrdrfs",
+        "result": "deny"
+    },
+    {
         "mob": "minecraft:skeleton",
         "incity": true,
         "result": "deny"
@@ -730,6 +744,11 @@
     {
         "mob": "srparasites:biomass",
         "result": "default"
+    },
+    {
+        "dimension": 16,
+        "mod": "srparasites",
+        "result": "deny"
     },
     {
         "result": "default"
