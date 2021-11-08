@@ -12,7 +12,7 @@ Open video link below in new tab to watch Official Trailer v0.92!
 * Tech Guns integrated with NuclearCraft:Overhauled Radiation system
 * Scape and Run parasites custom integrated with Deep Mob Learning
 * Genetics Reborn custom integrated with Scape and Run Parasites
-* Matter Overdrive custom structures and Player Androids can breathe in space!
+* Matter Overdrive custom structures and Player Androids with `respirocytes` skill can breathe in space!
 * Fart Generator custom integrated with Better Animals Plus including special nausea effect
 * Air Support loot crates contain tons of items and mobs per crate thanks to CraftTweaker
 * Scavenge Lost Cities buildings to find useful machines and Resonating Crystals
@@ -93,7 +93,8 @@ Most of these can be reconfigured in the controls menu or in client `.cfg` files
 * `Right Click` retrieve your grave (don't try to break it)
 
 #### Player Revive
-* `Right Click` hold 5 seconds to revive downed friend (except for death by Radiation Poisioning or Oxygen Deprivation)
+* `Right Click` hold 5 seconds to revive downed friend
+* (except for death by Radiation Poisioning, Space Vacuum, or becoming Android death)
 
 #### Improved Backpacks
 * `b` Open Backpack
@@ -203,10 +204,11 @@ Report bugs on the github issue tracker not in the comments when possible please
 * If you get a crash first time, check RAM is >= 6144MB, you have OptiFine, and try again usually fixes it!
 * Spartan Shield bash does not work with Epic Fight battle stance
 * Some armor models and other minor visual glitches with Epic Fight battle stance
+* Sometimes opening the Voxel Map (`m` key) crashes the client
+* Trying to visualize the Alchemistry multiblock structures may crash client
 * Cyberware and ReWIRED Cyber and Necrotic Arms and Legs mess up Epic Fight animations
 (Work-around: `B:"Enable changes to player model (missing skin, missing limbs, Cybernetic limbs)"=false` in `cyberware.cfg`)
-
-* If your client stutters and uses excess CPU its likely due to Java Garbage Collection, you can tune some Java Arguments when starting the client for your PC e.g.:
+* If your client stutters and uses excess CPU its likely due to Java Garbage Collection which you can tune like this:
 `-Xms4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:MaxGCPauseMillis=200 -XX:ParallelGCThreads=4`
 
 ## References
@@ -214,6 +216,7 @@ Report bugs on the github issue tracker not in the comments when possible please
 * [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands) - my magic modpack
 * [7 Days to Die](https://store.steampowered.com/app/251570/7_Days_to_Die/) - inspirational co-op survival crafting game
 * [Matter Overdrive Structures by Gandalf360one](https://complex.ivorius.de/submissions/170)
+* [Final boss sructure adapted from RevenJoakimMc](https://www.planetminecraft.com/member/revenjoakimmc/)
 
 ## License
 [![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)

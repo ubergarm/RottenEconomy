@@ -1,4 +1,9 @@
 ## v1.00
+* Add recipe for Matter Overdrive Dense Pattern Drive (holds 8 item types)
+* Add Alchemistry Combiner recipe for NuclearCraft Calcium Sulfate
+* Add a few Thermal Expansion Pulverizer Recipes
+* Can turn SRParasites Addon Evolution/Adaptive cores into more flesh
+* Disable inventory pets nether portal pet stuff
 
 ## v0.99
 * NOTE: ModDirector automatically downloads OptiFine mod now so if you have an older

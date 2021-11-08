@@ -80,3 +80,12 @@ for tritaniumCrate in tritaniumCrates {
     tritaniumCrate.asBlock().definition.hardness = 3.0;
     tritaniumCrate.asBlock().definition.resistance = 100.0;
 }
+
+recipes.addShaped("matteroverdrive.dense_pattern_drive",
+    <matteroverdrive:pattern_drive>.withTag({Capacity:8 as short,display:{Name:"§l§bDense §ePattern Drive"}}),
+    [
+        [null, <ore:enderpearl>, null],
+        [<ore:blockRedstone>, <matteroverdrive:machine_casing>, <ore:blockRedstone>],
+        [null, <matteroverdrive:isolinear_circuit:3>, null]
+    ]
+);

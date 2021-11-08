@@ -13,5 +13,33 @@ mods.thermalexpansion.Imbuer.addRecipe(
     4800
 );
 
+// Pulverizer Recipes
+// mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
+//mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:diamond>, <minecraft:stick>, 1500, <minecraft:stone>, 20);
+mods.thermalexpansion.Pulverizer.addRecipe(
+    <contenttweaker:jumpy_flesh>,
+    <srparasites:assimilated_flesh>,
+    2000,
+    <contenttweaker:jumpy_flesh>,
+    20
+);
+
+mods.thermalexpansion.Pulverizer.addRecipe(
+    <srparasites:assimilated_flesh>*8,
+    <nocubessrpaddon:evolutioncore>,
+    4000,
+    <srparasites:assimilated_flesh>*2,
+    50
+);
+
+mods.thermalexpansion.Pulverizer.addRecipe(
+    <srparasites:assimilated_flesh>*4,
+    <nocubessrpaddon:adaptivecore>,
+    3000,
+    <srparasites:assimilated_flesh>,
+    50
+);
+
 // Arcane Ensorcellator (a.k.a Enchanter)
 //mods.thermalexpansion.Enchanter.addRecipe(IItemStack output, IItemStack input, IItemStack secondInput, int energy, int experience, boolean empowered);
+

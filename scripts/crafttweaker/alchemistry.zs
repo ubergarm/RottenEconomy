@@ -78,3 +78,14 @@ mods.alchemistry.Combiner.addRecipe(didymiumBrick*8,
         oxygen * 4
     ]
 );
+
+// add recipe to make nuclearcraft dust calcium sulfate
+var calcium = <alchemistry:element:20>;
+var sulfate = <alchemistry:element:16>;
+mods.alchemistry.Combiner.addRecipe(<nuclearcraft:compound>,
+    [
+        calcium * 4,
+        sulfate * 4,
+        oxygen * 16
+    ]
+);

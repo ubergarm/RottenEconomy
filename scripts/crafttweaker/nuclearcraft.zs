@@ -35,6 +35,16 @@ mods.nuclearcraft.Manufactory.addRecipe(
     <contenttweaker:jumpy_flesh>
 );
 
+mods.nuclearcraft.Manufactory.addRecipe(
+    <nocubessrpaddon:evolutioncore>,
+    <srparasites:assimilated_flesh>*8
+);
+
+mods.nuclearcraft.Manufactory.addRecipe(
+    <nocubessrpaddon:adaptivecore>,
+    <srparasites:assimilated_flesh>*4
+);
+
 // SRParasites flesh to rotten netherrack
 mods.nuclearcraft.Manufactory.addRecipe(
     <srparasites:parasitestain:2>,
