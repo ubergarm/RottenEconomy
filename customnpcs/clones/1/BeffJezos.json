@@ -1,0 +1,625 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:gluon_gun",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:cell",
+            "Count": 1b,
+            "tag": {
+                "storage": {
+                    "amount": 6000
+                }
+            },
+            "Damage": 9s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:cell",
+            "Count": 1b,
+            "tag": {
+                "storage": {
+                    "amount": 6000
+                }
+            },
+            "Damage": 9s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:lepton_cannon",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:cell",
+            "Count": 1b,
+            "tag": {
+                "storage": {
+                    "amount": 200
+                }
+            },
+            "Damage": 6s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:cell",
+            "Count": 1b,
+            "tag": {
+                "storage": {
+                    "amount": 200
+                }
+            },
+            "Damage": 8s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "qmd:cell",
+            "Count": 1b,
+            "tag": {
+                "storage": {
+                    "amount": 200
+                }
+            },
+            "Damage": 7s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 6,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 2.0f,
+        "Explosion": 2.0f,
+        "Knockback": 2.0f,
+        "Melee": 2.0f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "matteroverdrive:weapons.sniper_rifle_fire",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 1,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 1b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 32,
+    "ShotCount": 1,
+    "pDur": 2,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "techguns:textures/entity/supermutant_texture_1.png",
+    "NpcJob": 0,
+    "BurstCount": 3,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 1,
+    "DeathTime": 0s,
+    "pImpact": 2,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.23166715727268292d,
+        -0.0784000015258789d,
+        0.05736499685112772d
+    ],
+    "CombatRegen": 1,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 1,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "SurgeAABB": [
+        -315.47158323316444d,
+        33.0d,
+        -168.0115210615813d,
+        -314.7515832045542d,
+        35.27999997138977d,
+        -167.29152103297108d
+    ],
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 3807,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "techguns.radiationResistance"
+        },
+        {
+            "Base": 100.0d,
+            "Name": "cyberware.tolerance"
+        },
+        {
+            "Base": 2048.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -7312586270011995316L,
+                    "UUIDLeast": -8370107486478855735L,
+                    "Amount": 0.0d,
+                    "Operation": 0,
+                    "Name": "Bonus Max Health"
+                }
+            ],
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.44999998807907104d,
+            "Modifiers": [
+            ],
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Modifiers": [
+            ],
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Modifiers": [
+            ],
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Modifiers": [
+            ],
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Modifiers": [
+            ],
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.8999999761581421d,
+            "Modifiers": [
+            ],
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Beff Jezos",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "simplyjetpacks:metaitem",
+            "Count": 1b,
+            "Damage": 3s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 64,
+    "DirectLOS": 0b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "nuclearcraft:capability_entity_rads": {
+            "consumed": 0b,
+            "radawayBuffer": 0.0d,
+            "shouldWarn": 0b,
+            "radXUsed": 0b,
+            "poisonBuffer": 0.0d,
+            "radXCooldown": 0.0d,
+            "radXWoreOff": 0b,
+            "radawayCooldown": 0.0d,
+            "recentRadawayAddition": 0.0d,
+            "maxRads": 1000.0d,
+            "setMaxRads": 1b,
+            "radawayBufferSlow": 0.0d,
+            "externalRadiationResistance": 2.0d,
+            "messageCooldownTime": 0,
+            "totalRads": 0.03666781448818559d,
+            "radiationLevel": 0.0d,
+            "recentPoisonAddition": 0.0d,
+            "recentRadXAddition": 0.0d,
+            "radiationImmunityStage": 0b,
+            "giveGuidebook": 0b,
+            "internalRadiationResistance": 0.0d,
+            "radiationImmunityTime": 0.0d
+        },
+        "dsurround:data": {
+            "a": 0b,
+            "f": 0b
+        },
+        "geneticsreborn:genes": {
+        },
+        "mahoutsukai:mahou": {
+            "MAHOUTSUKAI_PLAYER_PREV_YAW": 0.0f,
+            "MAHOUTSUKAI_SHOW_MAHOU": 1b,
+            "MAHOUTSUKAI_MANA_FULL": 1b,
+            "MAHOUTSUKAI_MANA_UP_COUNTER": 100,
+            "MAHOUTSUKAI_PLAYER_POSSESSING": 0b,
+            "MAHOUTSUKAI_AUTHORITY_HIT": 0b,
+            "MAHOUTSUKAI_LAST_RECIPE_CLOTH": 0b,
+            "MAHOUTSUKAI_PLAYER_HAS_MAGIC": 0b,
+            "MAHOUTSUKAI_PLAYER_CHARGE_RATE": 0.1d,
+            "MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES": 0,
+            "MAHOUTSUKAI_PLAYER_PREV_PITCH": 0.0f,
+            "MAHOUTSUKAI_KODOKU_VALUE": 0,
+            "MAHOUTSUKAI_PLAYER_MAX_MANA": 100,
+            "MAHOUTSUKAI_PLAYER_STORED_MANA": 100,
+            "MAHOUTSUKAI_PLAYER_OLD_DIMENSION": 0,
+            "MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES": 0,
+            "MAHOUTSUKAI_CANCEL_TIME": -1L,
+            "MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT": 0.0f
+        },
+        "techguns:deathtype": {
+        },
+        "epicsiegemod:modified_handler": {
+            "data": {
+            },
+            "modified": 0b
+        },
+        "geneticsreborn:maxhealth": {
+            "BonusHealth": 0.0f
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8339378,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 40,
+    "DoorInteract": 2,
+    "MoveSpeed": 9,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "matteroverdrive:weapons.laser_ricochet",
+    "MaxHealth": 2048,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 50,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 16,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "srpcothimmunity": 0,
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 16,
+    "FallFlying": 0b,
+    "MaxExp": 125,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "qmd:neutral.qmd.lepton_cannon",
+    "ModRev": 18,
+    "Accuracy": 75,
+    "MinExp": 100,
+    "Armor": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "techguns:t3_miner_chestplate",
+            "Count": 1b,
+            "tag": {
+                "power": 0
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "techguns:t3_miner_leggings",
+            "Count": 1b,
+            "tag": {
+                "power": 0
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "techguns:t3_miner_boots",
+            "Count": 1b,
+            "tag": {
+                "power": 0
+            },
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 1b,
+    "MarkovGeneratorId": 1,
+    "Scripts": [
+    ],
+    "Health": 2048.0f,
+    "pStick": 0b,
+    "MovingPause": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 2,
+    "Title": "",
+    "TotalTicksAlive": 58570L,
+    "Rotation": [
+        283.91202f,
+        0.0f
+    ],
+    "ShowName": 1,
+    "npcInteracting": 0b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 1b,
+    "SpawnCycle": 3
+}
