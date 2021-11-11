@@ -1,0 +1,35 @@
+{
+	title: "Whoosh",
+	x: -3.5d,
+	y: -6.5d,
+	description: "Teleport Across Dimensions",
+	text: [
+		"You can use a Whoosh Teleporter filled with enough RF Power and Resonant Ender to teleport across dimensions.",
+		"",
+		"Set the Whoosh teleporter into 'Teleport' mode by using the '.' key once when holding it.",
+		"",
+		"Make sure to set some waypoints before flying around in your rocket (using right click).",
+		"",
+		"Then <sneak+right click> to teleport. You can <sneak+mouse scroll> to change the target destination as well."
+	],
+	tasks: [{
+		uid: "a9d5f7c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "whoosh:transporter",
+			tag: {
+				Energy: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2daffaa6",
+		type: "random",
+		table: 0
+	}]
+}

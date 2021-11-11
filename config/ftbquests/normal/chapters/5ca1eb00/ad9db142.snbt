@@ -1,6 +1,18 @@
 {
 	x: -3.5d,
 	y: -8.5d,
+	description: "Good Luck Ladies and Gentlemen!",
+	text: [
+		"Locate AmaJawn Tower, fight through the security defense, and find and defeat Melon Husk and Beff Jezos.",
+		"",
+		"The tower is located <500 blocks West-North-West of origin on Mars.",
+		"",
+		"After the final boss battle showdown, you will have 10 minutes to reflect and discover the truth behind the surface.",
+		"",
+		"At the end of 10 minutes, use what you learned in the \"Rotten Dharma\" quests to liberate yourself and all sentient beings into Nirvana or you will get stuck in another round of rebirth in samsara.",
+		"",
+		"Good luck ladies and gentlemen!"
+	],
 	dependencies: [
 		"0dbd8139",
 		"e81ea158"

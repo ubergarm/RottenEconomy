@@ -1,6 +1,13 @@
 {
 	x: -4.5d,
 	y: -7.5d,
+	text: [
+		"You must build the multiblock with LibVulpe's Titanium Blocks. The only way to make them is to use a basic crafting table.",
+		"",
+		"Put in your 9x Titanium ingots, and a little right arrow will appear, click it until the output is the LibVulpes Titanium Blocks.",
+		"",
+		"Drove me crazy too! xD"
+	],
 	dependencies: [
 		"7192ed08"
 	],
