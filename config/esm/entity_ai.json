@@ -101,8 +101,8 @@
       "minecraft:fence",
       "minecraft:planks"
     ],
-    "Demolition": 0.02,
-    "Spider Webbing": 15.0,
+    "Demolition": 0.01,
+    "Spider Webbing": 0.15,
     "Ender-Tele-Target": true,
     "Infectious": false,
     "Wither Skeletons": 0.1,
@@ -128,6 +128,13 @@
     },
     "minecraft:cave_spider": {
       "Spider Webbing": 0.15
+    },
+    "minecraft:creeper": {
+      "Powered": 0.1,
+      "Walking Fuse": true,
+      "Napalm": true,
+      "Breaching": true,
+      "Cena": 0.05
     },
     "minecraft:zombie": {
       "Digging": true,

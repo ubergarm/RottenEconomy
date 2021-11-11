@@ -1,4 +1,8 @@
 ## v1.00
+* Add new `Rotten Dharma` quests offering tantalizing ox cart prizes to escape burning houses!
+* Add final boss battle CustomNPCs!
+* Add final boss structure adapted from `RevenJoakimMc`'s amazing builds!
+* Populate final boss structure with interesting mob jockeys!
 * Add recipe for Matter Overdrive Dense Pattern Drive (holds 8 item types)
 * Add Alchemistry Combiner recipe for NuclearCraft Calcium Sulfate
 * Add a few Thermal Expansion Pulverizer Recipes
