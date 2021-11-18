@@ -1,3 +1,6 @@
+## v1.01
+* Change Advanced Rocketry `planetDefs.xml` to set all planets/moons to be already known
+
 ## v1.00
 * Add new `Rotten Dharma` quests offering tantalizing ox cart prizes to escape burning houses!
 * Add final boss battle CustomNPCs!
