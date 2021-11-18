@@ -10,7 +10,9 @@
 		"",
 		"Perhaps you will find a pattern drive on that Cargo Ship and could use a Matter Overdrive Replicator to create one of these things?",
 		"",
-		"Place it in your space station warp drive controller artifact slot and once you have collected enough data to find Mars-go there!"
+		"Place it in your space station warp drive controller artifact slot, add dilithium crystals into the top of the Warp Drive for fuel, then warp into Mars' orbit!",
+		"",
+		"(You might have to break/place one block of the warp drive if it isn't detecting the fuel properly)"
 	],
 	dependencies: [
 		"bcddccbd",

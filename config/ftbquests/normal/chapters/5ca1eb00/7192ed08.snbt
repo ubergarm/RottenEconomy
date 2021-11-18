@@ -8,7 +8,9 @@
 		"",
 		"You will need to find a special artifact to place into your warp core before you can sneak into orbit around Mars without raising the alarm.",
 		"",
-		"Perhaps you can find such an artifact aboard a cargo ship on the Moon, Rotten Luna? Disguising your Space Station with a Cargo Ship Beacon perhaps?"
+		"Perhaps you can find such an artifact aboard a cargo ship on the Moon, Rotten Luna? Disguising your Space Station with a Cargo Ship Beacon perhaps?",
+		"",
+		"(Sometimes you can't dismount the rocket ship properly, logout-login will usually fix it)."
 	],
 	tasks: [{
 		uid: "4872af53",

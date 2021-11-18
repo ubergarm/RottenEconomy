@@ -8,7 +8,9 @@
 		"",
 		"To protect against radiation, a maximum of 5 Tritanium Plate can be used to protect the user from the deadly radiation. Each plate also decreases the area of effect.",
 		"",
-		"This radiation effect has nothing to do with any other mod and there is no other way to protect yourself."
+		"This radiation effect has nothing to do with any other mod and there is no other way to protect yourself.",
+		"",
+		"HINT: You need a working replicator setup to beat this modpack!"
 	],
 	tasks: [{
 		uid: "4ddecfcd",
@@ -37,5 +39,16 @@
 			},
 			id: "matteroverdrive:tritanium_ore"
 		}
+	},
+	{
+		uid: "eabdb216",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "matteroverdrive:earl_gray_tea"
+		},
+		count: 5
 	}]
 }

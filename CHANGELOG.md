@@ -1,5 +1,17 @@
 ## v1.01
+* Add *new* Cyberware Chop Shop to jump start you with some useful scavenged parts!
+* Add *new* Android Shop to sell Red Pills and useful parts if you choose this build!
+* Update some quest notes with hints on possible mod quirks and work-arounds
 * Change Advanced Rocketry `planetDefs.xml` to set all planets/moons to be already known
+* Detect end game win condition with damaged Vajra Cutter now too (don't lose it though)
+* No more parasites spawning on Terraformed Mars
+* Update to `mahoutsukai-1.12.2-v1.19.51.jar`
+* Update to `CraftTweaker2-1.12-4.1.20.670.jar`
+* Update to `tesseract-1.0.24-mc1.12.jar`
+* Update to `CreativeCore_v1.10.68_mc1.12.2.jar`
+* Update to `mod-director-launchwrapper-1.5.1-SNAPSHOT-all.jar`
+* Update to `JustEnoughCalculation-1.12.2-3.2.7.jar`
+* Update to `supermartijn642corelib-1.0.14-mc1.12.jar`
 
 ## v1.00
 * Add new `Rotten Dharma` quests offering tantalizing ox cart prizes to escape burning houses!

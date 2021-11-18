@@ -6,7 +6,7 @@
 		"",
 		"Put in your 9x Titanium ingots, and a little right arrow will appear, click it until the output is the LibVulpes Titanium Blocks.",
 		"",
-		"Drove me crazy too! xD"
+		"Once you are in orbit of Mars, send down a rocket ship to the surface. It might take  15~30 seconds generate the final structure your first trip down."
 	],
 	dependencies: [
 		"7192ed08"

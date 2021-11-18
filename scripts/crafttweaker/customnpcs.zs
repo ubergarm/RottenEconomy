@@ -58,7 +58,7 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 
     if (!displayName.contains("Brahma")) { return; }
 
-    if (!<spartanweaponry:saber_diamond>.matches(item)) { return; }
+    if (!<spartanweaponry:saber_diamond:*>.matches(item)) { return; }
 
     if isNull(item.tag) { return; }
     var tag = item.tag as IData;

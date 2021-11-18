@@ -20,6 +20,11 @@
         "result": "deny"
     },
     {
+        "dimension": 16,
+        "mod": "srparasites",
+        "result": "deny"
+    },
+    {
         "dimension": 17,
         "result": "deny"
     },

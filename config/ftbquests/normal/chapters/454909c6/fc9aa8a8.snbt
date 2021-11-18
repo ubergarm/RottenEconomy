@@ -26,16 +26,5 @@
 		uid: "19d0ba44",
 		type: "random",
 		table: 0
-	},
-	{
-		uid: "3d3fceab",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "matteroverdrive:earl_gray_tea"
-		},
-		count: 4
 	}]
 }
